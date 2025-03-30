@@ -701,8 +701,8 @@
 				  "type": "block",
 				  "code": "claybricks-good-fire",
 				  "quantity": {
-					"avg": 45,
-					"var": 10
+					"avg": 6,
+					"var": 3
 				  },
 				  "chance": 100
 				},
