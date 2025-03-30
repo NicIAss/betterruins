@@ -125,7 +125,7 @@
                   ],
                   "rockTypeRemapGroup": "standard",
                   "minY": 1,
-                  "offsety": -2,
+                  "offsety": -3,
                   "MaxBelowSealevel": 0,
                   "MinSpawnDistance": 600
     },
@@ -191,7 +191,7 @@
                   ],
                   "rockTypeRemapGroup": "standard",
                   "minY": 1,
-                  "offsety": -3,
+                  "offsety": -2,
                   "MaxBelowSealevel": 0,
                   "MinSpawnDistance": 600
     },
