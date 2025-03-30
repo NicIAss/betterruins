@@ -164,7 +164,8 @@
                     "overground/main/desert-climate/desertclimate-o20-stadrian-undergroundwithentrance",
                     "overground/main/desert-climate/femuroasiso6",
                     "overground/main/desert-climate/mixco-viejo-o6-yapludepatte",
-                    "overground/main/desert-climate/lzmalpyramid-o6-1"
+                    "overground/main/desert-climate/lzmalpyramid-o6-1",
+                    "overground/main/desert-climate/wildwest1-virrno-o4"
                   ],
                   "rockTypeRemapGroup": "standard",
                   "replacewithblocklayers": ["soil-medium-normal", "soil-medium-none"],
