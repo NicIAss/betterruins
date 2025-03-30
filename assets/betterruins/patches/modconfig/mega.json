@@ -545,5 +545,28 @@
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "19settlementofkeykeepers",
+                  "group": "megaruins",
+                  "minGroupDistance": 5000,
+                  "chance": 0.50,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/megastructures/megastructure-19/*"
+                  ],
+			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "offsety": -26,
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
   }
 ]
