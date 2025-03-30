@@ -325,7 +325,7 @@
         {"path": "overground/main/village-ogdred/houses/house1-o5","weight": 100, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/village-ogdred/houses/house2-o2","weight": 100, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/village-ogdred/houses/house3-o6","weight": 100, "minQuantity": 0, "maxQuantity": 1},
-        {"path": "overground/main/village-ogdred/main/main1-o2","weight": 100, "minQuantity": 0, "maxQuantity": 1}
+        {"path": "overground/main/village-ogdred/main/*","weight": 100, "minQuantity": 1, "maxQuantity": 1}
     ],
       "replacewithblocklayers": ["soil-low-normal", "soil-low-none", "gravel-granite"],
       "rockTypeRemapGroup": "standard"
