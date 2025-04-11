@@ -177,9 +177,155 @@
 				{ value: "betterruins:dialogue-anythingspecialtosell", jumpTo: "sellingquestion" },
 				{ value: "betterruins:dialogue-fromwheredoyougetall", jumpTo: "strategy", conditions: [{ variable: "entity.globedone", isNotValue: "true" } ] },
 				{ value: "betterruins:dialogue-imbackandibring", jumpTo: "takeglobe", conditions: [{ variable: "entity.requestglobe", isValue: "true" }, { variable: "entity.globereceived", isNotValue: "true" }, { variable: "player.inventory", isValue: "{ type: 'block', code: 'game:clutter', attributes: { type: 'globe1',collected:true } }" } ] },
-				{ value: "betterruins:dialogue-couldyouremindme", jumpTo: "maprepeat", conditions: [{ variable: "entity.globedone", isValue: "true" }] }
+				{ value: "betterruins:dialogue-couldyouremindme", jumpTo: "maprepeat", conditions: [{ variable: "entity.globedone", isValue: "true" }] },
+				{ value: "betterruins:Do you know anything interesting around here?", jumpTo: "sellingquestion2" },
+				{ value: "betterruins:I have the meteoric knife you asked for. Here take it.", jumpTo: "acceptmeteorknife2", conditions: [{ variable: "entity.requestmeteorknife", isValue: "true" }, { variable: "entity.meteorknifereceived", isNotValue: "true" }, { variable: "player.inventory", isValue: "{ type: 'item', code: 'game:knife-generic-meteoriciron'}" } ] },
 			]
 		},
+
+
+		{
+			code: "sellingquestion2",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:There are whispers, traveler. Tales passed from one sun-scorched tongue to the next—of a place far beneath the dunes. An ancient tomb, where four trade empires once crossed paths and secrets were locked away in silence. It's not on any common map... but I may possess something rare." }
+			],
+			jumpTo: "sellingquestionresponse2"
+		},
+		{
+			code: "sellingquestionresponse2",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Why hasn't anyone gone after it?", jumpTo: "crossroadanswer12" },
+				{ value: "betterruins:Show me the map.", jumpTo: "crossroadanswer22" },
+				{ value: "betterruins:Not interested. Maybe another time.", jumpTo: "main" }
+			]
+		},
+		{
+			code: "crossroadanswer12",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Many have tried. Most returned sunstruck, or didn’t return at all. The tomb is half-consumed by the desert itself, guarded by puzzles older than the founding of Falx’s line. Some say even the Rot turned back at its threshold. The silence there is not natural. It breathes. It waits." }
+			],
+			jumpTo: "crossroadfollowup12"
+		},
+		{
+			code: "crossroadfollowup12",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Sounds like a fairytale.", jumpTo: "crossroaddismiss2" },
+				{ value: "betterruins:I’ve dealt with worse. What’s your price?", jumpTo: "howmuchisit2" }
+			]
+		},
+		{
+			code: "crossroaddismiss2",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Then walk on, dreamer. Some things are best left to the wind and to the dead." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "howmuchisit2",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Spoken like one born of purpose. But rusty gears is not enough, not for this. I require something rarer—something that fell from the stars. Bring me a knife of meteoric iron. Freshly forged. Untouched by blood or rust. Only then shall I entrust you with the map." }
+			],
+			setVariables: { "entity.requestmeteorknife": "true" },
+			jumpTo: "howmuchisit32"
+		},
+		{
+			code: "howmuchisit32",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:I will come back with a meteoric knife!", jumpTo: "main" },
+			]
+		},
+		
+		{
+			code: "acceptmeteorknife2",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:You truly have it... A blade that sings of the forge and starlight. You’ve earned this." }
+			],
+			trigger: "takefrominventory",
+			triggerdata: { type: 'item', code: 'game:knife-generic-meteoriciron'},
+			setVariables: { "entity.meteorknifereceived": "true" },
+			jumpTo: "givecrossroadsmap2"
+		},
+		{
+			code: "givecrossroadsmap2",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Take the map. May it guide you true, and may the sands be kind to your steps." }
+			],
+			trigger: "giveitemstack",
+			triggerdata: { type: "item", code: "betterruins:locatormap-crossroadsbelow", stacksize: 1 },
+			jumpTo: "main"
+		},
+		{
+			code: "crossroadanswer22",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Eager, are you? Wise or foolish—we shall see. This map leads to a chamber beneath the sands, once known as the Crossroads Below. Vaulted stone, buried secrets. It's not marked by stone, but by silence—and silence keeps its secrets well." }
+			],
+			jumpTo: "crossroadfollowup2"
+		},
+
+		{
+			code: "crossroadfollowup2",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:I’ll take it. What’s your price?", jumpTo: "howmuchisit2" },
+				{ value: "betterruins:Who made it?", jumpTo: "crossroadlore2" }
+			]
+		},
+
+		{
+			code: "crossroadlore2",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them." }
+			],
+			jumpTo: "crossroadfollowup2"
+		},
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 		{
