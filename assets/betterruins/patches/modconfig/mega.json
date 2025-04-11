@@ -274,7 +274,7 @@
                   "code": "11shoppingcentre",
                   "group": "megaruins",
                   "minGroupDistance": 5000,
-                  "chance": 0.74,
+                  "chance": 0.65,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-11/*"
@@ -507,7 +507,7 @@
                   "code": "17aqueduct",
                   "group": "megaruins",
                   "minGroupDistance": 5000,
-                  "chance": 0.08,
+                  "chance": 0.04,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-17/*"
@@ -553,7 +553,7 @@
                   "code": "19settlementofkeykeepers",
                   "group": "megaruins",
                   "minGroupDistance": 5000,
-                  "chance": 0.50,
+                  "chance": 0.70,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-19/*"
