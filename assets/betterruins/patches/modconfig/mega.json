@@ -433,7 +433,7 @@
                   "code": "14mansion",
                   "group": "megaruins",
                   "minGroupDistance": 5000,
-                  "chance": 0.35,
+                  "chance": 0,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-14/*"
