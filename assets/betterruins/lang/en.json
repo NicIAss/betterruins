@@ -142,6 +142,14 @@
     "game:location-mine2": "Abandoned Mine",
     "item-locatormap-mine2": "Map to an abandoned Mine",
 
+    "game:location-crossroadsbelow": "Crossroads",
+    "item-locatormap-crossroadsbelow": "Map to Crossroads",
+    "betterruins:item-handbooktext-betterruins:locatormap-crossroadsbelow": "<strong>Talk to</strong>\nLuxuries Trader",
+
+    "game:location-mansion": "Mansion",
+    "item-locatormap-mansion": "Map to Mansion",
+    "betterruins:item-handbooktext-betterruins:locatormap-mansion": "<strong>Found in</strong>\nCrossroads",
+
 
 
     "item-locatormap-graves": "Map to a Hidden Tomb",
@@ -155,7 +163,7 @@
     "betterruins:item-handbooktext-betterruins:locatormap-forlornhopetower": "<strong>Talk to</strong>\nLuxuries Trader",
     "betterruins:item-handbooktext-betterruins:locatormap-forlornhopedungeon": "<strong>Found in</strong>\nThe Forlorn Hope Tower",
     "betterruins:item-handbooktext-betterruins:locatormap-university": "<strong>Talk to</strong>\nLuxuries Trader",
-    "betterruins:item-handbooktext-betterruins:locatormap-giantcathedral": "<strong>Talk to</strong>\nWilfred Ivor Prescott",
+    "betterruins:item-handbooktext-betterruins:locatormap-giantcathedral": "<strong>Talk to</strong>\nWilfred Ivor Prescott (WIP)",
     "betterruins:item-handbooktext-betterruins:locatormap-coalmine": "<strong>Found in</strong>\nRare in any ruin",
     "betterruins:item-handbooktext-betterruins:locatormap-mine1": "<strong>Found in</strong>\nRare in any ruin",
     "betterruins:item-handbooktext-betterruins:locatormap-mine2": "<strong>Found in</strong>\nRare in any ruin",
