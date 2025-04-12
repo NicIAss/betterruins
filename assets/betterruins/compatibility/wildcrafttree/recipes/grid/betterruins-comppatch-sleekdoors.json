@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Fancy door",
+    "ingredientPattern": "AWW,SWW,_WW",
+    "ingredients": {
+      "W": {
+        "type": "item",
+        "code": "wildcrafttree:plank-*",
+        "name": "wood",
+        "quantity": 1
+      },
+      "A": {
+        "type": "item",
+        "code": "game:saw-*",
+        "isTool": true
+      },
+      "S": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-door"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "Block",
+      "code": "wildcrafttree:door-sleek-windowed-{wood}"
+    }
+  }
+]

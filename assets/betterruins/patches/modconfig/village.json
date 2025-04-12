@@ -11,7 +11,7 @@
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
-        "avg": 9,
+        "avg": 10,
         "var": 4,
         "dist": "InvExp"
       },
@@ -19,7 +19,8 @@
         {"path": "overground/main/village-vsvillage/houses/*","weight": 100},
         {"path": "overground/main/village-vsvillage/wells/*","weight": 100, "minQuantity": 1, "maxQuantity": 1},
         {"path": "overground/main/village-vsvillage/mainbuildings/*","weight": 10, "minQuantity": 0, "maxQuantity": 1},
-        {"path": "overground/main/village-vsvillage/wallsegments/*","weight": 10, "minQuantity": 1, "maxQuantity": 3},
+        {"path": "overground/main/village-vsvillage/wallsegments/*","weight": 10, "minQuantity": 1, "maxQuantity": 2},
+        {"path": "overground/main/village-vsvillage/wallsegments2/*","weight": 10, "minQuantity": 1, "maxQuantity": 2},
         {"path": "overground/main/village-paths/normal/*","weight": 100, "minQuantity": 2, "maxQuantity": 3}
     ],
       "replacewithblocklayers": ["soil-low-normal", "soil-low-none"],
@@ -324,7 +325,7 @@
         {"path": "overground/main/village-ogdred/houses/house1-o5","weight": 100, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/village-ogdred/houses/house2-o2","weight": 100, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/village-ogdred/houses/house3-o6","weight": 100, "minQuantity": 0, "maxQuantity": 1},
-        {"path": "overground/main/village-ogdred/main/main1-o2","weight": 100, "minQuantity": 0, "maxQuantity": 1}
+        {"path": "overground/main/village-ogdred/main/*","weight": 100, "minQuantity": 1, "maxQuantity": 1}
     ],
       "replacewithblocklayers": ["soil-low-normal", "soil-low-none", "gravel-granite"],
       "rockTypeRemapGroup": "standard"

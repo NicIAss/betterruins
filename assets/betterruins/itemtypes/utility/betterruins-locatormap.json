@@ -15,7 +15,9 @@
 				"university",
 				"coalmine",
 				"mine1",
-				"mine2"
+				"mine2",
+				"crossroadsbelow",
+				"mansion"
 			]
 		}
 	],
@@ -123,6 +125,28 @@
 			"*-mine2": {
 				"schematiccode": "mine2",
 				"waypointtext": "location-mine2",
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.2,
+					0.25,
+					1,
+					1
+				]
+			},
+			"*-crossroadsbelow": {
+				"schematiccode": "crossroads",
+				"waypointtext": "location-crossroads",
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.2,
+					0.25,
+					1,
+					1
+				]
+			},
+			"*-mansion": {
+				"schematiccode": "mansion",
+				"waypointtext": "location-mansion",
 				"waypointicon": "x",
 				"waypointcolor": [
 					0.2,

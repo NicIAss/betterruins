@@ -274,7 +274,7 @@
                   "code": "11shoppingcentre",
                   "group": "megaruins",
                   "minGroupDistance": 5000,
-                  "chance": 0.74,
+                  "chance": 0.65,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-11/*"
@@ -433,7 +433,7 @@
                   "code": "14mansion",
                   "group": "megaruins",
                   "minGroupDistance": 5000,
-                  "chance": 0.35,
+                  "chance": 0,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-14/*"
@@ -507,7 +507,7 @@
                   "code": "17aqueduct",
                   "group": "megaruins",
                   "minGroupDistance": 5000,
-                  "chance": 0.08,
+                  "chance": 0.04,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-17/*"
@@ -539,6 +539,29 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -16,
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "19settlementofkeykeepers",
+                  "group": "megaruins",
+                  "minGroupDistance": 5000,
+                  "chance": 0.70,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/megastructures/megastructure-19/*"
+                  ],
+			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "offsety": -26,
                   "rockTypeRemapGroup": "standard",
                   "MaxBelowSealevel": 3,
                   "MinSpawnDistance": 2500

@@ -23,11 +23,11 @@
         "13/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
         "14/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
         "15/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
-        "17/value/chance": "MANSION_SPAWN_CHANCE * value",
         "18/value/chance": "AULDBURG_SPAWN_CHANCE * value",
         "19/value/chance": "NORMANCASTLE_SPAWN_CHANCE * value",
         "20/value/chance": "AQUEDUCT_SPAWN_CHANCE * value",
-        "21/value/chance": "JUMBLEROCKCASTLE_SPAWN_CHANCE * value"
+        "21/value/chance": "JUMBLEROCKCASTLE_SPAWN_CHANCE * value",
+        "22/value/chance": "SETTLEMENTOFKEYKEEPERS_SPAWN_CHANCE * value"
         
       },
       "betterruins:patches/modconfig/surface.json": {
@@ -75,7 +75,9 @@
         "33/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "34/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "35/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
-        "36/value/chance": "LARGERUINS_SPAWN_CHANCE * value"
+        "36/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "37/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "38/value/chance": "LARGERUINS_SPAWN_CHANCE * value"
       },
       "betterruins:patches/others/structurespatches/special.json": {
         "0/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
@@ -92,7 +94,8 @@
         "0/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value",
         "1/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value",
         "2/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value",
-        "3/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value"
+        "3/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value",
+        "4/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/village.json": {
         "0/value/chance": "VSVILLAGE_SPAWN_CHANCE * value",
@@ -834,6 +837,7 @@
         "19/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "20/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "21/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "22/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "0/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
         "1/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
         "2/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
@@ -855,7 +859,8 @@
         "18/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
         "19/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
         "20/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "21/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE"
+        "21/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "22/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE"
       },
       "betterruins:patches/modconfig/surface.json": {
         "1/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
@@ -902,7 +907,9 @@
         "33/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "34/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "35/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
-        "36/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE"
+        "36/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "37/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "38/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE"
       },
       "betterruins:patches/others/structurespatches/graves.json": {
         "0/value/minGroupDistance": "GRAVES_MIN_DISTANCE",
@@ -937,7 +944,8 @@
         "0/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE",
         "1/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE",
         "2/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE",
-        "3/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE"
+        "3/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE",
+        "4/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE"
       },
       "betterruins:patches/others/structurespatches/monolith.json": {
         "0/value/minGroupDistance": "MONOLITH_MIN_DISTANCE",
@@ -1146,19 +1154,6 @@
           "max": 100.0
         }
       },
-      "MANSION_SPAWN_CHANCE": {
-        "name": "14mansion_spawn_chance",
-        "comment": "betterruins:universal_spawnchance_comment",
-        "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#14-mansion",
-        "default": 1.0,
-        "weight": 14.32,
-        "logarithmic": true,
-        "range": {
-          "min": 0.0,
-          "max": 100.0
-        }
-      },
       "AULDBURG_SPAWN_CHANCE": {
         "name": "15auldburg_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
@@ -1205,6 +1200,19 @@
         "link": "https://github.com/AreYSerious/betterruins/wiki/mega-structures#17-jumblerock-castle",
         "default": 1.0,
         "weight": 14.3830,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "SETTLEMENTOFKEYKEEPERS_SPAWN_CHANCE": {
+        "name": "19settlementofkeykeepers_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
+        "link": "https://github.com/AreYSerious/betterruins/wiki/mega-structures",
+        "default": 1.0,
+        "weight": 14.3832,
         "logarithmic": true,
         "range": {
           "min": 0.0,
@@ -1734,7 +1742,7 @@
         "name": "megastructures_min_distance",
         "comment": "betterruins:universal_mindistance_comment",
         "ingui": "betterruins:megastructures_min_distance",
-        "default": 6500,
+        "default": 5000,
         "weight": 2.9,
         "logarithmic": true,
         "range": {
@@ -2005,11 +2013,6 @@
     },
     {
       "type": "separator",
-      "title": "betterruins:megastructure_mansion",
-      "weight": 14.315
-    },
-    {
-      "type": "separator",
       "title": "betterruins:megastructure_auldburg",
       "weight": 14.335
     },
@@ -2027,6 +2030,11 @@
       "type": "separator",
       "title": "betterruins:megastructure_jumblerockcastle",
       "weight": 14.38290
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_settlementofkeykeepers",
+      "weight": 14.3831
     }
       ]
 }

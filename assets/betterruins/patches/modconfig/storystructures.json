@@ -7,7 +7,9 @@
       "story/brforlornhopedungeon": 21,
       "story/bruniversity": 88,
       "story/brcoalmine": 29,
-      "story/brmine": 15
+      "story/brmine": 15,
+      "story/brcrossroads": 18,
+      "story/brmansion": 32
 
     },
     "file": "game:worldgen/storystructures.json",
@@ -216,6 +218,77 @@
         "pond": 200,
         "rivulets": 100,
         "caves": 120,
+        "patches": 0
+      }
+    },
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "crossroads",
+      "group": "storystructure",
+      "name": "crossroads",
+      "schematics": [
+        "story/brcrossroads"
+      ],
+      "placement": "SurfaceRuin",
+      "dependsOnStructure": "spawn",
+      "minSpawnDistX": 8000,
+      "maxSpawnDistX": 9000,
+      "minSpawnDistZ": 500,
+      "maxSpawnDistZ": 1500,
+      "requireLandform": "veryflat",
+      "generateGrass": true,
+      "landformRadius": 550,
+      "forceTemperature": 32,
+      "rockTypeRemapGroup": "underground",
+      "ExcludeSchematicSizeProtect":true,
+      "skipGenerationCategories": {
+        "structures": 50,
+        "trees": 0,
+        "shrubs": 0,
+        "hotsprings": 200,
+        "pond": 200,
+        "rivulets": 100,
+        "caves": 120,
+        "patches": 0
+      }
+    },
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "mansion",
+      "group": "storystructure",
+      "name": "mansion",
+      "schematics": [
+        "story/brmansion"
+      ],
+      "placement": "SurfaceRuin",
+      "dependsOnStructure": "crossroads",
+      "minSpawnDistX": 4000,
+      "maxSpawnDistX": 5000,
+      "minSpawnDistZ": 4500,
+      "maxSpawnDistZ": 5500,
+      "requireLandform": "veryflat",
+      "generateGrass": true,
+      "landformRadius": 200,
+      "rockTypeRemapGroup": "underground",
+      "ExcludeSchematicSizeProtect":true,
+      "skipGenerationCategories": {
+        "structures": 120,
+        "trees": 0,
+        "shrubs": 0,
+        "hotsprings": 150,
+        "pond": 150,
+        "rivulets": 70,
+        "caves": 100,
         "patches": 0
       }
     },

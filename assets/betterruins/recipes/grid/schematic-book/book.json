@@ -1,0 +1,605 @@
+[
+ 
+    
+
+    {
+        "ingredientPattern": "XB_,BBB",
+        "ingredients": {
+          "X": {
+            "type": "Item",
+            "code": "betterruins:br-schematic-book"
+          },
+          "B": {
+            "type": "Item",
+            "code": "game:plank-oak"
+          }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+          "type": "Block",
+          "code": "game:clutter",
+          "attributes": {
+            "type": "bookshelves/bookstand-empty",
+            "collected": true
+          }
+        }
+      },
+      {
+        "ingredientPattern": "XT,_B",
+        "ingredients": {
+          "X": {
+            "type": "Item",
+            "code": "betterruins:br-schematic-book"
+          },
+          "T": {
+            "type": "Item",
+            "code": "game:book-*"
+          },
+          "B": {
+            "type": "Block",
+            "code": "game:clutter",
+            "attributes": {
+              "type": "bookshelves/bookstand-empty",
+              "collected": true
+            }
+          }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+          "type": "Block",
+          "code": "game:clutter",
+          "attributes": {
+            "type": "bookshelves/bookstand-book-open",
+            "collected": true
+          }
+        }
+      },
+      {
+        "ingredientPattern": "X_,TB",
+        "ingredients": {
+          "X": {
+            "type": "Item",
+            "code": "betterruins:br-schematic-book"
+          },
+          "T": {
+            "type": "Item",
+            "code": "game:book-*"
+          },
+          "B": {
+            "type": "Block",
+            "code": "game:clutter",
+            "attributes": {
+              "type": "bookshelves/bookstand-empty",
+              "collected": true
+            }
+          }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+          "type": "Block",
+          "code": "game:clutter",
+          "attributes": {
+            "type": "bookshelves/bookstand-book-closed",
+            "collected": true
+          }
+        }
+      },
+      {
+        "ingredientPattern": "XB_,BBB",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-book" },
+            "B": {type: "Item", code: "game:plank-oak" }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "bookshelves/bookstand-empty" } }
+    },
+    {
+        "ingredientPattern": "XT,_B",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-book" },
+            "T": {type: "Item", code: "game:book-*" },
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "bookshelves/bookstand-empty" } }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "bookshelves/bookstand-book-open" } }
+    },
+    {
+        "ingredientPattern": "X_,TB",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-book" },
+            "T": {type: "Item", code: "game:book-*" },
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "bookshelves/bookstand-empty" } }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "bookshelves/bookstand-book-closed" } }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "XG,_B,_B",
+        "ingredients": {
+          "X": {
+            "type": "Item",
+            "code": "betterruins:br-schematic-book"
+          },
+          "G": {
+            "type": "Item",
+            "code": "game:plank-oak",
+            "quantity": 2
+          },
+          "B": {
+            "type": "Item",
+            "code": "game:plank-oak"
+          }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+          "type": "Block",
+          "code": "game:clutter",
+          "attributes": {
+            "type": "bookshelves/lecturn-empty",
+            "collected": true
+          }
+        }
+      },
+      {
+        "ingredientPattern": "XT,_B",
+        "ingredients": {
+          "X": {
+            "type": "Item",
+            "code": "betterruins:br-schematic-book"
+          },
+          "T": {
+            "type": "Item",
+            "code": "game:book-*"
+          },
+          "B": {
+            "type": "Block",
+            "code": "game:clutter",
+            "attributes": {
+              "type": "bookshelves/lecturn-empty",
+              "collected": true
+            }
+          }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+          "type": "Block",
+          "code": "game:clutter",
+          "attributes": {
+            "type": "bookshelves/lecturn-book-open",
+            "collected": true
+          }
+        }
+      },
+      {
+        "ingredientPattern": "X_,TB",
+        "ingredients": {
+          "X": {
+            "type": "Item",
+            "code": "betterruins:br-schematic-book"
+          },
+          "T": {
+            "type": "Item",
+            "code": "game:book-*"
+          },
+          "B": {
+            "type": "Block",
+            "code": "game:clutter",
+            "attributes": {
+              "type": "bookshelves/lecturn-empty",
+              "collected": true
+            }
+          }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+          "type": "Block",
+          "code": "game:clutter",
+          "attributes": {
+            "type": "bookshelves/lecturn-book-closed",
+            "collected": true
+          }
+        }
+      },
+      {
+        "ingredientPattern": "XG,_B,_B",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-book" },
+            "G": {type: "Item", code: "game:plank-oak" , "quantity": 2},
+            "B": {type: "Item", code: "game:plank-oak" }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "bookshelves/lecturn-empty" } }
+    },
+    {
+        "ingredientPattern": "XT,_B",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-book" },
+            "T": {type: "Item", code: "game:book-*" },
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "bookshelves/lecturn-empty" } }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "bookshelves/lecturn-book-open" } }
+    },
+    {
+        "ingredientPattern": "X_,TB",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-book" },
+            "T": {type: "Item", code: "game:book-*" },
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "bookshelves/lecturn-empty" } }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "bookshelves/lecturn-book-closed" } }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "ingredientPattern": "XH,_N,_R",
+      "ingredients": {
+        "X": {
+          "type": "Item",
+          "code": "betterruins:br-schematic-book"
+        },
+        "H": {
+          "type": "Item",
+          "code": "game:hammer-*",
+          "isTool": true
+        },
+        "N": {
+          "type": "Item",
+          "code": "game:metalnailsandstrips-*"
+        },
+        "R": {
+          "type": "Item",
+          "code": "game:rod-*"
+        }
+      },
+      "width": 2,
+      "height": 3,
+      "output": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": {
+          "type": "lecturn-empty",
+          "collected": true
+        }
+      }
+    },
+    {
+      "ingredientPattern": "XT,_B",
+      "ingredients": {
+        "X": {
+          "type": "Item",
+          "code": "betterruins:br-schematic-book"
+        },
+        "T": {
+          "type": "Item",
+          "code": "game:book-*"
+        },
+        "B": {
+          "type": "Block",
+          "code": "game:clutter",
+          "attributes": {
+            "type": "lecturn-empty",
+            "collected": true
+          }
+        }
+      },
+      "width": 2,
+      "height": 2,
+      "output": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": {
+          "type": "lecturn-book-open",
+          "collected": true
+        }
+      }
+    },
+    {
+      "ingredientPattern": "X_,TB",
+      "ingredients": {
+        "X": {
+          "type": "Item",
+          "code": "betterruins:br-schematic-book"
+        },
+        "T": {
+          "type": "Item",
+          "code": "game:book-*"
+        },
+        "B": {
+          "type": "Block",
+          "code": "game:clutter",
+          "attributes": {
+            "type": "lecturn-empty",
+            "collected": true
+          }
+        }
+      },
+      "width": 2,
+      "height": 2,
+      "output": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": {
+          "type": "lecturn-book-closed",
+          "collected": true
+        }
+      }
+    },
+    {
+      "ingredientPattern": "XH,_N,_R",
+      "ingredients": {
+          "X": {type: "Item", code: "betterruins:br-schematic-book" },
+          "H": {type: "Item", code: "game:hammer-*", isTool: true },
+          "N": {type: "Item", code: "game:metalnailsandstrips-*" },
+          "R": {type: "Item", code: "game:rod-*" }
+      },
+      "width": 2,
+      "height": 3,
+      "output": {type: "Block", code: "game:clutter", attributes: { "type": "lecturn-empty" } }
+  },
+  {
+      "ingredientPattern": "XT,_B",
+      "ingredients": {
+          "X": {type: "Item", code: "betterruins:br-schematic-book" },
+          "T": {type: "Item", code: "game:book-*" },
+          "B": {type: "Block", code: "game:clutter", attributes: { "type": "lecturn-empty" } }
+      },
+      "width": 2,
+      "height": 2,
+      "output": {type: "Block", code: "game:clutter", attributes: { "type": "lecturn-book-open" } }
+  },
+  {
+      "ingredientPattern": "X_,TB",
+      "ingredients": {
+          "X": {type: "Item", code: "betterruins:br-schematic-book" },
+          "T": {type: "Item", code: "game:book-*" },
+          "B": {type: "Block", code: "game:clutter", attributes: { "type": "lecturn-empty" } }
+      },
+      "width": 2,
+      "height": 2,
+      "output": {type: "Block", code: "game:clutter", attributes: { "type": "lecturn-book-closed" } }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "ingredientPattern": "XB",
+      "ingredients": {
+        "X": {
+          "type": "Item",
+          "code": "betterruins:br-schematic-book"
+        },
+        "B": {
+          "type": "Item",
+          "code": "game:book-*"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "output": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": {
+          "type": "book-big-closed",
+          "collected": true
+        }
+      }
+    },
+    {
+      "ingredientPattern": "XB",
+      "ingredients": {
+        "X": {
+          "type": "Item",
+          "code": "betterruins:br-schematic-book"
+        },
+        "B": {
+          "type": "Block",
+          "code": "game:clutter",
+          "attributes": {
+            "type": "book-big-closed",
+            "collected": true
+          }
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "output": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": {
+          "type": "book-big-open",
+          "collected": true
+        }
+      }
+    },
+    {
+      "ingredientPattern": "XB",
+      "ingredients": {
+        "X": {
+          "type": "Item",
+          "code": "betterruins:br-schematic-book"
+        },
+        "B": {
+          "type": "Block",
+          "code": "game:clutter",
+          "attributes": {
+            "type": "book-big-open",
+            "collected": true
+          }
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "output": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": {
+          "type": "book-big-closed",
+          "collected": true
+        }
+      }
+    },
+    {
+        "ingredientPattern": "XB",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-book" },
+            "B": {type: "Item", code: "game:book-*" }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "book-big-closed" } }
+    },
+    {
+        "ingredientPattern": "XB",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-book" },
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "book-big-closed" } }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "book-big-open" } }
+    },
+    {
+        "ingredientPattern": "XB",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-book" },
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "book-big-open" } }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "book-big-closed" } }
+    },
+  ]

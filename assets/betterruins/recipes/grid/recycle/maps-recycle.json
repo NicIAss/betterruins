@@ -15,7 +15,6 @@
         },
         "width": 2,
         "height": 1,
-        "shapeless": true,
         "recipeGroup": 333,
         "output": {
             "type": "Item",
