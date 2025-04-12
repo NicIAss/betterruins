@@ -142,7 +142,7 @@
     "game:location-mine2": "Abandoned Mine",
     "item-locatormap-mine2": "Map to an abandoned Mine",
 
-    "game:location-crossroadsbelow": "Crossroads",
+    "game:location-crossroads": "Crossroads",
     "item-locatormap-crossroadsbelow": "Map to Crossroads",
     "betterruins:item-handbooktext-betterruins:locatormap-crossroadsbelow": "<strong>Talk to</strong>\nLuxuries Trader",
 
@@ -295,7 +295,6 @@
     "megastructure_giantcathedral": "Megastructure Giant Cathedral",
     "megastructure_shoppingcentre": "Megastructure Shopping Centre",
     "megastructure_undergroundlibrary": "Megastructure Underground Library",
-    "megastructure_mansion": "Megastructure Mansion",
     "megastructure_auldburg": "Megastructure Auldburg",
     "megastructure_normancastle": "Megastructure Norman Castle",
     "megastructure_aqueduct": "Megastructure Aqueduct",

@@ -23,7 +23,6 @@
         "13/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
         "14/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
         "15/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
-        "17/value/chance": "MANSION_SPAWN_CHANCE * value",
         "18/value/chance": "AULDBURG_SPAWN_CHANCE * value",
         "19/value/chance": "NORMANCASTLE_SPAWN_CHANCE * value",
         "20/value/chance": "AQUEDUCT_SPAWN_CHANCE * value",
@@ -1155,19 +1154,6 @@
           "max": 100.0
         }
       },
-      "MANSION_SPAWN_CHANCE": {
-        "name": "14mansion_spawn_chance",
-        "comment": "betterruins:universal_spawnchance_comment",
-        "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#14-mansion",
-        "default": 1.0,
-        "weight": 14.32,
-        "logarithmic": true,
-        "range": {
-          "min": 0.0,
-          "max": 100.0
-        }
-      },
       "AULDBURG_SPAWN_CHANCE": {
         "name": "15auldburg_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
@@ -2024,11 +2010,6 @@
       "type": "separator",
       "title": "betterruins:megastructure_undergroundlibrary",
       "weight": 13.95
-    },
-    {
-      "type": "separator",
-      "title": "betterruins:megastructure_mansion",
-      "weight": 14.315
     },
     {
       "type": "separator",
