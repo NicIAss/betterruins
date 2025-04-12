@@ -9,6 +9,7 @@
       "story/brcoalmine": 29,
       "story/brmine": 15,
       "story/brcrossroads": 18,
+      "story/brmansion": 32
 
     },
     "file": "game:worldgen/storystructures.json",
@@ -259,5 +260,39 @@
     "file": "game:worldgen/storystructures.json",
     "side": "Server"
   },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "mansion",
+      "group": "storystructure",
+      "name": "mansion",
+      "schematics": [
+        "story/brmansion"
+      ],
+      "placement": "SurfaceRuin",
+      "dependsOnStructure": "crossroads",
+      "minSpawnDistX": 4000,
+      "maxSpawnDistX": 5000,
+      "minSpawnDistZ": 4500,
+      "maxSpawnDistZ": 5500,
+      "requireLandform": "veryflat",
+      "generateGrass": true,
+      "landformRadius": 200,
+      "rockTypeRemapGroup": "underground",
+      "ExcludeSchematicSizeProtect":true,
+      "skipGenerationCategories": {
+        "structures": 120,
+        "trees": 0,
+        "shrubs": 0,
+        "hotsprings": 150,
+        "pond": 150,
+        "rivulets": 70,
+        "caves": 100,
+        "patches": 0
+      }
+    },
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
   }
 ]
