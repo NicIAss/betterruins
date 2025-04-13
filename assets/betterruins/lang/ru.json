@@ -110,6 +110,7 @@
     "item-locatormap-mine1": "Карта к неизвестной шахте",
     "game:location-mine2": "Неизвестная шахта",
     "item-locatormap-mine2": "Карта к неизвестной шахте",
+    "betterruins:item-handbooktext-betterruins:locatormap-crossroadsbelow": "<strong>Поговорите с</strong>\nТорговцем роскошью",
     "item-locatormap-graves": "Утраченные следы надгробий",
     "item-locatormap-gates": "Карта механической реликвии",
     "item-locatormap-undergroundruins": "Карта исследователей глубин",
@@ -238,7 +239,6 @@
     "megastructure_giantcathedral": "Мегаструктура: Огромный собор",
     "megastructure_shoppingcentre": "Мегаструктура: Торговый центр",
     "megastructure_undergroundlibrary": "Мегаструктура: Подземная библиотека",
-    "megastructure_mansion": "Мегаструктура: Особняк",
     "megastructure_auldburg": "Мегаструктура: Олдбург",
     "megastructure_normancastle": "Мегаструктура: Нормандский замок",
     "megastructure_aqueduct": "Мегаструктура: Акведук",
@@ -280,5 +280,6 @@
     "game:This is a relief to encounter a friendly countenance amidst these lands.": "Как приятно встретить дружелюбный взгляд среди этих земель.",
     "game:Are there others out there like me?": "Есть ли среди них такие же, как я?",
     "game:I find myself lacking in complete certainty as well.": "Мне тоже не хватает полной уверенности.",
-    "game:Sorry ... but somethings are best left unspoken.": "Прости... но о некоторых вещах лучше не говорить."
+    "game:Sorry ... but somethings are best left unspoken.": "Прости... но о некоторых вещах лучше не говорить.",
+    "betterruins:Not interested. Maybe another time.": "Не интересно. Может быть, в другой раз."
 }

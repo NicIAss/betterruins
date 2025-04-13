@@ -110,6 +110,7 @@
     "item-locatormap-mine1": "Mapa do opuszczonej kopalni",
     "game:location-mine2": "Opuszczona kopalnia",
     "item-locatormap-mine2": "Mapa do opuszczonej kopalni",
+    "betterruins:item-handbooktext-betterruins:locatormap-crossroadsbelow": "<strong>Porozmawiaj z</strong>\nHandlarzem towarów luksusowych",
     "item-locatormap-graves": "Mapa do ukrytego grobowca",
     "item-locatormap-gates": "Mapa do ukrytego przejścia",
     "item-locatormap-undergroundruins": "Mapa do podziemnej kryjówki",
@@ -238,7 +239,6 @@
     "megastructure_giantcathedral": "Mega Struktura - Wielka Katedra",
     "megastructure_shoppingcentre": "Mega Struktura - Centrum Handlowe",
     "megastructure_undergroundlibrary": "Mega Struktura - Podziemna Biblioteka",
-    "megastructure_mansion": "Mega Struktura - Dwór",
     "megastructure_auldburg": "Mega Struktura - Auldburg",
     "megastructure_normancastle": "Mega Struktura - Normański Zamek",
     "megastructure_aqueduct": "Mega Struktura - Akwedukt",
@@ -280,5 +280,6 @@
     "game:This is a relief to encounter a friendly countenance amidst these lands.": "To ulga spotkać przyjazną twarz na tych ziemiach.",
     "game:Are there others out there like me?": "Czy są tam inni tacy jak ja?",
     "game:I find myself lacking in complete certainty as well.": "Ja również czuję brak całkowitej pewności.",
-    "game:Sorry ... but somethings are best left unspoken.": "Przepraszam… ale o niektórych rzeczach najlepiej nie mówić."
+    "game:Sorry ... but somethings are best left unspoken.": "Przepraszam… ale o niektórych rzeczach najlepiej nie mówić.",
+    "betterruins:Not interested. Maybe another time.": "Nie jestem zainteresowany. Może innym razem."
 }

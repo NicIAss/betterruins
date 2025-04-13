@@ -110,6 +110,7 @@
     "item-locatormap-mine1": "废弃矿井地图",
     "game:location-mine2": "废弃矿井",
     "item-locatormap-mine2": "废弃矿井地图",
+    "betterruins:item-handbooktext-betterruins:locatormap-crossroadsbelow": "<strong>与</strong>\n奢侈品商人交谈",
     "item-locatormap-graves": "丢失的墓碑追踪",
     "item-locatormap-gates": "机械圣物箱地图",
     "item-locatormap-undergroundruins": "深渊探险地图",
@@ -226,7 +227,6 @@
     "megastructure_giantcathedral": "巨型结构巨型大教堂",
     "megastructure_shoppingcentre": "巨型结构购物中心",
     "megastructure_undergroundlibrary": "巨型结构地下图书馆",
-    "megastructure_mansion": "巨型结构豪宅",
     "megastructure_auldburg": "巨型结构Auldburg",
     "megastructure_normancastle": "巨型结构诺曼城堡",
     "megastructure_aqueduct": "巨型结构渡槽",
@@ -267,5 +267,6 @@
     "game:This is a relief to encounter a friendly countenance amidst these lands.": "在这些土地上遇到友好的面孔是一种安慰。",
     "game:Are there others out there like me?": "外面还有像我这样的人吗？",
     "game:I find myself lacking in complete certainty as well.": "我也发现自己缺乏完全的确定性。",
-    "game:Sorry ... but somethings are best left unspoken.": "抱歉...但有些事情最好不说。"
+    "game:Sorry ... but somethings are best left unspoken.": "抱歉...但有些事情最好不说。",
+    "betterruins:Not interested. Maybe another time.": "不感兴趣。也许下次吧。"
 }

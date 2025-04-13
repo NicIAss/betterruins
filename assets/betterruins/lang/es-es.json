@@ -110,6 +110,7 @@
     "item-locatormap-mine1": "Mapa de la Mina Abandonada",
     "game:location-mine2": "Mina Abandonada",
     "item-locatormap-mine2": "Mapa de una Mina abandonada",
+    "betterruins:item-handbooktext-betterruins:locatormap-crossroadsbelow": "<strong>Habla con</strong>\nComerciante de Artículos de Lujo.",
     "item-locatormap-graves": "Calcos de Lápidas Perdidas",
     "item-locatormap-gates": "Mapa del Reliquiario Mecánico",
     "item-locatormap-undergroundruins": "Mapa de Expedición a las Profundidades",
@@ -228,7 +229,6 @@
     "megastructure_giantcathedral": "Megaestructura Catedral Gigante",
     "megastructure_shoppingcentre": "Megaestructura Centro Comercial",
     "megastructure_undergroundlibrary": "Megaestructura Biblioteca Subterránea",
-    "megastructure_mansion": "Megaestructura Mansión",
     "megastructure_auldburg": "Megaestructura Auldburg",
     "megastructure_normancastle": "Megaestructura Castillo Normando",
     "megastructure_aqueduct": "Megaestructura Acueducto",
@@ -270,5 +270,6 @@
     "game:This is a relief to encounter a friendly countenance amidst these lands.": "Es un alivio encontrar un semblante amistoso en medio de estas tierras.",
     "game:Are there others out there like me?": "¿Hay otros como yo?",
     "game:I find myself lacking in complete certainty as well.": "Yo también me encuentro falto de certeza total.",
-    "game:Sorry ... but somethings are best left unspoken.": "Lo siento... pero algunas cosas es mejor no decirlas."
+    "game:Sorry ... but somethings are best left unspoken.": "Lo siento... pero algunas cosas es mejor no decirlas.",
+    "betterruins:Not interested. Maybe another time.": "No me interesa. Quizás en otro momento."
 }

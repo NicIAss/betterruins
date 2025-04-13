@@ -110,6 +110,7 @@
     "item-locatormap-mine1": "Carte vers une mine inconnue",
     "game:location-mine2": "Mine inconnue",
     "item-locatormap-mine2": "Carte vers une mine inconnue",
+    "betterruins:item-handbooktext-betterruins:locatormap-crossroadsbelow": "<strong>Parlez à</strong>\nMarchand de luxe",
     "item-locatormap-graves": "Traces de pierres tombales perdues",
     "item-locatormap-gates": "Carte du Reliquaire Mécanique",
     "item-locatormap-undergroundruins": "Carte de l'expédition des profondeurs",
@@ -226,7 +227,6 @@
     "megastructure_giantcathedral": "Méga-structure : Cathédrale géante",
     "megastructure_shoppingcentre": "Méga-structure : Centre commercial",
     "megastructure_undergroundlibrary": "Méga-structure : Bibliothèque souterraine",
-    "megastructure_mansion": "Méga-structure : Manoir",
     "megastructure_auldburg": "Méga-structure : Auldburg",
     "megastructure_normancastle": "Méga-structure : Château normand",
     "megastructure_aqueduct": "Méga-structure : Aqueduc",
@@ -268,5 +268,6 @@
     "game:This is a relief to encounter a friendly countenance amidst these lands.": "C'est un soulagement de rencontrer un visage amical en ces terres.",
     "game:Are there others out there like me?": "Y a-t-il d'autres gens comme moi ?",
     "game:I find myself lacking in complete certainty as well.": "Je ne suis pas non plus totalement sûr.",
-    "game:Sorry ... but somethings are best left unspoken.": "Désolé ... mais certaines choses sont mieux laissé secrète."
+    "game:Sorry ... but somethings are best left unspoken.": "Désolé ... mais certaines choses sont mieux laissé secrète.",
+    "betterruins:Not interested. Maybe another time.": "Pas intéressé. Peut-être une autre fois."
 }

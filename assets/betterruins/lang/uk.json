@@ -110,6 +110,7 @@
     "item-locatormap-mine1": "Мапа до невідомої шахти",
     "game:location-mine2": "Невідома шахта",
     "item-locatormap-mine2": "Мапа до невідомої шахти",
+    "betterruins:item-handbooktext-betterruins:locatormap-crossroadsbelow": "<strong>Поговоріть з</strong>\nТоргівцем розкішшю",
     "item-locatormap-graves": "Мапа до прихованої гробниці",
     "item-locatormap-gates": "Мапа до прихованого проходу",
     "item-locatormap-undergroundruins": "Мапа до підземного сховища",
@@ -238,7 +239,6 @@
     "megastructure_giantcathedral": "Мегаструктура: Гігантський собор",
     "megastructure_shoppingcentre": "Мегаструктура: Торговий центр",
     "megastructure_undergroundlibrary": "Мегаструктура: Підземна бібліотека",
-    "megastructure_mansion": "Мегаструктура: Особняк",
     "megastructure_auldburg": "Мегаструктура: Олдбург",
     "megastructure_normancastle": "Мегаструктура: Норманський замок",
     "megastructure_aqueduct": "Мегаструктура: Акведук",
@@ -280,5 +280,6 @@
     "game:This is a relief to encounter a friendly countenance amidst these lands.": "Приємно зустріти дружнє обличчя серед цих земель.",
     "game:Are there others out there like me?": "Чи є там інші, схожі на мене?",
     "game:I find myself lacking in complete certainty as well.": "Я також відчуваю, що мені бракує повної визначеності.",
-    "game:Sorry ... but somethings are best left unspoken.": "Вибачте... але дещо краще залишити недомовленим."
+    "game:Sorry ... but somethings are best left unspoken.": "Вибачте... але дещо краще залишити недомовленим.",
+    "betterruins:Not interested. Maybe another time.": "Не зацікавлений. Можливо, іншим разом."
 }

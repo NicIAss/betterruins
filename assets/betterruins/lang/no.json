@@ -108,6 +108,7 @@
     "item-locatormap-mine1": "Kart til en forlatt gruve",
     "game:location-mine2": "Forlatt gruve",
     "item-locatormap-mine2": "Kart til en forlatt gruve",
+    "betterruins:item-handbooktext-betterruins:locatormap-crossroadsbelow": "<strong>Snakk med</strong>\nLuksushandler",
     "item-locatormap-graves": "Tapte gravsteinsporinger",
     "item-locatormap-gates": "Mekanisk relikviekart",
     "item-locatormap-undergroundruins": "Dybdeekspedisjonskart",
@@ -219,7 +220,6 @@
     "megastructure_giantcathedral": "Megastruktur Kjempekatedral",
     "megastructure_shoppingcentre": "Megastruktur Kjøpesenter",
     "megastructure_undergroundlibrary": "Megastruktur Underjordisk Bibliotek",
-    "megastructure_mansion": "Megastruktur Herregård",
     "megastructure_auldburg": "Megastruktur Auldburg",
     "megastructure_normancastle": "Megastruktur Normannisk Slott",
     "megastructure_aqueduct": "Megastruktur Akvedukt",
@@ -260,5 +260,6 @@
     "game:This is a relief to encounter a friendly countenance amidst these lands.": "Dette er en lettelse å møte et vennlig ansikt i disse landene.",
     "game:Are there others out there like me?": "Er det andre der ute som meg?",
     "game:I find myself lacking in complete certainty as well.": "Jeg finner også at jeg mangler fullstendig sikkerhet.",
-    "game:Sorry ... but somethings are best left unspoken.": "Beklager ... men noen ting er best latt usagt."
+    "game:Sorry ... but somethings are best left unspoken.": "Beklager ... men noen ting er best latt usagt.",
+    "betterruins:Not interested. Maybe another time.": "Ikke interessert. Kanskje en annen gang."
 }

@@ -110,6 +110,7 @@
     "item-locatormap-mine1": "خريطة إلى منجم مهجور",
     "game:location-mine2": "منجم مهجور",
     "item-locatormap-mine2": "خريطة إلى منجم مهجور",
+    "betterruins:item-handbooktext-betterruins:locatormap-crossroadsbelow": "<strong>تحدث إلى</strong>\nتاجر الرفاهية",
     "item-locatormap-graves": "خرائط آثار المقابر المفقودة",
     "item-locatormap-gates": "خريطة مزار القربان الميكانيكي",
     "item-locatormap-undergroundruins": "خريطة بعثة الأعماق",
@@ -226,7 +227,6 @@
     "megastructure_giantcathedral": "كاتدرائية عملاقة ضخمة",
     "megastructure_shoppingcentre": "مركز تسوق ضخم",
     "megastructure_undergroundlibrary": "مكتبة تحت الأرض ضخمة",
-    "megastructure_mansion": "قصر ضخم",
     "megastructure_auldburg": "أولدبرغ الضخمة",
     "megastructure_normancastle": "قلعة نورمان الضخمة",
     "megastructure_aqueduct": "قناة مائية ضخمة",
@@ -267,5 +267,6 @@
     "game:This is a relief to encounter a friendly countenance amidst these lands.": "هذا راحة أن تصادف وجهًا ودودًا في هذه الأراضي.",
     "game:Are there others out there like me?": "هل هناك آخرون مثلي هناك؟",
     "game:I find myself lacking in complete certainty as well.": "أجد نفسي أيضًا أفتقر إلى اليقين التام.",
-    "game:Sorry ... but somethings are best left unspoken.": "آسف ... لكن بعض الأشياء من الأفضل تركها غير مذكورة."
+    "game:Sorry ... but somethings are best left unspoken.": "آسف ... لكن بعض الأشياء من الأفضل تركها غير مذكورة.",
+    "betterruins:Not interested. Maybe another time.": "لست مهتمًا. ربما في وقت آخر."
 }
