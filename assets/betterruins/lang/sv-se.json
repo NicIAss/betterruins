@@ -110,6 +110,7 @@
     "item-locatormap-mine1": "Karta till en okänd Gruva",
     "game:location-mine2": "Okänd Gruva",
     "item-locatormap-mine2": "Karta till en okänd Gruva",
+    "betterruins:item-handbooktext-betterruins:locatormap-crossroadsbelow": "<strong>Prata med</strong>\nLyxhandlare",
     "item-locatormap-graves": "Förlorade gravstensritningar",
     "item-locatormap-gates": "Karta över mekanisk likviditet",
     "item-locatormap-undergroundruins": "Karta över djup expedition",
@@ -226,7 +227,6 @@
     "megastructure_giantcathedral": "Megastruktur: Jättestor katedral",
     "megastructure_shoppingcentre": "Megastruktur: Köpcentrum",
     "megastructure_undergroundlibrary": "Megastruktur: Underjordiskt bibliotek",
-    "megastructure_mansion": "Megastruktur: Herrgård",
     "megastructure_auldburg": "Megastruktur: Auldburg",
     "megastructure_normancastle": "Megastruktur: Normandiskt slott",
     "megastructure_aqueduct": "Megastruktur: Akvedukt",
@@ -267,5 +267,6 @@
     "game:This is a relief to encounter a friendly countenance amidst these lands.": "Det är en lättnad att möta ett vänligt ansikte i dessa land.",
     "game:Are there others out there like me?": "Finns det andra där ute som jag?",
     "game:I find myself lacking in complete certainty as well.": "Jag finner mig också sakna fullständig visshet.",
-    "game:Sorry ... but somethings are best left unspoken.": "Förlåt ... men vissa saker är bäst att lämna osagda."
+    "game:Sorry ... but somethings are best left unspoken.": "Förlåt ... men vissa saker är bäst att lämna osagda.",
+    "betterruins:Not interested. Maybe another time.": "Inte intresserad. Kanske en annan gång."
 }

@@ -1814,7 +1814,7 @@
         "name": "largeruins_min_distance",
         "comment": "betterruins:universal_mindistance_comment",
         "ingui": "betterruins:largeruins_min_distance",
-        "default": 2000,
+        "default": 2800,
         "weight": 21.001,
         "logarithmic": true,
         "range": {

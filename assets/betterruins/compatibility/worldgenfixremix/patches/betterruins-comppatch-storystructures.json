@@ -22,5 +22,29 @@
         "modid": "worldgenfixremix"
       }
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/11/requireLandform",
+    "value": "veryflat",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "worldgenfixremix"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/12/requireLandform",
+    "value": "veryflat",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "worldgenfixremix"
+      }
+    ]
   }
 ]

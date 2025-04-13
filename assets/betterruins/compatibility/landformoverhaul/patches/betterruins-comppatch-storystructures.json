@@ -70,5 +70,29 @@
         "modid": "landformoverhaul"
       }
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/11/requireLandform",
+    "value": "cr plains",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "landformoverhaul"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/12/requireLandform",
+    "value": "cr plains",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "landformoverhaul"
+      }
+    ]
   }
 ]

@@ -70,5 +70,29 @@
         "modid": "TA_fieldsandplateaus"
       }
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/11/requireLandform",
+    "value": "f&pcoastal flatlands",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "TA_fieldsandplateaus"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/12/requireLandform",
+    "value": "f&pcoastal flatlands",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "TA_fieldsandplateaus"
+      }
+    ]
   }
 ]

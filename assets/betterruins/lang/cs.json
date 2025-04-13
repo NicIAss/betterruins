@@ -110,6 +110,7 @@
     "item-locatormap-mine1": "Mapa k neznámému dolu",
     "game:location-mine2": "Neznámý důl",
     "item-locatormap-mine2": "Mapa k neznámému dolu",
+    "betterruins:item-handbooktext-betterruins:locatormap-crossroadsbelow": "<strong>Promluvte si s</strong>\nLuxusním obchodníkem",
     "item-locatormap-graves": "Mapové stopy ztraceného náhrobku",
     "item-locatormap-gates": "Mapa mechanické relikvie",
     "item-locatormap-undergroundruins": "Mapa hlubin expedice",
@@ -238,7 +239,6 @@
     "megastructure_giantcathedral": "Megastruktura: Obří katedrála",
     "megastructure_shoppingcentre": "Megastruktura: Nákupní centrum",
     "megastructure_undergroundlibrary": "Megastruktura: Podzemní knihovna",
-    "megastructure_mansion": "Megastruktura: Sídlo",
     "megastructure_auldburg": "Megastruktura: Auldburg",
     "megastructure_normancastle": "Megastruktura: Normanský hrad",
     "megastructure_aqueduct": "Megastruktura: Akvadukt",
@@ -280,5 +280,6 @@
     "game:This is a relief to encounter a friendly countenance amidst these lands.": "Je úlevou potkat přátelskou tvář v této zemi.",
     "game:Are there others out there like me?": "Jsou tam venku další jako já?",
     "game:I find myself lacking in complete certainty as well.": "I já si nejsem zcela jistý.",
-    "game:Sorry ... but somethings are best left unspoken.": "Omlouvám se... některé věci je lepší nevyslovit."
+    "game:Sorry ... but somethings are best left unspoken.": "Omlouvám se... některé věci je lepší nevyslovit.",
+    "betterruins:Not interested. Maybe another time.": "Nemám zájem. Možná jindy."
 }
