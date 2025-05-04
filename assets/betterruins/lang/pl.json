@@ -111,6 +111,8 @@
     "game:location-mine2": "Opuszczona kopalnia",
     "item-locatormap-mine2": "Mapa do opuszczonej kopalni",
     "betterruins:item-handbooktext-betterruins:locatormap-crossroadsbelow": "<strong>Porozmawiaj z</strong>\nHandlarzem towarów luksusowych",
+    "game:location-mansion": "Rezydencja",
+    "item-locatormap-mansion": "Mapa do Rezydencji",
     "item-locatormap-graves": "Mapa do ukrytego grobowca",
     "item-locatormap-gates": "Mapa do ukrytego przejścia",
     "item-locatormap-undergroundruins": "Mapa do podziemnej kryjówki",
@@ -281,5 +283,8 @@
     "game:Are there others out there like me?": "Czy są tam inni tacy jak ja?",
     "game:I find myself lacking in complete certainty as well.": "Ja również czuję brak całkowitej pewności.",
     "game:Sorry ... but somethings are best left unspoken.": "Przepraszam… ale o niektórych rzeczach najlepiej nie mówić.",
-    "betterruins:Not interested. Maybe another time.": "Nie jestem zainteresowany. Może innym razem."
+    "betterruins:Show me the map.": "Pokaż mi mapę.",
+    "betterruins:Not interested. Maybe another time.": "Nie jestem zainteresowany. Może innym razem.",
+    "betterruins:I’ll take it. What’s your price?": "Wezmę to. Jaka jest twoja cena?",
+    "betterruins:Who made it?": "Kto to stworzył?"
 }
