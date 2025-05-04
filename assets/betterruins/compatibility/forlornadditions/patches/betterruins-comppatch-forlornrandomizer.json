@@ -1,0 +1,92 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-forlornhope-specials/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "forlornadditions:banner-north",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "forlornadditions"
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+  {
+    "op": "add",
+    "path": "/attributesByType/*-forlornhope-weapons/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "forlornadditions:dagger",
+      "chance": 5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "forlornadditions"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-forlornhope-weapons/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "forlornadditions:claymore",
+      "chance": 5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "forlornadditions"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-forlornhope-weapons/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "forlornadditions:warhammer",
+      "chance": 5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "forlornadditions"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-forlornhope-weapons/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "forlornadditions:forlornbow-forlorn",
+      "chance": 5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "forlornadditions"
+      }
+    ]
+  }
+]

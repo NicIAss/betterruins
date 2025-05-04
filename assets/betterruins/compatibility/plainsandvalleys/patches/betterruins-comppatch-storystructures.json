@@ -1,0 +1,98 @@
+[
+  {
+    "op": "replace",
+    "path": "/structures/5/requireLandform",
+    "value": "p&vcold glaciers",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "plainsandvalleys"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/6/requireLandform",
+    "value": "p&vcold glaciers",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "plainsandvalleys"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/7/requireLandform",
+    "value": "p&vcoastal flatlands",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "plainsandvalleys"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/8/requireLandform",
+    "value": "p&vcoastal flatlands",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "plainsandvalleys"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/9/requireLandform",
+    "value": "p&vcoastal flatlands",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "plainsandvalleys"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/10/requireLandform",
+    "value": "p&vcoastal flatlands",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "plainsandvalleys"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/11/requireLandform",
+    "value": "p&vcoastal flatlands",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "plainsandvalleys"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/12/requireLandform",
+    "value": "p&vcoastal flatlands",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "plainsandvalleys"
+      }
+    ]
+  }
+]

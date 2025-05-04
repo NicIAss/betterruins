@@ -4,9 +4,18 @@
 			code: "testhasmet",
 			owner: "trader",
 			type: "condition",
-			variable: "entity.hasmet",
+			variable: "player.hasmet",
 			isNotValue: "true",
 			thenJumpTo: "firstmeet",
+			elseJumpTo: "testnewtrader"
+		},
+		{
+			code: "testnewtrader",
+			owner: "trader",
+			type: "condition",
+			variable: "entity.hasmet",
+			isNotValue: "true",
+			thenJumpTo: "introduction",
 			elseJumpTo: "welcomeback"
 		},
 		{
@@ -158,7 +167,16 @@
 				{ value: "game:Well met.", jumpTo: "main" }
 			]
 		},
-
+		{
+			code: "introduction",
+			owner: "trader",
+			type: "talk",
+			setVariables: { "entity.hasmet": "true" },
+			text: [
+				{ value: "game:Ah, a new customer! How can I help you?" }
+			],
+			jumpTo: "main"
+		},
 		{
 			code: "welcomeback",
 			owner: "trader",
@@ -173,6 +191,7 @@
 			type: "talk",
 			text: [
 				{ value: "game:Got anything to trade, {{npcname}}?", jumpTo: "opentrade" },
+				{ value: "game:dialogue-name", jumpTo: "name" },
 				{ value: "game:Why live out here like this?", jumpTo: "profit" },
 				{ value: "betterruins:dialogue-anythingspecialtosell", jumpTo: "sellingquestion" },
 				{ value: "betterruins:dialogue-fromwheredoyougetall", jumpTo: "strategy", conditions: [{ variable: "entity.globedone", isNotValue: "true" } ] },
@@ -182,7 +201,16 @@
 				{ value: "betterruins:I have the meteoric knife you asked for. Here take it.", jumpTo: "acceptmeteorknife2", conditions: [{ variable: "entity.requestmeteorknife", isValue: "true" }, { variable: "entity.meteorknifereceived", isNotValue: "true" }, { variable: "player.inventory", isValue: "{ type: 'item', code: 'game:knife-generic-meteoriciron'}" } ] },
 			]
 		},
-
+		{
+			code: "name",
+			owner: "trader",
+			type: "talk",
+			trigger: "revealname",
+			text: [
+				{ value: "game:Kind of you to ask, traveler. It's {{npcname}}." }
+			],
+			jumpTo: "main"
+		},
 
 		{
 			code: "sellingquestion2",

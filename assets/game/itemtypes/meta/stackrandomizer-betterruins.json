@@ -12,7 +12,10 @@
 			"newlore", 
 			"rottenkingclothing",
 			"blrmeteoriciron",
-			"cursed"
+			"cursed",
+			"forlornhope-weapons",
+			"forlornhope-armor",
+			"forlornhope-specials"
 		] }
 	],
 	"attributesByType": {
@@ -2279,6 +2282,97 @@
 				  "chance": 25
 				}
 			  ]
+		},
+		
+		"*-forlornhope-weapons": {
+			"handbook": { "exclude": true },
+			"stacks": [
+				{
+					"type": "item",
+					"code": "game:blade-forlorn-iron",
+					"chance": 4
+				},
+				{
+					"type": "item",
+					"code": "game:arrow-gold",
+					"quantity": {
+						"avg": 10,
+						"var": 5
+					},
+					"chance": 7
+				},
+				{
+					"type": "item",
+					"code": "game:shield-woodmetalleather",
+					"attributes": {"wood": "generic", "metal": "gold", "color": "white", "deco": "ornate"},
+					"chance": 6
+				},
+				{
+					"type": "item",
+					"code": "game:blade-falx-silver",
+					"chance": 6
+				},
+				{
+					"type": "item",
+					"code": "game:shield-metal",
+					"attributes": {"wood": "generic", "metal": "silver", "deco": "none"},
+					"chance": 6
+				},
+				{
+					"type": "item",
+					"code": "game:spear-generic-ornategold",
+					"chance": 4
+				},
+				{
+					"type": "item",
+					"code": "game:spear-generic-ornatesilver",
+					"chance": 4
+				},
+				{
+					"type": "item",
+					"code": "game:blade-falx-meteoriciron",
+					"chance": 5
+				}
+			]
+		},
+		
+		"*-forlornhope-armor": {
+			"handbook": { "exclude": true },
+			"stacks": [
+				{ "type": "item", "code": "game:armor-head-antique-forlorn-pristine", "chance": 2 },
+				{ "type": "item", "code": "game:armor-body-antique-forlorn-pristine", "chance": 2 },
+				{ "type": "item", "code": "game:armor-legs-antique-forlorn-pristine", "chance": 2 },
+				{ "type": "item", "code": "game:armor-head-antique-forlorn-damaged", "chance": 8 },
+				{ "type": "item", "code": "game:armor-body-antique-forlorn-damaged", "chance": 8 },
+				{ "type": "item", "code": "game:armor-legs-antique-forlorn-damaged", "chance": 8 },
+				{ "type": "item", "code": "game:armor-head-antique-forlorn-broken", "chance": 12 },
+				{ "type": "item", "code": "game:armor-body-antique-forlorn-broken", "chance": 12 },
+				{ "type": "item", "code": "game:armor-legs-antique-forlorn-broken", "chance": 12 },
+				{ "type": "item", "code": "game:clothes-face-forlorn-veil", "chance": 7 },
+				{ "type": "item", "code": "game:clothes-foot-forlorn-shoes", "chance": 7 },
+				{ "type": "item", "code": "game:clothes-hand-forlorn-bracer", "chance": 7 },
+				{ "type": "item", "code": "game:clothes-lowerbody-forlorn-pants", "chance": 7 },
+				{ "type": "item", "code": "game:clothes-neck-forlorn-talisman", "chance": 7 },
+				{ "type": "item", "code": "game:clothes-shoulder-forlorn-sash", "chance": 7 },
+				{ "type": "item", "code": "game:clothes-upperbody-forlorn-tunic", "chance": 7 },
+				{ "type": "item", "code": "game:clothes-waist-forlorn-belt", "chance": 7 }
+			]
+		},
+		
+		"*-forlornhope-specials": {
+			"handbook": { "exclude": true },
+			"stacks": [
+				{
+					"type": "item",
+					"code": "game:hoovedwearables-blanket-forlorn",
+					"chance": 10
+				},
+				{
+					"type": "item",
+					"code": "game:clutter-art/gear3",
+					"chance": 10
+				}
+			]
 		}
 	},
 	"maxstacksize": 1,

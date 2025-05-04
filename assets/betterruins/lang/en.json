@@ -118,6 +118,13 @@
     "game:item-stackrandomizer-newlore":"BR Loot AllLoreEntries",
     "game:item-stackrandomizer-cursed":"BR Loot Special Uncontroversal Loot from other Mods",
 
+    "game:item-stackrandomizer-forlornhope-weapons":"BR Loot Forlorn Hope Weapons",
+    "game:item-stackrandomizer-forlornhope-armor":"BR Loot Forlorn Hope Armor",
+    "game:item-stackrandomizer-forlornhope-specials":"BR Loot Forlorn Hope Specials",
+
+    
+
+
     "game:item-stackrandomizer-blrmeteoriciron":"BR Block Meteoric Iron",
 
 
@@ -349,7 +356,8 @@
     "game:Are there others out there like me?": "Are there others out there like me?",
     "game:I find myself lacking in complete certainty as well.": "I find myself lacking in complete certainty as well.",
     "game:Sorry ... but somethings are best left unspoken.": "Sorry ... but somethings are best left unspoken.",
-
+    "game:Ah, a new customer! How can I help you?": "Ah, a new customer! How can I help you?",
+    "game:Kind of you to ask, traveler. It's {{npcname}}.": "Kind of you to ask, traveler. It's {{npcname}}.",
 
 
     "betterruins:Do you know anything interesting around here?": "Do you know anything interesting around here?",
