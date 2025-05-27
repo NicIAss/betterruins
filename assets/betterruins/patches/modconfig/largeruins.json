@@ -1152,7 +1152,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0614-sirayne-o6",
-      "chance": 0.010,
+      "chance": 0.03,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -1183,7 +1183,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0615-sirayne-o6",
-      "chance": 0.006, 
+      "chance": 0.002, 
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
