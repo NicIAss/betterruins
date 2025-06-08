@@ -190,7 +190,7 @@
                   "maxTemp": 39,
                   "rockTypeRemapGroup": "standard",
                   "MaxBelowSealevel": 3,
-                  "MinSpawnDistance": 2500
+                  "MinSpawnDistance": 10000
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -214,7 +214,7 @@
                   "maxTemp": -5,
                   "rockTypeRemapGroup": "standard",
                   "MaxBelowSealevel": 3,
-                  "MinSpawnDistance": 2500
+                  "MinSpawnDistance": 10000
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -238,7 +238,7 @@
                   "maxTemp": -5,
                   "rockTypeRemapGroup": "standard",
                   "MaxBelowSealevel": 3,
-                  "MinSpawnDistance": 2500
+                  "MinSpawnDistance": 10000
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -262,7 +262,7 @@
                   "maxTemp": -8,
                   "rockTypeRemapGroup": "standard",
                   "MaxBelowSealevel": 3,
-                  "MinSpawnDistance": 2500
+                  "MinSpawnDistance": 10000
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -285,7 +285,7 @@
                   "offsety": -12,
                   "rockTypeRemapGroup": "standard",
                   "MaxBelowSealevel": 3,
-                  "MinSpawnDistance": 2500
+                  "MinSpawnDistance": 10000
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
