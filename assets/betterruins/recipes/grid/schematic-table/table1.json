@@ -112,8 +112,62 @@
         "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-long-with-cloth-red", "collected":true } }
         
     },
-    
+        {
+        "ingredientPattern": "HS,NB,X_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
+            "S": {type: "Item", code: "game:saw-*" , isTool: true, toolDurabilityCost: 1 },
+            "B": {type: "Item", code: "game:plank-ebony" , quantity: 16 },
+            "N": {type: "Item", code: "game:metalnailsandstrips-blackbronze" },
+        },
+        "width": 2,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-noble-single" , "collected":true } }
+    },
 
+
+    {
+        "ingredientPattern": "HS_,NBN,X__",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
+            "S": {type: "Item", code: "game:saw-*" , isTool: true, toolDurabilityCost: 1 },
+            "B": {type: "Item", code: "game:plank-ebony" , quantity: 16 },
+            "N": {type: "Item", code: "game:metalnailsandstrips-blackbronze" },
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-noble-double" , "collected":true } }
+    },
+    {
+        "ingredientPattern": "HS,NB,X_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
+            "S": {type: "Item", code: "game:saw-*" , isTool: true, toolDurabilityCost: 1 },
+            "B": {type: "Item", code: "game:plank-oak" , quantity: 16 },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" },
+        },
+        "width": 2,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-tavern-single"  , "collected":true} }
+    },
+
+
+    {
+        "ingredientPattern": "HS_,NBN,X__",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
+            "S": {type: "Item", code: "game:saw-*" , isTool: true, toolDurabilityCost: 1 },
+            "B": {type: "Item", code: "game:plank-oak" , quantity: 16 },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" },
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-tavern-double"  , "collected":true} }
+    },
 
 
 
@@ -237,6 +291,34 @@
 
 
 
+    {
+        "ingredientPattern": "HS,NB,X_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
+            "S": {type: "Item", code: "game:saw-*" , isTool: true, toolDurabilityCost: 1 },
+            "B": {type: "Item", code: "game:plank-ebony" , quantity: 16 },
+            "N": {type: "Item", code: "game:metalnailsandstrips-blackbronze" },
+        },
+        "width": 2,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-noble-single" } }
+    },
+
+
+    {
+        "ingredientPattern": "HS_,NBN,X__",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
+            "S": {type: "Item", code: "game:saw-*" , isTool: true, toolDurabilityCost: 1 },
+            "B": {type: "Item", code: "game:plank-ebony" , quantity: 32 },
+            "N": {type: "Item", code: "game:metalnailsandstrips-blackbronze" },
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-noble-double" } }
+    },
 
 
 
@@ -250,11 +332,34 @@
 
 
 
+    {
+        "ingredientPattern": "HS,NB,X_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
+            "S": {type: "Item", code: "game:saw-*" , isTool: true, toolDurabilityCost: 1 },
+            "B": {type: "Item", code: "game:plank-oak" , quantity: 16 },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" },
+        },
+        "width": 2,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-tavern-single" } }
+    },
 
 
-
-
-
+    {
+        "ingredientPattern": "HS_,NBN,X__",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
+            "S": {type: "Item", code: "game:saw-*" , isTool: true, toolDurabilityCost: 1 },
+            "B": {type: "Item", code: "game:plank-oak" , quantity: 16 },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" },
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-tavern-double" } }
+    },
 
 
 
