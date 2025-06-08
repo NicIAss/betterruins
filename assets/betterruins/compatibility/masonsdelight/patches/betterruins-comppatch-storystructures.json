@@ -1,0 +1,177 @@
+[
+  {
+    "op": "add",
+    "path": "/7/ingredients/B/skipVariants",
+    "value": [
+      "whitemarble",
+      "halite",
+      "redmarble",
+      "scoria",
+      "greenmarble",
+      "tuff"
+    ],
+    "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "masonsdelight"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/8/ingredients/B/skipVariants/-",
+    "value": "obsidian",
+    "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "masonsdelight"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/8/ingredients/B/skipVariants/-",
+    "value": "scoria",
+    "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "masonsdelight"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/8/ingredients/B/skipVariants/-",
+    "value": "tuff",
+    "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "masonsdelight"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/8/ingredients/B/skipVariants/-",
+    "value": "halite",
+    "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "masonsdelight"
+      }
+    ]
+  },
+    {
+    "op": "add",
+    "path": "/9/ingredients/B/skipVariants/-",
+    "value": "halite",
+    "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "masonsdelight"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/9/ingredients/B/skipVariants/-",
+    "value": "scoria",
+    "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "masonsdelight"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/9/ingredients/B/skipVariants/-",
+    "value": "tuff",
+    "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "masonsdelight"
+      }
+    ]
+  },
+    {
+    "op": "add",
+    "path": "/12/ingredients/B/skipVariants/-",
+    "value": "whitemarble",
+    "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "masonsdelight"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/12/ingredients/B/skipVariants/-",
+    "value": "greenmarble",
+    "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "masonsdelight"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/12/ingredients/B/skipVariants/-",
+    "value": "redmarble",
+    "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "masonsdelight"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/12/ingredients/B/skipVariants/-",
+    "value": "halite",
+    "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "masonsdelight"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/12/ingredients/B/skipVariants/-",
+    "value": "scoria",
+    "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "masonsdelight"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/12/ingredients/B/skipVariants/-",
+    "value": "tuff",
+    "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "masonsdelight"
+      }
+    ]
+  }
+]
