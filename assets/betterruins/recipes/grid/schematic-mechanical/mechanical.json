@@ -17,7 +17,7 @@
         },
         "width": 3,
         "height": 3,
-        "output": {type: "Item", code: "game:largegearsection-wood" }
+        "output": {type: "Item", code: "game:largegearsection-wood" , quantity: 2 }
         
     },
        
@@ -187,7 +187,89 @@
 		width: 3,
 		height: 2,
 		output: { type: "block", code: "game:chute-3way-down-east"  , "quantity" : 4}
-	}
+	},
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "YH,PP",
+		"recipeGroup": 333,
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 10 },
+			"P": {type: "Item", code: "game:metalplate-*" , "name": "metal"}
+		},
+		width: 2,
+		height: 2,
+		output: {type: "Block", code: "game:metalblock-new-riveted-{metal}" }
+	},
+	{
+		ingredientPattern: "YH,BN",
+		"recipeGroup": 333,
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
+			"B": {type: "Block", code: "game:metalblock-corroded-plain-*" , "name": "metal"},
+			"N": {type: "Item", code: "game:metalnailsandstrips-*" }
+		},
+		width: 2,
+		height: 2,
+		output: {type: "Block", code: "game:metalblock-corroded-riveted-{metal}" }
+	},
+	{
+		ingredientPattern: "YB",
+		"recipeGroup": 333,
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"B": {type: "Block", code: "game:metalblock-new-riveted-*" , "name": "metal",skipVariants: ["bismuth", "brass", "chromium", "electrum", "meteoriciron", "molybdochalkos", "platinum", "nickel", "stainlesssteel", "tin", "titanium", "uranium", "zinc"] }
+		},
+		width: 2,
+		height: 1,
+		output: {type: "Block", code: "game:metalblock-new-plain-{metal}" }
+	},
+	{
+		ingredientPattern: "YB",
+		"recipeGroup": 333,
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"B": {type: "Block", code: "game:metalblock-new-plain-*"  , "name": "metal"}
+		},
+		width: 2,
+		height: 1,
+		output: {type: "Block", code: "game:metalblock-new-riveted-{metal}" }
+	},
+	{
+		ingredientPattern: "YB",
+		"recipeGroup": 333,
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"B": {type: "Block", code: "game:metalblock-corroded-sheet-*"   , "name": "metal"}
+		},
+		width: 2,
+		height: 1,
+		output: {type: "Block", code: "game:metalblock-corroded-plain-{metal}" }
+	},
+	{
+		ingredientPattern: "YB",
+		"recipeGroup": 333,
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"B": {type: "Block", code: "game:metalblock-corroded-plain-*"   , "name": "metal",skipVariants: ["rusty-iron", "bismuthbronze", "blackbronze", "brass", "cupronickel", "electrum", "iron", "gold", "meteoriciron", "lead", "molybdochalkos", "silver", "steel", "tin", "tinbronze", "zinc"]}
+		},
+		width: 2,
+		height: 1,
+		output: {type: "Block", code: "game:metalblock-corroded-sheet-{metal}" }
+	},
+
+
+
 
 	{
 		ingredientPattern: "YH,BN",
