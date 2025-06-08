@@ -645,4 +645,63 @@
 		height: 2,
 		output: { type: "block", code: "game:beam-plane-bamboo-free", quantity: 16  }
 	},
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "X_H,_H_,H__",
+		ingredients: {
+			"X": {type: "Item", code: "br-schematic-roofing" },
+			"H": { type: "item", code: "game:metalplate-copper" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofing-copper-east-free", quantity: 8  }
+	},
+		{
+		ingredientPattern: "XH_,H_H",
+		ingredients: {
+						"X": {type: "Item", code: "br-schematic-roofing" },
+			"H": { type: "item", code: "game:metalplate-copper" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingridge-copper-ns-free", quantity: 8  }
+	},
+	{
+		ingredientPattern: "XH_,HHH",
+		ingredients: {
+						"X": {type: "Item", code: "br-schematic-roofing" },
+			"H": { type: "item", code: "game:metalplate-copper" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingtip-copper-free", quantity: 8  }
+	},
+	{
+		ingredientPattern: "XH,H_,_H",
+		ingredients: {
+						"X": {type: "Item", code: "br-schematic-roofing" },
+			"H": { type: "item", code: "game:metalplate-copper" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerinner-copper-east-free", quantity: 8  }
+	},
+	{
+		ingredientPattern: "XH,HH",
+		ingredients: {
+						"X": {type: "Item", code: "br-schematic-roofing" },
+			"H": { type: "item", code: "game:metalplate-copper" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingcornerouter-copper-east-free", quantity: 8  }
+	},
 ]
