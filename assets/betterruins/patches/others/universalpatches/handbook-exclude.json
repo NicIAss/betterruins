@@ -54,5 +54,12 @@
     "path": "/attributes/handbook/exclude",
     "value": false,
     "side": "Server"
+  },
+  {
+    "file": "game:blocktypes/metal/ironfence.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false,
+    "side": "Server"
   }
 ]
