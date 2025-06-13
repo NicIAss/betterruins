@@ -177,8 +177,6 @@
       "ExcludeSchematicSizeProtect":true,
       "skipGenerationCategories": {
         "structures": 50,
-        "trees": 0,
-        "shrubs": 0,
         "hotsprings": 200,
         "pond": 200,
         "rivulets": 100,
@@ -212,8 +210,6 @@
       "ExcludeSchematicSizeProtect":true,
       "skipGenerationCategories": {
         "structures": 50,
-        "trees": 0,
-        "shrubs": 0,
         "hotsprings": 200,
         "pond": 200,
         "rivulets": 100,

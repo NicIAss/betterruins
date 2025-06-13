@@ -23,7 +23,8 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "standard",
-                  "MaxBelowSealevel": 2
+                  "MaxBelowSealevel": 2,
+                  "MinSpawnDistance": 500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -142,7 +143,8 @@
                   "rockTypeRemapGroup": "standard",
                   "minTemp": 28,
                   "maxTemp": 60,
-                  "MaxBelowSealevel": 2
+                  "MaxBelowSealevel": 2,
+                  "MinSpawnDistance": 500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -165,13 +167,15 @@
                     "overground/main/desert-climate/femuroasiso6",
                     "overground/main/desert-climate/mixco-viejo-o6-yapludepatte",
                     "overground/main/desert-climate/lzmalpyramid-o6-1",
-                    "overground/main/desert-climate/wildwest1-virrno-o4"
+                    "overground/main/desert-climate/wildwest1-virrno-o4",
+                    "overground/main/desert-climate/desertclimate-o3-yapludepatte-0101"
                   ],
                   "rockTypeRemapGroup": "standard",
                   "replacewithblocklayers": ["soil-medium-normal", "soil-medium-none"],
                   "minTemp": 25,
                   "maxTemp": 60,
-                  "MaxBelowSealevel": 2
+                  "MaxBelowSealevel": 2,
+                  "MinSpawnDistance": 500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"

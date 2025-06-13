@@ -166,6 +166,9 @@
     "item-locatormap-giantcathedral": "Map to the Grand Cathedral",
     "item-locatormap-forlornhopedungeon": "Map to the Forlorn Bastion",
     "item-locatormap-university": "Map to the University",
+    "itemdesc-locatormap-gates": "A map leading to a translocator location. Recommended to dig down on the exact location.\n(Right click to mark on map)",
+    "itemdesc-locatormap-graves": "A map leading to a surface grave.\n(Right click to mark on map)",
+    "itemdesc-locatormap-undergroundruins": "A map leading to a underground structure. Recommended to dig down on the exact location.\n(Right click to mark on map)",
     "itemdesc-locatormap-*": "A map leading to a hidden location. Use it to find the entrance to the hidden area.\n(Right click to mark on map)",
     "betterruins:item-handbooktext-betterruins:locatormap-forlornhopetower": "<strong>Talk to</strong>\nLuxuries Trader",
     "betterruins:item-handbooktext-betterruins:locatormap-forlornhopedungeon": "<strong>Found in</strong>\nThe Forlorn Hope Tower",
@@ -280,9 +283,9 @@
     "schematic_crafting_comment": "Defines whether the blueprints can be duplicated with a crafting recipe to trade among players. Tick to Enable duplication via crafting.",
     "overall_spawn_chances_title": "Overall Spawn Chances",
     "megastructures_title": "Megastructures Global",
-    "translocators_title": "Translocators",
+    "translocators_title": "Surface Translocators",
     "villages_title": "Villages",
-    "ruins_title": "Ruins",
+    "largeruins_title": "Large Ruins",
     "underground_title": "Underground",
     "graves_title": "Graves",
     "loot_title": "Loot",
@@ -307,7 +310,16 @@
     "megastructure_aqueduct": "Megastructure Aqueduct",
     "megastructure_jumblerockcastle": "Megastructure Jumblerockcastle",
     "megastructure_settlementofkeykeepers": "Megastructure Settlement of Keykeepers",
-    "megastructures_min_spawn_distance": "Minimum Distance from Spawn Megastructures",
+    "megastructures_min_spawn_distance": "Minimum Distance from Spawn",
+    "wiki_link": "Wiki Link",
+    "mediumruins_min_spawn_distance": "Minimum Distance from Spawn Medium Ruins",
+    "desertruins_min_spawn_distance": "Minimum Distance from Spawn Desert Ruins",
+    "desertruins_min_distance": "Minimum Distance Desert Ruins",
+    "mediumruins_title": "Medium Ruins",
+    "desertruins_title": "Desert Ruins",
+    "surfaceundergroundruins_title": "Surface Entrance Ruins",
+    "villages_min_distance": "Minimum Distance",
+
 
 
 
@@ -377,12 +389,24 @@
     "betterruins:Eager, are you? Wise or foolish—we shall see. This map leads to a chamber beneath the sands, once known as the Crossroads Below. Vaulted stone, buried secrets. It's not marked by stone, but by silence—and silence keeps its secrets well.": "Eager, are you? Wise or foolish—we shall see. This map leads to a chamber beneath the sands, once known as the Crossroads Below. Vaulted stone, buried secrets. It's not marked by stone, but by silence—and silence keeps its secrets well.",
     "betterruins:I’ll take it. What’s your price?": "I’ll take it. What’s your price?",
     "betterruins:Who made it?": "Who made it?",
-    "betterruins:Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them.": "Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them."
+    "betterruins:Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them.": "Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them.",
 
 
 
 
-
+    "game:loretype-lastwall": "Notes found in a ruined castle wall segement.",
+    "game:loretype-lastfisherman": "Notes found in a ruined castle wall segement.",
+    "game:loretype-darkheat": "Researchers notes found near a meteor impact site.",
+    "game:loretype-glimmershield": "Stories from an old castle.",
+    "game:loretype-wolfstone": "Stories from an old castle.",
+    "game:loretype-forlornhope": "Papers regarding the Forlorn Hope.",
+    "game:loretype-fieldengineersdiary": "Diary of a field engineer.",
+    "game:loretype-largechurch": "Notes found in a large church.",
+    "game:loretype-undergroundlibrary": "Notes found in an underground library.",
+    "game:loretype-lostdoll": "Notes found in a abandoned homestead.",
+    "game:loretype-finalhour": "Story of someones last notes.",
+    "game:loretype-minerlogentries": "Log entries found in a coalmine.",
+    "game:loretype-universalstories": "Long forgotten stories from the past."
 
 
 

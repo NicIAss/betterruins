@@ -341,11 +341,11 @@
       "code": "village-femursnapper",
       "group": "village-femursnapper",
 			"minGroupDistance": 1500,
-      "chance": 0.07,
+      "chance": 0.1,
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
-        "avg": 7,
+        "avg": 9,
         "var": 2,
         "dist": "InvExp"
       },
@@ -361,10 +361,15 @@
         {"path": "overground/main/village-femursnapper/house7","weight": 100, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/village-femursnapper/house8","weight": 100, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/village-femursnapper/house9","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/house10","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/well1","weight": 100, "minQuantity": 1, "maxQuantity": 1},
         {"path": "overground/main/village-femursnapper/ruin1","weight": 500, "minQuantity": 1, "maxQuantity": 1},
         {"path": "overground/main/village-femursnapper/ruin2","weight": 500, "minQuantity": 1, "maxQuantity": 1},
         {"path": "overground/main/village-femursnapper/ruin3","weight": 500, "minQuantity": 1, "maxQuantity": 1},
-        {"path": "overground/main/village-femursnapper/wood1","weight": 200, "minQuantity": 0, "maxQuantity": 1}
+        {"path": "overground/main/village-femursnapper/wood1","weight": 200, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/deco1","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/deco2","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/deco3","weight": 100, "minQuantity": 0, "maxQuantity": 1}
 
     ],
       "replacewithblocklayers": ["soil-low-normal", "soil-low-none", "gravel-granite"],

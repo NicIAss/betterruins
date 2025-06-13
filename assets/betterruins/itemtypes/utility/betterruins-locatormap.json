@@ -103,6 +103,7 @@
 			"*-coalmine": {
 				"schematiccode": "coalmine",
 				"waypointtext": "location-coalmine",
+				"offset": { "x": 28, "y": 0, "z": 16 },
 				"waypointicon": "x",
 				"waypointcolor": [
 					0.2,
@@ -114,6 +115,7 @@
 			"*-mine1": {
 				"schematiccode": "mine1",
 				"waypointtext": "location-mine1",
+				"offset": { "x": -2, "y": 0, "z": 22 },
 				"waypointicon": "x",
 				"waypointcolor": [
 					0.2,
@@ -125,6 +127,7 @@
 			"*-mine2": {
 				"schematiccode": "mine2",
 				"waypointtext": "location-mine2",
+				"offset": { "x": -2, "y": 0, "z": 22 },
 				"waypointicon": "x",
 				"waypointcolor": [
 					0.2,
