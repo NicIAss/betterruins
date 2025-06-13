@@ -283,9 +283,9 @@
     "schematic_crafting_comment": "Defines whether the blueprints can be duplicated with a crafting recipe to trade among players. Tick to Enable duplication via crafting.",
     "overall_spawn_chances_title": "Overall Spawn Chances",
     "megastructures_title": "Megastructures Global",
-    "translocators_title": "Translocators",
+    "translocators_title": "Surface Translocators",
     "villages_title": "Villages",
-    "ruins_title": "Ruins",
+    "largeruins_title": "Large Ruins",
     "underground_title": "Underground",
     "graves_title": "Graves",
     "loot_title": "Loot",
@@ -310,7 +310,16 @@
     "megastructure_aqueduct": "Megastructure Aqueduct",
     "megastructure_jumblerockcastle": "Megastructure Jumblerockcastle",
     "megastructure_settlementofkeykeepers": "Megastructure Settlement of Keykeepers",
-    "megastructures_min_spawn_distance": "Minimum Distance from Spawn Megastructures",
+    "megastructures_min_spawn_distance": "Minimum Distance from Spawn",
+    "wiki_link": "Wiki Link",
+    "mediumruins_min_spawn_distance": "Minimum Distance from Spawn Medium Ruins",
+    "desertruins_min_spawn_distance": "Minimum Distance from Spawn Desert Ruins",
+    "desertruins_min_distance": "Minimum Distance Desert Ruins",
+    "mediumruins_title": "Medium Ruins",
+    "desertruins_title": "Desert Ruins",
+    "surfaceundergroundruins_title": "Surface Entrance Ruins",
+    "villages_min_distance": "Minimum Distance",
+
 
 
 
@@ -380,8 +389,7 @@
     "betterruins:Eager, are you? Wise or foolish—we shall see. This map leads to a chamber beneath the sands, once known as the Crossroads Below. Vaulted stone, buried secrets. It's not marked by stone, but by silence—and silence keeps its secrets well.": "Eager, are you? Wise or foolish—we shall see. This map leads to a chamber beneath the sands, once known as the Crossroads Below. Vaulted stone, buried secrets. It's not marked by stone, but by silence—and silence keeps its secrets well.",
     "betterruins:I’ll take it. What’s your price?": "I’ll take it. What’s your price?",
     "betterruins:Who made it?": "Who made it?",
-    "betterruins:Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them.": "Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them."
-
+    "betterruins:Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them.": "Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them.",
 
 
 
