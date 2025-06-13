@@ -96,6 +96,9 @@
     "game:item-stackrandomizer-mask": "BetterRuins случайный предмет \"Маска\"",
     "game:item-stackrandomizer-newlore": "BetterRuins случайный предмет \"Все элементы лора\"",
     "game:item-stackrandomizer-cursed": "BetterRuins особый спавн непротиворечивая добыча из других модов",
+    "game:item-stackrandomizer-forlornhope-weapons": "BetterRuins Оружие из лута «Отчаянной Надежды» ",
+    "game:item-stackrandomizer-forlornhope-armor": "BetterRuins Броня из лута «Отчаянной Надежды» ",
+    "game:item-stackrandomizer-forlornhope-specials": "BetterRuins Специальное из лута «Отчаянной Надежды» ",
     "game:item-stackrandomizer-blrmeteoriciron": "BetterRuins BlockRandomizer Метеоритное железо",
     "game:location-graves": "Скрытая гробница",
     "game:location-gates": "Скрытый проход",
@@ -287,6 +290,8 @@
     "game:Are there others out there like me?": "Есть ли еще такие, как я?",
     "game:I find myself lacking in complete certainty as well.": "Мне также не хватает полной уверенности.",
     "game:Sorry ... but somethings are best left unspoken.": "Извините... но некоторые вещи лучше оставить невысказанными.",
+    "game:Ah, a new customer! How can I help you?": "А, новый клиент! Чем я могу вам помочь?",
+    "game:Kind of you to ask, traveler. It's {{npcname}}.": "Спасибо, что спросил, путешественник. Это {{npcname}}.",
     "betterruins:Do you know anything interesting around here?": "Знаете ли вы что-нибудь интересное здесь?",
     "betterruins:I have the meteoric knife you asked for. Here take it.": "У меня есть метеоритный нож, о котором ты просил. Вот, возьми его.",
     "betterruins:There are whispers, traveler. Tales passed from one sun-scorched tongue to the next—of a place far beneath the dunes. An ancient tomb, where four trade empires once crossed paths and secrets were locked away in silence. It's not on any common map... but I may possess something rare.": "Ходят слухи, путник. Истории передаются с одного выжженного солнцем языка на другой — о месте глубоко под дюнами. Древняя гробница, где когда-то пересекались пути четырех торговых империй, а секреты были заперты в тишине. Этого нет ни на одной обычной карте... но я могу обладать чем-то редким.",
@@ -305,5 +310,4 @@
     "betterruins:I’ll take it. What’s your price?": "Я возьму. Какова ваша цена?",
     "betterruins:Who made it?": "Кто сделал это?",
     "betterruins:Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them.": "Те, кто это сделал, запечатались, забрав с собой свои имена. Но они оставили предупреждения, высеченные на камне и нацарапанные на кости. Слушайте внимательно, когда будете там... вы все еще можете их услышать."
-
 }

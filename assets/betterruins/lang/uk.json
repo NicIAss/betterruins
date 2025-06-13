@@ -96,6 +96,9 @@
     "game:item-stackrandomizer-mask": "Випадкові предмети (Маска)",
     "game:item-stackrandomizer-newlore": "Випадковий лор (Усі записи лору)",
     "game:item-stackrandomizer-cursed": "Випадкова спеціально здобич з інших модів",
+    "game:item-stackrandomizer-forlornhope-weapons": "Випадкова зброя Приречених BR",
+    "game:item-stackrandomizer-forlornhope-armor": "Випадкова броня Приречених BR",
+    "game:item-stackrandomizer-forlornhope-specials": "Випадкові спеціальні предмети Приречених BR",
     "game:item-stackrandomizer-blrmeteoriciron": "Випадковий блок метеоритного заліза",
     "game:location-graves": "Забутий надгробок",
     "game:location-gates": "Зруйнований апарат",
@@ -116,7 +119,6 @@
     "game:location-mansion": "Маєток",
     "item-locatormap-mansion": "Мапа до маєтку",
     "betterruins:item-handbooktext-betterruins:locatormap-mansion": "<strong>Знаходиться на</strong>\nПерехресті",
-
     "item-locatormap-graves": "Мапа до прихованої гробниці",
     "item-locatormap-gates": "Мапа до прихованого проходу",
     "item-locatormap-undergroundruins": "Мапа до підземного сховища",
@@ -288,7 +290,8 @@
     "game:Are there others out there like me?": "Чи є там інші, схожі на мене?",
     "game:I find myself lacking in complete certainty as well.": "Я також відчуваю, що мені бракує повної визначеності.",
     "game:Sorry ... but somethings are best left unspoken.": "Вибачте... але дещо краще залишити недомовленим.",
-
+    "game:Ah, a new customer! How can I help you?": "О, новий клієнт! Чим я можу вам допомогти?",
+    "game:Kind of you to ask, traveler. It's {{npcname}}.": "Мені приємно, що ви запитали, мандрівнику. Я {{npcname}}.",
     "betterruins:Do you know anything interesting around here?": "Знаєте щось цікаве про місцеве оточення?",
     "betterruins:I have the meteoric knife you asked for. Here take it.": "Я маю ніж з метеоритного заліза, як і просили. Забирайте.",
     "betterruins:There are whispers, traveler. Tales passed from one sun-scorched tongue to the next—of a place far beneath the dunes. An ancient tomb, where four trade empires once crossed paths and secrets were locked away in silence. It's not on any common map... but I may possess something rare.": "Є чутки, мандрівнику. Перекази, передані з одного обпаленого сонцем язика до іншого — про місце глибоко під барханами. Давню гробницю, де колись перетинались чотири торгові імперії й де таємниці було замкнено у тиші. Її немає на жодній звичайній мапі... але, можливо, я володію чимось рідкісним.",
@@ -307,5 +310,4 @@
     "betterruins:I’ll take it. What’s your price?": "Я візьму. Яка ваша ціна?",
     "betterruins:Who made it?": "Хто це створив?",
     "betterruins:Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them.": "Ті, хто це створив, замурували себе всередині, забравши свої імена з собою. Але вони залишили попередження — вирізьблені в камені й подряпані на кістках. Прислухайтеся уважно, коли спуститесь туди… можливо, ви ще почуєте їх."
-
 }
