@@ -341,7 +341,7 @@
       "code": "village-femursnapper",
       "group": "village-femursnapper",
 			"minGroupDistance": 1500,
-      "chance": 0.07,
+      "chance": 0.1,
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
