@@ -383,6 +383,19 @@
 
 
 
+    "game:loretype-lastwall": "Notes found in a ruined castle wall segement.",
+    "game:loretype-lastfisherman": "Notes found in a ruined castle wall segement.",
+    "game:loretype-darkheat": "Researchers notes found near a meteor impact site.",
+    "game:loretype-glimmershield": "Stories from an old castle.",
+    "game:loretype-wolfstone": "Stories from an old castle.",
+    "game:loretype-forlornhope": "Papers regarding the Forlorn Hope.",
+    "game:loretype-fieldengineersdiary": "Diary of a field engineer.",
+    "game:loretype-largechurch": "Notes found in a large church.",
+    "game:loretype-undergroundlibrary": "Notes found in an underground library.",
+    "game:loretype-lostdoll": "Notes found in a abandoned homestead.",
+    "game:loretype-finalhour": "Story of someones last notes.",
+    "game:loretype-minerlogentries": "Log entries found in a coalmine.",
+    "game:loretype-universalstories": "Long forgotten stories from the past."
 
 
 
