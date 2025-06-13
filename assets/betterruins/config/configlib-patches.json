@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 10,
   "patches": {
     "number": {
       "betterruins:patches/modconfig/overallspawnchance.json": {
@@ -78,7 +78,9 @@
         "36/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "37/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "38/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
-        "39/value/chance": "LARGERUINS_SPAWN_CHANCE * value"
+        "39/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "40/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "41/value/chance": "LARGERUINS_SPAWN_CHANCE * value"
       },
       "betterruins:patches/others/structurespatches/special.json": {
         "0/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
@@ -839,29 +841,27 @@
         "20/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "21/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "22/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
-        "0/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "1/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "2/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "3/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "4/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "5/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "6/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "7/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "8/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "9/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "10/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "11/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "12/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "13/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "14/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "15/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "16/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "17/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "18/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "19/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "20/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "21/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
-        "22/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE"
+        "0/value/MinSpawnDistance": "WALLSEGMENT_MIN_SPAWN_DISTANCE",
+        "1/value/MinSpawnDistance": "ROCKFORMATION_MIN_SPAWN_DISTANCE",
+        "2/value/MinSpawnDistance": "NORDICHOUSE_MIN_SPAWN_DISTANCE",
+        "3/value/MinSpawnDistance": "VISINGSBORG_MIN_SPAWN_DISTANCE",
+        "4/value/MinSpawnDistance": "CATNOIRSCASTLERUIN_MIN_SPAWN_DISTANCE",
+        "5/value/MinSpawnDistance": "DESTROYEDLARGECHURCH_MIN_SPAWN_DISTANCE",
+        "6/value/MinSpawnDistance": "WOLFSTONE_MIN_SPAWN_DISTANCE",
+        "7/value/MinSpawnDistance": "OASIS_MIN_SPAWN_DISTANCE",
+        "8/value/MinSpawnDistance": "FORLORNHOPETOWER_MIN_SPAWN_DISTANCE",
+        "9/value/MinSpawnDistance": "FORLORNHOPETOWER_MIN_SPAWN_DISTANCE",
+        "10/value/MinSpawnDistance": "GIANTCATHEDRAL_MIN_SPAWN_DISTANCE",
+        "11/value/MinSpawnDistance": "SHOPPINGCENTRE_MIN_SPAWN_DISTANCE",
+        "12/value/MinSpawnDistance": "UNDERGROUNDLIBRARY_MIN_SPAWN_DISTANCE",
+        "13/value/MinSpawnDistance": "WOLFSTONE_MIN_SPAWN_DISTANCE",
+        "14/value/MinSpawnDistance": "WOLFSTONE_MIN_SPAWN_DISTANCE",
+        "15/value/MinSpawnDistance": "WOLFSTONE_MIN_SPAWN_DISTANCE",
+        "18/value/MinSpawnDistance": "AULDBURG_MIN_SPAWN_DISTANCE",
+        "19/value/MinSpawnDistance": "NORMANCASTLE_MIN_SPAWN_DISTANCE",
+        "20/value/MinSpawnDistance": "AQUEDUCT_MIN_SPAWN_DISTANCE",
+        "21/value/MinSpawnDistance": "JUMBLEROCKCASTLE_MIN_SPAWN_DISTANCE",
+        "22/value/MinSpawnDistance": "SETTLEMENTOFKEYKEEPERS_MIN_SPAWN_DISTANCE"
       },
       "betterruins:patches/modconfig/surface.json": {
         "1/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
@@ -869,7 +869,12 @@
         "3/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
         "1/value/MinSpawnDistance": "TRANSLOCATORRUINS_MIN_SPAWN_DISTANCE",
         "2/value/MinSpawnDistance": "TRANSLOCATORRUINS_MIN_SPAWN_DISTANCE",
-        "3/value/MinSpawnDistance": "TRANSLOCATORRUINS_MIN_SPAWN_DISTANCE"
+        "3/value/MinSpawnDistance": "TRANSLOCATORRUINS_MIN_SPAWN_DISTANCE",
+        "0/value/MinSpawnDistance": "MEDIUMRUINS_MIN_SPAWN_DISTANCE",
+        "4/value/MinSpawnDistance": "DESERTRUINS_MIN_SPAWN_DISTANCE",
+        "4/value/minGroupDistance": "DESERTRUINS_MIN_DISTANCE",
+        "5/value/MinSpawnDistance": "DESERTRUINS_MIN_SPAWN_DISTANCE",
+        "5/value/minGroupDistance": "DESERTRUINS_MIN_DISTANCE"
       },
       "betterruins:patches/modconfig/largeruins.json": {
         "0/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
@@ -911,7 +916,66 @@
         "36/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "37/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "38/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
-        "39/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE"
+        "39/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "40/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "41/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+
+
+        "0/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "1/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "2/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "3/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "4/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "5/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "6/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "7/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "8/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "9/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "10/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "11/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "12/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "13/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "14/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "15/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "16/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "17/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "18/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "19/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "20/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "21/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "22/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "23/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "24/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "25/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "26/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "27/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "28/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "29/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "30/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "31/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "32/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "33/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "34/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "35/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "36/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "37/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "38/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "39/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "40/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "41/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE"
+      },
+      "betterruins:patches/modconfig/village.json": {
+        "0/value/minGroupDistance": "VSVILLAGE_MIN_DISTANCE",
+        "1/value/minGroupDistance": "FORESTVILLAGE_MIN_DISTANCE",
+        "2/value/minGroupDistance": "DESERTVILLAGE_MIN_DISTANCE",
+        "3/value/minGroupDistance": "PRISONVILLAGE_MIN_DISTANCE",
+        "4/value/minGroupDistance": "COLOREDVILLAGE_MIN_DISTANCE",
+        "5/value/minGroupDistance": "COLOREDVILLAGE_MIN_DISTANCE",
+        "6/value/minGroupDistance": "COLOREDVILLAGE_MIN_DISTANCE",
+        "7/value/minGroupDistance": "COLOREDVILLAGE_MIN_DISTANCE",
+        "8/value/minGroupDistance": "COLOREDVILLAGE_MIN_DISTANCE",
+        "9/value/minGroupDistance": "OGDREDVILLAGE_MIN_DISTANCE",
+        "10/value/minGroupDistance": "FEMURSNAPPERVILLAGE_MIN_DISTANCE"
       },
       "betterruins:patches/others/structurespatches/graves.json": {
         "0/value/minGroupDistance": "GRAVES_MIN_DISTANCE",
@@ -1004,7 +1068,6 @@
         "name": "01wallsegment_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#01-wall-segment",
         "default": 1.0,
         "weight": 3.0,
         "logarithmic": true,
@@ -1017,7 +1080,6 @@
         "name": "02rockformation_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#02-rock-formation",
         "default": 1.0,
         "weight": 4.0,
         "logarithmic": true,
@@ -1030,7 +1092,6 @@
         "name": "03nordichouse_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#03-nordic-house",
         "default": 1.0,
         "weight": 5.0,
         "logarithmic": true,
@@ -1043,7 +1104,6 @@
         "name": "04visingborg_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#04-visingsborg",
         "default": 1.0,
         "weight": 6.0,
         "logarithmic": true,
@@ -1056,7 +1116,6 @@
         "name": "05catnoirscastleruin_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#05-catnoirs-castle-ruin",
         "default": 1.0,
         "weight": 7.0,
         "logarithmic": true,
@@ -1069,7 +1128,6 @@
         "name": "06destroyedlargechurch_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#06-destroyed-large-church",
         "default": 1.0,
         "weight": 8.0,
         "logarithmic": true,
@@ -1082,7 +1140,6 @@
         "name": "07wolfstonecastle_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#07-wolfstone-castle",
         "default": 1.0,
         "weight": 9.0,
         "logarithmic": true,
@@ -1095,7 +1152,6 @@
         "name": "08oasis_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#08-oasis",
         "default": 1.0,
         "weight": 10.0,
         "logarithmic": true,
@@ -1108,7 +1164,6 @@
         "name": "09forlornhopetower_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#09-forlorn-hope-tower",
         "default": 1.0,
         "weight": 11.0,
         "logarithmic": true,
@@ -1121,7 +1176,6 @@
         "name": "10giantcathedral_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#10-giant-cathedral",
         "default": 1.0,
         "weight": 12.0,
         "logarithmic": true,
@@ -1134,7 +1188,6 @@
         "name": "11shoppingcentre_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#11-shopping-centre",
         "default": 1.0,
         "weight": 13.0,
         "logarithmic": true,
@@ -1147,7 +1200,6 @@
         "name": "12undergroundlibrary_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#12-underground-library",
         "default": 1.0,
         "weight": 14.0,
         "logarithmic": true,
@@ -1160,7 +1212,6 @@
         "name": "15auldburg_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#15-auldburg",
         "default": 1.0,
         "weight": 14.34,
         "logarithmic": true,
@@ -1173,7 +1224,6 @@
         "name": "16normancastle_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#15-normancastle",
         "default": 1.0,
         "weight": 14.36,
         "logarithmic": true,
@@ -1186,7 +1236,6 @@
         "name": "17aqueduct_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#16-aqueduct",
         "default": 1.0,
         "weight": 14.38,
         "logarithmic": true,
@@ -1199,7 +1248,6 @@
         "name": "18jumblerockcastle_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/mega-structures#17-jumblerock-castle",
         "default": 1.0,
         "weight": 14.3830,
         "logarithmic": true,
@@ -1212,7 +1260,6 @@
         "name": "19settlementofkeykeepers_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/mega-structures",
         "default": 1.0,
         "weight": 14.3832,
         "logarithmic": true,
@@ -1303,6 +1350,7 @@
         "name": "ogdredvillage_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:ogdredvillage_spawn_chance",
+        "link": "https://github.com/NicIAss/betterruins/wiki/villages#ogdreds-village",
         "default": 1.0,
         "weight": 19.22,
         "logarithmic": true,
@@ -1315,6 +1363,7 @@
         "name": "femursnappervillage_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:femursnappervillage_spawn_chance",
+        "link": "https://github.com/NicIAss/betterruins/wiki/villages#femursnappers-village",
         "default": 1.0,
         "weight": 19.24,
         "logarithmic": true,
@@ -1326,8 +1375,7 @@
       "LARGERUINS_SPAWN_CHANCE": {
         "name": "largeruins_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
-        "ingui": "betterruins:largeruins_spawn_chance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/ruins#large-surface-ruins",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 21.0,
         "logarithmic": true,
@@ -1339,8 +1387,7 @@
       "MEDIUMRUINS_SPAWN_CHANCE": {
         "name": "mediumruins_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
-        "ingui": "betterruins:mediumruins_spawn_chance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/ruins#medium-surface-ruins",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 22.0,
         "logarithmic": true,
@@ -1352,8 +1399,7 @@
       "DESERTRUINS_SPAWN_CHANCE": {
         "name": "desertruins_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
-        "ingui": "betterruins:desertruins_spawn_chance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/ruins#medium-surface-ruins",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 23.0,
         "logarithmic": true,
@@ -1365,7 +1411,7 @@
       "SURFACEUNDERGROUND_SPAWN_CHANCE": {
         "name": "surfaceunderground_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
-        "ingui": "betterruins:surfaceunderground_spawn_chance",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 23.2,
         "logarithmic": true,
@@ -1414,7 +1460,6 @@
         "name": "graves_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/graves",
         "default": 1.0,
         "weight": 26.01,
         "logarithmic": true,
@@ -1728,18 +1773,370 @@
           "max": 100000
         }
       },
-      "MEGASTRUCTURES_MIN_SPAWN_DISTANCE": {
+
+
+
+
+      "WALLSEGMENT_MIN_SPAWN_DISTANCE": {
         "name": "megastructures_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
-        "weight": 2.91,
+        "weight": 3.02,
         "logarithmic": true,
         "range": {
           "min": 0,
           "max": 100000
         }
       },
+      "ROCKFORMATION_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 4.02,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "NORDICHOUSE_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 5.02,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "VISINGSBORG_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 6.02,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "CATNOIRSCASTLERUIN_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 7.02,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "DESTROYEDLARGECHURCH_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 8.02,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "WOLFSTONE_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 9.02,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "OASIS_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 10000,
+        "weight": 10.02,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "FORLORNHOPETOWER_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 10000,
+        "weight": 11.02,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "GIANTCATHEDRAL_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 10000,
+        "weight": 12.02,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "SHOPPINGCENTRE_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 10000,
+        "weight": 13.02,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "UNDERGROUNDLIBRARY_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 14.02,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "AULDBURG_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 14.342,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "NORMANCASTLE_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 14.362,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "AQUEDUCT_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 14.382,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "JUMBLEROCKCASTLE_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 14.382902,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "SETTLEMENTOFKEYKEEPERS_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 14.38312,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+
+
+      "VSVILLAGE_MIN_DISTANCE": {
+        "name": "vsvillage_min_distance",
+        "comment": "betterruins:universal_mindistance_comment",
+        "ingui": "betterruins:villages_min_distance",
+        "default": 2500,
+        "weight": 17.1,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "FORESTVILLAGE_MIN_DISTANCE": {
+        "name": "forestvillage_min_distance",
+        "comment": "betterruins:universal_mindistance_comment",
+        "ingui": "betterruins:villages_min_distance",
+        "default": 1500,
+        "weight": 18.1,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "DESERTVILLAGE_MIN_DISTANCE": {
+        "name": "desertvillage_min_distance",
+        "comment": "betterruins:universal_mindistance_comment",
+        "ingui": "betterruins:villages_min_distance",
+        "default": 2500,
+        "weight": 19.01,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "PRISONVILLAGE_MIN_DISTANCE": {
+        "name": "prisonvillage_min_distance",
+        "comment": "betterruins:universal_mindistance_comment",
+        "ingui": "betterruins:villages_min_distance",
+        "default": 1500,
+        "weight": 19.11,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "COLOREDVILLAGE_MIN_DISTANCE": {
+        "name": "coloredvillage_min_distance",
+        "comment": "betterruins:universal_mindistance_comment",
+        "ingui": "betterruins:villages_min_distance",
+        "default": 1500,
+        "weight": 19.21,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "OGDREDVILLAGE_MIN_DISTANCE": {
+        "name": "ogdredvillage_min_distance",
+        "comment": "betterruins:universal_mindistance_comment",
+        "ingui": "betterruins:villages_min_distance",
+        "default": 1500,
+        "weight": 19.222,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "FEMURSNAPPERVILLAGE_MIN_DISTANCE": {
+        "name": "femursnappervillage_min_distance",
+        "comment": "betterruins:universal_mindistance_comment",
+        "ingui": "betterruins:villages_min_distance",
+        "default": 1500,
+        "weight": 19.242,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+
+
+
+
+      "MEDIUMRUINS_MIN_SPAWN_DISTANCE": {
+        "name": "mediumruins_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:universal_min_spawn_distance",
+        "default": 500,
+        "weight": 22.02,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "DESERTRUINS_MIN_SPAWN_DISTANCE": {
+        "name": "desertruins_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:universal_min_spawn_distance",
+        "default": 500,
+        "weight": 23.02,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "DESERTRUINS_MIN_DISTANCE": {
+        "name": "desertruins_min_distance",
+        "comment": "betterruins:universal_mindistance_comment",
+        "ingui": "betterruins:universal_mindistance",
+        "default": 1800,
+        "weight": 23.01,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+
+      "LARGERUINS_MIN_SPAWN_DISTANCE": {
+        "name": "largeruins_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:universal_min_spawn_distance",
+        "default": 2500,
+        "weight": 21.0001,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       "MEGASTRUCTURES_MIN_DISTANCE": {
         "name": "megastructures_min_distance",
         "comment": "betterruins:universal_mindistance_comment",
@@ -1906,31 +2303,64 @@
     {
       "type": "separator",
       "title": "betterruins:translocators_title",
+      "link": "https://github.com/NicIAss/betterruins/wiki/translocators",
+      "linktext": "betterruins:wiki_link",
       "weight": 14.5
     },
     {
       "type": "separator",
       "title": "betterruins:villages_title",
+      "link": "https://github.com/NicIAss/betterruins/wiki/villages",
+      "linktext": "betterruins:wiki_link",
       "weight": 15.5
     },
     {
       "type": "separator",
-      "title": "betterruins:ruins_title",
+      "title": "betterruins:largeruins_title",
+      "link": "https://github.com/NicIAss/betterruins/wiki/ruins#large-surface-ruins",
+      "linktext": "betterruins:wiki_link",
       "weight": 19.5
     },
     {
       "type": "separator",
+      "title": "betterruins:mediumruins_title",
+      "link": "https://github.com/NicIAss/betterruins/wiki/ruins#medium-surface-ruins",
+      "linktext": "betterruins:wiki_link",
+      "weight": 21.5
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:desertruins_title",
+      "link": "https://github.com/NicIAss/betterruins/wiki/ruins#desert-specific-ruins",
+      "linktext": "betterruins:wiki_link",
+      "weight": 22.5
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:surfaceundergroundruins_title",
+      "link": "https://github.com/NicIAss/betterruins/wiki/ruins#surface-entrance-ruins",
+      "linktext": "betterruins:wiki_link",
+      "weight": 23.199
+    },
+    {
+      "type": "separator",
       "title": "betterruins:underground_title",
+      "link": "https://github.com/NicIAss/betterruins/wiki/underground",
+      "linktext": "betterruins:wiki_link",
       "weight": 24.5
     },
     {
       "type": "separator",
       "title": "betterruins:graves_title",
+      "link": "https://github.com/NicIAss/betterruins/wiki/graves",
+      "linktext": "betterruins:wiki_link",
       "weight": 26
     },
     {
       "type": "separator",
       "title": "betterruins:monoliths_title",
+      "link": "https://github.com/NicIAss/betterruins/wiki/statues#monoliths",
+      "linktext": "betterruins:wiki_link",
       "weight": 23.5399
     },
     {
@@ -1941,6 +2371,8 @@
     {
       "type": "separator",
       "title": "betterruins:blueprints_spawn_chance_title",
+      "link": "https://github.com/NicIAss/betterruins/wiki/blueprints",
+      "linktext": "betterruins:wiki_link",
       "weight": 27.90
     },
     {
@@ -1951,91 +2383,127 @@
     {
       "type": "separator",
       "title": "betterruins:waystones_title",
+      "link": "https://github.com/NicIAss/betterruins/wiki/statues#waystones",
+      "linktext": "betterruins:wiki_link",
       "weight": 23.49
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_wallsegment",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#01-wall-segment",
+      "linktext": "betterruins:wiki_link",
       "weight": 2.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_rockformation",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#02-rock-formation",
+      "linktext": "betterruins:wiki_link",
       "weight": 3.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_nordichouse",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#03-nordic-house",
+      "linktext": "betterruins:wiki_link",
       "weight": 4.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_visingborg",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#04-visingsborg",
+      "linktext": "betterruins:wiki_link",
       "weight": 5.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_catnoirscastleruin",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#05-catnoirs-castle-ruin",
+      "linktext": "betterruins:wiki_link",
       "weight": 6.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_destroyedlargechurch",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#06-destroyed-large-church",
+      "linktext": "betterruins:wiki_link",
       "weight": 7.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_wolfstonecastle",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#07-wolfstone-castle",
+      "linktext": "betterruins:wiki_link",
       "weight": 8.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_oasis",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#08-oasis",
+      "linktext": "betterruins:wiki_link",
       "weight": 9.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_forlornhopetower",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#09-forlorn-hope-tower",
+      "linktext": "betterruins:wiki_link",
       "weight": 10.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_giantcathedral",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#10-giant-cathedral",
+      "linktext": "betterruins:wiki_link",
       "weight": 11.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_shoppingcentre",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#11-shopping-centre",
+      "linktext": "betterruins:wiki_link",
       "weight": 12.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_undergroundlibrary",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#12-underground-library",
+      "linktext": "betterruins:wiki_link",
       "weight": 13.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_auldburg",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#15-auldburg",
+      "linktext": "betterruins:wiki_link",
       "weight": 14.335
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_normancastle",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#16-normancastle",
+      "linktext": "betterruins:wiki_link",
       "weight": 14.355
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_aqueduct",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#17-aqueduct",
+      "linktext": "betterruins:wiki_link",
       "weight": 14.375
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_jumblerockcastle",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#18-jumblerock-castle",
+      "linktext": "betterruins:wiki_link",
       "weight": 14.38290
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_settlementofkeykeepers",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#19-settlement-of-the-keykeepers",
+      "linktext": "betterruins:wiki_link",
       "weight": 14.3831
     }
       ]
