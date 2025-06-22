@@ -34,6 +34,11 @@
 				},
 				{
 				  "type": "item",
+				  "code": "miningbagsturdy",
+				  "chance": 40
+				},
+				{
+				  "type": "item",
 				  "code": "backpack-sturdy",
 				  "chance": 40
 				},
@@ -49,8 +54,23 @@
 				},
 				{
 				  "type": "item",
-				  "code": "basket",
+				  "code": "basket-normal-reed",
 				  "chance": 1000
+				},
+				{
+				  "type": "item",
+				  "code": "basket-normal-papyrus",
+				  "chance": 1000
+				},
+				{
+				  "type": "item",
+				  "code": "hoovedwearables-lowerbackside-saddlebags2",
+				  "chance": 300
+				},
+				{
+				  "type": "item",
+				  "code": "hoovedwearables-lowerbackside-saddlebags1",
+				  "chance": 40
 				},
 				{
 				  "type": "item",
@@ -77,7 +97,6 @@
 				}
 			  ]
 		},
-		
 		
 		"*-buildingblocks": {
 			"handbook": { "exclude": true },
@@ -1252,84 +1271,724 @@
 				  "chance": 3
 				},
 				{
-				  "type": "block",
-				  "code": "wateringcan-burned",
-				  "chance": 80
+				"type": "block",
+				"code": "wateringcan-blue-fired",
+				"chance": 15
 				},
 				{
-				  "type": "block",
-				  "code": "bowl-fired",
-				  "chance": 100
+				"type": "block",
+				"code": "wateringcan-fire-fired",
+				"chance": 15
 				},
 				{
-				  "type": "block",
-				  "code": "ingotmold-burned",
-				  "chance": 80
+				"type": "block",
+				"code": "wateringcan-black-fired",
+				"chance": 15
 				},
 				{
-				  "type": "block",
-				  "code": "toolmold-burned-axe-north",
-				  "chance": 80
+				"type": "block",
+				"code": "wateringcan-brown-fired",
+				"chance": 15
 				},
 				{
-				  "type": "block",
-				  "code": "toolmold-burned-pickaxe-north",
-				  "chance": 80
+				"type": "block",
+				"code": "wateringcan-cream-fired",
+				"chance": 15
 				},
 				{
-				  "type": "block",
-				  "code": "toolmold-burned-shovel-north",
-				  "chance": 80
+				"type": "block",
+				"code": "wateringcan-gray-fired",
+				"chance": 15
 				},
 				{
-				  "type": "block",
-				  "code": "toolmold-burned-blade-falx-north",
-				  "chance": 80
+				"type": "block",
+				"code": "wateringcan-orange-fired",
+				"chance": 15
 				},
 				{
-				  "type": "block",
-				  "code": "toolmold-burned-hammer-north",
-				  "chance": 80
+				"type": "block",
+				"code": "wateringcan-red-fired",
+				"chance": 15
 				},
 				{
-				  "type": "block",
-				  "code": "toolmold-burned-anvil-north",
-				  "chance": 80
+				"type": "block",
+				"code": "wateringcan-tan-fired",
+				"chance": 15
 				},
 				{
-				  "type": "block",
-				  "code": "toolmold-burned-helvehammer-north",
-				  "chance": 80
+				"type": "block",
+				"code": "bowl-blue-fired",
+				"chance": 15
 				},
 				{
-				  "type": "block",
-				  "code": "toolmold-burned-hoe-north",
-				  "chance": 80
+				"type": "block",
+				"code": "bowl-fire-fired",
+				"chance": 15
 				},
 				{
-				  "type": "block",
-				  "code": "toolmold-burned-prospectingpick-north",
-				  "chance": 80
+				"type": "block",
+				"code": "bowl-black-fired",
+				"chance": 15
 				},
 				{
-				  "type": "block",
-				  "code": "toolmold-burned-lamellae-north",
-				  "chance": 80
+				"type": "block",
+				"code": "bowl-brown-fired",
+				"chance": 15
 				},
 				{
-				  "type": "block",
-				  "code": "flowerpot-burnt",
-				  "chance": 10
+				"type": "block",
+				"code": "bowl-cream-fired",
+				"chance": 15
 				},
 				{
-				  "type": "block",
-				  "code": "crucible-burned",
-				  "chance": 80
+				"type": "block",
+				"code": "bowl-gray-fired",
+				"chance": 15
 				},
 				{
-				  "type": "block",
-				  "code": "crock-burned-east",
-				  "chance": 80
+				"type": "block",
+				"code": "bowl-orange-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "bowl-red-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "bowl-tan-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "ingotmold-blue-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "ingotmold-fire-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "ingotmold-black-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "ingotmold-brown-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "ingotmold-cream-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "ingotmold-gray-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "ingotmold-orange-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "ingotmold-red-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "ingotmold-tan-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-blue-fired-pickaxe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-fire-fired-pickaxe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-black-fired-pickaxe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-brown-fired-pickaxe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-cream-fired-pickaxe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-gray-fired-pickaxe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-orange-fired-pickaxe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-red-fired-pickaxe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-tan-fired-pickaxe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-blue-fired-axe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-fire-fired-axe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-black-fired-axe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-brown-fired-axe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-cream-fired-axe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-gray-fired-axe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-orange-fired-axe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-red-fired-axe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-tan-fired-axe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-blue-fired-shovel",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-fire-fired-shovel",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-black-fired-shovel",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-brown-fired-shovel",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-cream-fired-shovel",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-gray-fired-shovel",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-orange-fired-shovel",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-red-fired-shovel",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-tan-fired-shovel",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-blue-fired-blade-falx",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-fire-fired-blade-falx",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-black-fired-blade-falx",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-brown-fired-blade-falx",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-cream-fired-blade-falx",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-gray-fired-blade-falx",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-orange-fired-blade-falx",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-red-fired-blade-falx",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-tan-fired-blade-falx",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-blue-fired-hammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-fire-fired-hammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-black-fired-hammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-brown-fired-hammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-cream-fired-hammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-gray-fired-hammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-orange-fired-hammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-red-fired-hammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-tan-fired-hammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-blue-fired-anvil",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-fire-fired-anvil",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-black-fired-anvil",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-brown-fired-anvil",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-cream-fired-anvil",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-gray-fired-anvil",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-orange-fired-anvil",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-red-fired-anvil",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-tan-fired-anvil",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-blue-fired-helvehammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-fire-fired-helvehammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-black-fired-helvehammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-brown-fired-helvehammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-cream-fired-helvehammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-gray-fired-helvehammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-orange-fired-helvehammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-red-fired-helvehammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-tan-fired-helvehammer",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-blue-fired-hoe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-fire-fired-hoe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-black-fired-hoe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-brown-fired-hoe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-cream-fired-hoe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-gray-fired-hoe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-orange-fired-hoe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-red-fired-hoe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-tan-fired-hoe",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-blue-fired-prospectingpick",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-fire-fired-prospectingpick",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-black-fired-prospectingpick",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-brown-fired-prospectingpick",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-cream-fired-prospectingpick",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-gray-fired-prospectingpick",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-orange-fired-prospectingpick",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-red-fired-prospectingpick",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-tan-fired-prospectingpick",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-blue-fired-lamellae",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-fire-fired-lamellae",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-black-fired-lamellae",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-brown-fired-lamellae",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-cream-fired-lamellae",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-gray-fired-lamellae",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-orange-fired-lamellae",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-red-fired-lamellae",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "toolmold-tan-fired-lamellae",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "flowerpot-blue-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "flowerpot-fire-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "flowerpot-black-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "flowerpot-brown-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "flowerpot-cream-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "flowerpot-gray-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "flowerpot-orange-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "flowerpot-red-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "flowerpot-tan-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crucible-blue-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crucible-fire-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crucible-black-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crucible-brown-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crucible-cream-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crucible-gray-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crucible-orange-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crucible-red-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crucible-tan-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crock-blue-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crock-fire-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crock-black-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crock-brown-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crock-cream-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crock-gray-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crock-orange-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crock-red-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "crock-tan-fired",
+				"chance": 15
 				},
 				{
 				  "type": "block",
@@ -1387,9 +2046,49 @@
 				  "chance": 100
 				},
 				{
-				  "type": "block",
-				  "code": "clayplanter-burnt",
-				  "chance": 10
+				"type": "block",
+				"code": "claypot-blue-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "claypot-fire-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "claypot-black-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "claypot-brown-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "claypot-cream-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "claypot-gray-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "claypot-orange-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "claypot-red-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "claypot-tan-fired",
+				"chance": 15
 				},
 				{
 				  "type": "block",
@@ -1447,67 +2146,150 @@
 				  "chance": 10
 				},
 				{
-				  "type": "block",
-				  "code": "claypot-burned",
-				  "chance": 80
+				"type": "block",
+				"code": "clayplanter-blue-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "clayplanter-fire-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "clayplanter-black-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "clayplanter-brown-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "clayplanter-cream-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "clayplanter-gray-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "clayplanter-orange-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "clayplanter-red-fired",
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "clayplanter-tan-fired",
+				"chance": 15
 				},
 				{
 				  "type": "block",
 				  "code": "storagevessel-ashforest",
 				  "attributes": {"type": "normal"},
-				  "chance": 3
+				  "chance": 30
 				},
 				{
 				  "type": "block",
 				  "code": "storagevessel-chthonic",
 				  "attributes": {"type": "normal"},
-				  "chance": 3
+				  "chance": 30
 				},
 				{
 				  "type": "block",
 				  "code": "storagevessel-copper",
 				  "attributes": {"type": "normal"},
-				  "chance": 3
+				  "chance": 30
 				},
 				{
 				  "type": "block",
 				  "code": "storagevessel-earthen",
 				  "attributes": {"type": "normal"},
-				  "chance": 3
+				  "chance": 30
 				},
 				{
 				  "type": "block",
 				  "code": "storagevessel-rain",
 				  "attributes": {"type": "normal"},
-				  "chance": 3
+				  "chance": 30
 				},
 				{
-				  "type": "block",
-				  "code": "storagevessel-raw",
-				  "chance": 3
+				"type": "block",
+				"code": "storagevessel-blue-fired",
+				"attributes": { "type": "normal" },
+				"chance": 15
 				},
 				{
-				  "type": "block",
-				  "code": "storagevessel-burned",
-				  "attributes": {"type": "normal"},
-				  "chance": 80
+				"type": "block",
+				"code": "storagevessel-fire-fired",
+				"attributes": { "type": "normal" },
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "storagevessel-black-fired",
+				"attributes": { "type": "normal" },
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "storagevessel-brown-fired",
+				"attributes": { "type": "normal" },
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "storagevessel-cream-fired",
+				"attributes": { "type": "normal" },
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "storagevessel-gray-fired",
+				"attributes": { "type": "normal" },
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "storagevessel-orange-fired",
+				"attributes": { "type": "normal" },
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "storagevessel-red-fired",
+				"attributes": { "type": "normal" },
+				"chance": 15
+				},
+				{
+				"type": "block",
+				"code": "storagevessel-tan-fired",
+				"attributes": { "type": "normal" },
+				"chance": 15
 				},
 				{
 				  "type": "block",
 				  "code": "storagevessel-cowrie",
 				  "attributes": {"type": "normal"},
-				  "chance": 10
+				  "chance": 30
 				},
 				{
 				  "type": "block",
 				  "code": "storagevessel-rime",
 				  "attributes": {"type": "normal"},
-				  "chance": 10
+				  "chance": 30
 				},
 				{
 				  "type": "item",
 				  "code": "game:clay-blue",
-				  "chance": 100,
+				  "chance": 200,
 				  "quantity": {
 					"avg": 30,
 					"var": 10

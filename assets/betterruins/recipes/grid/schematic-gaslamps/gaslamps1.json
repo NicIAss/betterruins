@@ -103,7 +103,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-gaslamp" },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-ceiling1" , "collected":true} },
-            "O": {type: "Block", code: "game:oillamp-up" },
+            "O": {type: "Block", code: "game:oillamp-*-up" },
 
         },
         "width": 1,
@@ -116,7 +116,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-gaslamp" },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor2" , "collected":true} },
-            "O": {type: "Block", code: "game:oillamp-up" },
+            "O": {type: "Block", code: "game:oillamp-*-up" },
 
         },
         "width": 1,
@@ -129,7 +129,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-gaslamp" },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-wall2" , "collected":true} },
-            "O": {type: "Block", code: "game:oillamp-up" },
+            "O": {type: "Block", code: "game:oillamp-*-up" },
 
         },
         "width": 1,
@@ -142,7 +142,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-gaslamp" },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor1" , "collected":true} },
-            "O": {type: "Block", code: "game:oillamp-up" },
+            "O": {type: "Block", code: "game:oillamp-*-up" },
 
         },
         "width": 1,
@@ -155,7 +155,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-gaslamp" },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor3" , "collected":true} },
-            "O": {type: "Block", code: "game:oillamp-up" },
+            "O": {type: "Block", code: "game:oillamp-*-up" },
 
         },
         "width": 1,
@@ -168,7 +168,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-gaslamp" },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-wall1" , "collected":true} },
-            "O": {type: "Block", code: "game:oillamp-up" },
+            "O": {type: "Block", code: "game:oillamp-*-up" },
 
         },
         "width": 1,
@@ -309,7 +309,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-gaslamp" },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-ceiling1" } },
-            "O": {type: "Block", code: "game:oillamp-up" },
+            "O": {type: "Block", code: "game:oillamp-*-up" },
 
         },
         "width": 1,
@@ -322,7 +322,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-gaslamp" },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor2" } },
-            "O": {type: "Block", code: "game:oillamp-up" },
+            "O": {type: "Block", code: "game:oillamp-*-up" },
 
         },
         "width": 1,
@@ -335,7 +335,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-gaslamp" },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-wall2" } },
-            "O": {type: "Block", code: "game:oillamp-up" },
+            "O": {type: "Block", code: "game:oillamp-*-up" },
 
         },
         "width": 1,
@@ -348,7 +348,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-gaslamp" },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor1" } },
-            "O": {type: "Block", code: "game:oillamp-up" },
+            "O": {type: "Block", code: "game:oillamp-*-up" },
 
         },
         "width": 1,
@@ -361,7 +361,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-gaslamp" },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor3" } },
-            "O": {type: "Block", code: "game:oillamp-up" },
+            "O": {type: "Block", code: "game:oillamp-*-up" },
 
         },
         "width": 1,
@@ -374,7 +374,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-gaslamp" },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-wall1" } },
-            "O": {type: "Block", code: "game:oillamp-up" },
+            "O": {type: "Block", code: "game:oillamp-*-up" },
 
         },
         "width": 1,
