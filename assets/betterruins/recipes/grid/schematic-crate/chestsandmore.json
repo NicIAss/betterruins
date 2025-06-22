@@ -43,7 +43,7 @@
     {
         "ingredientPattern": "X,B,S",
         "ingredients": {
-            "X": {type: "Block", code: "game:crucible-burned" },
+            "X": {type: "Block", code: "game:crucible-*-fired" },
             "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
             "S": {"type": "Item", "code": "br-schematic-crate" }
         },
@@ -181,7 +181,7 @@
     {
         "ingredientPattern": "X,B,S",
         "ingredients": {
-            "X": {type: "Block", code: "game:crucible-burned" },
+            "X": {type: "Block", code: "game:crucible-*-fired" },
             "B": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "crate/crate-small-empty" } },
             "S": {"type": "Item", "code": "br-schematic-crate" }
         },
@@ -217,7 +217,7 @@
     {
         "ingredientPattern": "X,B,S",
         "ingredients": {
-            "X": {type: "Block", code: "game:crucible-burned" },
+            "X": {type: "Block", code: "game:crucible-*-fired" },
             "B": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "crate/crate-medium-empty" } },
             "S": {"type": "Item", "code": "br-schematic-crate" }
         },
@@ -228,7 +228,7 @@
     {
         "ingredientPattern": "X,B,S",
         "ingredients": {
-            "X": {type: "Block", code: "game:crock-burned-east" },
+            "X": {type: "Block", code: "game:crock-*-fired" },
             "B": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "crate/crate-medium-empty" } },
             "S": {"type": "Item", "code": "br-schematic-crate" }
         },
@@ -490,7 +490,7 @@
     {
         "ingredientPattern": "X,B,S",
         "ingredients": {
-            "X": {type: "Block", code: "game:crucible-burned" },
+            "X": {type: "Block", code: "game:crucible-*-fired" },
             "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
             "S": {"type": "Item", "code": "br-schematic-crate" }
         },
@@ -615,7 +615,7 @@
     {
         "ingredientPattern": "X,B,S",
         "ingredients": {
-            "X": {type: "Block", code: "game:crucible-burned" },
+            "X": {type: "Block", code: "game:crucible-*-fired" },
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-small-empty" } },
             "S": {"type": "Item", "code": "br-schematic-crate" }
         },
@@ -665,7 +665,7 @@
     {
         "ingredientPattern": "X,B,S",
         "ingredients": {
-            "X": {type: "Block", code: "game:crucible-burned" },
+            "X": {type: "Block", code: "game:crucible-*-fired" },
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-medium-empty" } },
             "S": {"type": "Item", "code": "br-schematic-crate" }
         },
@@ -676,7 +676,7 @@
     {
         "ingredientPattern": "X,B,S",
         "ingredients": {
-            "X": {type: "Block", code: "game:crock-burned-east" },
+            "X": {type: "Block", code: "game:crock-*-fired" },
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-medium-empty" } },
             "S": {"type": "Item", "code": "br-schematic-crate" }
         },

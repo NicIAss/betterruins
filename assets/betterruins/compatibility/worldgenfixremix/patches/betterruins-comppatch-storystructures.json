@@ -1,18 +1,6 @@
 [
   {
     "op": "replace",
-    "path": "/structures/5/requireLandform",
-    "value": "veryflat",
-    "file": "game:worldgen/storystructures.json",
-    "side": "Server",
-    "dependsOn": [
-      {
-        "modid": "worldgenfixremix"
-      }
-    ]
-  },
-  {
-    "op": "replace",
     "path": "/structures/6/requireLandform",
     "value": "veryflat",
     "file": "game:worldgen/storystructures.json",
@@ -25,7 +13,7 @@
   },
   {
     "op": "replace",
-    "path": "/structures/11/requireLandform",
+    "path": "/structures/7/requireLandform",
     "value": "veryflat",
     "file": "game:worldgen/storystructures.json",
     "side": "Server",
@@ -38,6 +26,18 @@
   {
     "op": "replace",
     "path": "/structures/12/requireLandform",
+    "value": "veryflat",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "worldgenfixremix"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/13/requireLandform",
     "value": "veryflat",
     "file": "game:worldgen/storystructures.json",
     "side": "Server",

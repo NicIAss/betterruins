@@ -1,0 +1,322 @@
+[
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "desertclimate-o1-niclass-small1",
+      "group": "desertspecific",
+      "minGroupDistance": 1800,
+      "chance": 0.00004,
+      "schematics": [
+        "overground/main/desert-climate/desertclimate-o1-niclass-small1"
+      ],
+      "rockTypeRemapGroup": "standard",
+      "minTemp": 25,
+      "maxTemp": 60,
+      "MaxBelowSealevel": 2,
+      "MinSpawnDistance": 500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "desertclimate-o1-niclass-small2",
+      "group": "desertspecific",
+      "minGroupDistance": 1800,
+      "chance": 0.00004,
+      "schematics": [
+        "overground/main/desert-climate/desertclimate-o1-niclass-small2"
+      ],
+      "rockTypeRemapGroup": "standard",
+      "minTemp": 25,
+      "maxTemp": 60,
+      "MaxBelowSealevel": 2,
+      "MinSpawnDistance": 500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "desertclimate-o1-niclass-small3",
+      "group": "desertspecific",
+      "minGroupDistance": 1800,
+      "chance": 0.00004,
+      "schematics": [
+        "overground/main/desert-climate/desertclimate-o1-niclass-small3"
+      ],
+      "rockTypeRemapGroup": "standard",
+      "minTemp": 25,
+      "maxTemp": 60,
+      "MaxBelowSealevel": 2,
+      "MinSpawnDistance": 500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "desertclimate-o1-niclass-small4",
+      "group": "desertspecific",
+      "minGroupDistance": 1800,
+      "chance": 0.00004,
+      "schematics": [
+        "overground/main/desert-climate/desertclimate-o1-niclass-small4"
+      ],
+      "rockTypeRemapGroup": "standard",
+      "minTemp": 25,
+      "maxTemp": 60,
+      "MaxBelowSealevel": 2,
+      "MinSpawnDistance": 500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "desertclimate-o1-stadrian-deserthouse1",
+      "group": "desertspecific",
+      "minGroupDistance": 1800,
+      "chance": 0.0002,
+      "schematics": [
+        "overground/main/desert-climate/desertclimate-o1-stadrian-deserthouse1"
+      ],
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-medium-none"
+      ],
+      "minTemp": 25,
+      "maxTemp": 60,
+      "MaxBelowSealevel": 2,
+      "MinSpawnDistance": 500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "desertclimate-o2-dampus-greek1",
+      "group": "desertspecific",
+      "minGroupDistance": 1800,
+      "chance": 0.00008,
+      "schematics": [
+        "overground/main/desert-climate/desertclimate-o2-dampus-greek1"
+      ],
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-medium-none"
+      ],
+      "minTemp": 25,
+      "maxTemp": 60,
+      "MaxBelowSealevel": 2,
+      "MinSpawnDistance": 500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "desertclimate-o2-stadrian-cube1",
+      "group": "desertspecific",
+      "minGroupDistance": 1800,
+      "chance": 0.0001,
+      "schematics": [
+        "overground/main/desert-climate/desertclimate-o2-stadrian-cube1"
+      ],
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-medium-none"
+      ],
+      "minTemp": 25,
+      "maxTemp": 60,
+      "MaxBelowSealevel": 2,
+      "MinSpawnDistance": 500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "desertclimate-o2-stadrian-deserthouse2",
+      "group": "desertspecific",
+      "minGroupDistance": 1800,
+      "chance": 0.0004,
+      "schematics": [
+        "overground/main/desert-climate/desertclimate-o2-stadrian-deserthouse2"
+      ],
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-medium-none"
+      ],
+      "minTemp": 25,
+      "maxTemp": 60,
+      "MaxBelowSealevel": 2,
+      "MinSpawnDistance": 500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "desertclimate-o20-stadrian-undergroundwithentrance",
+      "group": "desertspecific",
+      "minGroupDistance": 1800,
+      "chance": 0,
+      "schematics": [
+        "overground/main/desert-climate/desertclimate-o20-stadrian-undergroundwithentrance"
+      ],
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-medium-none"
+      ],
+      "minTemp": 25,
+      "maxTemp": 60,
+      "MaxBelowSealevel": 2,
+      "MinSpawnDistance": 500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "femuroasiso6",
+      "group": "desertspecific",
+      "minGroupDistance": 1800,
+      "chance": 0.0015,
+      "schematics": [
+        "overground/main/desert-climate/femuroasiso6"
+      ],
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-medium-none"
+      ],
+      "minTemp": 25,
+      "maxTemp": 60,
+      "MaxBelowSealevel": 2,
+      "MinSpawnDistance": 500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "mixco-viejo-o6-yapludepatte",
+      "group": "desertspecific",
+      "minGroupDistance": 1800,
+      "chance": 0.0018,
+      "schematics": [
+        "overground/main/desert-climate/mixco-viejo-o6-yapludepatte"
+      ],
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-medium-none"
+      ],
+      "minTemp": 25,
+      "maxTemp": 60,
+      "MaxBelowSealevel": 2,
+      "MinSpawnDistance": 500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "lzmalpyramid-o6-1",
+      "group": "desertspecific",
+      "minGroupDistance": 1800,
+      "chance": 0.0012,
+      "schematics": [
+        "overground/main/desert-climate/lzmalpyramid-o6-1"
+      ],
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-medium-none"
+      ],
+      "minTemp": 25,
+      "maxTemp": 60,
+      "MaxBelowSealevel": 2,
+      "MinSpawnDistance": 500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "wildwest1-virrno-o4",
+      "group": "desertspecific",
+      "minGroupDistance": 1800,
+      "chance": 0.0009,
+      "schematics": [
+        "overground/main/desert-climate/wildwest1-virrno-o4"
+      ],
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-medium-none"
+      ],
+      "minTemp": 25,
+      "maxTemp": 60,
+      "MaxBelowSealevel": 2,
+      "MinSpawnDistance": 500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "desertclimate-o3-yapludepatte-0101",
+      "group": "desertspecific",
+      "minGroupDistance": 1800,
+      "chance": 0.0016,
+      "schematics": [
+        "overground/main/desert-climate/desertclimate-o3-yapludepatte-0101"
+      ],
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-medium-none"
+      ],
+      "minTemp": 25,
+      "maxTemp": 60,
+      "MaxBelowSealevel": 2,
+      "MinSpawnDistance": 500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  }
+]

@@ -127,57 +127,5 @@
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/structures/-",
-    "value": {
-                  "code": "brsurfaceruins-desert1",
-                  "name": "brsurfaceruins-desert1",
-                  "group": "desertspecific",
-                  "minGroupDistance": 1800,
-                  "chance": 0.001,
-                  "schematics": [
-                    "overground/main/desert-climate/desertclimate-o1-niclass-small1", "overground/main/desert-climate/desertclimate-o1-niclass-small2", "overground/main/desert-climate/desertclimate-o1-niclass-small3", "overground/main/desert-climate/desertclimate-o1-niclass-small4"
-                  ],
-                  "rockTypeRemapGroup": "standard",
-                  "minTemp": 28,
-                  "maxTemp": 60,
-                  "MaxBelowSealevel": 2,
-                  "MinSpawnDistance": 500
-    },
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/structures/-",
-    "value": {
-                  "code": "brsurfaceruins-desert2",
-                  "name": "brsurfaceruins-desert2",
-                  "group": "desertspecific",
-                  "minGroupDistance": 1800,
-                  "chance": 0.003,
-                  "schematics": [
-                    "overground/main/desert-climate/desertclimate-o1-stadrian-deserthouse1", 
-                    "overground/main/desert-climate/desertclimate-o2-dampus-greek1",
-                    "overground/main/desert-climate/desertclimate-o2-stadrian-cube1",
-                    "overground/main/desert-climate/desertclimate-o2-stadrian-deserthouse2",
-                    "overground/main/desert-climate/desertclimate-o20-stadrian-undergroundwithentrance",
-                    "overground/main/desert-climate/femuroasiso6",
-                    "overground/main/desert-climate/mixco-viejo-o6-yapludepatte",
-                    "overground/main/desert-climate/lzmalpyramid-o6-1",
-                    "overground/main/desert-climate/wildwest1-virrno-o4",
-                    "overground/main/desert-climate/desertclimate-o3-yapludepatte-0101"
-                  ],
-                  "rockTypeRemapGroup": "standard",
-                  "replacewithblocklayers": ["soil-medium-normal", "soil-medium-none"],
-                  "minTemp": 25,
-                  "maxTemp": 60,
-                  "MaxBelowSealevel": 2,
-                  "MinSpawnDistance": 500
-    },
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
   }
 ]
