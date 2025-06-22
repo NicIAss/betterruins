@@ -1,18 +1,6 @@
 [
   {
     "op": "replace",
-    "path": "/structures/5/requireLandform",
-    "value": "f&pcold glaciers",
-    "file": "game:worldgen/storystructures.json",
-    "side": "Server",
-    "dependsOn": [
-      {
-        "modid": "TA_fieldsandplateaus"
-      }
-    ]
-  },
-  {
-    "op": "replace",
     "path": "/structures/6/requireLandform",
     "value": "f&pcold glaciers",
     "file": "game:worldgen/storystructures.json",
@@ -26,7 +14,7 @@
   {
     "op": "replace",
     "path": "/structures/7/requireLandform",
-    "value": "f&pcoastal flatlands",
+    "value": "f&pcold glaciers",
     "file": "game:worldgen/storystructures.json",
     "side": "Server",
     "dependsOn": [
@@ -86,6 +74,18 @@
   {
     "op": "replace",
     "path": "/structures/12/requireLandform",
+    "value": "f&pcoastal flatlands",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "TA_fieldsandplateaus"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/13/requireLandform",
     "value": "f&pcoastal flatlands",
     "file": "game:worldgen/storystructures.json",
     "side": "Server",
