@@ -63,7 +63,7 @@
     "side": "Server",
     "dependsOn": [
       {
-        "modid": "vinteng",
+        "modid": "vintageengineering",
         "invert": true
       }
     ]
