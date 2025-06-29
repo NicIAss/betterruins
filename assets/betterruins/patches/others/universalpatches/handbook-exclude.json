@@ -60,6 +60,12 @@
     "op": "replace",
     "path": "/attributes/handbook/exclude",
     "value": false,
-    "side": "Server"
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "vintageengineering",
+        "invert": true
+      }
+    ]
   }
 ]
