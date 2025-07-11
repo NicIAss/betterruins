@@ -1819,7 +1819,7 @@
 
 
       "WALLSEGMENT_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "wallsegment_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
@@ -1831,7 +1831,7 @@
         }
       },
       "ROCKFORMATION_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "rockformation_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
@@ -1843,7 +1843,7 @@
         }
       },
       "NORDICHOUSE_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "nordichouse_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
@@ -1855,7 +1855,7 @@
         }
       },
       "VISINGSBORG_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "visingsborg_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
@@ -1867,7 +1867,7 @@
         }
       },
       "CATNOIRSCASTLERUIN_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "catnoirscastle_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
@@ -1879,7 +1879,7 @@
         }
       },
       "DESTROYEDLARGECHURCH_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "destroyedchurch_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
@@ -1891,7 +1891,7 @@
         }
       },
       "WOLFSTONE_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "wolfstone_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
@@ -1903,7 +1903,7 @@
         }
       },
       "OASIS_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "oasis_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 10000,
@@ -1915,7 +1915,7 @@
         }
       },
       "FORLORNHOPETOWER_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "forlornhopetower_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 10000,
@@ -1927,7 +1927,7 @@
         }
       },
       "GIANTCATHEDRAL_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "giantcathedral_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 10000,
@@ -1939,7 +1939,7 @@
         }
       },
       "SHOPPINGCENTRE_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "shoppingcentre_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 10000,
@@ -1951,7 +1951,7 @@
         }
       },
       "UNDERGROUNDLIBRARY_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "undergroundlibrary_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
@@ -1963,7 +1963,7 @@
         }
       },
       "AULDBURG_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "auldburg_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
@@ -1975,7 +1975,7 @@
         }
       },
       "NORMANCASTLE_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "normancastle_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
@@ -1987,7 +1987,7 @@
         }
       },
       "AQUEDUCT_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "aqueduct_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
@@ -1999,7 +1999,7 @@
         }
       },
       "JUMBLEROCKCASTLE_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "jumblerockcastle_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
@@ -2011,7 +2011,7 @@
         }
       },
       "SETTLEMENTOFKEYKEEPERS_MIN_SPAWN_DISTANCE": {
-        "name": "megastructures_min_spawn_distance",
+        "name": "settlementofkeykeepers_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
