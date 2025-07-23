@@ -45,10 +45,10 @@
         ingredients: {
             "S": { type: "item", code: "game:saw-*", isTool: true },
             "X": {type: "Item", code: "br-schematic-road" },
-            "P": { type: "item", code: "game:plank-*", quantity: 2 }
+            "P": { type: "item", code: "game:plank-*", "name": "wood" , quantity: 2 }
         },
         width: 3,
         height: 1,
-        output: { type: "block", code: "game:woodenpath-ns", quantity: 4  }
+        output: { type: "block", code: "game:woodenpath-{wood}-ns", quantity: 4  }
     }
 ]
