@@ -228,6 +228,8 @@
     "betterruins:item-handbooktext-betterruins:br-schematic-farmer": "<strong>Found in</strong>\nRare in any ruin",
     "item-br-schematic-shipwright": "Shipwright's Blueprint",
     "betterruins:item-handbooktext-betterruins:br-schematic-shipwright": "<strong>Found in</strong>\nRare in any ruin",
+    "item-br-schematic-weaver": "Weaver's Blueprint",
+    "betterruins:item-handbooktext-betterruins:br-schematic-weaver": "<strong>Found in</strong>\nRare in any ruin",
 
     "itemdesc-br-schematic-*": "These Blueprints are reusable, containing the secrets of forgotten recipes crafted by masters of their trade.\n\n(Note: Clutter items will appear twice in the recipe browser right below here. The lower ones will work the others will not be clickable.)",
 
@@ -370,6 +372,15 @@
     "game:Sorry ... but somethings are best left unspoken.": "Sorry ... but somethings are best left unspoken.",
     "game:Ah, a new customer! How can I help you?": "Ah, a new customer! How can I help you?",
     "game:Kind of you to ask, traveler. It's {{npcname}}.": "Kind of you to ask, traveler. It's {{npcname}}.",
+    "game:Alright, save me the trouble. Here's four gears.": "Alright, save me the trouble. Here's four gears.",
+    "game:No thanks, I don't have much to spare.": "No thanks, I don't have much to spare.",
+    "game:Here, I've marked on a map where you might find one of them. He had set up a small outpost there last time I passed by.": "Here, I've marked on a map where you might find one of them. He had set up a small outpost there last time I passed by.",
+    "game:Excellent. Thank you for the business.": "Excellent. Thank you for the business.",
+
+
+
+
+
 
 
     "betterruins:Do you know anything interesting around here?": "Do you know anything interesting around here?",
@@ -390,6 +401,10 @@
     "betterruins:I’ll take it. What’s your price?": "I’ll take it. What’s your price?",
     "betterruins:Who made it?": "Who made it?",
     "betterruins:Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them.": "Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them.",
+    "betterruins:Thanks!": "Thanks!",
+    "betterruins:Now give me the map please.": "Now give me the map please.",
+    "betterruins:Here take the Meteoric Knife.": "Here take the Meteoric Knife.",
+
 
 
 

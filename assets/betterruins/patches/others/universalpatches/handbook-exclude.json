@@ -67,5 +67,19 @@
         "invert": true
       }
     ]
+  },
+  {
+    "file": "game:blocktypes/cloth/rug.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false,
+    "side": "Server"
+  },
+  {
+    "file": "game:blocktypes/cloth/mediumcarpet.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false,
+    "side": "Server"
   }
 ]

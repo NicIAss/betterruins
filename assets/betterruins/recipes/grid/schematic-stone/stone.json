@@ -116,7 +116,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone" },
             "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
-            "B": {type: "Block", code: "game:cobblestone-*", name: "rock", skipVariants: ["whitemarble", "suevite", "redmarble", "kimberlite", "greenmarble"]}
+            "B": {type: "Block", code: "game:cobblestone-*", name: "rock", skipVariants: ["whitemarble", "suevite", "redmarble", "kimberlite", "greenmarble", "coral"]}
         },
         "width": 1,
         "height": 3,

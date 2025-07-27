@@ -1,0 +1,8 @@
+[
+  {
+    "op": "remove",
+    "path": "/drops",
+    "file": "game:blocktypes/cloth/rug.json",
+    "side": "Server"
+  }
+]
