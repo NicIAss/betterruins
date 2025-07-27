@@ -50,8 +50,7 @@
         "10/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
         "11/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
         "12/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
-        "13/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
-        "14/value/chance": "DESERTRUINS_SPAWN_CHANCE * value"
+        "13/value/chance": "DESERTRUINS_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/largeruins.json": {
         "0/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
@@ -183,7 +182,8 @@
         "23/value/chance": "SCHEMATIC_ROOFING",
         "24/value/chance": "SCHEMATIC_PALISADE",
         "28/value/chance": "SCHEMATIC_FARMER",
-        "29/value/chance": "SCHEMATIC_SHIPWRIGHT"
+        "29/value/chance": "SCHEMATIC_SHIPWRIGHT",
+        "30/value/chance": "SCHEMATIC_WEAVER"
       },
       "betterruins:patches/others/randomizers/stackrandomizers-ingots.json": {
         "0/value/chance": "LOOT * value",
@@ -1769,6 +1769,18 @@
         "ingui": "betterruins:item-br-schematic-shipwright",
         "default": 3.0,
         "weight": 29.223,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_WEAVER": {
+        "name": "schematic_weaver",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-weaver",
+        "default": 3.0,
+        "weight": 29.2231,
         "logarithmic": true,
         "range": {
           "min": 0,

@@ -1,0 +1,216 @@
+[
+ 
+    
+    
+    
+
+    {
+        "ingredientPattern": "XS,CF",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "C": {type: "Item", code: "game:cloth-blue" },
+            "S": {type: "Item", code: "game:sewingkit" },
+            "F": {type: "Item", code: "game:flaxtwine" }
+        },
+        "width": 2,
+        "height": 2,
+        "recipeGroup": 333,
+        "output": {type: "Block", code: "game:rug-blue-diamond-center" ,"quantity": 4}
+    },
+    {
+        "ingredientPattern": "XR",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "R": {type: "Block", code: "game:rug-blue-diamond-center" }
+        },
+        "width": 2,
+        "height": 1,
+        "recipeGroup": 334,
+        "output": {type: "Block", code: "game:rug-blue-diamond-corner" }
+    },
+    {
+        "ingredientPattern": "XR",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "R": {type: "Block", code: "game:rug-blue-diamond-corner" }
+        },
+        "width": 2,
+        "height": 1,
+        "recipeGroup": 334,
+        "output": {type: "Block", code: "game:rug-blue-diamond-edge" }
+    },
+    {
+        "ingredientPattern": "XR",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "R": {type: "Block", code: "game:rug-blue-diamond-edge" }
+        },
+        "width": 2,
+        "height": 1,
+        "recipeGroup": 334,
+        "output": {type: "Block", code: "game:rug-blue-diamond-cornernails" }
+    },
+    {
+        "ingredientPattern": "XR",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "R": {type: "Block", code: "game:rug-blue-diamond-cornernails" }
+        },
+        "width": 2,
+        "height": 1,
+        "recipeGroup": 334,
+        "output": {type: "Block", code: "game:rug-blue-diamond-edgenails" }
+    },
+    {
+        "ingredientPattern": "XR",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "R": {type: "Block", code: "game:rug-blue-diamond-edgenails" }
+        },
+        "width": 2,
+        "height": 1,
+        "recipeGroup": 334,
+        "output": {type: "Block", code: "game:rug-blue-diamond-center" }
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "X_,C_,RR",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "C": {type: "Item", code: "game:cloth-black" },
+            "R": {type: "Block", code: "game:rushmat" }
+        },
+        "width": 2,
+        "height": 3,
+        "recipeGroup": 333,
+        "output": {type: "Block", code: "game:mediumcarpet-black-ns" }
+    },
+    {
+        "ingredientPattern": "X_,C_,RR",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "C": {type: "Item", code: "game:cloth-green" },
+            "R": {type: "Block", code: "game:rushmat" }
+        },
+        "width": 2,
+        "height": 3,
+        "recipeGroup": 333,
+        "output": {type: "Block", code: "game:mediumcarpet-blue-ns" }
+    },
+    {
+        "ingredientPattern": "X_,CZ,RR",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "C": {type: "Item", code: "game:cloth-green" },
+            "Z": {type: "Item", code: "game:cloth-black" },
+            "R": {type: "Block", code: "game:rushmat" }
+        },
+        "width": 2,
+        "height": 3,
+        "recipeGroup": 333,
+        "output": {type: "Block", code: "game:mediumcarpet-turqoise-ns" }
+    },
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "X,Z,R",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "Z": {type: "Item", code: "game:cloth-black" },
+            "R": {type: "Block", code: "game:rushmat" }
+        },
+        "width": 1,
+        "height": 3,
+        "recipeGroup": 333,
+        "output": {type: "Block", code: "game:smallcarpet-black" }
+    },
+    {
+        "ingredientPattern": "X,Z,R",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "Z": {type: "Item", code: "game:cloth-green" },
+            "R": {type: "Block", code: "game:rushmat" }
+        },
+        "width": 1,
+        "height": 3,
+        "recipeGroup": 333,
+        "output": {type: "Block", code: "game:smallcarpet-blue" }
+    },
+    {
+        "ingredientPattern": "X,Z,R",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "Z": {type: "Item", code: "game:cloth-brown" },
+            "R": {type: "Block", code: "game:rushmat" }
+        },
+        "width": 1,
+        "height": 3,
+        "recipeGroup": 333,
+        "output": {type: "Block", code: "game:smallcarpet-brown" }
+    },
+    {
+        "ingredientPattern": "X,Z,R",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "Z": {type: "Item", code: "game:cloth-purple" },
+            "R": {type: "Block", code: "game:rushmat" }
+        },
+        "width": 1,
+        "height": 3,
+        "recipeGroup": 333,
+        "output": {type: "Block", code: "game:smallcarpet-purple" }
+    },
+    {
+        "ingredientPattern": "X,Z,R",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "Z": {type: "Item", code: "game:cloth-red" },
+            "R": {type: "Block", code: "game:rushmat" }
+        },
+        "width": 1,
+        "height": 3,
+        "recipeGroup": 333,
+        "output": {type: "Block", code: "game:smallcarpet-red" }
+    },
+    {
+        "ingredientPattern": "X_,CZ,R_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "C": {type: "Item", code: "game:cloth-green" },
+            "Z": {type: "Item", code: "game:cloth-black" },
+            "R": {type: "Block", code: "game:rushmat" , "quantity": 2}
+        },
+        "width": 2,
+        "height": 3,
+        "recipeGroup": 333,
+        "output": {type: "Block", code: "game:smallcarpet-turqoise" , "quantity": 2}
+    },
+    {
+        "ingredientPattern": "XG,CZ,R_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "C": {type: "Item", code: "game:cloth-green" },
+            "Z": {type: "Item", code: "game:cloth-black" },
+            "G": {type: "Item", code: "game:metalbit-gold" },
+            "R": {type: "Block", code: "game:rushmat" , "quantity": 2}
+        },
+        "width": 2,
+        "height": 3,
+        "recipeGroup": 333,
+        "output": {type: "Block", code: "game:smallcarpet-turqoise2" , "quantity": 2}
+    },
+]
