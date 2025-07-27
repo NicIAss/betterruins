@@ -193,12 +193,12 @@
 				{ value: "game:Got anything to trade, {{npcname}}?", jumpTo: "opentrade" },
 				{ value: "game:dialogue-name", jumpTo: "name" },
 				{ value: "game:Why live out here like this?", jumpTo: "profit" },
+				{ value: "game:dialogue-trader-know", jumpTo: "treasurehunter" },
 				{ value: "betterruins:dialogue-anythingspecialtosell", jumpTo: "sellingquestion" },
-				{ value: "betterruins:dialogue-fromwheredoyougetall", jumpTo: "strategy", conditions: [{ variable: "entity.globedone", isNotValue: "true" } ] },
-				{ value: "betterruins:dialogue-imbackandibring", jumpTo: "takeglobe", conditions: [{ variable: "entity.requestglobe", isValue: "true" }, { variable: "entity.globereceived", isNotValue: "true" }, { variable: "player.inventory", isValue: "{ type: 'block', code: 'game:clutter', attributes: { type: 'globe1',collected:true } }" } ] },
-				{ value: "betterruins:dialogue-couldyouremindme", jumpTo: "maprepeat", conditions: [{ variable: "entity.globedone", isValue: "true" }] },
+				{ value: "betterruins:dialogue-fromwheredoyougetall", jumpTo: "strategy", conditions: [{ variable: "player.globedone", isNotValue: "true" } ] },
+				{ value: "betterruins:dialogue-imbackandibring", jumpTo: "takeglobe", conditions: [{ variable: "player.globedone", isValue: "true" } ,{ variable: "player.inventory", isValue: "{ type: 'block', code: 'game:clutter', attributes: { type: 'globe1',collected:true } }" }, {"variable": "player.inventory", "isNotValue": "{type: 'item', code: 'betterruins:locatormap-university'}"}] },
 				{ value: "betterruins:Do you know anything interesting around here?", jumpTo: "sellingquestion2" },
-				{ value: "betterruins:I have the meteoric knife you asked for. Here take it.", jumpTo: "acceptmeteorknife2", conditions: [{ variable: "entity.requestmeteorknife", isValue: "true" }, { variable: "entity.meteorknifereceived", isNotValue: "true" }, { variable: "player.inventory", isValue: "{ type: 'item', code: 'game:knife-generic-meteoriciron'}" } ] },
+				{ value: "betterruins:I have the meteoric knife you asked for. Here take it.", jumpTo: "acceptmeteorknife2", conditions: [{ variable: "player.requestmeteorknife", isValue: "true" }, { variable: "player.inventory", isValue: "{ type: 'item', code: 'game:knife-generic-meteoriciron'}" }, {"variable": "player.inventory", "isNotValue": "{type: 'item', code: 'betterruins:locatormap-crossroadsbelow'}"} ] },
 			]
 		},
 		{
@@ -265,7 +265,7 @@
 			text: [
 				{ value: "betterruins:Spoken like one born of purpose. But rusty gears is not enough, not for this. I require something rarer—something that fell from the stars. Bring me a knife of meteoric iron. Freshly forged. Untouched by blood or rust. Only then shall I entrust you with the map." }
 			],
-			setVariables: { "entity.requestmeteorknife": "true" },
+			setVariables: { "player.requestmeteorknife": "true" },
 			jumpTo: "howmuchisit32"
 		},
 		{
@@ -284,13 +284,37 @@
 			text: [
 				{ value: "betterruins:You truly have it... A blade that sings of the forge and starlight. You’ve earned this." }
 			],
-			trigger: "takefrominventory",
-			triggerdata: { type: 'item', code: 'game:knife-generic-meteoriciron'},
-			setVariables: { "entity.meteorknifereceived": "true" },
-			jumpTo: "givecrossroadsmap2"
+			jumpTo: "givecrossroadsmap22"
+		},
+		{
+			code: "givecrossroadsmap22",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Here take the Meteoric Knife.", jumpTo: "givecrossroadsmap2" },
+			]
 		},
 		{
 			code: "givecrossroadsmap2",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Thanks!" }
+			],
+			trigger: "takefrominventory",
+			triggerdata: { type: 'item', code: 'game:knife-generic-meteoriciron'},
+			jumpTo: "givecrossroadsmap33"
+		},
+		{
+			code: "givecrossroadsmap33",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Now give me the map please.", jumpTo: "givecrossroadsmap3" },
+			]
+		},
+		{
+			code: "givecrossroadsmap3",
 			owner: "trader",
 			type: "talk",
 			text: [
@@ -371,8 +395,8 @@
 			text: [
 				{ value: "betterruins:The Forlorn Hope? Tell me more.", jumpTo: "forlornhope1" },
 				{ value: "betterruins:What’s so significant about this tower?", jumpTo: "forlornhope2" },
-				{ value: "betterruins:I’ll take the map. How much is it?", jumpTo: "howmuchisit" , conditions: [{ variable: "entity.forlornhopemapreceived", isNotValue: "true" } ]},
-				{ value: "betterruins:I now want to buy the map you talked about.", jumpTo: "buyforlornmap", conditions: [{ variable: "entity.requestprice1", isValue: "true" }, { variable: "entity.forlornhopemapreceived", isNotValue: "true" }, { variable: "player.inventory", isValue: "{ type: 'item', code: 'game:gear-rusty', quantity: 10 }" } ] },
+				{ value: "betterruins:I’ll take the map. How much is it?", jumpTo: "howmuchisit"},
+				{ value: "betterruins:I now want to buy the map you talked about.", jumpTo: "buyforlornmap", conditions: [{ variable: "player.requestprice1", isValue: "true" }, { variable: "player.inventory", isValue: "{ type: 'item', code: 'game:gear-rusty', quantity: 10 }" }, {"variable": "player.inventory", "isNotValue": "{type: 'item', code: 'betterruins:locatormap-forlornhopetower'}"} ] },
 				{ value: "betterruins:Not interested. Maybe another time.", jumpTo: "main" }
 			]
 		},
@@ -405,7 +429,7 @@
 			text: [
 				{ value: "betterruins:dialogue-forlornhope3" }
 			],
-			setVariables: { "entity.requestprice1": "true" },
+			setVariables: { "player.requestprice1": "true" },
 			jumpTo: "sellingquestionresponse"
 		},
 
@@ -438,7 +462,7 @@
 			],
 			trigger: "giveitemstack",
 			triggerdata: { type: "item", code: "betterruins:locatormap-forlornhopetower", stacksize: 1 },
-			setVariables: { "entity.forlornhopemapreceived": "true" },
+			setVariables: { "entity.forlornhopeboughtfirsttime": "true" },
 			jumpTo: "sellingquestionresponse"
 		},
 
@@ -563,8 +587,8 @@
 			owner: "trader",
 			type: "talk",
 			text: [ { value: "betterruins:dialogue-strategy5" } ],
-			jumpTo: "main",
-			setVariables: { "entity.requestglobe": "true" },
+			"setVariables": { "player.globedone": "true" },
+			jumpTo: "main"
 		},
 		{
 			code: "takeglobe",
@@ -622,7 +646,6 @@
 			],
 			trigger: "giveitemstack",
 			triggerdata: { type: "item", code: "betterruins:locatormap-university", stacksize: 1 },
-			setVariables: { "entity.globereceived": "true" },
 			jumpTo: "globediscussion6"
 		},
 		{
@@ -640,20 +663,81 @@
 			code: "globediscussion7",
 			owner: "player",
 			type: "talk",
-			setVariables: { "entity.globedone": "true" },
 			text: [
 				{ value: "betterruins:dialogue-globediscussion7", jumpTo: "main" }
 			]
 		},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		{
-			code: "maprepeat",
+			code: "treasurehunter",
 			owner: "trader",
 			type: "talk",
 			text: [
-				{ value: "betterruins:dialogue-maprepeat1" }
+				{ value: "game:dialogue-trader-treasure" }
+			],
+			jumpTo: "treasurehunterchoice"
+		},
+		{
+			code: "treasurehunterchoice",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "game:Alright, save me the trouble. Here's four gears.", jumpTo: "treasurehunterpay", conditions: [ { variable: "player.inventory", isValue: "{type: 'item', code: 'game:gear-rusty', stacksize: 4}" } ]  },
+				{ value: "game:No thanks, I don't have much to spare.", jumpTo: "main" },
+			]
+		},
+		{
+			code: "treasurehunterpay",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:Excellent. Thank you for the business." }
+			],
+			trigger: "takefrominventory",
+			triggerdata: {type: 'item', code: 'game:gear-rusty', quantity: 4 },
+			jumpTo: "treasurehuntercontinue"
+		},
+		{
+			code: "treasurehuntercontinue",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-continue", jumpTo: "treasurehuntermap"  }
+			]
+		},
+		{
+			code: "treasurehuntermap",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:Here, I've marked on a map where you might find one of them. He had set up a small outpost there last time I passed by." }
 			],
 			trigger: "giveitemstack",
-			triggerdata: { type: "item", code: "betterruins:locatormap-university", stacksize: 1 },
+			triggerdata: { type: "item", code: "game:locatormap-treasurehunter", stacksize: 1 },
 			jumpTo: "main"
 		}
 	]
