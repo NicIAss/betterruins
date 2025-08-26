@@ -175,4 +175,26 @@
     },
 
 
+    {
+        "ingredientPattern": "XB_,BSB,_B_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "B": {type: "Block", code: "game:supportbeam-oak" },
+            "S": {type: "Item", code: "game:stick" , "quantity": 4 }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "cross-lattice", "collected":true } , "quantity": 16}
+    },
+    {
+        "ingredientPattern": "XB_,BSB,_B_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "B": {type: "Block", code: "game:supportbeam-oak" },
+            "S": {type: "Item", code: "game:stick" , "quantity": 4 }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "cross-lattice"} , "quantity": 16}
+    },
 ]
