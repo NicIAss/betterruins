@@ -1,14 +1,15 @@
 [
  
     {
-        "ingredientPattern": "XL",
+        "ingredientPattern": "XS,_L",
         "ingredients": {
             "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "S": {"type": "Item", "code": "game:saw-*", "isTool": true },
             "L": {"type": "Block", "code": "game:supportbeam-oak" }
         },
         "width": 2,
-        "height": 1,
-        "output": {"type": "Block", "code": "game:palisadewall-four-lower-cornerin-west" , "quantity": 1}
+        "height": 2,
+        "output": {"type": "Block", "code": "game:palisadewall-four-lower-cornerin-west" , "quantity": 4}
     },
     {
         "ingredientPattern": "XA,_L",
