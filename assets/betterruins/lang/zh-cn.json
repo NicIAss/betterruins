@@ -163,6 +163,7 @@
     "betterruins:item-handbooktext-betterruins:br-schematic-palisade": "<strong>发现于</strong>\n任何废墟中稀有",
     "betterruins:item-handbooktext-betterruins:br-schematic-farmer": "<strong>发现于</strong>\n任何废墟中稀有",
     "betterruins:item-handbooktext-betterruins:br-schematic-shipwright": "<strong>发现于</strong>\n任何废墟中稀有",
+    "betterruins:item-handbooktext-betterruins:br-schematic-weaver": "<strong>发现于</strong>\n任何废墟中稀有",
     "itemdesc-br-schematic-*": "这些蓝图是可重复使用的，其中包含了由他们的行业大师制作的被遗忘配方的秘密。\n\n（注意：待筛选邮件项目将在此处下方的配方浏览器中出现两次。较低的将起作用，其他的将不可点击。",
     "game:item-textureflipper": "时空变换器",
     "game:itemdesc-textureflipper": "一种装饰华丽的铜镍合金装置，旨在转换一些杂乱的方块纹理，引导时间重组的本质。\n\n查看支持的杂乱方块并使用F键选择替代纹理。\n\n并非所有杂乱方块都可以修改，但请确保在所有方块上测试此设备。",

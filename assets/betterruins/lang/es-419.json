@@ -164,6 +164,7 @@
     "betterruins:item-handbooktext-betterruins:br-schematic-palisade": "<strong>Encontrado en</strong>\nRaro en cualquier ruina",
     "betterruins:item-handbooktext-betterruins:br-schematic-farmer": "<strong>Encontrado en</strong>\nRaro en cualquier ruina",
     "betterruins:item-handbooktext-betterruins:br-schematic-shipwright": "<strong>Encontrado en</strong>\nRaro en cualquier ruina",
+    "betterruins:item-handbooktext-betterruins:br-schematic-weaver": "<strong>Encontrado en</strong>\nRaro en cualquier ruina",
     "itemdesc-br-schematic-*": "Estos planos son reutilizables, contienen los secretos de recetas olvidadas creadas por maestros de su oficio.\n\n(Nota: Los objetos de desorden aparecerán dos veces en el navegador de recetas justo debajo. Los inferiores funcionarán, los otros no serán clickeables.)",
     "game:item-textureflipper": "Transfigurador Temporal",
     "game:itemdesc-textureflipper": "Un dispositivo ornamentado de cuproníquel diseñado para transformar algunas texturas de bloques de desorden, canalizando la esencia de la reconfiguración temporal.\n\nMira un bloque de desorden compatible y usa la tecla F para seleccionar texturas alternativas.\n\nNo muchos bloques de desorden permiten ser modificados, pero asegúrate de probar este dispositivo en todos ellos.",

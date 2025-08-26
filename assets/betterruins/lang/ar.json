@@ -163,6 +163,7 @@
     "betterruins:item-handbooktext-betterruins:br-schematic-palisade": "<strong>وجدت في</strong>\nنادرًا في أي خراب",
     "betterruins:item-handbooktext-betterruins:br-schematic-farmer": "<strong>وجدت في</strong>\nنادرًا في أي خراب",
     "betterruins:item-handbooktext-betterruins:br-schematic-shipwright": "<strong>وجدت في</strong>\nنادرًا في أي خراب",
+    "betterruins:item-handbooktext-betterruins:br-schematic-weaver": "<strong>وجدت في</strong>\nنادرًا في أي خراب",
     "itemdesc-br-schematic-*": "هذه المخططات قابلة لإعادة الاستخدام، تحتوي على أسرار الوصفات المنسية التي صاغها أساتذة في حرفتهم.\n\n(ملاحظة: ستظهر العناصر الفوضوية مرتين في متصفح الوصفات أدناه مباشرة. الأجزاء السفلية ستعمل، لكن الأخرى لن تكون قابلة للنقر.)",
     "game:item-textureflipper": "محول الزمن",
     "game:itemdesc-textureflipper": "جهاز مزخرف مصنوع من النحاس والنيكل مصمم لتحويل بعض نسيج الكتل العشوائية، مستمدًا جوهر إعادة التشكيل الزمني.\n\nانظر إلى كتلة عشوائية مدعومة واستخدم مفتاح F لتحديد نسيج بديل.\n\nلا تسمح الكثير من الكتل العشوائية بالتعديل، لكن تأكد من اختبار هذا الجهاز على جميعها.",

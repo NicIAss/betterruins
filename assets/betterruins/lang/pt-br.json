@@ -182,6 +182,7 @@
     "betterruins:item-handbooktext-betterruins:br-schematic-farmer": "<strong>Encontrado em</strong>\nRaro em qualquer ruína",
     "item-br-schematic-shipwright": "Diagrama do Construtor Naval",
     "betterruins:item-handbooktext-betterruins:br-schematic-shipwright": "<strong>Encontrado em</strong>\nRaro em qualquer ruína",
+    "betterruins:item-handbooktext-betterruins:br-schematic-weaver": "<strong>Encontrado em</strong>\nRaro em qualquer ruína",
     "itemdesc-br-schematic-*": "Estes planos são reutilizáveis, contendo os segredos de receitas esquecidas criadas por mestres de suas ocupações.\n\n(Observação: Itens de Tralha aparecerão duas vezes no navegador de receitas abaixo. Os que estão mais abaixo poderão ser criados, os outros não são clicáveis.)",
     "game:item-textureflipper": "Transfigurador Temporal",
     "game:itemdesc-textureflipper": "Um aparelho ornamentado de cuproníquel criado para transformar texturas de blocos de tralha, canalizando a essência da reconfiguração temporal.\n\nOlhe para um bloco de tralha compatível e use a tecla F para selecionar texturas alternativas.",

@@ -163,6 +163,7 @@
     "betterruins:item-handbooktext-betterruins:br-schematic-palisade": "<strong>Hittad i</strong>\nSällsynt i någon ruin",
     "betterruins:item-handbooktext-betterruins:br-schematic-farmer": "<strong>Hittad i</strong>\nSällsynt i någon ruin",
     "betterruins:item-handbooktext-betterruins:br-schematic-shipwright": "<strong>Hittad i</strong>\nSällsynt i någon ruin",
+    "betterruins:item-handbooktext-betterruins:br-schematic-weaver": "<strong>Hittad i</strong>\nSällsynt i någon ruin",
     "itemdesc-br-schematic-*": "Dessa ritningar är återanvändbara och innehåller hemligheterna i bortglömda recept skapade av mästare inom sitt yrke.\n\n(Obs: Klutterartiklar kommer att visas två gånger i receptbläddraren precis nedanför här. De nedre kommer att fungera, de andra kommer inte att vara klickbara.)",
     "game:item-textureflipper": "Temporal Omformare",
     "game:itemdesc-textureflipper": "En utsmyckad cupronickelanordning designad för att omvandla texturer på klotterblock, kanaliserande essensen av temporal omkonfiguration.\n\nTitta på ett stödjande klotterblock och använd F-tangenten för att välja alternativa texturer.",

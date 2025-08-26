@@ -176,6 +176,7 @@
     "betterruins:item-handbooktext-betterruins:br-schematic-farmer": "<strong>Znaleziono w</strong>\nRzadkie w każdych ruinach",
     "item-br-schematic-shipwright": "Schemat Szkutnika",
     "betterruins:item-handbooktext-betterruins:br-schematic-shipwright": "<strong>Znaleziono w</strong>\nRzadkie w każdych ruinach",
+    "betterruins:item-handbooktext-betterruins:br-schematic-weaver": "<strong>Znaleziono w</strong>\nRzadkie w każdych ruinach",
     "itemdesc-br-schematic-*": "Te Schematy są wielokrotnego użytku, zawierają sekrety zapomnianych receptur, stworzone przez mistrzów w swoim fachu.\n\n(Uwaga: Przedmioty dekoracyjne pojawią się dwa razy w przeglądarce przepisów tuż poniżej. Te położone niżej będą działać, w inne nie będzie można kliknąć.)",
     "game:item-textureflipper": "Temporalny Transfigurator",
     "game:itemdesc-textureflipper": "Ozdobne urządzenie z miedzioniklu, zaprojektowane do przekształcania tekstur niektórych bloków dekoracyjnych, kierując esencję temporalnej rekonfiguracji.\n\nSpójrz na obsługiwany blok dekoracyjny i użyj klawisza F, aby wybrać alternatywne tekstury.\n\nNiewiele bloków dekoracyjnych pozwala na modyfikację, ale koniecznie przetestuj to urządzenie na wszystkich.",
