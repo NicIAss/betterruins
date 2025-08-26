@@ -97,7 +97,7 @@
       "suppressTrees": true,
       "suppressWaterfalls": true,
       "rockTypeRemapGroup": "standard",
-      "offsety": -12,
+      "offsety": -11,
       "replacewithblocklayers": [
         "soil-low-none",
         "soil-medium-none",
