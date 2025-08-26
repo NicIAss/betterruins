@@ -226,7 +226,7 @@
                   "code": "09forlornhopetower-rare",
                   "group": "megaruins",
                   "minGroupDistance": 5000,
-                  "chance": 0.03,
+                  "chance": 0.005,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-9/rare/*"
