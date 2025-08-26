@@ -9,7 +9,7 @@
       "betterruins:patches/modconfig/mega.json": {
         "0/value/chance": "WALLSEGMENT_SPAWN_CHANCE * value",
         "1/value/chance": "ROCKFORMATION_SPAWN_CHANCE * value",
-        "2/value/chance": "NORDICHOUSE_SPAWN_CHANCE * value",
+        "2/value/chance": "HOUSEOFUSHER_SPAWN_CHANCE * value",
         "3/value/chance": "VISINGBORG_SPAWN_CHANCE * value",
         "4/value/chance": "CATNOIRSCASTLERUIN_SPAWN_CHANCE * value",
         "5/value/chance": "DESTROYEDLARGECHURCH_SPAWN_CHANCE * value",
@@ -858,7 +858,7 @@
         "22/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "0/value/MinSpawnDistance": "WALLSEGMENT_MIN_SPAWN_DISTANCE",
         "1/value/MinSpawnDistance": "ROCKFORMATION_MIN_SPAWN_DISTANCE",
-        "2/value/MinSpawnDistance": "NORDICHOUSE_MIN_SPAWN_DISTANCE",
+        "2/value/MinSpawnDistance": "HOUSEOFUSHER_MIN_SPAWN_DISTANCE",
         "3/value/MinSpawnDistance": "VISINGSBORG_MIN_SPAWN_DISTANCE",
         "4/value/MinSpawnDistance": "CATNOIRSCASTLERUIN_MIN_SPAWN_DISTANCE",
         "5/value/MinSpawnDistance": "DESTROYEDLARGECHURCH_MIN_SPAWN_DISTANCE",
@@ -1129,8 +1129,8 @@
           "max": 100.0
         }
       },
-      "NORDICHOUSE_SPAWN_CHANCE": {
-        "name": "03nordichouse_spawn_chance",
+      "HOUSEOFUSHER_SPAWN_CHANCE": {
+        "name": "03houseofusher_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
@@ -1854,8 +1854,8 @@
           "max": 100000
         }
       },
-      "NORDICHOUSE_MIN_SPAWN_DISTANCE": {
-        "name": "nordichouse_min_spawn_distance",
+      "HOUSEOFUSHER_MIN_SPAWN_DISTANCE": {
+        "name": "houseofusher_min_spawn_distance",
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
@@ -2456,7 +2456,7 @@
     },
     {
       "type": "separator",
-      "title": "betterruins:megastructure_nordichouse",
+      "title": "betterruins:megastructure_houseofusher",
       "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#03-nordic-house",
       "linktext": "betterruins:wiki_link",
       "weight": 4.95

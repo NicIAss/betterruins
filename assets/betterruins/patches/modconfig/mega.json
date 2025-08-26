@@ -49,10 +49,10 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "03nordichouse",
+                  "code": "03houseofusher",
                   "group": "megaruins",
                   "minGroupDistance": 5000,
-                  "chance": 0.010,
+                  "chance": 1.4,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-3/*"
@@ -60,7 +60,7 @@
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
-                  "offsety": -9,
+                  "offsety": -7,
                   "rockTypeRemapGroup": "standard",
                   "MaxBelowSealevel": 3,
                   "MinSpawnDistance": 2500
