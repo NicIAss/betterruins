@@ -50,7 +50,9 @@
         "10/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
         "11/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
         "12/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
-        "13/value/chance": "DESERTRUINS_SPAWN_CHANCE * value"
+        "13/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
+        "14/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
+        "15/value/chance": "DESERTRUINS_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/largeruins.json": {
         "0/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
@@ -915,7 +917,11 @@
         "12/value/MinSpawnDistance": "DESERTRUINS_MIN_SPAWN_DISTANCE",
         "12/value/minGroupDistance": "DESERTRUINS_MIN_DISTANCE",
         "13/value/MinSpawnDistance": "DESERTRUINS_MIN_SPAWN_DISTANCE",
-        "13/value/minGroupDistance": "DESERTRUINS_MIN_DISTANCE"
+        "13/value/minGroupDistance": "DESERTRUINS_MIN_DISTANCE",
+        "14/value/MinSpawnDistance": "DESERTRUINS_MIN_SPAWN_DISTANCE",
+        "14/value/minGroupDistance": "DESERTRUINS_MIN_DISTANCE",
+        "15/value/MinSpawnDistance": "DESERTRUINS_MIN_SPAWN_DISTANCE",
+        "15/value/minGroupDistance": "DESERTRUINS_MIN_DISTANCE"
       },
       "betterruins:patches/modconfig/largeruins.json": {
         "0/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
