@@ -163,6 +163,7 @@
     "betterruins:item-handbooktext-betterruins:br-schematic-palisade": "<strong>見つかる場所</strong>\nどの遺跡にも稀に存在",
     "betterruins:item-handbooktext-betterruins:br-schematic-farmer": "<strong>見つかる場所</strong>\nどの遺跡にも稀に存在",
     "betterruins:item-handbooktext-betterruins:br-schematic-shipwright": "<strong>見つかる場所</strong>\nどの遺跡にも稀に存在",
+    "betterruins:item-handbooktext-betterruins:br-schematic-weaver": "<strong>見つかる場所</strong>\nどの遺跡にも稀に存在",
     "itemdesc-br-schematic-*": "これらの設計図は再利用可能であり、忘れ去られた職人技のレシピの秘密が含まれています。\n\n（注意：以下のレシピブラウザでは、アイテムが2回表示されます。下の方が機能するアイテムで、他のものはクリックできません。）",
     "game:item-textureflipper": "テンポラル・トランスフィギュレーター",
     "game:itemdesc-textureflipper": "装飾されたキュプロニッケル製の装置で、いくつかのクラッターブロックのテクスチャを変換するために設計されています。時間的な再構成のエッセンスを利用します。\n\nサポートされているクラッターブロックを見て、Fキーを使用して代替テクスチャを選択します。\n\n多くのクラッターブロックは変更を許可していませんが、この装置をすべてのブロックで試してみてください。",

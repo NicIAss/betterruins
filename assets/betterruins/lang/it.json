@@ -157,6 +157,7 @@
     "betterruins:item-handbooktext-betterruins:br-schematic-palisade": "<strong>Trovato in</strong>\nRaro in qualsiasi rovina",
     "betterruins:item-handbooktext-betterruins:br-schematic-farmer": "<strong>Trovato in</strong>\nRaro in qualsiasi rovina",
     "betterruins:item-handbooktext-betterruins:br-schematic-shipwright": "<strong>Trovato in</strong>\nRaro in qualsiasi rovina",
+    "betterruins:item-handbooktext-betterruins:br-schematic-weaver": "<strong>Trovato in</strong>\nRaro in qualsiasi rovina",
     "itemdesc-br-schematic-*": "Questi progetti sono riutilizzabili e contengono i segreti di ricette dimenticate realizzate da maestri del loro mestiere.\n\n(Nota: Gli oggetti disordinati appariranno due volte nel browser delle ricette proprio qui sotto. I più bassi funzioneranno, gli altri non saranno cliccabili.)",
     "game:item-textureflipper": "Trasfiguratore Temporale",
     "game:itemdesc-textureflipper": "Un dispositivo ornato in cupronichel progettato per trasformare alcune texture dei blocchi disordinati, canalizzando l'essenza della riconfigurazione temporale.\n\nGuarda un blocco disordinato supportato e usa il tasto F per selezionare texture alternative.\n\nNon molti blocchi disordinati possono essere modificati, ma assicurati di testare questo dispositivo su tutti.",

@@ -176,6 +176,7 @@
     "betterruins:item-handbooktext-betterruins:br-schematic-farmer": "<strong>Trouvé dans</strong>\nRare dans n'importe quelle ruine",
     "item-br-schematic-shipwright": "Plan du Charpentier Naval",
     "betterruins:item-handbooktext-betterruins:br-schematic-shipwright": "<strong>Trouvé dans</strong>\nRare dans n'importe quelle ruine",
+    "betterruins:item-handbooktext-betterruins:br-schematic-weaver": "<strong>Trouvé dans</strong>\nRare dans n'importe quelle ruine",
     "itemdesc-br-schematic-*": "Ces plans sont réutilisables et contiennent les secrets de recettes oubliées créées par des maîtres de leur métier.\n\n(Note : Les objets encombrants apparaîtront deux fois dans le navigateur de recettes juste en dessous. Les inférieurs fonctionneront, les autres ne seront pas cliquables.)",
     "game:item-textureflipper": "Transfigurateur temporel",
     "game:itemdesc-textureflipper": "Un dispositif en cupronickel décoré conçu pour transformer les textures des blocs de fouillis, canalisant l'essence de la reconfiguration temporelle.\n\nRegardez un bloc de fouillis pris en charge et utilisez la touche F pour sélectionner des textures alternatives.",

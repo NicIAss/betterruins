@@ -163,6 +163,7 @@
     "betterruins:item-handbooktext-betterruins:br-schematic-palisade": "<strong>Encontrado em</strong>\nRaro em qualquer ruína",
     "betterruins:item-handbooktext-betterruins:br-schematic-farmer": "<strong>Encontrado em</strong>\nRaro em qualquer ruína",
     "betterruins:item-handbooktext-betterruins:br-schematic-shipwright": "<strong>Encontrado em</strong>\nRaro em qualquer ruína",
+    "betterruins:item-handbooktext-betterruins:br-schematic-weaver": "<strong>Encontrado em</strong>\nRaro em qualquer ruína",
     "itemdesc-br-schematic-*": "Estas Plantas são reutilizáveis, contendo os segredos de receitas esquecidas criadas por mestres de seu ofício.\n\n(Nota: Itens de desordem aparecerão duas vezes no navegador de receitas logo abaixo daqui. Os inferiores funcionarão, os outros não serão clicáveis.)",
     "game:item-textureflipper": "Transfigurador Temporal",
     "game:itemdesc-textureflipper": "Um dispositivo ornamentado de cuproníquel projetado para transformar algumas texturas de blocos de desordem, canalizando a essência da reconfiguração temporal.\n\nOlhe para um bloco de desordem suportado e use a tecla F para selecionar texturas alternativas.\n\nNem todos os blocos de desordem permitem ser modificados, mas certifique-se de testar este dispositivo em todos eles.",

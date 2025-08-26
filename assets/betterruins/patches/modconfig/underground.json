@@ -152,8 +152,8 @@
     "path": "/structures/-",
     "value": {
       "code": "undergroundruins",
-      "chance": 1.125,
-      "name": "underground-translocator-verycommon",
+      "chance": 3,
+      "name": "underground-verycommon",
       "placement": "underground",
       "schematics": [
         "underground/underground-verycommon/*"
