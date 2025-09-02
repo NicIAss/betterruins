@@ -966,6 +966,7 @@
         "39/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "40/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "41/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "42/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
 
 
         "0/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
@@ -1009,7 +1010,8 @@
         "38/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
         "39/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
         "40/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
-        "41/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE"
+        "41/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "42/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE"
       },
       "betterruins:patches/modconfig/village.json": {
         "0/value/minGroupDistance": "VSVILLAGE_MIN_DISTANCE",
