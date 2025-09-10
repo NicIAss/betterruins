@@ -1276,7 +1276,7 @@
   "path": "/structures/-",
   "value": {
     "code": "brsurfaceruins-0702-femursnapper-largeruin-o4",
-    "chance": 0.010, 
+    "chance": 0.008, 
     "minGroupDistance": 2800,
     "group": "largeruins",
     "schematics": [
@@ -1307,11 +1307,42 @@
   "path": "/structures/-",
   "value": {
     "code": "brsurfaceruins-0801-par-largeruin-o5",
-    "chance": 0.012, 
+    "chance": 0.007, 
     "minGroupDistance": 2800,
     "group": "largeruins",
     "schematics": [
       "overground/main/largeruins/0801-par-largeruin-o5"
+    ],
+    "suppressTrees": true,
+    "suppressWaterfalls": true,
+    "rockTypeRemapGroup": "standard",
+    "replacewithblocklayers": [
+      "soil-low-none",
+      "soil-medium-none",
+      "soil-medium-normal",
+      "soil-low-normal",
+      "forestfloor-1",
+      "soil-verylow-normal",
+      "soil-verylow-none",
+      "soil-verylow-sparse",
+      "soil-verylow-verysparse"
+    ],
+    "MaxBelowSealevel": 2,
+    "MinSpawnDistance": 2500
+  },
+  "file": "game:worldgen/structures.json",
+  "side": "Server"
+},
+{
+  "op": "add",
+  "path": "/structures/-",
+  "value": {
+    "code": "brsurfaceruins-0801-par-largeruin-o5",
+    "chance": 0.012, 
+    "minGroupDistance": 2800,
+    "group": "largeruins",
+    "schematics": [
+      "overground/main/largeruins/0802-par-largeruin-o5"
     ],
     "suppressTrees": true,
     "suppressWaterfalls": true,

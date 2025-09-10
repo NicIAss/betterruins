@@ -96,7 +96,9 @@
         "38/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "39/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "40/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
-        "41/value/chance": "LARGERUINS_SPAWN_CHANCE * value"
+        "41/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "42/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "43/value/chance": "LARGERUINS_SPAWN_CHANCE * value"
       },
       "betterruins:patches/others/structurespatches/special.json": {
         "0/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
@@ -967,6 +969,7 @@
         "40/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "41/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "42/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "43/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
 
 
         "0/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
