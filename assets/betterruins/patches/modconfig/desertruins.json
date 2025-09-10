@@ -182,7 +182,7 @@
       "code": "desertclimate-o20-stadrian-undergroundwithentrance",
       "group": "desertspecific",
       "minGroupDistance": 1800,
-      "chance": 0,
+      "chance": 0.0002,
       "schematics": [
         "overground/main/desert-climate/desertclimate-o20-stadrian-undergroundwithentrance"
       ],
@@ -206,7 +206,7 @@
       "code": "femuroasiso6",
       "group": "desertspecific",
       "minGroupDistance": 1800,
-      "chance": 0.0015,
+      "chance": 0.006,
       "schematics": [
         "overground/main/desert-climate/femuroasiso6"
       ],
