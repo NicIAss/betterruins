@@ -465,7 +465,9 @@
       "overground/main/village-femursnapper/deco2": -4,
       "overground/main/village-femursnapper/deco3": -4,
       "overground/main/village-femursnapper/well1": -7,
-      "overground/main/village-femursnapper/house10": -4
+      "overground/main/village-femursnapper/house10": -4,
+
+
             },
     "file": "game:worldgen/structures.json",
     "side": "Server"
