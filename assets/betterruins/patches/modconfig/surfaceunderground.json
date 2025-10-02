@@ -88,7 +88,7 @@
     "path": "/structures/-",
     "value": {
       "code": "tiggetagg-cave-o12",
-      "chance": 0.03,
+      "chance": 0.013,
       "minGroupDistance": 7500,
       "group": "surfaceunderground",
       "schematics": [

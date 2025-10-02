@@ -1307,7 +1307,7 @@
   "path": "/structures/-",
   "value": {
     "code": "brsurfaceruins-0801-par-largeruin-o5",
-    "chance": 0.007, 
+    "chance": 0.005, 
     "minGroupDistance": 2800,
     "group": "largeruins",
     "schematics": [
@@ -1337,8 +1337,8 @@
   "op": "add",
   "path": "/structures/-",
   "value": {
-    "code": "brsurfaceruins-0801-par-largeruin-o5",
-    "chance": 0.012, 
+    "code": "brsurfaceruins-0802-par-largeruin-o5",
+    "chance": 0.008, 
     "minGroupDistance": 2800,
     "group": "largeruins",
     "schematics": [
