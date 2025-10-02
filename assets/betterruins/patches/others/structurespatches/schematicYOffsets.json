@@ -468,6 +468,38 @@
       "overground/main/village-femursnapper/house10": -4,
 
 
+
+      "overground/main/village-stones-rowlyart/small/small-1-o2": -2,
+      "overground/main/village-stones-rowlyart/small/small-2-o3": -3,
+      "overground/main/village-stones-rowlyart/small/small-3-o3": -3,
+      "overground/main/village-stones-rowlyart/small/small-4-o3": -3,
+      "overground/main/village-stones-rowlyart/small/small-5-o4": -4,
+      "overground/main/village-stones-rowlyart/small/small-6-o3": -3,
+      "overground/main/village-stones-rowlyart/small/small-7-o3": -3,
+      "overground/main/village-stones-rowlyart/small/small-8-o4": -4,
+      "overground/main/village-stones-rowlyart/small/small-9-o3": -3,
+      "overground/main/village-stones-rowlyart/small/small-10-o2": -2,
+      "overground/main/village-stones-rowlyart/small/small-11-o2": -2,
+
+      "overground/main/village-stones-rowlyart/medium/medium-1-o4": -4,
+      "overground/main/village-stones-rowlyart/medium/medium-2-o4": -4,
+      "overground/main/village-stones-rowlyart/medium/medium-3-o4": -4,
+      "overground/main/village-stones-rowlyart/medium/medium-4-o4": -4,
+      "overground/main/village-stones-rowlyart/medium/medium-5-o4": -4,
+      "overground/main/village-stones-rowlyart/medium/medium-6-o5": -5,
+      "overground/main/village-stones-rowlyart/medium/medium-7-o5": -5,
+      "overground/main/village-stones-rowlyart/medium/medium-8-o4": -3,
+      "overground/main/village-stones-rowlyart/medium/medium-9-o3": -3,
+      "overground/main/village-stones-rowlyart/medium/medium-10-o3": -3,
+      "overground/main/village-stones-rowlyart/medium/medium-11-o4": -4,
+
+      "overground/main/village-stones-rowlyart/large/large-1-o4": -4,
+      "overground/main/village-stones-rowlyart/large/large-2-o4": -4,
+      "overground/main/village-stones-rowlyart/large/large-3-o4": -4,
+      "overground/main/village-stones-rowlyart/large/large-4-o5": -5,
+      "overground/main/village-stones-rowlyart/large/large-5-o4": -4
+
+
             },
     "file": "game:worldgen/structures.json",
     "side": "Server"
