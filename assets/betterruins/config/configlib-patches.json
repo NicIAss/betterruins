@@ -27,7 +27,8 @@
         "19/value/chance": "NORMANCASTLE_SPAWN_CHANCE * value",
         "20/value/chance": "AQUEDUCT_SPAWN_CHANCE * value",
         "21/value/chance": "JUMBLEROCKCASTLE_SPAWN_CHANCE * value",
-        "22/value/chance": "SETTLEMENTOFKEYKEEPERS_SPAWN_CHANCE * value"
+        "22/value/chance": "SETTLEMENTOFKEYKEEPERS_SPAWN_CHANCE * value",
+        "23/value/chance": "ROMANBATHHOUSE_SPAWN_CHANCE * value"
         
       },
       "betterruins:patches/modconfig/surface.json": {
@@ -100,7 +101,8 @@
         "41/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "42/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "43/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
-        "44/value/chance": "LARGERUINS_SPAWN_CHANCE * value"
+        "44/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "45/value/chance": "LARGERUINS_SPAWN_CHANCE * value"
       },
       "betterruins:patches/others/structurespatches/special.json": {
         "0/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
@@ -986,6 +988,7 @@
         "20/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "21/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "22/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "23/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "0/value/MinSpawnDistance": "WALLSEGMENT_MIN_SPAWN_DISTANCE",
         "1/value/MinSpawnDistance": "ROCKFORMATION_MIN_SPAWN_DISTANCE",
         "2/value/MinSpawnDistance": "HOUSEOFUSHER_MIN_SPAWN_DISTANCE",
@@ -1006,7 +1009,10 @@
         "19/value/MinSpawnDistance": "NORMANCASTLE_MIN_SPAWN_DISTANCE",
         "20/value/MinSpawnDistance": "AQUEDUCT_MIN_SPAWN_DISTANCE",
         "21/value/MinSpawnDistance": "JUMBLEROCKCASTLE_MIN_SPAWN_DISTANCE",
-        "22/value/MinSpawnDistance": "SETTLEMENTOFKEYKEEPERS_MIN_SPAWN_DISTANCE"
+        "22/value/MinSpawnDistance": "SETTLEMENTOFKEYKEEPERS_MIN_SPAWN_DISTANCE",
+        "23/value/MinSpawnDistance": "ROMANBATHHOUSE_MIN_SPAWN_DISTANCE",
+        "23/value/maxTemp": "ROMANBATHHOUSE_MAX_TEMP",
+        "23/value/minTemp": "ROMANBATHHOUSE_MIN_TEMP"
       },
       "betterruins:patches/modconfig/surface.json": {
         "1/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
@@ -1099,6 +1105,7 @@
         "42/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "43/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "44/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "45/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
 
 
         "0/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
@@ -1143,7 +1150,10 @@
         "39/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
         "40/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
         "41/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
-        "42/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE"
+        "42/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "43/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "44/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "45/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE"
       },
       "betterruins:patches/modconfig/village.json": {
         "0/value/minGroupDistance": "VSVILLAGE_MIN_DISTANCE",
@@ -1444,6 +1454,18 @@
         "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 14.3832,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "ROMANBATHHOUSE_SPAWN_CHANCE": {
+        "name": "20romanbathhouse_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
+        "default": 1.0,
+        "weight": 14.3842,
         "logarithmic": true,
         "range": {
           "min": 0.0,
@@ -2188,6 +2210,18 @@
           "max": 100000
         }
       },
+      "ROMANBATHHOUSE_MIN_SPAWN_DISTANCE": {
+        "name": "romanbathhouse_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 14.38412,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
 
 
       "VSVILLAGE_MIN_DISTANCE": {
@@ -2505,6 +2539,28 @@
           "min": -60,
           "max": 60
         }
+      },
+      "ROMANBATHHOUSE_MAX_TEMP": {
+        "name": "10giantcathedral_max_temp",
+        "comment": "betterruins:universal_maxtemperature_comment",
+        "ingui": "betterruins:universal_maxtemperature",
+        "default": 39,
+        "weight": 14.38491,
+        "range": {
+          "min": -60,
+          "max": 60
+        }
+      },
+      "ROMANBATHHOUSE_MIN_TEMP": {
+        "name": "10giantcathedral_min_temp",
+        "comment": "betterruins:universal_mintemperature_comment",
+        "ingui": "betterruins:universal_mintemperature",
+        "default": 25,
+        "weight": 14.38492,
+        "range": {
+          "min": -60,
+          "max": 60
+        }
       }
     }
   },
@@ -2724,6 +2780,13 @@
       "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#19-settlement-of-the-keykeepers",
       "linktext": "betterruins:wiki_link",
       "weight": 14.3831
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_romanbathhouse",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#20-roman-bathhouse",
+      "linktext": "betterruins:wiki_link",
+      "weight": 14.3841
     }
       ]
 }
