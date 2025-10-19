@@ -1,0 +1,238 @@
+[
+    {
+        "ingredientPattern": "XS,_P",
+        "ingredients": {
+            "P": {"type": "Block", "code": "game:plaster-plain" },
+            "S": {"type": "Item", "code": "game:saw-*", "isTool": true },
+            "X": {"type": "Item", "code": "br-schematic-artisan" }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:overlay-plaster-white-normal", "quantity": 16 }
+    },
+
+
+    {
+        "ingredientPattern": "XSB,_P_",
+        "ingredients": {
+            "P": {"type": "Block", "code": "game:plaster-plain" },
+            "S": {"type": "Item", "code": "game:saw-*", "isTool": true },
+            "X": {"type": "Item", "code": "br-schematic-artisan" },
+            "B": {"type": "block", "code": "game:bowl-*-fired"}
+        },
+        "width": 3,
+        "height": 2,
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-yellow" },
+				"requiresLitres": 0.1,
+				"consumeContainer": false
+			}
+		},
+        "output": {"type": "Block", "code": "game:overlay-plaster-yellow-normal", "quantity": 16 }
+    },
+
+
+
+
+
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:overlay-plaster-white-normal" }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {"type": "Block", "code": "game:overlay-plaster-white-top-rim" }
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:overlay-plaster-white-top-rim" }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {"type": "Block", "code": "game:overlay-plaster-white-zigzag" }
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:overlay-plaster-white-zigzag" }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {"type": "Block", "code": "game:overlay-plaster-white-bottom-rim" }
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:overlay-plaster-white-bottom-rim" }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {"type": "Block", "code": "game:overlay-plaster-white-cracked" }
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:overlay-plaster-white-cracked" }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {"type": "Block", "code": "game:overlay-plaster-white-damaged" }
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:overlay-plaster-white-damaged" }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {"type": "Block", "code": "game:overlay-plaster-white-crumbled" }
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:overlay-plaster-white-crumbled" }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {"type": "Block", "code": "game:overlay-plaster-white-normal" }
+    },
+
+
+
+
+
+
+
+
+
+        {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:overlay-plaster-yellow-normal" }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {"type": "Block", "code": "game:overlay-plaster-yellow-zigzag" }
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:overlay-plaster-yellow-zigzag" }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {"type": "Block", "code": "game:overlay-plaster-yellow-top-rim" }
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:overlay-plaster-yellow-top-rim" }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {"type": "Block", "code": "game:overlay-plaster-yellowwhite-bottom-rim" }
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:overlay-plaster-yellowwhite-bottom-rim" }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {"type": "Block", "code": "game:overlay-plaster-yellowwhite-zigzag" }
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:overlay-plaster-yellowwhite-zigzag" }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {"type": "Block", "code": "game:overlay-plaster-yellow-bottom-rim" }
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:overlay-plaster-yellow-bottom-rim" }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {"type": "Block", "code": "game:overlay-plaster-yellow-normal" }
+    },
+    
+
+
+
+
+
+    {
+        "ingredientPattern": "XH,_C,_P",
+        "ingredients": {
+            "P": {"type": "Item", "code": "game:shingle-burned-red" },
+            "C": {"type": "Item", "code": "game:chisel-*", "isTool": true },
+            "H": {"type": "Item", "code": "game:hammer-*", "isTool": true },
+            "X": {"type": "Item", "code": "br-schematic-artisan" }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {"type": "Item", "code": "game:claytile-fired-plain-red" , "quantity": 16}
+    },
+
+    {
+        "ingredientPattern": "XH,_C,BP",
+        "ingredients": {
+            "P": {"type": "Item", "code": "game:shingle-burned-red" },
+            "C": {"type": "Item", "code": "game:chisel-*", "isTool": true },
+            "H": {"type": "Item", "code": "game:hammer-*", "isTool": true },
+            "X": {"type": "Item", "code": "br-schematic-artisan" },
+            "B": {"type": "block", "code": "game:bowl-*-fired"}
+        },
+        "width": 2,
+        "height": 3,
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-orange" },
+				"requiresLitres": 0.1,
+				"consumeContainer": false
+			}
+		},
+        "output": {"type": "Item", "code": "game:claytile-fired-circle-red" , "quantity": 16}
+    },
+
+
+    {
+        "ingredientPattern": "XH,_C,BP",
+        "ingredients": {
+            "P": {"type": "Item", "code": "game:shingle-burned-red" },
+            "C": {"type": "Item", "code": "game:chisel-*", "isTool": true },
+            "H": {"type": "Item", "code": "game:hammer-*", "isTool": true },
+            "X": {"type": "Item", "code": "br-schematic-artisan" },
+            "B": {"type": "block", "code": "game:bowl-*-fired"}
+        },
+        "width": 2,
+        "height": 3,
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-blue" },
+				"requiresLitres": 0.1,
+				"consumeContainer": false
+			}
+		},
+        "output": {"type": "Item", "code": "game:claytile-fired-center-red" , "quantity": 16}
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+]

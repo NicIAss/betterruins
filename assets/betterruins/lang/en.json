@@ -230,6 +230,11 @@
     "betterruins:item-handbooktext-betterruins:br-schematic-shipwright": "<strong>Found in</strong>\nRare in any ruin",
     "item-br-schematic-weaver": "Weaver's Blueprint",
     "betterruins:item-handbooktext-betterruins:br-schematic-weaver": "<strong>Found in</strong>\nRare in any ruin",
+    "item-br-schematic-artisan": "Artisan's Blueprint",
+    "betterruins:item-handbooktext-betterruins:br-schematic-artisan": "<strong>Found in</strong>\nRare in any ruin",
+    "item-br-schematic-pipes": "Plumber's Blueprint",
+    "betterruins:item-handbooktext-betterruins:br-schematic-pipes": "<strong>Found in</strong>\nRare in any ruin",
+
 
     "itemdesc-br-schematic-*": "These Blueprints are reusable, containing the secrets of forgotten recipes crafted by masters of their trade.\n\n(Note: Clutter items will appear twice in the recipe browser right below here. The lower ones will work the others will not be clickable.)",
 
