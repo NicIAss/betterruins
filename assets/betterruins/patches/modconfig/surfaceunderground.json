@@ -29,7 +29,7 @@
                   "group": "surfaceunderground",
                   "minGroupDistance": 7500,
                   "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1", "soil-verylow-normal", "soil-verylow-none", "soil-verylow-sparse", "soil-verylow-verysparse", "dirtygravel-dry-stoney"],
-                  "chance": 0.0015,
+                  "chance": 0.0012,
                   "schematics": [
                     "overground/main/surfaceunderground/surfaceunderground-o12-tiggetagg-cave1"
                   ],
@@ -50,13 +50,13 @@
                   "group": "surfaceunderground",
                   "minGroupDistance": 7500,
                   "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1", "soil-verylow-normal", "soil-verylow-none", "soil-verylow-sparse", "soil-verylow-verysparse", "dirtygravel-dry-stoney"],
-                  "chance": 0.0015,
+                  "chance": 0.0007,
                   "schematics": [
                     "overground/main/surfaceunderground/surfaceunderground-o11-tiggetagg-tree"
                   ],
                   "rockTypeRemapGroup": "standard",
                   "minY": 1,
-                  "offsety": -11,
+                  "offsety": -10,
                   "MaxBelowSealevel": 0
     },
     "file": "game:worldgen/structures.json",
@@ -88,7 +88,7 @@
     "path": "/structures/-",
     "value": {
       "code": "tiggetagg-cave-o12",
-      "chance": 0.013,
+      "chance": 0.003,
       "minGroupDistance": 7500,
       "group": "surfaceunderground",
       "schematics": [

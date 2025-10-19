@@ -230,7 +230,7 @@
       "code": "mixco-viejo-o6-yapludepatte",
       "group": "desertspecific",
       "minGroupDistance": 1800,
-      "chance": 0.004,
+      "chance": 0.001,
       "schematics": [
         "overground/main/desert-climate/mixco-viejo-o6-yapludepatte"
       ],
@@ -382,7 +382,7 @@
       "code": "desertclimate-o4-femursnapper-japoasis",
       "group": "desertspecific",
       "minGroupDistance": 1800,
-      "chance": 0.004,
+      "chance": 0.006,
       "schematics": [
         "overground/main/desert-climate/desertclimate-o4-femursnapper-japoasis"
       ],

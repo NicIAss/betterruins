@@ -4,7 +4,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0101-femursnapper-o7",
-      "chance": 0.004,
+      "chance": 0.008,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -22,7 +22,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -35,7 +36,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0102-femursnapper-o7",
-      "chance": 0.006,
+      "chance": 0.012,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -53,7 +54,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -66,7 +68,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0103-femursnapper-o7",
-      "chance": 0.006,
+      "chance": 0.012,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -84,7 +86,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -97,7 +100,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0104-freianofvoid-o7",
-      "chance": 0.004,
+      "chance": 0.008,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -115,7 +118,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -128,7 +132,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0105-dampus-o7",
-      "chance": 0.003,
+      "chance": 0.002,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -146,7 +150,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -177,7 +182,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -208,7 +214,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -221,7 +228,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0201-ifoz-o11",
-      "chance": 0.0015,
+      "chance": 0.002,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -239,7 +246,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -252,7 +260,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0202-ifoz-o11",
-      "chance": 0.0015,
+      "chance": 0.002,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -270,7 +278,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -283,7 +292,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0203-ifoz-o11",
-      "chance": 0.0015,
+      "chance": 0.002,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -301,7 +310,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -332,7 +342,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -363,7 +374,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -394,7 +406,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -407,7 +420,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0207-samgrey-o7",
-      "chance": 0.0015,
+      "chance": 0.003,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -425,7 +438,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -456,7 +470,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -487,7 +502,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -518,7 +534,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -531,7 +548,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0403-vil-o7",
-      "chance": 0.005,
+      "chance": 0.004,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -549,7 +566,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -562,7 +580,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0404-vil-o7",
-      "chance": 0.003,
+      "chance": 0.01,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -580,7 +598,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -593,7 +612,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0405-vil-o7",
-      "chance": 0.005,
+      "chance": 0.008,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -611,7 +630,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -624,7 +644,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0406-vil-o7",
-      "chance": 0.001,
+      "chance": 0.003,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -642,7 +662,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -655,7 +676,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0407-virrno-o7",
-      "chance": 0.004,
+      "chance": 0.003,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -673,7 +694,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -704,7 +726,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -735,7 +758,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -766,7 +790,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -797,7 +822,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -828,7 +854,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -859,7 +886,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500,
@@ -891,7 +919,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -904,7 +933,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0606-sirayne-o7",
-      "chance": 0.008,
+      "chance": 0.006,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -922,7 +951,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -935,7 +965,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0607-sirayne-o7",
-      "chance": 0.008,
+      "chance": 0.006,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -953,7 +983,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -984,7 +1015,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -1015,7 +1047,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -1046,7 +1079,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -1077,7 +1111,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -1108,7 +1143,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -1121,7 +1157,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0613-sirayne-o11",
-      "chance": 0.008,
+      "chance": 0.006,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -1139,7 +1175,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -1152,7 +1189,7 @@
     "path": "/structures/-",
     "value": {
       "code": "brsurfaceruins-0614-sirayne-o6",
-      "chance": 0.03,
+      "chance": 0.002,
       "minGroupDistance": 2800,
       "group": "largeruins",
       "schematics": [
@@ -1170,7 +1207,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -1201,7 +1239,8 @@
         "soil-verylow-normal",
         "soil-verylow-none",
         "soil-verylow-sparse",
-        "soil-verylow-verysparse"
+        "soil-verylow-verysparse",
+        "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 2500
@@ -1232,7 +1271,8 @@
       "soil-verylow-normal",
       "soil-verylow-none",
       "soil-verylow-sparse",
-      "soil-verylow-verysparse"
+      "soil-verylow-verysparse",
+        "gravel-granite"
     ],
     "MaxBelowSealevel": 2,
     "MinSpawnDistance": 2500
@@ -1245,7 +1285,7 @@
   "path": "/structures/-",
   "value": {
     "code": "brsurfaceruins-0701-femursnapper-largeruin-o4",
-    "chance": 0.010, 
+    "chance": 0.005, 
     "minGroupDistance": 2800,
     "group": "largeruins",
     "schematics": [
@@ -1263,7 +1303,8 @@
       "soil-verylow-normal",
       "soil-verylow-none",
       "soil-verylow-sparse",
-      "soil-verylow-verysparse"
+      "soil-verylow-verysparse",
+        "gravel-granite"
     ],
     "MaxBelowSealevel": 2,
     "MinSpawnDistance": 2500
@@ -1294,7 +1335,8 @@
       "soil-verylow-normal",
       "soil-verylow-none",
       "soil-verylow-sparse",
-      "soil-verylow-verysparse"
+      "soil-verylow-verysparse",
+        "gravel-granite"
     ],
     "MaxBelowSealevel": 2,
     "MinSpawnDistance": 2500
@@ -1307,7 +1349,7 @@
   "path": "/structures/-",
   "value": {
     "code": "brsurfaceruins-0801-par-largeruin-o5",
-    "chance": 0.005, 
+    "chance": 0.002, 
     "minGroupDistance": 2800,
     "group": "largeruins",
     "schematics": [
@@ -1325,7 +1367,8 @@
       "soil-verylow-normal",
       "soil-verylow-none",
       "soil-verylow-sparse",
-      "soil-verylow-verysparse"
+      "soil-verylow-verysparse",
+        "gravel-granite"
     ],
     "MaxBelowSealevel": 2,
     "MinSpawnDistance": 2500
@@ -1338,7 +1381,7 @@
   "path": "/structures/-",
   "value": {
     "code": "brsurfaceruins-0802-par-largeruin-o5",
-    "chance": 0.008, 
+    "chance": 0.003, 
     "minGroupDistance": 2800,
     "group": "largeruins",
     "schematics": [
@@ -1356,7 +1399,8 @@
       "soil-verylow-normal",
       "soil-verylow-none",
       "soil-verylow-sparse",
-      "soil-verylow-verysparse"
+      "soil-verylow-verysparse",
+        "gravel-granite"
     ],
     "MaxBelowSealevel": 2,
     "MinSpawnDistance": 2500
@@ -1387,7 +1431,8 @@
       "soil-verylow-normal",
       "soil-verylow-none",
       "soil-verylow-sparse",
-      "soil-verylow-verysparse"
+      "soil-verylow-verysparse",
+        "gravel-granite"
     ],
     "MaxBelowSealevel": 2,
     "MinForest": 60,
