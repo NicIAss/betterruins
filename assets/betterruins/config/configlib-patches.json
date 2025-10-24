@@ -28,8 +28,8 @@
         "20/value/chance": "AQUEDUCT_SPAWN_CHANCE * value",
         "21/value/chance": "JUMBLEROCKCASTLE_SPAWN_CHANCE * value",
         "22/value/chance": "SETTLEMENTOFKEYKEEPERS_SPAWN_CHANCE * value",
-        "23/value/chance": "ROMANBATHHOUSE_SPAWN_CHANCE * value"
-        
+        "23/value/chance": "ROMANBATHHOUSE_SPAWN_CHANCE * value",
+        "24/value/chance": "PALACEOFNESTOR_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/surface.json": {
         "0/value/chance": "MEDIUMRUINS_SPAWN_CHANCE * value",
@@ -192,7 +192,9 @@
         "24/value/chance": "SCHEMATIC_PALISADE",
         "28/value/chance": "SCHEMATIC_FARMER",
         "29/value/chance": "SCHEMATIC_SHIPWRIGHT",
-        "30/value/chance": "SCHEMATIC_WEAVER"
+        "30/value/chance": "SCHEMATIC_WEAVER",
+        "31/value/chance": "SCHEMATIC_ARTISAN",
+        "32/value/chance": "SCHEMATIC_PIPES"
       },
       "betterruins:patches/others/randomizers/stackrandomizers-ingots.json": {
         "0/value/chance": "LOOT * value",
@@ -989,6 +991,7 @@
         "21/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "22/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "23/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "24/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "0/value/MinSpawnDistance": "WALLSEGMENT_MIN_SPAWN_DISTANCE",
         "1/value/MinSpawnDistance": "ROCKFORMATION_MIN_SPAWN_DISTANCE",
         "2/value/MinSpawnDistance": "HOUSEOFUSHER_MIN_SPAWN_DISTANCE",
@@ -1012,7 +1015,10 @@
         "22/value/MinSpawnDistance": "SETTLEMENTOFKEYKEEPERS_MIN_SPAWN_DISTANCE",
         "23/value/MinSpawnDistance": "ROMANBATHHOUSE_MIN_SPAWN_DISTANCE",
         "23/value/maxTemp": "ROMANBATHHOUSE_MAX_TEMP",
-        "23/value/minTemp": "ROMANBATHHOUSE_MIN_TEMP"
+        "23/value/minTemp": "ROMANBATHHOUSE_MIN_TEMP",
+        "24/value/MinSpawnDistance": "PALACEOFNESTOR_MIN_SPAWN_DISTANCE",
+        "24/value/maxTemp": "PALACEOFNESTOR_MAX_TEMP",
+        "24/value/minTemp": "PALACEOFNESTOR_MIN_TEMP"
       },
       "betterruins:patches/modconfig/surface.json": {
         "1/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
@@ -1441,7 +1447,7 @@
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
-        "weight": 14.3830,
+        "weight": 14.382902,
         "logarithmic": true,
         "range": {
           "min": 0.0,
@@ -1465,7 +1471,19 @@
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
-        "weight": 14.3842,
+        "weight": 14.38412,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "PALACEOFNESTOR_SPAWN_CHANCE": {
+        "name": "21palaceofnestor_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
+        "default": 1.0,
+        "weight": 14.38512,
         "logarithmic": true,
         "range": {
           "min": 0.0,
@@ -1580,7 +1598,7 @@
         "name": "villagestonesrowlyart_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:villagestonesrowlyart_spawn_chance",
-        "link": "https://github.com/NicIAss/betterruins/wiki/villages#rowlyart-stones-village",
+        "link": "https://github.com/NicIAss/betterruins/wiki/villages#rowdyart-stones-village",
         "default": 1.0,
         "weight": 19.25,
         "logarithmic": true,
@@ -1962,6 +1980,30 @@
           "min": 0,
           "max": 1000
         }
+      },
+      "SCHEMATIC_ARTISAN": {
+        "name": "schematic_artisan",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-artisan",
+        "default": 3.0,
+        "weight": 29.2232,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_PIPES": {
+        "name": "schematic_pipes",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-pipes",
+        "default": 3.0,
+        "weight": 29.2233,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
       }
 
     },
@@ -2191,7 +2233,7 @@
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
-        "weight": 14.382902,
+        "weight": 14.3830,
         "logarithmic": true,
         "range": {
           "min": 0,
@@ -2203,7 +2245,7 @@
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
-        "weight": 14.38312,
+        "weight": 14.38321,
         "logarithmic": true,
         "range": {
           "min": 0,
@@ -2215,14 +2257,25 @@
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
-        "weight": 14.38412,
+        "weight": 14.3842,
         "logarithmic": true,
         "range": {
           "min": 0,
           "max": 100000
         }
       },
-
+      "PALACEOFNESTOR_MIN_SPAWN_DISTANCE": {
+        "name": "palaceofnestor_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 14.3852,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
 
       "VSVILLAGE_MIN_DISTANCE": {
         "name": "vsvillage_min_distance",
@@ -2541,7 +2594,7 @@
         }
       },
       "ROMANBATHHOUSE_MAX_TEMP": {
-        "name": "10giantcathedral_max_temp",
+        "name": "20romanbathhouse_max_temp",
         "comment": "betterruins:universal_maxtemperature_comment",
         "ingui": "betterruins:universal_maxtemperature",
         "default": 39,
@@ -2552,11 +2605,33 @@
         }
       },
       "ROMANBATHHOUSE_MIN_TEMP": {
-        "name": "10giantcathedral_min_temp",
+        "name": "20romanbathhouse_min_temp",
         "comment": "betterruins:universal_mintemperature_comment",
         "ingui": "betterruins:universal_mintemperature",
         "default": 25,
         "weight": 14.38492,
+        "range": {
+          "min": -60,
+          "max": 60
+        }
+      },
+      "PALACEOFNESTOR_MAX_TEMP": {
+        "name": "21palaceofnestor_max_temp",
+        "comment": "betterruins:universal_maxtemperature_comment",
+        "ingui": "betterruins:universal_maxtemperature",
+        "default": 39,
+        "weight": 14.38591,
+        "range": {
+          "min": -60,
+          "max": 60
+        }
+      },
+      "PALACEOFNESTOR_MIN_TEMP": {
+        "name": "21palaceofnestor_min_temp",
+        "comment": "betterruins:universal_mintemperature_comment",
+        "ingui": "betterruins:universal_mintemperature",
+        "default": 25,
+        "weight": 14.38592,
         "range": {
           "min": -60,
           "max": 60
@@ -2787,6 +2862,13 @@
       "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#20-roman-bathhouse",
       "linktext": "betterruins:wiki_link",
       "weight": 14.3841
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_palaceofnestor",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#21-palace-of-nestor",
+      "linktext": "betterruins:wiki_link",
+      "weight": 14.3851
     }
       ]
 }
