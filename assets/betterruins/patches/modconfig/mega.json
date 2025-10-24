@@ -576,7 +576,7 @@
                   "code": "20romanbathhouse",
                   "group": "megaruins",
                   "minGroupDistance": 5000,
-                  "chance": 0.8,
+                  "chance": 1.2,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-20/*"
@@ -585,7 +585,32 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -8,
-                  "minTemp": 25,
+                  "minTemp": 20,
+                  "maxTemp": 39,
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 5000
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "21palaceofnestor",
+                  "group": "megaruins",
+                  "minGroupDistance": 5000,
+                  "chance": 1.2,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/megastructures/megastructure-21/*"
+                  ],
+			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1", "dirtygravel-dry-cracked", "dirtygravel-dry-plain", "dirtygravel-dry-stoney"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "offsety": -5,
+                  "minTemp": 20,
                   "maxTemp": 39,
                   "rockTypeRemapGroup": "standard",
                   "MaxBelowSealevel": 3,
