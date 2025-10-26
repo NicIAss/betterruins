@@ -27,8 +27,9 @@
         "19/value/chance": "NORMANCASTLE_SPAWN_CHANCE * value",
         "20/value/chance": "AQUEDUCT_SPAWN_CHANCE * value",
         "21/value/chance": "JUMBLEROCKCASTLE_SPAWN_CHANCE * value",
-        "22/value/chance": "SETTLEMENTOFKEYKEEPERS_SPAWN_CHANCE * value"
-        
+        "22/value/chance": "SETTLEMENTOFKEYKEEPERS_SPAWN_CHANCE * value",
+        "23/value/chance": "ROMANBATHHOUSE_SPAWN_CHANCE * value",
+        "24/value/chance": "PALACEOFNESTOR_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/surface.json": {
         "0/value/chance": "MEDIUMRUINS_SPAWN_CHANCE * value",
@@ -52,7 +53,8 @@
         "12/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
         "13/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
         "14/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
-        "15/value/chance": "DESERTRUINS_SPAWN_CHANCE * value"
+        "15/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
+        "16/value/chance": "DESERTRUINS_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/largeruins.json": {
         "0/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
@@ -96,7 +98,11 @@
         "38/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "39/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "40/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
-        "41/value/chance": "LARGERUINS_SPAWN_CHANCE * value"
+        "41/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "42/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "43/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "44/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "45/value/chance": "LARGERUINS_SPAWN_CHANCE * value"
       },
       "betterruins:patches/others/structurespatches/special.json": {
         "0/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
@@ -127,7 +133,8 @@
         "7/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
         "8/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
         "9/value/chance": "OGDREDVILLAGE_SPAWN_CHANCE * value",
-        "10/value/chance": "FEMURSNAPPERVILLAGE_SPAWN_CHANCE * value"
+        "10/value/chance": "FEMURSNAPPERVILLAGE_SPAWN_CHANCE * value",
+        "11/value/chance": "VILLAGESTONESROWLYART_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/underground.json": {
         "0/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
@@ -185,7 +192,9 @@
         "24/value/chance": "SCHEMATIC_PALISADE",
         "28/value/chance": "SCHEMATIC_FARMER",
         "29/value/chance": "SCHEMATIC_SHIPWRIGHT",
-        "30/value/chance": "SCHEMATIC_WEAVER"
+        "30/value/chance": "SCHEMATIC_WEAVER",
+        "31/value/chance": "SCHEMATIC_ARTISAN",
+        "32/value/chance": "SCHEMATIC_PIPES"
       },
       "betterruins:patches/others/randomizers/stackrandomizers-ingots.json": {
         "0/value/chance": "LOOT * value",
@@ -590,35 +599,6 @@
         "attributesByType/*-buildingblocks/stacks/90/chance": "LOOT * value",
         "attributesByType/*-buildingblocks/stacks/91/chance": "LOOT * value",
         "attributesByType/*-buildingblocks/stacks/92/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/93/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/94/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/95/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/96/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/97/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/98/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/99/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/100/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/101/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/102/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/103/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/104/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/105/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/106/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/107/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/108/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/109/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/110/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/111/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/112/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/113/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/114/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/115/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/116/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/117/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/118/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/119/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/120/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/121/chance": "LOOT * value",
 
 
         "attributesByType/*-clayproducts/stacks/0/chance": "LOOT * value",
@@ -680,6 +660,158 @@
         "attributesByType/*-clayproducts/stacks/56/chance": "LOOT * value",
         "attributesByType/*-clayproducts/stacks/57/chance": "LOOT * value",
         "attributesByType/*-clayproducts/stacks/58/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/59/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/60/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/61/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/62/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/63/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/64/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/65/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/66/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/67/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/68/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/69/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/70/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/71/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/72/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/73/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/74/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/75/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/76/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/77/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/78/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/79/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/80/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/81/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/82/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/83/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/84/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/85/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/86/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/87/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/88/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/89/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/90/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/91/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/92/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/93/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/94/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/95/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/96/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/97/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/98/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/99/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/100/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/101/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/102/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/103/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/104/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/105/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/106/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/107/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/108/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/109/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/110/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/111/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/112/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/113/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/114/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/115/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/116/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/117/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/118/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/119/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/120/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/121/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/122/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/123/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/124/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/125/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/126/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/127/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/128/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/129/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/130/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/131/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/132/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/133/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/134/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/135/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/136/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/137/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/138/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/139/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/140/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/141/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/142/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/143/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/144/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/145/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/146/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/147/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/148/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/149/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/150/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/151/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/152/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/153/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/154/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/155/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/156/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/157/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/158/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/159/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/160/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/161/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/162/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/163/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/164/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/165/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/166/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/167/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/168/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/169/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/170/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/171/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/172/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/173/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/174/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/175/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/176/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/177/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/178/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/179/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/180/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/181/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/182/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/183/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/184/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/185/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/186/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/187/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/188/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/189/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/190/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/191/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/192/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/193/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/194/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/195/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/196/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/197/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/198/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/199/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/200/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/201/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/202/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/203/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/204/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/205/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/206/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/207/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/208/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/209/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/210/chance": "LOOT * value",
 
 
         "attributesByType/*-kingclothing/stacks/0/chance": "LOOT * value",
@@ -858,6 +990,8 @@
         "20/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "21/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "22/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "23/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "24/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "0/value/MinSpawnDistance": "WALLSEGMENT_MIN_SPAWN_DISTANCE",
         "1/value/MinSpawnDistance": "ROCKFORMATION_MIN_SPAWN_DISTANCE",
         "2/value/MinSpawnDistance": "HOUSEOFUSHER_MIN_SPAWN_DISTANCE",
@@ -878,7 +1012,13 @@
         "19/value/MinSpawnDistance": "NORMANCASTLE_MIN_SPAWN_DISTANCE",
         "20/value/MinSpawnDistance": "AQUEDUCT_MIN_SPAWN_DISTANCE",
         "21/value/MinSpawnDistance": "JUMBLEROCKCASTLE_MIN_SPAWN_DISTANCE",
-        "22/value/MinSpawnDistance": "SETTLEMENTOFKEYKEEPERS_MIN_SPAWN_DISTANCE"
+        "22/value/MinSpawnDistance": "SETTLEMENTOFKEYKEEPERS_MIN_SPAWN_DISTANCE",
+        "23/value/MinSpawnDistance": "ROMANBATHHOUSE_MIN_SPAWN_DISTANCE",
+        "23/value/maxTemp": "ROMANBATHHOUSE_MAX_TEMP",
+        "23/value/minTemp": "ROMANBATHHOUSE_MIN_TEMP",
+        "24/value/MinSpawnDistance": "PALACEOFNESTOR_MIN_SPAWN_DISTANCE",
+        "24/value/maxTemp": "PALACEOFNESTOR_MAX_TEMP",
+        "24/value/minTemp": "PALACEOFNESTOR_MIN_TEMP"
       },
       "betterruins:patches/modconfig/surface.json": {
         "1/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
@@ -921,7 +1061,9 @@
         "14/value/MinSpawnDistance": "DESERTRUINS_MIN_SPAWN_DISTANCE",
         "14/value/minGroupDistance": "DESERTRUINS_MIN_DISTANCE",
         "15/value/MinSpawnDistance": "DESERTRUINS_MIN_SPAWN_DISTANCE",
-        "15/value/minGroupDistance": "DESERTRUINS_MIN_DISTANCE"
+        "15/value/minGroupDistance": "DESERTRUINS_MIN_DISTANCE",
+        "16/value/MinSpawnDistance": "DESERTRUINS_MIN_SPAWN_DISTANCE",
+        "16/value/minGroupDistance": "DESERTRUINS_MIN_DISTANCE"
       },
       "betterruins:patches/modconfig/largeruins.json": {
         "0/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
@@ -966,6 +1108,10 @@
         "39/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "40/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "41/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "42/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "43/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "44/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "45/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
 
 
         "0/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
@@ -1009,7 +1155,11 @@
         "38/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
         "39/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
         "40/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
-        "41/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE"
+        "41/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "42/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "43/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "44/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "45/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE"
       },
       "betterruins:patches/modconfig/village.json": {
         "0/value/minGroupDistance": "VSVILLAGE_MIN_DISTANCE",
@@ -1022,7 +1172,8 @@
         "7/value/minGroupDistance": "COLOREDVILLAGE_MIN_DISTANCE",
         "8/value/minGroupDistance": "COLOREDVILLAGE_MIN_DISTANCE",
         "9/value/minGroupDistance": "OGDREDVILLAGE_MIN_DISTANCE",
-        "10/value/minGroupDistance": "FEMURSNAPPERVILLAGE_MIN_DISTANCE"
+        "10/value/minGroupDistance": "FEMURSNAPPERVILLAGE_MIN_DISTANCE",
+        "11/value/minGroupDistance": "VILLAGESTONESROWLYART_MIN_DISTANCE"
       },
       "betterruins:patches/others/structurespatches/graves.json": {
         "0/value/minGroupDistance": "GRAVES_MIN_DISTANCE",
@@ -1296,7 +1447,7 @@
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
-        "weight": 14.3830,
+        "weight": 14.382902,
         "logarithmic": true,
         "range": {
           "min": 0.0,
@@ -1309,6 +1460,30 @@
         "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 14.3832,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "ROMANBATHHOUSE_SPAWN_CHANCE": {
+        "name": "20romanbathhouse_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
+        "default": 1.0,
+        "weight": 14.38412,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "PALACEOFNESTOR_SPAWN_CHANCE": {
+        "name": "21palaceofnestor_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
+        "default": 1.0,
+        "weight": 14.38512,
         "logarithmic": true,
         "range": {
           "min": 0.0,
@@ -1413,6 +1588,19 @@
         "link": "https://github.com/NicIAss/betterruins/wiki/villages#femursnappers-village",
         "default": 1.0,
         "weight": 19.24,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "VILLAGESTONESROWLYART_SPAWN_CHANCE": {
+        "name": "villagestonesrowlyart_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:villagestonesrowlyart_spawn_chance",
+        "link": "https://github.com/NicIAss/betterruins/wiki/villages#rowdyart-stones-village",
+        "default": 1.0,
+        "weight": 19.25,
         "logarithmic": true,
         "range": {
           "min": 0.0,
@@ -1792,6 +1980,30 @@
           "min": 0,
           "max": 1000
         }
+      },
+      "SCHEMATIC_ARTISAN": {
+        "name": "schematic_artisan",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-artisan",
+        "default": 3.0,
+        "weight": 29.2232,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_PIPES": {
+        "name": "schematic_pipes",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-pipes",
+        "default": 3.0,
+        "weight": 29.2233,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
       }
 
     },
@@ -2021,7 +2233,7 @@
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
-        "weight": 14.382902,
+        "weight": 14.3830,
         "logarithmic": true,
         "range": {
           "min": 0,
@@ -2033,14 +2245,37 @@
         "comment": "betterruins:universal_minspawndistance_comment",
         "ingui": "betterruins:megastructures_min_spawn_distance",
         "default": 2500,
-        "weight": 14.38312,
+        "weight": 14.38321,
         "logarithmic": true,
         "range": {
           "min": 0,
           "max": 100000
         }
       },
-
+      "ROMANBATHHOUSE_MIN_SPAWN_DISTANCE": {
+        "name": "romanbathhouse_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 14.3842,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "PALACEOFNESTOR_MIN_SPAWN_DISTANCE": {
+        "name": "palaceofnestor_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 14.3852,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
 
       "VSVILLAGE_MIN_DISTANCE": {
         "name": "vsvillage_min_distance",
@@ -2120,6 +2355,18 @@
         "ingui": "betterruins:villages_min_distance",
         "default": 1500,
         "weight": 19.242,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "VILLAGESTONESROWLYART_MIN_DISTANCE": {
+        "name": "villagestonesrowlyart_min_distance",
+        "comment": "betterruins:universal_mindistance_comment",
+        "ingui": "betterruins:villages_min_distance",
+        "default": 1500,
+        "weight": 19.252,
         "logarithmic": true,
         "range": {
           "min": 0,
@@ -2345,6 +2592,50 @@
           "min": -60,
           "max": 60
         }
+      },
+      "ROMANBATHHOUSE_MAX_TEMP": {
+        "name": "20romanbathhouse_max_temp",
+        "comment": "betterruins:universal_maxtemperature_comment",
+        "ingui": "betterruins:universal_maxtemperature",
+        "default": 39,
+        "weight": 14.38491,
+        "range": {
+          "min": -60,
+          "max": 60
+        }
+      },
+      "ROMANBATHHOUSE_MIN_TEMP": {
+        "name": "20romanbathhouse_min_temp",
+        "comment": "betterruins:universal_mintemperature_comment",
+        "ingui": "betterruins:universal_mintemperature",
+        "default": 25,
+        "weight": 14.38492,
+        "range": {
+          "min": -60,
+          "max": 60
+        }
+      },
+      "PALACEOFNESTOR_MAX_TEMP": {
+        "name": "21palaceofnestor_max_temp",
+        "comment": "betterruins:universal_maxtemperature_comment",
+        "ingui": "betterruins:universal_maxtemperature",
+        "default": 39,
+        "weight": 14.38591,
+        "range": {
+          "min": -60,
+          "max": 60
+        }
+      },
+      "PALACEOFNESTOR_MIN_TEMP": {
+        "name": "21palaceofnestor_min_temp",
+        "comment": "betterruins:universal_mintemperature_comment",
+        "ingui": "betterruins:universal_mintemperature",
+        "default": 25,
+        "weight": 14.38592,
+        "range": {
+          "min": -60,
+          "max": 60
+        }
       }
     }
   },
@@ -2564,6 +2855,20 @@
       "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#19-settlement-of-the-keykeepers",
       "linktext": "betterruins:wiki_link",
       "weight": 14.3831
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_romanbathhouse",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#20-roman-bathhouse",
+      "linktext": "betterruins:wiki_link",
+      "weight": 14.3841
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_palaceofnestor",
+      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#21-palace-of-nestor",
+      "linktext": "betterruins:wiki_link",
+      "weight": 14.3851
     }
       ]
 }

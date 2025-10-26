@@ -6,7 +6,7 @@
       "code": "desertclimate-o1-niclass-small1",
       "group": "desertspecific",
       "minGroupDistance": 1800,
-      "chance": 0.00004,
+      "chance": 0.00002,
       "schematics": [
         "overground/main/desert-climate/desertclimate-o1-niclass-small1"
       ],
@@ -66,7 +66,7 @@
       "code": "desertclimate-o1-niclass-small4",
       "group": "desertspecific",
       "minGroupDistance": 1800,
-      "chance": 0.00004,
+      "chance": 0.00002,
       "schematics": [
         "overground/main/desert-climate/desertclimate-o1-niclass-small4"
       ],
@@ -158,7 +158,7 @@
       "code": "desertclimate-o2-stadrian-deserthouse2",
       "group": "desertspecific",
       "minGroupDistance": 1800,
-      "chance": 0.0004,
+      "chance": 0.00007,
       "schematics": [
         "overground/main/desert-climate/desertclimate-o2-stadrian-deserthouse2"
       ],
@@ -182,7 +182,7 @@
       "code": "desertclimate-o20-stadrian-undergroundwithentrance",
       "group": "desertspecific",
       "minGroupDistance": 1800,
-      "chance": 0,
+      "chance": 0.0002,
       "schematics": [
         "overground/main/desert-climate/desertclimate-o20-stadrian-undergroundwithentrance"
       ],
@@ -206,7 +206,7 @@
       "code": "femuroasiso6",
       "group": "desertspecific",
       "minGroupDistance": 1800,
-      "chance": 0.0015,
+      "chance": 0.002,
       "schematics": [
         "overground/main/desert-climate/femuroasiso6"
       ],
@@ -230,7 +230,7 @@
       "code": "mixco-viejo-o6-yapludepatte",
       "group": "desertspecific",
       "minGroupDistance": 1800,
-      "chance": 0.0018,
+      "chance": 0.001,
       "schematics": [
         "overground/main/desert-climate/mixco-viejo-o6-yapludepatte"
       ],
@@ -278,7 +278,7 @@
       "code": "wildwest1-virrno-o4",
       "group": "desertspecific",
       "minGroupDistance": 1800,
-      "chance": 0.0009,
+      "chance": 0.0006,
       "schematics": [
         "overground/main/desert-climate/wildwest1-virrno-o4"
       ],
@@ -302,7 +302,7 @@
       "code": "desertclimate-o3-yapludepatte-0101",
       "group": "desertspecific",
       "minGroupDistance": 1800,
-      "chance": 0.0016,
+      "chance": 0.004,
       "schematics": [
         "overground/main/desert-climate/desertclimate-o3-yapludepatte-0101"
       ],
@@ -326,7 +326,7 @@
       "code": "desertruin1-virrno-o4",
       "group": "desertspecific",
       "minGroupDistance": 1800,
-      "chance": 0.0002,
+      "chance": 0.001,
       "schematics": [
         "overground/main/desert-climate/desertruin1-virrno-o4"
       ],
@@ -354,7 +354,7 @@
       "code": "desertruin2-virrno-o4",
       "group": "desertspecific",
       "minGroupDistance": 1800,
-      "chance": 0.0002,
+      "chance": 0.001,
       "schematics": [
         "overground/main/desert-climate/desertruin2-virrno-o4"
       ],
@@ -369,6 +369,29 @@
       "maxRain": 0.3,
       "minForest": 0,
       "maxForest": 0.3,
+      "MaxBelowSealevel": 2,
+      "MinSpawnDistance": 500
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "desertclimate-o4-femursnapper-japoasis",
+      "group": "desertspecific",
+      "minGroupDistance": 1800,
+      "chance": 0.006,
+      "schematics": [
+        "overground/main/desert-climate/desertclimate-o4-femursnapper-japoasis"
+      ],
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-medium-none"
+      ],
+      "minTemp": 25,
       "MaxBelowSealevel": 2,
       "MinSpawnDistance": 500
     },

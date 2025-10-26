@@ -9,7 +9,9 @@
       "story/brcoalmine": 29,
       "story/brmine": 15,
       "story/brcrossroads": 18,
-      "story/brmansion": 32
+      "story/brmansion": 32,
+      "story/brthepanopticon": 32,
+      "story/brhuaca": 19
 
     },
     "file": "game:worldgen/storystructures.json",
@@ -283,6 +285,77 @@
         "pond": 150,
         "rivulets": 70,
         "caves": 100,
+        "patches": 0
+      }
+    },
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "thepanopticon",
+      "group": "storystructure",
+      "name": "thepanopticon",
+      "schematics": [
+        "story/brthepanopticon"
+      ],
+      "placement": "SurfaceRuin",
+      "dependsOnStructure": "crossroads",
+      "minSpawnDistX": 3000,
+      "maxSpawnDistX": 4000,
+      "minSpawnDistZ": 4000,
+      "maxSpawnDistZ": 5000,
+      "requireLandform": "veryflat",
+      "generateGrass": true,
+      "landformRadius": 200,
+      "rockTypeRemapGroup": "underground",
+      "ExcludeSchematicSizeProtect":true,
+      "skipGenerationCategories": {
+        "structures": 120,
+        "trees": 0,
+        "shrubs": 0,
+        "hotsprings": 150,
+        "pond": 150,
+        "rivulets": 70,
+        "caves": 100,
+        "patches": 0
+      }
+    },
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "huaca",
+      "group": "storystructure",
+      "name": "huaca",
+      "schematics": [
+        "story/brhuaca"
+      ],
+      "placement": "SurfaceRuin",
+      "dependsOnStructure": "crossroads",
+      "minSpawnDistX": 6000,
+      "maxSpawnDistX": 7000,
+      "minSpawnDistZ": 0,
+      "maxSpawnDistZ": 1000,
+      "requireLandform": "veryflat",
+      "generateGrass": true,
+      "landformRadius": 550,
+      "forceTemperature": 30,
+      "rockTypeRemapGroup": "underground",
+      "ExcludeSchematicSizeProtect":true,
+      "skipGenerationCategories": {
+        "structures": 500,
+        "trees": 0,
+        "shrubs": 0,
+        "hotsprings": 200,
+        "pond": 200,
+        "rivulets": 100,
+        "caves": 120,
         "patches": 0
       }
     },

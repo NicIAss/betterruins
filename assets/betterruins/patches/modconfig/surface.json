@@ -14,7 +14,8 @@
                     "soil-verylow-normal",
                     "soil-verylow-none",
                     "soil-verylow-sparse",
-                    "soil-verylow-verysparse"
+                    "soil-verylow-verysparse",
+                    "gravel-granite"
                   ],
 
                   "schematics": [
@@ -48,7 +49,8 @@
                     "soil-verylow-normal",
                     "soil-verylow-none",
                     "soil-verylow-sparse",
-                    "soil-verylow-verysparse"
+                    "soil-verylow-verysparse",
+                    "gravel-granite"
                   ],
                               "schematics": [
                     "overground/main/translocators/o2/*"
@@ -81,7 +83,8 @@
                     "soil-verylow-normal",
                     "soil-verylow-none",
                     "soil-verylow-sparse",
-                    "soil-verylow-verysparse"
+                    "soil-verylow-verysparse",
+                    "gravel-granite"
                   ],
                               "schematics": [
                     "overground/main/translocators/o1/*"
@@ -114,7 +117,8 @@
                     "soil-verylow-normal",
                     "soil-verylow-none",
                     "soil-verylow-sparse",
-                    "soil-verylow-verysparse"
+                    "soil-verylow-verysparse",
+                    "gravel-granite"
                   ],
                               "schematics": [
                     "overground/main/translocators/o4/*"

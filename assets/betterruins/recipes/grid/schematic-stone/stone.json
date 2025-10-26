@@ -223,4 +223,48 @@
         
     },
 
+
+
+    {
+        "ingredientPattern": "BPX",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:mortar" },
+            "B": {type: "Block", code: "game:claybricks-good-fire", quantity: 16}
+        },
+        "width": 3,
+        "height": 1,
+        "output": {type: "Block", code: "game:claybricks-uneven-four-running-fire" , quantity: 16 }
+    },
+    {
+        "ingredientPattern": "XP",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Block", code: "game:claybricks-uneven-four-running-fire" }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:claybricks-uneven-four-soldier-fire"}
+    },
+    {
+        "ingredientPattern": "XP",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Block", code: "game:claybricks-uneven-four-soldier-fire" }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:claybricks-uneven-four-header-fire"}
+    },
+    {
+        "ingredientPattern": "XP",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Block", code: "game:claybricks-uneven-four-header-fire" }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:claybricks-uneven-four-running-fire" }
+    }
+
 ]

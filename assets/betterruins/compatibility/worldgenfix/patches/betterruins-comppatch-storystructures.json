@@ -46,5 +46,29 @@
         "modid": "worldgenfix"
       }
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/14/requireLandform",
+    "value": "veryflat",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "worldgenfix"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/15/requireLandform",
+    "value": "veryflat",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "worldgenfix"
+      }
+    ]
   }
 ]

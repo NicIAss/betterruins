@@ -306,4 +306,28 @@
 		height: 1,
 		output: {type: "Block", code: "game:ironfence-base-ew" , "quantity": 1 }
 	},
+
+
+
+
+
+
+
+
+
+
+
+
+		{
+		ingredientPattern: "YH,_I",
+		"recipeGroup": 333,
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+            "H": {type: "Item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 25},
+			"I": {type: "Item", code: "game:ingot-cupronickel" , "quantity": 2},
+		},
+		width: 2,
+		height: 2,
+		output: {type: "Item", code: "game:metalplate-cupronickel" }
+	},
 ]

@@ -373,6 +373,19 @@
 		output: { type: "block", code: "game:slantedroofing-sod-east-free", quantity: 16  }
 	},
 	{
+		ingredientPattern: "X_P,_P_,P__",
+        "recipeGroup": 333,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+			"P": { type: "item", code: "game:plank-*", name: "wood", quantity: 2 }
+				},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofing-{wood}-east-free", quantity: 4  }
+	},
+
+	{
 		ingredientPattern: "XH_,HPH,PSP",
         "recipeGroup": 333,
 

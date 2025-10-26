@@ -157,6 +157,13 @@
     "item-locatormap-mansion": "Map to Mansion",
     "betterruins:item-handbooktext-betterruins:locatormap-mansion": "<strong>Found in</strong>\nCrossroads",
 
+    "game:location-thepanopticon": "The Panopticon",
+    "item-locatormap-thepanopticon": "Map to The Panopticon",
+    "betterruins:item-handbooktext-betterruins:locatormap-thepanopticon": "<strong>Found in</strong>\nCrossroads",
+
+    "game:location-huaca": "Huaca of Ai Apaec",
+    "item-locatormap-huaca": "Map to Huaca of Ai Apaec",
+    "betterruins:item-handbooktext-betterruins:locatormap-huaca": "<strong>Found in</strong>\nCrossroads\n\n<strong>Panning</strong>\nSand or Gravel",
 
 
     "item-locatormap-graves": "Map to a Hidden Tomb",
@@ -230,6 +237,11 @@
     "betterruins:item-handbooktext-betterruins:br-schematic-shipwright": "<strong>Found in</strong>\nRare in any ruin",
     "item-br-schematic-weaver": "Weaver's Blueprint",
     "betterruins:item-handbooktext-betterruins:br-schematic-weaver": "<strong>Found in</strong>\nRare in any ruin",
+    "item-br-schematic-artisan": "Artisan's Blueprint",
+    "betterruins:item-handbooktext-betterruins:br-schematic-artisan": "<strong>Found in</strong>\nRare in any ruin",
+    "item-br-schematic-pipes": "Plumber's Blueprint",
+    "betterruins:item-handbooktext-betterruins:br-schematic-pipes": "<strong>Found in</strong>\nRare in any ruin",
+
 
     "itemdesc-br-schematic-*": "These Blueprints are reusable, containing the secrets of forgotten recipes crafted by masters of their trade.\n\n(Note: Clutter items will appear twice in the recipe browser right below here. The lower ones will work the others will not be clickable.)",
 
@@ -275,6 +287,7 @@
     "coloredvillage_spawn_chance": "Colored Village Spawn Chance",
     "ogdredvillage_spawn_chance": "Ogdreds Village Spawn Chance",
     "femursnappervillage_spawn_chance": "FemurSnappers Village Spawn Chance",
+    "villagestonesrowlyart_spawn_chance": "Rowdyarts Village Spawn Chance",
     "largeruins_spawn_chance": "Large Ruins Spawn Chance",
     "mediumruins_spawn_chance": "Medium Ruins Spawn Chance",
     "desertruins_spawn_chance": "Desert Ruins Spawn Chance",
@@ -312,6 +325,8 @@
     "megastructure_aqueduct": "Megastructure Aqueduct",
     "megastructure_jumblerockcastle": "Megastructure Jumblerockcastle",
     "megastructure_settlementofkeykeepers": "Megastructure Settlement of Keykeepers",
+    "megastructure_romanbathhouse": "Megastructure Roman Bathhouse",
+    "megastructure_palaceofnestor": "Megastructure Palace of Nestor",
     "megastructures_min_spawn_distance": "Minimum Distance from Spawn",
     "wiki_link": "Wiki Link",
     "mediumruins_min_spawn_distance": "Minimum Distance from Spawn Medium Ruins",

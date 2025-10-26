@@ -1,0 +1,464 @@
+[
+    {
+        "ingredientPattern": "XS,_B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:metalblock-corroded-plain-rusty-iron" },
+            "S": {"type": "Item", "code": "game:saw-*", "isTool": true },
+            "X": {"type": "Item", "code": "br-schematic-pipes" }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW", "collected":true } , "quantity": 16}
+    },
+    {
+        "ingredientPattern": "XS,_B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:metalblock-corroded-plain-rusty-iron" },
+            "S": {"type": "Item", "code": "game:saw-*", "isTool": true },
+            "X": {"type": "Item", "code": "br-schematic-pipes" }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" } , "quantity": 16}
+    },
+
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW", "collected":true} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,        
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-empty", "collected":true}}
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW"} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-empty" }}
+    },
+    
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-empty", "collected":true} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW", "collected":true } }
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-empty"} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" }}
+    },
+
+
+
+
+    {
+        "ingredientPattern": "XB,BB",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" , "collected":true} },
+            "X": {"type": "Item", "code": "br-schematic-pipes" }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topW", "collected":true }}
+    },
+    {
+        "ingredientPattern": "XB,BB",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" } },
+            "X": {"type": "Item", "code": "br-schematic-pipes" }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topW"}}
+    },
+
+
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topW", "collected":true} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-SW", "collected":true } }
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topW"} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-SW" }}
+    },
+
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-SW", "collected":true} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-SW_45d", "collected":true }}
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-SW"} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-SW_45d" }}
+    },
+
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-SW_45d", "collected":true} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topW_45d" , "collected":true}}
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-SW_45d"} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topW_45d" }}
+    },
+
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topW_45d", "collected":true} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topW", "collected":true }}
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topW_45d"} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topW" }}
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "XB_,BBB",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW", "collected":true } },
+            "X": {"type": "Item", "code": "br-schematic-pipes" }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topEW", "collected":true }}
+    },
+    {
+        "ingredientPattern": "XB_,BBB",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" } },
+            "X": {"type": "Item", "code": "br-schematic-pipes" }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topEW"}}
+    },
+
+
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topEW", "collected":true} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-W", "collected":true }}
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topEW"} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-W" }}
+    },
+
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-W", "collected":true} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topSW" , "collected":true}}
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-W"} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topSW" }}
+    },
+
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topSW", "collected":true} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-NSW", "collected":true }}
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topSW"} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-NSW" }}
+    },
+
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-NSW", "collected":true} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topEW" , "collected":true}}
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-NSW"} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topEW" }}
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "XB_,BBB,_B_",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" , "collected":true} },
+            "X": {"type": "Item", "code": "br-schematic-pipes" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-EW", "collected":true }}
+    },
+    {
+        "ingredientPattern": "XB_,BBB,_B_",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" } },
+            "X": {"type": "Item", "code": "br-schematic-pipes" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-EW"}}
+    },
+
+
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-EW", "collected":true} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-NESW" , "collected":true}}
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-EW"} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-NESW" }}
+    },
+
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-NESW", "collected":true} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topNSW" , "collected":true}}
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-NESW"} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topNSW" }}
+    },
+
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topNSW", "collected":true} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-SW", "collected":true }}
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topNSW"} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-SW" }}
+    },
+
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-SW", "collected":true} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-EW", "collected":true }}
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-SW"} }
+        },
+        "width": 1,
+        "height": 1,
+        "recipeGroup": 333,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-EW" }}
+    },
+
+
+
+
+
+
+    {
+        "ingredientPattern": "XBB,BBB,_B_",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" , "collected":true} },
+            "X": {"type": "Item", "code": "br-schematic-pipes" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topNESW", "collected":true }}
+    },
+    {
+        "ingredientPattern": "XBB,BBB,_B_",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" } },
+            "X": {"type": "Item", "code": "br-schematic-pipes" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-topNESW"}}
+    },
+
+
+
+
+
+    {
+        "ingredientPattern": "XBB,BBB,BB_",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" , "collected":true} },
+            "X": {"type": "Item", "code": "br-schematic-pipes" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-NESW", "collected":true }}
+    },
+    {
+        "ingredientPattern": "XBB,BBB,BB_",
+        "ingredients": {
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" } },
+            "X": {"type": "Item", "code": "br-schematic-pipes" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-v-NESW"}}
+    }
+]

@@ -152,7 +152,7 @@
     "path": "/structures/-",
     "value": {
       "code": "undergroundruins",
-      "chance": 3,
+      "chance": 10,
       "name": "underground-verycommon",
       "placement": "underground",
       "schematics": [
