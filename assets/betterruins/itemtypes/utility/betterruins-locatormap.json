@@ -20,7 +20,9 @@
 				"mine1",
 				"mine2",
 				"crossroadsbelow",
-				"mansion"
+				"mansion",
+				"thepanopticon",
+				"huaca"
 			]
 		}
 	],
@@ -166,6 +168,29 @@
 					1,
 					1
 				]
+			},
+			"*-thepanopticon": {
+				"schematiccode": "thepanopticon",
+				"waypointtext": "location-thepanopticon",
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.2,
+					0.25,
+					1,
+					1
+				]
+			},
+			"*-huaca": {
+				"schematiccode": "huaca",
+				"waypointtext": "location-huaca",
+				"offset": { "x": 24, "y": 0, "z": 0 },
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.2,
+					0.25,
+					1,
+					1
+				]
 			}
 		}
 	},
@@ -174,7 +199,7 @@
 	},
 	"creativeinventory": {
 		"general": [
-			""
+			"*"
 		],
 		"items": [
 			"*"

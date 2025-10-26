@@ -576,7 +576,7 @@
                   "code": "20romanbathhouse",
                   "group": "megaruins",
                   "minGroupDistance": 5000,
-                  "chance": 1.2,
+                  "chance": 0.8,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-20/*"

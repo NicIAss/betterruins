@@ -157,6 +157,13 @@
     "item-locatormap-mansion": "Map to Mansion",
     "betterruins:item-handbooktext-betterruins:locatormap-mansion": "<strong>Found in</strong>\nCrossroads",
 
+    "game:location-thepanopticon": "The Panopticon",
+    "item-locatormap-thepanopticon": "Map to The Panopticon",
+    "betterruins:item-handbooktext-betterruins:locatormap-thepanopticon": "<strong>Found in</strong>\nCrossroads",
+
+    "game:location-huaca": "Huaca of Ai Apaec",
+    "item-locatormap-huaca": "Map to Huaca of Ai Apaec",
+    "betterruins:item-handbooktext-betterruins:locatormap-huaca": "<strong>Found in</strong>\nCrossroads\n\n<strong>Panning</strong>\nSand or Gravel",
 
 
     "item-locatormap-graves": "Map to a Hidden Tomb",

@@ -1,0 +1,338 @@
+[
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/sand-granite",
+    "value": "sand-{rock}",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/gravel-granite-land-7",
+    "value": "gravel-{rock}-land-7",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/gravel-granite-land-6",
+    "value": "gravel-{rock}-land-6",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/gravel-granite-land-5",
+    "value": "gravel-{rock}-land-5",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/gravel-granite-land-4",
+    "value": "gravel-{rock}-land-4",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/gravel-granite-land-3",
+    "value": "gravel-{rock}-land-3",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/gravel-granite-land-2",
+    "value": "gravel-{rock}-land-2",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/gravel-granite-land-1",
+    "value": "gravel-{rock}-land-1",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/stalagsection-granite-08",
+    "value": "stalagsection-{rock}-08",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/stalagsection-granite-04",
+    "value": "stalagsection-{rock}-04",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/stalagsection-granite-10",
+    "value": "stalagsection-{rock}-10",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/stalagsection-granite-12",
+    "value": "stalagsection-{rock}-12",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/stalagsection-granite-14",
+    "value": "stalagsection-{rock}-14",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/stalagsection-granite-06",
+    "value": "stalagsection-{rock}-06",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-nesw-free",
+    "value": "drystonefence-{rock}-nesw-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-ns-free",
+    "value": "drystonefence-{rock}-ns-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/looseores-nativecopper-granite-free",
+    "value": "looseores-nativecopper-{rock}-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/ore-medium-nativecopper-granite",
+    "value": "ore-medium-nativecopper-{rock}",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/agedstonebricks-granite",
+    "value": "agedstonebricks-{rock}",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/crackedrock-granite",
+    "value": "crackedrock-{rock}",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystone-granite",
+    "value": "drystone-{rock}",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-e-free",
+    "value": "drystonefence-{rock}-e-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-empty-free",
+    "value": "drystonefence-{rock}-empty-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-en-free",
+    "value": "drystonefence-{rock}-en-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-es-free",
+    "value": "drystonefence-{rock}-es-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-esw-free",
+    "value": "drystonefence-{rock}-esw-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-ew-free",
+    "value": "drystonefence-{rock}-ew-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-n-free",
+    "value": "drystonefence-{rock}-n-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-ne-free",
+    "value": "drystonefence-{rock}-ne-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-nes-free",
+    "value": "drystonefence-{rock}-nes-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-new-free",
+    "value": "drystonefence-{rock}-new-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-nsw-free",
+    "value": "drystonefence-{rock}-nsw-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-nw-free",
+    "value": "drystonefence-{rock}-nw-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-s-free",
+    "value": "drystonefence-{rock}-s-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-sw-free",
+    "value": "drystonefence-{rock}-sw-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/drystonefence-granite-w-free",
+    "value": "drystonefence-{rock}-w-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/looseboulders-granite-free",
+    "value": "looseboulders-{rock}-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/polishedrockold-cobbled-granite",
+    "value": "polishedrockold-cobbled-{rock}",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/polishedrockold-full-granite",
+    "value": "polishedrockold-full-{rock}",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/stonebrickslab-granite-down-free",
+    "value": "stonebrickslab-{rock}-down-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/stonebrickslab-granite-south-free",
+    "value": "stonebrickslab-{rock}-south-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/stonebrickslab-granite-west-free",
+    "value": "stonebrickslab-{rock}-west-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/stonebrickstairs-granite-up-east-free",
+    "value": "stonebrickstairs-{rock}-up-east-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/stonebrickstairs-granite-up-north-free",
+    "value": "stonebrickstairs-{rock}-up-north-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/stonebrickstairs-granite-up-west-free",
+    "value": "stonebrickstairs-{rock}-up-west-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/polishedrockslab-granite-down-free",
+    "value": "polishedrockslab-{rock}-down-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/polishedrockslab-granite-up-free",
+    "value": "polishedrockslab-{rock}-up-free",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/underground/ore-flint-granite",
+    "value": "ore-flint-{rock}",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  }
+]

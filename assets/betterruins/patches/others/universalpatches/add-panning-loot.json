@@ -1,0 +1,16 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/panningDrops/@(sand|gravel|sandwavy)-.*/-",
+    "value": {
+      "type": "item",
+      "code": "betterruins:locatormap-huaca",
+      "chance": {
+        "avg": 0.003,
+        "var": 0
+      },
+      "manMade": true
+    },
+    "file": "game:blocktypes/wood/pan.json"
+  }
+]
