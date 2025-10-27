@@ -99,7 +99,7 @@
                   "code": "05catnoirscastleruin",
                   "group": "megaruins",
                   "minGroupDistance": 5000,
-                  "chance": 0.011,
+                  "chance": 0.005,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-5/*"
