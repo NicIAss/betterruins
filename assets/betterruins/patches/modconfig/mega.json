@@ -99,7 +99,7 @@
                   "code": "05catnoirscastleruin",
                   "group": "megaruins",
                   "minGroupDistance": 5000,
-                  "chance": 0.011,
+                  "chance": 0.005,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-5/*"
@@ -553,7 +553,7 @@
                   "code": "19settlementofkeykeepers",
                   "group": "megaruins",
                   "minGroupDistance": 5000,
-                  "chance": 0.30,
+                  "chance": 0.45,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-19/*"
