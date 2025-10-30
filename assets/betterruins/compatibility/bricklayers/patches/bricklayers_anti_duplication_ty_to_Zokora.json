@@ -1,0 +1,134 @@
+[
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
+        "op": "replace",
+        "path": "/0/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
+        "op": "replace",
+        "path": "/1/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
+        "op": "replace",
+        "path": "/2/ingredients/B/quantity",
+        "value": 2,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
+        "op": "replace",
+        "path": "/2/output/quantity",
+        "value": 1,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
+        "op": "replace",
+        "path": "/3/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
+        "op": "replace",
+        "path": "/4/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
+        "op": "replace",
+        "path": "/5/output/quantity",
+        "value": 15,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
+        "op": "replace",
+        "path": "/6/output/quantity",
+        "value": 15,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
+        "op": "replace",
+        "path": "/7/output/quantity",
+        "value": 20,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
+        "op": "replace",
+        "path": "/8/output/quantity",
+        "value": 15,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
+        "op": "replace",
+        "path": "/9/output/quantity",
+        "value": 15,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    }
+]
