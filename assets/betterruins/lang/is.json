@@ -24,6 +24,8 @@
     "item-locatormap-gates": "Kort að Falda Hliðinu",
     "item-locatormap-undergroundruins": "Kort að Neðanjarðar Felustaðnum",
     "item-locatormap-university": "Kort að Háskólanum",
+    "betterruins:item-handbooktext-betterruins:locatormap-forlornhopetower": "<strong>Tala við</strong> gæðavarnings kaupmann",
+    "betterruins:item-handbooktext-betterruins:locatormap-university": "<strong>Tala við</strong> gæðavarnings kaupmann",
     "universal_spawnchance": "Uppsprettulíkur",
     "universal_spawnchance_comment": "Tilgreinir líkur þess að þessi bygging spretti (innan sama hóps, ef á við). Hærri gildi auka líkur á uppsprettu tíðni.",
     "universal_mindistance": "Lágmarks fjarlægð",
