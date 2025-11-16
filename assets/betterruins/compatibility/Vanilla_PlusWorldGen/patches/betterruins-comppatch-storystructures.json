@@ -70,5 +70,17 @@
         "modid": "Vanilla_PlusWorldGen"
       }
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/16/requireLandform",
+    "value": "veryflat",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "Vanilla_PlusWorldGen"
+      }
+    ]
   }
 ]
