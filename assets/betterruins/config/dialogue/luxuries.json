@@ -226,7 +226,7 @@
 			owner: "trader",
 			type: "talk",
 			text: [
-				{ value: "betterruins:There are whispers, traveler. Tales passed from one sun-scorched tongue to the next—of a place far beneath the dunes. An ancient tomb, where four trade empires once crossed paths and secrets were locked away in silence. It's not on any common map... but I may possess something rare." }
+				{ value: "betterruins:There are whispers, traveler. Tales passed from one sun-scorched tongue to the next - of a place far beneath the dunes. An ancient tomb, where four trade empires once crossed paths and secrets were locked away in silence. It's not on any common map... but I may possess something rare." }
 			],
 			jumpTo: "sellingquestionresponse2"
 		},
@@ -272,7 +272,7 @@
 			owner: "trader",
 			type: "talk",
 			text: [
-				{ value: "betterruins:Spoken like one born of purpose. But rusty gears is not enough, not for this. I require something rarer—something that fell from the stars. Bring me a knife of meteoric iron. Freshly forged. Untouched by blood or rust. Only then shall I entrust you with the map." }
+				{ value: "betterruins:Spoken like one born of purpose. But rusty gears is not enough, not for this. I require something rarer - something that fell from the stars. Bring me a knife of meteoric iron. Freshly forged. Untouched by blood or rust. Only then shall I entrust you with the map." }
 			],
 			setVariables: { "player.requestmeteorknife": "true" },
 			jumpTo: "howmuchisit32"
