@@ -393,9 +393,9 @@
     "path": "/attributesByType/*-gear/stacks/-",
     "value": {
       "type": "item",
-      "code": "betterruins:locatormap-sunrift",
+      "code": "betterruins:locatormap-agedsunrift",
       "attributes": { "randomX": 0, "randomZ": 0 },
-      "chance": 3
+      "chance": 2
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"

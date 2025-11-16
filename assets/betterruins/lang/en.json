@@ -298,7 +298,7 @@
     "item-locatormap-sunrift": "Map to The Sunrift Experiment",
     "betterruins:item-handbooktext-betterruins:locatormap-sunrift": "<strong>Found in</strong>\nRare in any ruin\n\n<strong>Talk to</strong>\nLuxuries Trader",
     "item-locatormap-agedsunrift": "Aged Map to The Sunrift Experiment",
-    "betterruins:item-handbooktext-betterruins:locatormap-agedsunrift": "<strong>Found in</strong>\nRare in any ruin\n\n<strong>Talk to</strong>\nLuxuries Trader",
+    "betterruins:item-handbooktext-betterruins:locatormap-agedsunrift": "<strong>Found in</strong>\nRare in a surface ruin",
 
 
     "item-locatormap-graves": "Map to a Hidden Tomb",
@@ -493,7 +493,7 @@
     "What’s so significant about this tower?": "What’s so significant about this tower?",
     "I’ll take the map. How much is it?": "I’ll take the map. How much is it?",
     "I now want to buy the map you talked about.": "I now want to buy the map you talked about.",
-    "Not interested. Maybe another time.": "Not interested. Maybe another time.",
+    "Not interested. Maybe another time.": "Maybe another time.",
     "dialogue-forlornhope1": "The Forlorn Hope were a legendary order of warriors, handpicked by kings and lords for the most impossible tasks. These were soldiers who thrived where others faltered - masters of combat, feared and respected alike. Their name alone could inspire loyalty in allies and terror in enemies. This tower was one of their strongholds, a place where they trained, stored their spoils, and forged their plans. If the stories hold any truth, treasures of their time might still remain within its walls.",
     "dialogue-forlornhope2": "A good question. Towers like this were built as fortresses, not just to protect, but to endure. This one is said to hold artifacts, perhaps even relics of the Forlorn Hope’s campaigns. Some say it’s a monument to their strength and legacy, a place where history still whispers to those bold enough to listen. But such places often hide dangers along with their secrets - proceed carefully.",
     "dialogue-forlornhope3": "This map isn’t something I part with lightly. For 10 rusty gears, it’s yours. A fair price for a guide to potential riches, wouldn’t you agree?",
@@ -516,11 +516,6 @@
     "dialogue-globediscussion6": "And as promised, here's your well-earned reward of 10 rusty gears for bringing me the globe. Thank you very much!",
     "dialogue-globediscussion7": "Nice doing business with you.",
     "dialogue-maprepeat1": "Let me check my notes... Ah, here it is. This should help you find the university in the ravine. Use it wisely, and good luck.",
-    "game:This is a relief to encounter a friendly countenance amidst these lands.": "This is a relief to encounter a friendly countenance amidst these lands.",
-    "game:Are there others out there like me?": "Are there others out there like me?",
-    "game:I find myself lacking in complete certainty as well.": "I find myself lacking in complete certainty as well.",
-    "game:Sorry ... but somethings are best left unspoken.": "Sorry ... but somethings are best left unspoken.",
-    "game:Ah, a new customer! How can I help you?": "Ah, a new customer! How can I help you?",
     "game:Kind of you to ask, traveler. It's {{npcname}}.": "Kind of you to ask, traveler. It's {{npcname}}.",
     "game:Alright, save me the trouble. Here's four gears.": "Alright, save me the trouble. Here's four gears.",
     "game:No thanks, I don't have much to spare.": "No thanks, I don't have much to spare.",
@@ -571,20 +566,44 @@
     "game:loretype-lostdoll": "Notes found in a abandoned homestead.",
     "game:loretype-finalhour": "Story of someones last notes.",
     "game:loretype-minerlogentries": "Log entries found in a coalmine.",
-    "game:loretype-universalstories": "Long forgotten stories from the past."
+    "game:loretype-universalstories": "Long forgotten stories from the past.",
 
 
-
-
-
-
-
-
-
-
-
-
-
+    "betterruins:Ahh I see I will try to get you those gears and return.": "Ahh I see I will try to get you those gears and return.",
+    "betterruins:You probably wander the world a lot. Heard many stories?": "You probably wander the world a lot. Heard many stories?",
+    "betterruins:Can you remind me where the location with the sun symbol was?": "Can you remind me where the location with the sun symbol was?",
+    "betterruins:I have the pickaxe in exchange for the map with the sun.": "I have the pickaxe in exchange for the map with the sun.",
+    "betterruins:There are plenty of stories. They gather like dirt on boots. Listening to them is certainly safer than checking them.": "There are plenty of stories. They gather like dirt on boots. Listening to them is certainly safer than checking them.",
+    "betterruins:Is there one? Not too old.": "Is there one? Not too old.",
+    "betterruins:I understand. I'll step away.": "I understand. I'll step away.",
+    "betterruins:There is one. But it holds no more certainty than the others.": "There is one. But it holds no more certainty than the others.",
+    "betterruins:Typical for stories, I'm interested.": "Typical for stories, I'm interested.",
+    "betterruins:Save it for now, I'll come back later.": "Save it for now, I'll come back later.",
+    "betterruins:There were rumors about the existence of one place. Distant and large. So distant that speaking of it is already an achievement. People wanted to influence something that, as is customary, cannot really be influenced. They wanted to muffle... or even push away... the screech of metal in the middle of the day, and the feeling of rust in the air. But the world doesn't like it much when its manifestations are silenced.": "There were rumors about the existence of one place. Distant and large. So distant that speaking of it is already an achievement. People wanted to influence something that, as is customary, cannot really be influenced. They wanted to muffle... or even push away... the screech of metal in the middle of the day, and the feeling of rust in the air. But the world doesn't like it much when its manifestations are silenced.",
+    "betterruins:Hard to imagine how it ended...": "Hard to imagine how it ended...",
+    "betterruins:Another tragic story? I don't have time.": "Another tragic story? I don't have time.",
+    "betterruins:As they say: as they flared up, so they faded. As far as I know, it's unlikely anyone has forced themselves to visit that place again. After the terrible rumors that spread through the world following their failure. I even think a tradition appeared to leave that place alone.": "As they say: as they flared up, so they faded. As far as I know, it's unlikely anyone has forced themselves to visit that place again. After the terrible rumors that spread through the world following their failure. I even think a tradition appeared to leave that place alone.",
+    "betterruins:And would you like to visit it?": "And would you like to visit it?",
+    "betterruins:Sounds grim, my condolences. I should go.": "Sounds grim, my condolences. I should go.",
+    "betterruins:I don't really want to break tradition. And it's quite far - I trust rumors more than my own cart for such a distance. Yet safety comes first, it's no place for me alone. They also say danger outlives its masters.": "I don't really want to break tradition. And it's quite far - I trust rumors more than my own cart for such a distance. Yet safety comes first, it's no place for me alone. They also say danger outlives its masters.",
+    "betterruins:I understand, do you have anything else?": "I understand, do you have anything else?",
+    "betterruins:I agree with you. Let's leave that place be.": "I agree with you. Let's leave that place be.",
+    "betterruins:I think I have a map from there... I'm not sure it leads exactly to it, but the mark with the sun suggests otherwise. The sun - the symbol of that place...": "I think I have a map from there... I'm not sure it leads exactly to it, but the mark with the sun suggests otherwise. The sun - the symbol of that place...",
+    "betterruins:I want to obtain it. I assume you need something in return?": "I want to obtain it. I assume you need something in return?",
+    "betterruins:Maybe you should get rid of it, might be safer for both of us.": "Maybe you should get rid of it, might be safer for both of us.",
+    "betterruins:Yes, but not exactly payment. A confirmation of your abilities. Show that you can handle good metal - bring me an iron pickaxe you forged yourself. If you're going there, better not go without purpose or craftsmanship.": "Yes, but not exactly payment. A confirmation of your abilities. Show that you can handle good metal - bring me an iron pickaxe you forged yourself. If you're going there, better not go without purpose or craftsmanship.",
+    "betterruins:Sounds worthy, but I still need to learn that.": "Sounds worthy, but I still need to learn that.",
+    "betterruins:I'll try to satisfy your request to prove my intentions.": "I'll try to satisfy your request to prove my intentions.",
+    "betterruins:Of course... I see... yes, the pickaxe is solid. I think I can trust you with more than just the map.": "Of course... I see... yes, the pickaxe is solid. I think I can trust you with more than just the map.",
+    "betterruins:More than?": "More than?",
+    "betterruins:I'll stick to the map, thank you very much.": "I'll stick to the map, thank you very much.",
+    "betterruins:Very well. Take the map, and may your steps be careful where the sun once burned brightest.": "Very well. Take the map, and may your steps be careful where the sun once burned brightest.",
+    "betterruins:Yes, knowledge and items you'll need there. Considering the different rumors, the danger seems to still live there. You'll need equipment that can withstand an unexpected strike. You'll need fire - it doesn't burn willingly there, so take enough torches. Also - support, something to brace yourself against if the ground trembles. And medicine - absolutely. The pain from those events has most likely remained there, and the place will gladly share it with any visitor. Perhaps even with the first visitor...": "Yes, knowledge and items you'll need there. Considering the different rumors, the danger seems to still live there. You'll need equipment that can withstand an unexpected strike. You'll need fire - it doesn't burn willingly there, so take enough torches. Also - support, something to brace yourself against if the ground trembles. And medicine - absolutely. The pain from those events has most likely remained there, and the place will gladly share it with any visitor. Perhaps even with the first visitor...",
+    "betterruins:This is definitely useful knowledge, thank you very much.": "This is definitely useful knowledge, thank you very much.",
+    "betterruins:Heard you... unpleasant, I'll think about it.": "Heard you... unpleasant, I'll think about it.",
+    "betterruins:And one more thing. Don't expect answers from the map - just observe the things around you, that always helped me in difficult situations like yours.": "And one more thing. Don't expect answers from the map - just observe the things around you, that always helped me in difficult situations like yours.",
+    "betterruins:Then take the map and let your own judgement guide you. Some places are better understood in silence than in stories.": "Then take the map and let your own judgement guide you. Some places are better understood in silence than in stories.",
+    "betterruins:Here you go I got another copy of the map.": "Here you go I got another copy of the map."
 
 
 
