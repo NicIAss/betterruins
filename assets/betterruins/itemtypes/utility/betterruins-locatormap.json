@@ -22,7 +22,9 @@
 				"crossroadsbelow",
 				"mansion",
 				"thepanopticon",
-				"huaca"
+				"huaca",
+				"sunrift",
+				"agedsunrift"
 			]
 		}
 	],
@@ -191,12 +193,48 @@
 					1,
 					1
 				]
+			},
+			"*-sunrift": {
+				"schematiccode": "sunrift",
+				"waypointtext": "location-sunrift",
+				"offset": { "x": 0, "y": 0, "z": 0 },
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.2,
+					0.25,
+					1,
+					1
+				]
+			},
+			"*-agedsunrift": {
+				"schematiccode": "sunrift",
+				"waypointtext": "location-sunrift",
+				"offset": { "x": 0, "y": 0, "z": 0 },
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.2,
+					0.25,
+					1,
+					1
+				]
 			}
 		}
 	},
 	"shape": {
 		"base": "game:item/lore/map-treasure"
 	},
+	"texturesByType": {
+		"*-sunrift":{
+			"map-treasures": { "base": "item/lore/map-{type}" }
+		},
+		"*-agedsunrift":{
+			"map-treasures": { "base": "item/lore/map-{type}" }
+		},
+		"*" :{
+			"map-treasures": { "base": "game:item/lore/map-treasures" }
+		}
+	},
+
 	"creativeinventory": {
 		"general": [
 			"*"

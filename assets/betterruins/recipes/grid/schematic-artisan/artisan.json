@@ -171,7 +171,7 @@
     {
         "ingredientPattern": "XH,_C,_P",
         "ingredients": {
-            "P": {"type": "Item", "code": "game:shingle-burned-red" },
+            "P": {"type": "Item", "code": "game:shingle-burned-red" , "quantity": 4},
             "C": {"type": "Item", "code": "game:chisel-*", "isTool": true },
             "H": {"type": "Item", "code": "game:hammer-*", "isTool": true },
             "X": {"type": "Item", "code": "br-schematic-artisan" }
@@ -184,7 +184,7 @@
     {
         "ingredientPattern": "XH,_C,BP",
         "ingredients": {
-            "P": {"type": "Item", "code": "game:shingle-burned-red" },
+            "P": {"type": "Item", "code": "game:shingle-burned-red" , "quantity": 4},
             "C": {"type": "Item", "code": "game:chisel-*", "isTool": true },
             "H": {"type": "Item", "code": "game:hammer-*", "isTool": true },
             "X": {"type": "Item", "code": "br-schematic-artisan" },
@@ -206,7 +206,7 @@
     {
         "ingredientPattern": "XH,_C,BP",
         "ingredients": {
-            "P": {"type": "Item", "code": "game:shingle-burned-red" },
+            "P": {"type": "Item", "code": "game:shingle-burned-red" , "quantity": 4},
             "C": {"type": "Item", "code": "game:chisel-*", "isTool": true },
             "H": {"type": "Item", "code": "game:hammer-*", "isTool": true },
             "X": {"type": "Item", "code": "br-schematic-artisan" },
@@ -222,7 +222,7 @@
 			}
 		},
         "output": {"type": "Item", "code": "game:claytile-fired-center-red" , "quantity": 16}
-    },
+    }
 
 
 

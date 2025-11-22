@@ -109,7 +109,7 @@
   },
   {
     "op": "replace",
-    "path": "/structures/15/requireLandform",
+    "path": "/structures/16/requireLandform",
     "value": "p&vcoastal flatlands",
     "file": "game:worldgen/storystructures.json",
     "side": "Server",

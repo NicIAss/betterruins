@@ -3,18 +3,43 @@
 	"class": "ItemStackRandomizer",
 	"variantgroups": [
 		{ "code": "type", "states": [
-			"darkheat", 
-			"forlornhope", 
-			"glimmershield", 
-			"lastfisherman", 
-			"lastwall",
-			"wolfstone",
-			"fieldengineersdiary",
-			"largechurch",
-			"undergroundlibrary",
-			"lostdoll",
-			"finalhour",
-			"minerlogentries"
+		"darkheat",
+		"forlornhope",
+		"glimmershield",
+		"lastfisherman",
+		"lastwall",
+		"wolfstone",
+		"fieldengineersdiary",
+		"largechurch",
+		"undergroundlibrary",
+		"lostdoll",
+		"finalhour",
+		"minerlogentries",
+		"conditions",
+		"deliverieslist",
+		"desperatetimes",
+		"devotion",
+		"dutyofthescribe",
+		"experimentteammember",
+		"favorableconditions",
+		"finalentriesarchmaster",
+		"forlornhopebounty",
+		"forlornhopemilitaryrecord89",
+		"forlornhoperecruitment",
+		"forlornhopestrategies",
+		"grandrifttheory",
+		"greensecret",
+		"initialphases",
+		"librarianslament",
+		"maxwellscreations",
+		"newmaterials",
+		"priestdiary",
+		"reportslubrication",
+		"strangetoylist",
+		"sundialdiary",
+		"tournamentwinners",
+		"viridiliteshift",
+		"messagetothestudent"
 		] }
 	],
 	"attributesByType": {
@@ -294,7 +319,158 @@
 			"stacks": [
 				{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "minerlogentries" } }
 			  ]
+		},
+		"*-conditions": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "conditions" } }
+		]
+		},
+		"*-deliverieslist": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "deliverieslist" } }
+		]
+		},
+		"*-desperatetimes": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "desperatetimes" } }
+		]
+		},
+		"*-devotion": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "devotion" } }
+		]
+		},
+		"*-dutyofthescribe": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "dutyofthescribe" } }
+		]
+		},
+		"*-experimentteammember": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "experimentteammember" } }
+		]
+		},
+		"*-favorableconditions": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "favorableconditions" } }
+		]
+		},
+		"*-finalentriesarchmaster": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-book-aged-orange", "chance": 1, "attributes": { "category": "finalentriesarchmaster" } }
+		]
+		},
+		"*-forlornhopebounty": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "forlornhopebounty" } }
+		]
+		},
+		"*-forlornhopemilitaryrecord89": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "forlornhopemilitaryrecord89" } }
+		]
+		},
+		"*-forlornhoperecruitment": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "forlornhoperecruitment" } }
+		]
+		},
+		"*-forlornhopestrategies": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "forlornhopestrategies" } }
+		]
+		},
+		"*-grandrifttheory": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-book-aged-orange", "chance": 1, "attributes": { "category": "grandrifttheory" } }
+		]
+		},
+		"*-greensecret": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "greensecret" } }
+		]
+		},
+		"*-initialphases": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "initialphases" } }
+		]
+		},
+		"*-librarianslament": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "librarianslament" } }
+		]
+		},
+		"*-maxwellscreations": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "maxwellscreations" } }
+		]
+		},
+		"*-newmaterials": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "newmaterials" } }
+		]
+		},
+		"*-priestdiary": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "priestdiary" } }
+		]
+		},
+		"*-reportslubrication": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "reportslubrication" } }
+		]
+		},
+		"*-strangetoylist": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "strangetoylist" } }
+		]
+		},
+		"*-sundialdiary": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "sundialdiary" } }
+		]
+		},
+		"*-tournamentwinners": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "tournamentwinners" } }
+		]
+		},
+		"*-viridiliteshift": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-book-aged-orange", "chance": 1, "attributes": { "category": "viridiliteshift" } }
+		]
+		},
+		"*-messagetothestudent": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "messagetothestudent" } }
+		]
 		}
+
 	},
 	"maxstacksize": 1,
 	"texture": { "base": "item/meta/randomizer/brlore" },

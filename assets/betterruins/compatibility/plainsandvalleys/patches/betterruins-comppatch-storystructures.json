@@ -118,5 +118,17 @@
         "modid": "plainsandvalleys"
       }
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/16/requireLandform",
+    "value": "p&vcoastal flatlands",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "plainsandvalleys"
+      }
+    ]
   }
 ]

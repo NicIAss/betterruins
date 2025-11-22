@@ -387,5 +387,17 @@
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "betterruins:locatormap-agedsunrift",
+      "attributes": { "randomX": 0, "randomZ": 0 },
+      "chance": 2
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
   }
 ]

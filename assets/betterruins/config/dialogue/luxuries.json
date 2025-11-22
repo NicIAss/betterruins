@@ -30,12 +30,15 @@
 		{
 			code: "firstmeetresponse",
 			owner: "player",
+			setVariables: { "player.hasmet": "true" },
 			type: "talk",
 			text: [
 				{ value: "game:I don't know what you mean.", jumpTo: "daisies" },
 				{ value: "game:I think so.", jumpTo: "morning" },
 				{ value: "game:I might still be dreaming.", jumpTo: "dream" },
-				{ value: "game:This is a relief to encounter a friendly countenance amidst these lands.", jumpTo: "bold" },
+				{ value: "game:Damn it's good to see a friendly face.", jumpTo: "bold" },
+				{ value: "game:dialogue-trader-nochatter", jumpTo: "opentrade" },
+
 			],
 		},
 
@@ -52,10 +55,10 @@
 			owner: "player",
 			type: "talk",
 			text: [
-				{ value: "game:Sorry ... but somethings are best left unspoken.", jumpTo: "alright" },
-				{ value: "game:I find myself lacking in complete certainty as well.", jumpTo: "hm" },
+				{ value: "game:I'm sorry, it's better left unsaid.", jumpTo: "alright" },
+				{ value: "game:I'm not entirely sure myself.", jumpTo: "hm" },
 				{ value: "game:I'm just trying to survive. As always.", jumpTo: "always" },
-				{ value: "game:Are there others out there like me?", jumpTo: "strangers" }
+				{ value: "game:There are more out there... like this?", jumpTo: "strangers" }
 			],
 		},
 		{
@@ -119,7 +122,7 @@
 			type: "talk",
 			text: [
 				{ value: "game:I've seen worse.", jumpTo: "notbad" },
-				{ value: "game:dialogue-theairthesun", jumpTo: "tired" },
+				{ value: "game:dialogue-howbeautiful", jumpTo: "tired" },
 				{ value: "game:Perhaps you're right. There's still work to do.", jumpTo: "alwaysmore" },
 			],
 		},
@@ -146,7 +149,7 @@
 			owner: "trader",
 			type: "talk",
 			text: [
-				{ value: "dialogue-newalwaysmore" }
+				{ value: "game:Aye, there's always more work to do." }
 			],
 			jumpTo: "main"
 		},
@@ -173,7 +176,7 @@
 			type: "talk",
 			setVariables: { "entity.hasmet": "true" },
 			text: [
-				{ value: "game:Ah, a new customer! How can I help you?" }
+				{ value: "game:dialogue-trader-newcustomer" }
 			],
 			jumpTo: "main"
 		},
@@ -199,6 +202,12 @@
 				{ value: "betterruins:dialogue-imbackandibring", jumpTo: "takeglobe", conditions: [{ variable: "player.globedone", isValue: "true" } ,{ variable: "player.inventory", isValue: "{ type: 'block', code: 'game:clutter', attributes: { type: 'globe1',collected:true } }" }, {"variable": "player.inventory", "isNotValue": "{type: 'item', code: 'betterruins:locatormap-university'}"}] },
 				{ value: "betterruins:Do you know anything interesting around here?", jumpTo: "sellingquestion2" },
 				{ value: "betterruins:I have the meteoric knife you asked for. Here take it.", jumpTo: "acceptmeteorknife2", conditions: [{ variable: "player.requestmeteorknife", isValue: "true" }, { variable: "player.inventory", isValue: "{ type: 'item', code: 'game:knife-generic-meteoriciron'}" }, {"variable": "player.inventory", "isNotValue": "{type: 'item', code: 'betterruins:locatormap-crossroadsbelow'}"} ] },
+				
+				
+				{ value: "betterruins:You probably wander the world a lot. Heard many stories?", jumpTo: "sunrift_storyintro" , conditions: [{ variable: "player.gaveironpickaxe", isNotValue: "true" } ]},
+				{ value: "betterruins:Can you remind me where the location with the sun symbol was?", jumpTo: "sunrift_redrop" , conditions: [{ variable: "player.gaveironpickaxe", isValue: "true" } , {"variable": "player.inventory", "isNotValue": "{type: 'item', code: 'betterruins:locatormap-sunrift'}"}]},
+				{ value: "betterruins:I have the pickaxe in exchange for the map with the sun.", jumpTo: "sunrift_havepickaxe", conditions: [{ variable: "player.requestironpickaxe", isValue: "true" } ,{ variable: "player.inventory", isValue: "{ type: 'item', code: 'game:pickaxe-iron' }" }, {"variable": "player.inventory", "isNotValue": "{type: 'item', code: 'betterruins:locatormap-sunrift'}"}] }
+
 			]
 		},
 		{
@@ -217,7 +226,7 @@
 			owner: "trader",
 			type: "talk",
 			text: [
-				{ value: "betterruins:There are whispers, traveler. Tales passed from one sun-scorched tongue to the next—of a place far beneath the dunes. An ancient tomb, where four trade empires once crossed paths and secrets were locked away in silence. It's not on any common map... but I may possess something rare." }
+				{ value: "betterruins:There are whispers, traveler. Tales passed from one sun-scorched tongue to the next - of a place far beneath the dunes. An ancient tomb, where four trade empires once crossed paths and secrets were locked away in silence. It's not on any common map... but I may possess something rare." }
 			],
 			jumpTo: "sellingquestionresponse2"
 		},
@@ -263,7 +272,7 @@
 			owner: "trader",
 			type: "talk",
 			text: [
-				{ value: "betterruins:Spoken like one born of purpose. But rusty gears is not enough, not for this. I require something rarer—something that fell from the stars. Bring me a knife of meteoric iron. Freshly forged. Untouched by blood or rust. Only then shall I entrust you with the map." }
+				{ value: "betterruins:Spoken like one born of purpose. But rusty gears is not enough, not for this. I require something rarer - something that fell from the stars. Bring me a knife of meteoric iron. Freshly forged. Untouched by blood or rust. Only then shall I entrust you with the map." }
 			],
 			setVariables: { "player.requestmeteorknife": "true" },
 			jumpTo: "howmuchisit32"
@@ -397,7 +406,9 @@
 				{ value: "betterruins:What’s so significant about this tower?", jumpTo: "forlornhope2" },
 				{ value: "betterruins:I’ll take the map. How much is it?", jumpTo: "howmuchisit"},
 				{ value: "betterruins:I now want to buy the map you talked about.", jumpTo: "buyforlornmap", conditions: [{ variable: "player.requestprice1", isValue: "true" }, { variable: "player.inventory", isValue: "{ type: 'item', code: 'game:gear-rusty', quantity: 10 }" }, {"variable": "player.inventory", "isNotValue": "{type: 'item', code: 'betterruins:locatormap-forlornhopetower'}"} ] },
-				{ value: "betterruins:Not interested. Maybe another time.", jumpTo: "main" }
+				{ value: "betterruins:Not interested. Maybe another time.", jumpTo: "main" },
+				{ value: "betterruins:Ahh I see I will try to get you those gears and return.", jumpTo: "main" , conditions: [{ variable: "player.requestprice1", isValue: "true" }, { variable: "player.inventory", isNotValue: "{ type: 'item', code: 'game:gear-rusty', quantity: 10 }" }, {"variable": "player.inventory", "isNotValue": "{type: 'item', code: 'betterruins:locatormap-forlornhopetower'}"} ]}
+
 			]
 		},
 
@@ -739,6 +750,271 @@
 			trigger: "giveitemstack",
 			triggerdata: { type: "item", code: "game:locatormap-treasurehunter", stacksize: 1 },
 			jumpTo: "main"
-		}
+		},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		{
+			code: "sunrift_storyintro",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:There are plenty of stories. They gather like dirt on boots. Listening to them is certainly safer than checking them." }
+			],
+			jumpTo: "sunrift_storyintro_response"
+		},
+		{
+			code: "sunrift_storyintro_response",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Is there one? Not too old.", jumpTo: "sunrift_story1" },
+				{ value: "betterruins:I understand. I'll step away.", jumpTo: "main" }
+			]
+		},
+
+		{
+			code: "sunrift_story1",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:There is one. But it holds no more certainty than the others." }
+			],
+			jumpTo: "sunrift_story1_response"
+		},
+		{
+			code: "sunrift_story1_response",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Typical for stories, I'm interested.", jumpTo: "sunrift_story2" },
+				{ value: "betterruins:Save it for now, I'll come back later.", jumpTo: "main" }
+			]
+		},
+
+		{
+			code: "sunrift_story2",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:There were rumors about the existence of one place. Distant and large. So distant that speaking of it is already an achievement. People wanted to influence something that, as is customary, cannot really be influenced. They wanted to muffle... or even push away... the screech of metal in the middle of the day, and the feeling of rust in the air. But the world doesn't like it much when its manifestations are silenced." }
+			],
+			jumpTo: "sunrift_story2_response"
+		},
+		{
+			code: "sunrift_story2_response",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Hard to imagine how it ended...", jumpTo: "sunrift_story3" },
+				{ value: "betterruins:Another tragic story? I don't have time.", jumpTo: "main" }
+			]
+		},
+
+		{
+			code: "sunrift_story3",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:As they say: as they flared up, so they faded. As far as I know, it's unlikely anyone has forced themselves to visit that place again. After the terrible rumors that spread through the world following their failure. I even think a tradition appeared to leave that place alone." }
+			],
+			jumpTo: "sunrift_story3_response"
+		},
+		{
+			code: "sunrift_story3_response",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:And would you like to visit it?", jumpTo: "sunrift_story4" },
+				{ value: "betterruins:Sounds grim, my condolences. I should go.", jumpTo: "main" }
+			]
+		},
+
+		{
+			code: "sunrift_story4",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:I don't really want to break tradition. And it's quite far - I trust rumors more than my own cart for such a distance. Yet safety comes first, it's no place for me alone. They also say danger outlives its masters." }
+			],
+			jumpTo: "sunrift_story4_response"
+		},
+		{
+			code: "sunrift_story4_response",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:I understand, do you have anything else?", jumpTo: "sunrift_request" },
+				{ value: "betterruins:I agree with you. Let's leave that place be.", jumpTo: "main" }
+			]
+		},
+
+		{
+			code: "sunrift_request",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:I think I have a map from there... I'm not sure it leads exactly to it, but the mark with the sun suggests otherwise. The sun - the symbol of that place..." }
+			],
+			jumpTo: "sunrift_request_response"
+		},
+		{
+			code: "sunrift_request_response",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:I want to obtain it. I assume you need something in return?", jumpTo: "sunrift_pickaxe_request" },
+				{ value: "betterruins:Maybe you should get rid of it, might be safer for both of us.", jumpTo: "main" }
+			]
+		},
+
+		{
+			code: "sunrift_pickaxe_request",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Yes, but not exactly payment. A confirmation of your abilities. Show that you can handle good metal - bring me an iron pickaxe you forged yourself. If you're going there, better not go without purpose or craftsmanship." }
+			],
+			setVariables: { "player.requestironpickaxe": "true" },
+			jumpTo: "sunrift_pickaxe_request_response"
+		},
+		{
+			code: "sunrift_pickaxe_request_response",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Sounds worthy, but I still need to learn that.", jumpTo: "main" },
+				{ value: "betterruins:I'll try to satisfy your request to prove my intentions.", jumpTo: "main" }
+			]
+		},
+
+
+
+
+
+
+
+
+
+
+		{
+			code: "sunrift_havepickaxe",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Of course... I see... yes, the pickaxe is solid. I think I can trust you with more than just the map." }
+			],
+			trigger: "takefrominventory",
+			triggerdata: { type: "item", code: "game:pickaxe-iron"},
+			setVariables: { "player.gaveironpickaxe": "true" },
+			jumpTo: "sunrift_pickaxe_choice"
+		},
+		{
+			code: "sunrift_pickaxe_choice",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:More than?", jumpTo: "sunrift_morethan" },
+				{ value: "betterruins:I'll stick to the map, thank you very much.", jumpTo: "sunrift_map_only" }
+			]
+		},
+
+		{
+			code: "sunrift_map_only",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Very well. Take the map, and may your steps be careful where the sun once burned brightest." }
+			],
+			trigger: "giveitemstack",
+			triggerdata: { type: "item", code: "betterruins:locatormap-sunrift", stacksize: 1 },
+			setVariables: { "player.sunriftmapgiven": "true" },
+			jumpTo: "main"
+		},
+
+		{
+			code: "sunrift_morethan",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Yes, knowledge and items you'll need there. Considering the different rumors, the danger seems to still live there. You'll need equipment that can withstand an unexpected strike. You'll need fire - it doesn't burn willingly there, so take enough torches. Also - support, something to brace yourself against if the ground trembles. And medicine - absolutely. The pain from those events has most likely remained there, and the place will gladly share it with any visitor. Perhaps even with the first visitor..." }
+			],
+			jumpTo: "sunrift_morethan_response"
+		},
+		{
+			code: "sunrift_morethan_response",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:This is definitely useful knowledge, thank you very much.", jumpTo: "sunrift_final_advice" },
+				{ value: "betterruins:Heard you... unpleasant, I'll think about it.", jumpTo: "sunrift_givemap_alt" }
+			]
+		},
+
+		{
+			code: "sunrift_final_advice",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:And one more thing. Don't expect answers from the map - just observe the things around you, that always helped me in difficult situations like yours." }
+			],
+			trigger: "giveitemstack",
+			triggerdata: { type: "item", code: "betterruins:locatormap-sunrift", stacksize: 1 },
+			setVariables: { "player.sunriftmapgiven": "true" },
+			jumpTo: "main"
+		},
+		{
+			code: "sunrift_givemap_alt",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Then take the map and let your own judgement guide you. Some places are better understood in silence than in stories." }
+			],
+			trigger: "giveitemstack",
+			triggerdata: { type: "item", code: "betterruins:locatormap-sunrift", stacksize: 1 },
+			setVariables: { "player.sunriftmapgiven": "true" },
+			jumpTo: "main"
+		},
+
+
+
+
+
+
+
+
+
+		{
+			code: "sunrift_redrop",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Here you go I got another copy of the map." }
+			],
+			trigger: "giveitemstack",
+			triggerdata: { type: "item", code: "betterruins:locatormap-sunrift", stacksize: 1 },
+			setVariables: { "player.sunriftmapgiven": "true" },
+			jumpTo: "main"
+		},
+
+
+
+
 	]
 }

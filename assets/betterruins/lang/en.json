@@ -95,6 +95,108 @@
 
 
 
+
+    "lore-newmaterials-title": "Viridilite",
+    "lore-newmaterials-piece1": "I am grateful the city approved my request to begin research in this region.\r\nSmall deposits of Viridilite occur here with unusual frequency.\r\n\r\nElsewhere in the world, however, it appears sporadically and in large masses, without discernible patterns - an inconsistency that complicates any robust study.\r\n\r\nPrevious teams attempted to work on it, but conditions outside this area did not favor productive results.\r\n\r\nIts age remains difficult to estimate; no coherent formation model has yet emerged.\r\n\r\nField practice suggests it influences rifts and, in sufficiently high concentrations, locally dampens storms.\r\nWe are expanding experiments to verify these effects and determine safe handling thresholds.\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-newmaterials": "Discovered lore 'Viridilite'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+    "lore-viridiliteshift-title": "Viridilite Shift",
+    "lore-viridiliteshift-piece1": "Recent findings indicate that Viridilite can influence the closure and relocation of rift openings.\r\n\r\nDuring periods of sufficient rift activity, we intend to redirect multiple rifts to a designated point using newly developed instruments.\r\n\r\nWe have built deflectors - compact mounts for a Viridilite plate - that absorb rust, aging the plate and gradually depleting the mineral. High-grade Viridilite is essential; small or poor-quality pieces lose efficiency rapidly.\r\n\r\nObservation point report:\r\nWe placed several deflectors around the complex and recently activated a Rift Guard nearby.\r\n\r\nResult: rifts are forming in the southwest corner of the cave, and they are noticeably larger than usual.\r\nNo additional anomalies were observed.\r\n\r\nWe will continue experiments, scaling up the number of deflectors and guards to refine control and measure stability thresholds.\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-viridiliteshift": "Discovered lore 'Viridilite Shift'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+    "lore-greensecret-title": "Green Secret",
+    "lore-greensecret-piece1": "Max,\r\nI hope you found this place after receiving my letter.\r\nI unearthed an insanely crystalline shard of that unusual green ore.\r\nI'm leaving it for you - I managed to sneak it out unnoticed!\r\n\r\nI trust you'll find a better use for it than selling it to the first bidder. =)\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-greensecret": "Discovered lore 'Green Secret'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+    "lore-grandrifttheory-title": "Grand Rift Theory",
+    "lore-grandrifttheory-piece1": "Based on recent records from the observation point, the number of rifts that are simultaneously blocked and shifted determines the size of the rift we redirect to the single point in the cave’s southwest corner.\r\n\r\nIn other words: the more area we cover with deflectors and Rift Guards, the larger the cumulative shifted rift becomes - I call this the Grand Rift.\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-grandrifttheory": "Discovered lore 'Grand Rift Theory'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+    "lore-sundialdiary-title": "Sundial Diary",
+    "lore-sundialdiary-piece1": "Entry 1\r\nThanks to our successful rift-shifting experiments, we must now validate our theory about sunlight's influence on rifts.\r\n\r\nWe will construct a lens to collect and reflect sunlight.\r\n\r\nEntry 2\r\nWe invited mechanics, patrons, and a few experts in catadioptrics.\r\n\r\nMost mechanics agreed; only one expert, Lucius Benidii, expressed interest.\r\n\r\nWe will await their arrival.\r\n\r\nEntry 3\r\nThe meeting produced unusual results.\r\nSome mechanics objected to the risks and declined, but the remaining key figures - including the catadioptric expert - agreed. We are already scheduling a follow-up to begin blueprint work.\r\n\r\nEntry 4\r\nBlueprint work has begun. Lucius shared his knowledge and experience of light reflection. The team is carefully combining the mechanics' insights with the expert’s practice. A grand beginning!\r\n\r\n...\r\n\r\n___NEWPAGE___",
+    "lore-sundialdiary-piece2": "...\r\n\r\nEntry 5\r\nConstruction of the lens is sometimes slowed by the instability of this place.\r\nTemporal storms have become frequent, forcing us to divert effort to self-protection.\r\nAside from this, the mold and materials for the lens are already prepared.\r\n\r\nEntry 6\r\nAssembly is nearly complete; precise technique and hard-won experience allowed us to build such a massive instrument.\r\nOnce final preparations are done, we can immediately seek answers to our old questions.\r\n\r\nEntry 7\r\nThe lens is operated manually.\r\nFour people rotate it, and one on the platform tilts the mirror.\r\n\r\n...\r\n\r\n___NEWPAGE___",
+    "lore-sundialdiary-piece3": "...\r\n\r\nEntry 8\r\nThe planetary gear - the key element of the rotation mechanism - was created with tremendous effort.\r\nFirst, we cast a huge mold and poured molten metal.\r\nIndividual planet gears were cast and, not without difficulty, fixed into the assembly.\r\nWe followed the blueprint and manual of Jonas Falx.\r\n\r\n...\r\n\r\n___NEWPAGE___",
+    "lore-sundialdiary-piece4": "...\r\n\r\nEntry 9\r\nThe lens functions as intended.\r\nBy fortune and careful calculation, the current season lets sunlight strike the lens and reflect into select parts of the cave.\r\nThe number of variables we manage is enormous.\r\n\r\nEntry 10\r\nOur first trials aimed the beam at different locations; the southwest corner is perfectly illuminated and fully meets our needs.\r\nIt is, I should note, the most expensive light source I have ever seen.\r\nWe can now illuminate specific work areas - remarkable.\r\n\r\nEntry 11\r\nFirst aim at the rift.\r\nSuccess: the rift seems to freeze, calm, and brighten.\r\nWe appear to have stabilized it.\r\nCreatures shy from the light; they fear crossing into our world.\r\nThis suggests potential - as if we might cross to the other side.\r\nWe will convene a team meeting in its honor.\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-sundialdiary": "Discovered lore 'Sundial Diary'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+    "lore-maxwellscreations-title": "Echo of Maxwell's Creations",
+    "lore-maxwellscreations-piece1": "Today, a wonderful choir filled the scriptorium.\r\n\r\nThere was a performance titled \"Creations of Maxwell.\"\r\n\r\nFour artists lent their voices to honor this place, adding value to the vast knowledge already kept here.\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-maxwellscreations": "Discovered lore 'Echo of Maxwell's Creations'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+    "lore-deliverieslist-title": "Small List of Deliveries",
+    "lore-deliverieslist-piece1": "Deliveries of metal materials from the city of Hushward and nearby settlements:\r\n\r\n- Hushward\r\n32 steel ingots\r\n64 copper ingots\r\n32 electrum ingots\r\n\r\n- Nearby settlements\r\n2 iron anvils\r\nA crate of black coal\r\n\r\n- Hushward\r\n12 Jonas parts with a book about its mechanism and planetary gear system\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-deliverieslist": "Discovered lore 'Small List of Deliveries'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+    "lore-reportslubrication-title": "Reports on Mechanism Lubrication",
+    "lore-reportslubrication-piece1": "Reports on lubrication of the planetary gear system\r\n\r\nEntry 1\r\nI poured a bit of that liquid where you asked, while they started moving the mechanism. The squeak is gone - seems like it worked.\r\n\r\nEntry 2\r\nThanks, I checked - everything is good. Repeat the procedure after some time; I repeat, it must be done while the gears are moving. Write here when you do it.\r\n\r\nEntry 3\r\nRepeated everything. You all did great assembling such a thing - it's amazing to watch it spin. Awesome.\r\n\r\nEntry 4\r\nStop writing your impressions here - this diary is only for important entries!\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-reportslubrication": "Discovered lore 'Reports on Mechanism Lubrication'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+    "lore-conditions-title": "Conditions",
+    "lore-conditions-piece1": "The meeting after the lens's success lifted our spirits, and we do not plan to stop.\r\nSince light favorably affects rifts, we plan to increase the load and combine conditions.\r\n\r\nOn top of that, we will attempt to cross the rift ourselves.\r\n\r\nThe next stage of our experiments will combine multiple conditions: shifting rifts to a single point, stabilizing them with the lens, studying rift reactions to reflected sunlight during a storm, and - crucially - volunteers crossing through the stabilized Grand Rift.\r\n\r\nWe will keep everything ready; if we manage to align all conditions at once, the task will be half accomplished.\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-conditions": "Discovered lore 'Conditions'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+    "lore-favorableconditions-title": "Favorable Conditions for the Start of the Experiment",
+    "lore-favorableconditions-piece1": "The oscillator trembles with unnatural force. The vibrations scrape the disc as never before, across a larger radius.\r\nA temporal storm of unusual strength is approaching.\r\n\r\nThis is the long-awaited result.\r\nI urgently informed everyone; evacuation of outsiders is underway.\r\nThe ringing of the storm warning bells sounds louder than usual.\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-favorableconditions": "Discovered lore 'Favorable Conditions for the Start of the Experiment'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+
+    "lore-strangetoylist-title": "Strange List of Toys",
+    "lore-strangetoylist-piece1": "We are asked to leave this place for a while.\r\nI can’t manage to gather the less important things, so I’m leaving this note for my future self who will return.\r\n\r\nLeft here:\r\n...a toy in the decorative niche in the wall to the right of the exit from the barracks...\r\n...\r\n...a toy behind the column, going down from the first floor...\r\n...\r\n...a whole box of toys behind the piano in the scriptorium...\r\n...\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-strangetoylist": "Discovered lore 'Strange List of Toys'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+    "lore-experimentteammember-title": "Entry from a Member of the Experiment Team",
+    "lore-experimentteammember-piece1": "We are ready for the experiment; outsiders are being evacuated.\r\nThe entire team is preparing, especially the combat team.\r\n\r\nI am quite excited; I wish I could be in their place - \r\nto peek into another world unlike our own, despite the skepticism and concerns of most of the leadership group...\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-experimentteammember": "Discovered lore 'Entry from a Member of the Experiment Team'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+    "lore-dutyofthescribe-title": "Duty of the Scribe",
+    "lore-dutyofthescribe-piece1": "The experiment begins. I am obliged to document everything that happens around us.\r\nThere are only 14 people left in the complex.\r\n\r\nIncluding: the Archmaster - the key leader; the scribe (me); two members of the leadership group who manage the lens; and ten brave warriors, half of whom are intended to cross the boundary of this world.\r\n\r\nIf the warriors successfully cross the boundary, the leadership group and I will also be able to pass through the rift.\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-dutyofthescribe": "Discovered lore 'Duty of the Scribe'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+    "lore-initialphases-title": "Initial Phases of the Experiment",
+    "lore-initialphases-piece1": "Phase 1\r\nRifts appear - a favorable alignment of circumstances and precise calculation concentrate them in the southwest corner of the cave.\r\nGradually, creatures begin to emerge, but we are already ready to direct the lens at them.\r\n\r\nPhase 2\r\nThe lens is aimed - the Grand Rift is stabilized.\r\nNo teams from the Archmaster approached the rift.\r\nWe continue to wait while everything remains stable...\r\n\r\nPhase 3\r\nThe approach of the storm is felt; we will divert the lens at the moment it manifests.\r\nThe Archmaster instructed that creatures must not approach - five of our warriors, during the diversion of the lens from the rift.\r\nWe have never directed the lens at the rift during a storm before.\r\n\r\nThe storm approaches...\r\n\r\nPhase 4\r\nThe storm has descended; in moments, the order to aim the lens will be given...\r\n\r\n___NEWPAGE___",
+    "lore-initialphases-piece2": "Experiment Results...\r\n\r\nPhase 5\r\nIt was a terrifying sight; we could no longer resist the Grand Rift.\r\n\r\nCreatures began to burst forth from it with particular intensity.\r\n\r\nMillions of rusty particles emanated from the epicenter of the experiment.\r\n\r\nIt took the lives of our people; we rushed to flee.\r\nNearly half of the combat team was lost.\r\n\r\nThe one standing closest was simply wiped off the face of the earth.\r\nRusty shards coated the bodies of three other participants; I heard their screams and groans...\r\n\r\nThe fifth was covered in dark spots; I believe it was rot.\r\nWe cannot save him; there are crowds of rusty creatures around him.\r\nI saw him try to activate the Rift Guard closest to the epicenter...\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-initialphases": "Discovered lore 'Initial Phases of the Experiment'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+    "lore-finalentriesarchmaster-title": "Final Entries of the Archmaster-Leader",
+    "lore-finalentriesarchmaster-piece1": "Half of the combat team is gone.\r\nThe very first one was simply devoured alive...\r\nThree of my people were covered in rust and struck by the enormous number of spikes erupting from the portal.\r\nAnother of them was apparently afflicted by rot.\r\n\r\nWe rushed to flee; everything became uncontrollable too quickly.\r\n\r\nThe cursed rift began to spew rust and age everything around, as if snow were flying through an open window in a blizzard during a restless winter.\r\n\r\n...I do not know what awaits me. I locked myself in here and ordered the remaining guardians to protect the remaining people.\r\nIt is incredibly bitter for me to write this; I had so hoped that this experiment would give answers to our questions.\r\n\r\nMost likely, everyone else evacuated through the sunlit opening in the middle of the scriptorium - I heard the commotion.\r\n\r\nMy conscience and reason torment me; it seems I will have to remain here forever. I will hardly live a normal life after what I have seen and the responsibility for those we lost.\r\n\r\n -  Archmaster\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-finalentriesarchmaster": "Discovered lore 'Final Entries of the Archmaster-Leader'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+    "lore-tournamentwinners-title": "Winners of the Regular Tournament",
+    "lore-tournamentwinners-piece1": "Winners of the Gomoku Tournament Cycle:\r\n\r\nWaldemar - 5\r\nKataodioptrik - 3\r\nKaspar - 2\r\nHarald - 1\r\nLucky One - 1\r\n\r\nTournament Keeper - Kaspar Kristalin\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-tournamentwinners": "Discovered lore 'Winners of the Regular Tournament'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+    "lore-messagetothestudent-title": "Message to the Student",
+    "lore-messagetothestudent-piece1": "Request for parts\r\nStudent, my shift is ending. I can't finish repairing the Rift ward.\r\n\r\nFind in our warehouse:\r\nFlux gap connector\r\nInverted refraction cylinder\r\nFinely balanced oscillator\r\nwith several metal components\r\n\r\nLeave them here. I will teach you the process that I was once taught by the person who worked with Jonas Falx.\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-messagetothestudent": "Discovered lore 'Message to the Student'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     "game:item-stackrandomizer-darkheat":"BR Lore Darkheat",
     "game:item-stackrandomizer-glimmershield":"BR Lore Glimmershield",
     "game:item-stackrandomizer-lastfisherman":"BR Lore Lastfisherman",
@@ -107,6 +209,33 @@
     "game:item-stackrandomizer-lostdoll":"BR Lore Lost Doll",
     "game:item-stackrandomizer-finalhour":"BR Lore The Final Hour",
     "game:item-stackrandomizer-minerlogentries":"BR Lore Miner Edric",
+    "game:item-stackrandomizer-newmaterials":"BR Lore Viridilite",
+    "game:item-stackrandomizer-viridiliteshift":"BR Lore Viridilite Shift",
+    "game:item-stackrandomizer-greensecret":"BR Lore Green Secret",
+    "game:item-stackrandomizer-grandrifttheory":"BR Lore Grand Rift Theory",
+    "game:item-stackrandomizer-sundialdiary":"BR Lore Sundial Diary",
+    "game:item-stackrandomizer-maxwellscreations":"BR Lore Maxwell's Creations",
+    "game:item-stackrandomizer-deliverieslist":"BR Lore Small List of Deliveries",
+    "game:item-stackrandomizer-reportslubrication":"BR Lore Reports on Mechanism Lubrication",
+    "game:item-stackrandomizer-conditions":"BR Lore Conditions",
+    "game:item-stackrandomizer-favorableconditions":"BR Lore Favorable Conditions",
+    "game:item-stackrandomizer-strangetoylist":"BR Lore Strange List of Toys",
+    "game:item-stackrandomizer-experimentteammember":"BR Lore Experiment Team Member",
+    "game:item-stackrandomizer-dutyofthescribe":"BR Lore Duty of the Scribe",
+    "game:item-stackrandomizer-initialphases":"BR Lore Initial Phases of the Experiment",
+    "game:item-stackrandomizer-finalentriesarchmaster":"BR Lore Final Entries of the Archmaster",
+    "game:item-stackrandomizer-tournamentwinners":"BR Lore Tournament Winners",
+    "game:item-stackrandomizer-messagetothestudent":"BR Lore Message to the Student",
+    "game:item-stackrandomizer-desperatetimes":"BR Lore Desperate Times",
+    "game:item-stackrandomizer-devotion":"BR Lore Devotion",
+    "game:item-stackrandomizer-forlornhopebounty":"BR Lore Forlornhope Bounty",
+    "game:item-stackrandomizer-forlornhopemilitaryrecord89":"BR Lore Forlornhope Military Records",
+    "game:item-stackrandomizer-forlornhoperecruitment":"BR Lore Forlornhope Recruitment",
+    "game:item-stackrandomizer-forlornhopestrategies":"BR Lore Forlornhope Strategies",
+    "game:item-stackrandomizer-librarianslament":"BR Lore Librarian's Lament",
+    "game:item-stackrandomizer-priestdiary":"BR Lore Priest's Diary",
+
+
 
     "game:item-stackrandomizer-buildingblocks":"BR Loot Buildingblocks",
     "game:item-stackrandomizer-clayproducts":"BR Loot Clayproducts",
@@ -164,6 +293,12 @@
     "game:location-huaca": "Huaca of Ai Apaec",
     "item-locatormap-huaca": "Map to Huaca of Ai Apaec",
     "betterruins:item-handbooktext-betterruins:locatormap-huaca": "<strong>Found in</strong>\nCrossroads\n\n<strong>Panning</strong>\nSand or Gravel",
+
+    "game:location-sunrift": "The Sunrift Experiment",
+    "item-locatormap-sunrift": "Map to The Sunrift Experiment",
+    "betterruins:item-handbooktext-betterruins:locatormap-sunrift": "<strong>Found in</strong>\nRare in any ruin\n\n<strong>Talk to</strong>\nLuxuries Trader",
+    "item-locatormap-agedsunrift": "Aged Map to The Sunrift Experiment",
+    "betterruins:item-handbooktext-betterruins:locatormap-agedsunrift": "<strong>Found in</strong>\nRare in a surface ruin",
 
 
     "item-locatormap-graves": "Map to a Hidden Tomb",
@@ -247,7 +382,7 @@
 
 
     "game:item-textureflipper": "Temporal Transfigurator",
-    "game:itemdesc-textureflipper": "An ornate cupronickel device designed to transform some clutter block textures, channeling the essence of temporal reconfiguration.\n\nLook at a supported clutter block and use the F key to select alternate textures.\n\nNot a lot of clutterblocks allow to be modified but be sure to test this device on all of them.",
+    "game:itemdesc-textureflipper": "An ornate cupronickel device designed to transform some clutter block textures, channeling the essence of temporal reconfiguration.\n\nLook at a supported clutter block and use the F key to select alternate textures.\nThen right click to apply that texture to supported clutter blocks.\n\nMost wood or metal themed clutterblocks allow to be modified.\nTry it out!",
     "item-br-schematic-textureflipper": "Temporal Transfigurator Blueprint",
     "betterruins:item-handbooktext-betterruins:br-schematic-textureflipper": "<strong>Found in</strong>\nStory structure university",
 	"game:clutter-globe1": "Large Intact Globe",
@@ -358,7 +493,7 @@
     "What’s so significant about this tower?": "What’s so significant about this tower?",
     "I’ll take the map. How much is it?": "I’ll take the map. How much is it?",
     "I now want to buy the map you talked about.": "I now want to buy the map you talked about.",
-    "Not interested. Maybe another time.": "Not interested. Maybe another time.",
+    "Not interested. Maybe another time.": "Maybe another time.",
     "dialogue-forlornhope1": "The Forlorn Hope were a legendary order of warriors, handpicked by kings and lords for the most impossible tasks. These were soldiers who thrived where others faltered - masters of combat, feared and respected alike. Their name alone could inspire loyalty in allies and terror in enemies. This tower was one of their strongholds, a place where they trained, stored their spoils, and forged their plans. If the stories hold any truth, treasures of their time might still remain within its walls.",
     "dialogue-forlornhope2": "A good question. Towers like this were built as fortresses, not just to protect, but to endure. This one is said to hold artifacts, perhaps even relics of the Forlorn Hope’s campaigns. Some say it’s a monument to their strength and legacy, a place where history still whispers to those bold enough to listen. But such places often hide dangers along with their secrets - proceed carefully.",
     "dialogue-forlornhope3": "This map isn’t something I part with lightly. For 10 rusty gears, it’s yours. A fair price for a guide to potential riches, wouldn’t you agree?",
@@ -381,11 +516,6 @@
     "dialogue-globediscussion6": "And as promised, here's your well-earned reward of 10 rusty gears for bringing me the globe. Thank you very much!",
     "dialogue-globediscussion7": "Nice doing business with you.",
     "dialogue-maprepeat1": "Let me check my notes... Ah, here it is. This should help you find the university in the ravine. Use it wisely, and good luck.",
-    "game:This is a relief to encounter a friendly countenance amidst these lands.": "This is a relief to encounter a friendly countenance amidst these lands.",
-    "game:Are there others out there like me?": "Are there others out there like me?",
-    "game:I find myself lacking in complete certainty as well.": "I find myself lacking in complete certainty as well.",
-    "game:Sorry ... but somethings are best left unspoken.": "Sorry ... but somethings are best left unspoken.",
-    "game:Ah, a new customer! How can I help you?": "Ah, a new customer! How can I help you?",
     "game:Kind of you to ask, traveler. It's {{npcname}}.": "Kind of you to ask, traveler. It's {{npcname}}.",
     "game:Alright, save me the trouble. Here's four gears.": "Alright, save me the trouble. Here's four gears.",
     "game:No thanks, I don't have much to spare.": "No thanks, I don't have much to spare.",
@@ -436,20 +566,44 @@
     "game:loretype-lostdoll": "Notes found in a abandoned homestead.",
     "game:loretype-finalhour": "Story of someones last notes.",
     "game:loretype-minerlogentries": "Log entries found in a coalmine.",
-    "game:loretype-universalstories": "Long forgotten stories from the past."
+    "game:loretype-universalstories": "Long forgotten stories from the past.",
 
 
-
-
-
-
-
-
-
-
-
-
-
+    "betterruins:Ahh I see I will try to get you those gears and return.": "Ahh I see I will try to get you those gears and return.",
+    "betterruins:You probably wander the world a lot. Heard many stories?": "You probably wander the world a lot. Heard many stories?",
+    "betterruins:Can you remind me where the location with the sun symbol was?": "Can you remind me where the location with the sun symbol was?",
+    "betterruins:I have the pickaxe in exchange for the map with the sun.": "I have the pickaxe in exchange for the map with the sun.",
+    "betterruins:There are plenty of stories. They gather like dirt on boots. Listening to them is certainly safer than checking them.": "There are plenty of stories. They gather like dirt on boots. Listening to them is certainly safer than checking them.",
+    "betterruins:Is there one? Not too old.": "Is there one? Not too old.",
+    "betterruins:I understand. I'll step away.": "I understand. I'll step away.",
+    "betterruins:There is one. But it holds no more certainty than the others.": "There is one. But it holds no more certainty than the others.",
+    "betterruins:Typical for stories, I'm interested.": "Typical for stories, I'm interested.",
+    "betterruins:Save it for now, I'll come back later.": "Save it for now, I'll come back later.",
+    "betterruins:There were rumors about the existence of one place. Distant and large. So distant that speaking of it is already an achievement. People wanted to influence something that, as is customary, cannot really be influenced. They wanted to muffle... or even push away... the screech of metal in the middle of the day, and the feeling of rust in the air. But the world doesn't like it much when its manifestations are silenced.": "There were rumors about the existence of one place. Distant and large. So distant that speaking of it is already an achievement. People wanted to influence something that, as is customary, cannot really be influenced. They wanted to muffle... or even push away... the screech of metal in the middle of the day, and the feeling of rust in the air. But the world doesn't like it much when its manifestations are silenced.",
+    "betterruins:Hard to imagine how it ended...": "Hard to imagine how it ended...",
+    "betterruins:Another tragic story? I don't have time.": "Another tragic story? I don't have time.",
+    "betterruins:As they say: as they flared up, so they faded. As far as I know, it's unlikely anyone has forced themselves to visit that place again. After the terrible rumors that spread through the world following their failure. I even think a tradition appeared to leave that place alone.": "As they say: as they flared up, so they faded. As far as I know, it's unlikely anyone has forced themselves to visit that place again. After the terrible rumors that spread through the world following their failure. I even think a tradition appeared to leave that place alone.",
+    "betterruins:And would you like to visit it?": "And would you like to visit it?",
+    "betterruins:Sounds grim, my condolences. I should go.": "Sounds grim, my condolences. I should go.",
+    "betterruins:I don't really want to break tradition. And it's quite far - I trust rumors more than my own cart for such a distance. Yet safety comes first, it's no place for me alone. They also say danger outlives its masters.": "I don't really want to break tradition. And it's quite far - I trust rumors more than my own cart for such a distance. Yet safety comes first, it's no place for me alone. They also say danger outlives its masters.",
+    "betterruins:I understand, do you have anything else?": "I understand, do you have anything else?",
+    "betterruins:I agree with you. Let's leave that place be.": "I agree with you. Let's leave that place be.",
+    "betterruins:I think I have a map from there... I'm not sure it leads exactly to it, but the mark with the sun suggests otherwise. The sun - the symbol of that place...": "I think I have a map from there... I'm not sure it leads exactly to it, but the mark with the sun suggests otherwise. The sun - the symbol of that place...",
+    "betterruins:I want to obtain it. I assume you need something in return?": "I want to obtain it. I assume you need something in return?",
+    "betterruins:Maybe you should get rid of it, might be safer for both of us.": "Maybe you should get rid of it, might be safer for both of us.",
+    "betterruins:Yes, but not exactly payment. A confirmation of your abilities. Show that you can handle good metal - bring me an iron pickaxe you forged yourself. If you're going there, better not go without purpose or craftsmanship.": "Yes, but not exactly payment. A confirmation of your abilities. Show that you can handle good metal - bring me an iron pickaxe you forged yourself. If you're going there, better not go without purpose or craftsmanship.",
+    "betterruins:Sounds worthy, but I still need to learn that.": "Sounds worthy, but I still need to learn that.",
+    "betterruins:I'll try to satisfy your request to prove my intentions.": "I'll try to satisfy your request to prove my intentions.",
+    "betterruins:Of course... I see... yes, the pickaxe is solid. I think I can trust you with more than just the map.": "Of course... I see... yes, the pickaxe is solid. I think I can trust you with more than just the map.",
+    "betterruins:More than?": "More than?",
+    "betterruins:I'll stick to the map, thank you very much.": "I'll stick to the map, thank you very much.",
+    "betterruins:Very well. Take the map, and may your steps be careful where the sun once burned brightest.": "Very well. Take the map, and may your steps be careful where the sun once burned brightest.",
+    "betterruins:Yes, knowledge and items you'll need there. Considering the different rumors, the danger seems to still live there. You'll need equipment that can withstand an unexpected strike. You'll need fire - it doesn't burn willingly there, so take enough torches. Also - support, something to brace yourself against if the ground trembles. And medicine - absolutely. The pain from those events has most likely remained there, and the place will gladly share it with any visitor. Perhaps even with the first visitor...": "Yes, knowledge and items you'll need there. Considering the different rumors, the danger seems to still live there. You'll need equipment that can withstand an unexpected strike. You'll need fire - it doesn't burn willingly there, so take enough torches. Also - support, something to brace yourself against if the ground trembles. And medicine - absolutely. The pain from those events has most likely remained there, and the place will gladly share it with any visitor. Perhaps even with the first visitor...",
+    "betterruins:This is definitely useful knowledge, thank you very much.": "This is definitely useful knowledge, thank you very much.",
+    "betterruins:Heard you... unpleasant, I'll think about it.": "Heard you... unpleasant, I'll think about it.",
+    "betterruins:And one more thing. Don't expect answers from the map - just observe the things around you, that always helped me in difficult situations like yours.": "And one more thing. Don't expect answers from the map - just observe the things around you, that always helped me in difficult situations like yours.",
+    "betterruins:Then take the map and let your own judgement guide you. Some places are better understood in silence than in stories.": "Then take the map and let your own judgement guide you. Some places are better understood in silence than in stories.",
+    "betterruins:Here you go I got another copy of the map.": "Here you go I got another copy of the map."
 
 
 

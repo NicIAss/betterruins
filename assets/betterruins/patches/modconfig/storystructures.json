@@ -11,7 +11,8 @@
       "story/brcrossroads": 18,
       "story/brmansion": 32,
       "story/brthepanopticon": 32,
-      "story/brhuaca": 19
+      "story/brhuaca": 20,
+      "story/brsunrift": 27
 
     },
     "file": "game:worldgen/storystructures.json",
@@ -351,6 +352,40 @@
       "skipGenerationCategories": {
         "structures": 500,
         "trees": 0,
+        "shrubs": 0,
+        "hotsprings": 200,
+        "pond": 200,
+        "rivulets": 100,
+        "caves": 120,
+        "patches": 0
+      }
+    },
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "sunrift",
+      "group": "storystructure",
+      "name": "sunrift",
+      "schematics": [
+        "story/brsunrift"
+      ],
+      "placement": "SurfaceRuin",
+      "dependsOnStructure": "spawn",
+      "minSpawnDistX": 10000,
+      "maxSpawnDistX": 11000,
+      "minSpawnDistZ": 2000,
+      "maxSpawnDistZ": 3000,
+      "requireLandform": "veryflat",
+      "generateGrass": true,
+      "landformRadius": 300,
+      "ExcludeSchematicSizeProtect":true,
+      "skipGenerationCategories": {
+        "structures": 250,
+        "trees": 200,
         "shrubs": 0,
         "hotsprings": 200,
         "pond": 200,
