@@ -382,7 +382,7 @@
 
 
     "game:item-textureflipper": "Temporal Transfigurator",
-    "game:itemdesc-textureflipper": "An ornate cupronickel device designed to transform some clutter block textures, channeling the essence of temporal reconfiguration.\n\nLook at a supported clutter block and use the F key to select alternate textures.\n\nNot a lot of clutterblocks allow to be modified but be sure to test this device on all of them.",
+    "game:itemdesc-textureflipper": "An ornate cupronickel device designed to transform some clutter block textures, channeling the essence of temporal reconfiguration.\n\nLook at a supported clutter block and use the F key to select alternate textures.\nThen right click to apply that texture to supported clutter blocks.\n\nMost wood or metal themed clutterblocks allow to be modified.\nTry it out!",
     "item-br-schematic-textureflipper": "Temporal Transfigurator Blueprint",
     "betterruins:item-handbooktext-betterruins:br-schematic-textureflipper": "<strong>Found in</strong>\nStory structure university",
 	"game:clutter-globe1": "Large Intact Globe",
