@@ -1,50 +1,58 @@
 [
     {
-        "ingredientPattern": "A,S,D",
+        "ingredientPattern": "A,D",
         "ingredients": {
             "A": { type: "item", code: "game:hammer-*", isTool: true  },
-            "S": {"type": "Item", "code": "br-schematic-chest" },
             "D": {type: "Block", code: "game:displaycase-generic" }
         },
         "width": 1,
-        "height": 3,
+        "height": 2,
         "output": {type: "Block", code: "game:displaycase-aged1" }
         
     },
     {
-        "ingredientPattern": "A,S,D",
+        "ingredientPattern": "A,D",
         "ingredients": {
             "A": { type: "item", code: "game:hammer-*", isTool: true  },
-            "S": {"type": "Item", "code": "br-schematic-chest" },
             "D": {type: "Block", code: "game:displaycase-aged1" }
         },
         "width": 1,
-        "height": 3,
+        "height": 2,
         "output": {type: "Block", code: "game:displaycase-aged2" }
         
     },
     {
-        "ingredientPattern": "A,S,D",
+        "ingredientPattern": "A,D",
         "ingredients": {
             "A": { type: "item", code: "game:hammer-*", isTool: true  },
-            "S": {"type": "Item", "code": "br-schematic-chest" },
             "D": {type: "Block", code: "game:displaycase-aged2" }
         },
         "width": 1,
-        "height": 3,
+        "height": 2,
         "output": {type: "Block", code: "game:displaycase-aged3" }
         
     },
     {
-        "ingredientPattern": "A,S,D",
+        "ingredientPattern": "A,D",
         "ingredients": {
             "A": { type: "item", code: "game:hammer-*", isTool: true  },
-            "S": {"type": "Item", "code": "br-schematic-chest" },
             "D": {type: "Block", code: "game:displaycase-aged3" }
         },
         "width": 1,
-        "height": 3,
+        "height": 2,
         "output": {type: "Block", code: "game:displaycase-aged4" }
+        
+    },
+    {
+        "ingredientPattern": "A,D",
+        "recipeGroup": 333,
+        "ingredients": {
+            "A": { type: "item", code: "game:hammer-*", isTool: true  },
+            "D": {type: "Block", code: "game:displaycase-aged4" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Item", code: "game:plank-aged" , quantity: 2 }
         
     },
 
@@ -52,78 +60,84 @@
 
 
     {
-        "ingredientPattern": "A,S,D",
+        "ingredientPattern": "A,D",
         "enabled": false,
         "ingredients": {
             "A": { type: "item", code: "game:hammer-*", isTool: true  },
-            "S": {"type": "Item", "code": "br-schematic-chest" },
             "D": {type: "Block", code: "game:talldisplaycase-generic" }
         },
         "width": 1,
-        "height": 3,
+        "height": 2,
         "output": {type: "Block", code: "game:talldisplaycase-aged1" }
         
     },
     {
-        "ingredientPattern": "A,S,D",
+        "ingredientPattern": "A,D",
         "ingredients": {
             "A": { type: "item", code: "game:hammer-*", isTool: true  },
-            "S": {"type": "Item", "code": "br-schematic-chest" },
             "D": {type: "Block", code: "game:talldisplaycase-generic" }
         },
         "width": 1,
-        "height": 3,
+        "height": 2,
         "output": {type: "Block", code: "game:talldisplaycase-aged2" }
         
     },
     {
-        "ingredientPattern": "A,S,D",
+        "ingredientPattern": "A,D",
         "enabled": false,
         "ingredients": {
             "A": { type: "item", code: "game:hammer-*", isTool: true  },
-            "S": {"type": "Item", "code": "br-schematic-chest" },
             "D": {type: "Block", code: "game:talldisplaycase-aged1" }
         },
         "width": 1,
-        "height": 3,
+        "height": 2,
         "output": {type: "Block", code: "game:talldisplaycase-aged5" }
         
     },
     {
-        "ingredientPattern": "A,S,D",
+        "ingredientPattern": "A,D",
         "enabled": false,
         "ingredients": {
             "A": { type: "item", code: "game:hammer-*", isTool: true  },
-            "S": {"type": "Item", "code": "br-schematic-chest" },
             "D": {type: "Block", code: "game:talldisplaycase-aged5" }
         },
         "width": 1,
-        "height": 3,
+        "height": 2,
         "output": {type: "Block", code: "game:talldisplaycase-aged2" }
         
     },
     {
-        "ingredientPattern": "A,S,D",
+        "ingredientPattern": "A,D",
         "ingredients": {
             "A": { type: "item", code: "game:hammer-*", isTool: true  },
-            "S": {"type": "Item", "code": "br-schematic-chest" },
             "D": {type: "Block", code: "game:talldisplaycase-aged2" }
         },
         "width": 1,
-        "height": 3,
+        "height": 2,
         "output": {type: "Block", code: "game:talldisplaycase-aged3" }
         
     },
     {
-        "ingredientPattern": "A,S,D",
+        "ingredientPattern": "A,D",
         "ingredients": {
             "A": { type: "item", code: "game:hammer-*", isTool: true  },
-            "S": {"type": "Item", "code": "br-schematic-chest" },
             "D": {type: "Block", code: "game:talldisplaycase-aged3" }
         },
         "width": 1,
-        "height": 3,
+        "height": 2,
         "output": {type: "Block", code: "game:talldisplaycase-aged4" }
+        
+    },
+    {
+        "ingredientPattern": "A,D",
+        "recipeGroup": 333,
+        "ingredients": {
+            "A": { type: "item", code: "game:hammer-*", isTool: true  },
+            "D": {type: "Block", code: "game:talldisplaycase-aged4" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Item", code: "game:plank-aged" , quantity: 2 }
         
     },
 
