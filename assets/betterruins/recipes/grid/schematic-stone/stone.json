@@ -265,6 +265,96 @@
         "width": 2,
         "height": 1,
         "output": {type: "Block", code: "game:claybricks-uneven-four-running-fire" }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "XC,TP",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "T": {type: "Item", code: "game:hammer-*" , "isTool": true },
+            "C": {type: "Block", code: "game:clay-*" },
+            "P": {type: "Block", code: "game:diamond-stone-clean" , "quantity": 4}
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:diamond-stone-clean-aged" , quantity: 4 }
+    },
+    {
+        "ingredientPattern": "XC,TP",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "T": {type: "Item", code: "game:hammer-*" , "isTool": true },
+            "C": {type: "Block", code: "game:clay-*" },
+            "P": {type: "Block", code: "game:diamond-stone-dark" , "quantity": 4}
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:diamond-stone-dark-aged" , quantity: 4 }
+    },
+    {
+        "ingredientPattern": "XC,TP",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "T": {type: "Item", code: "game:hammer-*" , "isTool": true },
+            "C": {type: "Block", code: "game:clay-*" },
+            "P": {type: "Block", code: "game:diamond-stone-light" , "quantity": 4}
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:diamond-stone-light-aged" , quantity: 4 }
+    },
+    {
+        "ingredientPattern": "XC,TP",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "T": {type: "Item", code: "game:hammer-*" , "isTool": true },
+            "C": {type: "Block", code: "game:clay-*" },
+            "P": {type: "Block", code: "game:diamond-stone-mixed" , "quantity": 4}
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:diamond-stone-mixed-aged" , quantity: 4 }
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "XC_,TPB",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "T": {type: "Item", code: "game:stone-*" , name:"rock", skipVariants: ["tuff", "suevite", "scoria", "kimberlite", "meteorite-iron", "obsidian", "halite", "whitemarble", "redmarble", "greenmarble"],"quantity": 4},
+            "C": {type: "Item", code: "game:clay-*" },
+            "B": {type: "Item", code: "game:bone" ,"quantity": 2 },
+            "P": {type: "Block", code: "game:bonysoil"}
+        },
+        "width": 3,
+        "height": 2,
+        "output": {type: "Block", code: "game:cobbleskull-{rock}" , quantity: 2 }
     }
 
 ]
