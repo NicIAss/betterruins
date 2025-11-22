@@ -4,7 +4,7 @@
 		ingredients: {
 			"C": { type: "item", code: "game:compost", quantity: 1 },
 			"S": { type: "item", code: "game:powder-charcoal", quantity: 2  },
-			"B": { type: "item", code: "game:bonemeal", quantity: 1  },
+			"B": { type: "item", code: "game:bonemeal", quantity: 2  },
             "X": {"type": "Item", "code": "br-schematic-farmer" }
 
 		},
@@ -19,7 +19,7 @@
 			"C": { type: "item", code: "game:compost", quantity: 2 },
 			"S": { type: "block", code: "game:soil-compost-none", quantity: 1  },
 			"K": { type: "item", code: "game:powder-charcoal", quantity: 2  },
-			"B": { type: "item", code: "game:bonemeal", quantity: 4  },
+			"B": { type: "item", code: "game:bonemeal", quantity: 8  },
             "X": {"type": "Item", "code": "br-schematic-farmer" }
 		},
 		recipeGroup: 333,
