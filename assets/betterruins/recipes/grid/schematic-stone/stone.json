@@ -289,7 +289,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone" },
             "T": {type: "Item", code: "game:hammer-*" , "isTool": true },
-            "C": {type: "Block", code: "game:clay-*" },
+            "C": {type: "Item", code: "game:clay-*" },
             "P": {type: "Block", code: "game:diamond-stone-clean" , "quantity": 4}
         },
         "width": 2,
@@ -301,7 +301,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone" },
             "T": {type: "Item", code: "game:hammer-*" , "isTool": true },
-            "C": {type: "Block", code: "game:clay-*" },
+            "C": {type: "Item", code: "game:clay-*" },
             "P": {type: "Block", code: "game:diamond-stone-dark" , "quantity": 4}
         },
         "width": 2,
@@ -313,7 +313,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone" },
             "T": {type: "Item", code: "game:hammer-*" , "isTool": true },
-            "C": {type: "Block", code: "game:clay-*" },
+            "C": {type: "Item", code: "game:clay-*" },
             "P": {type: "Block", code: "game:diamond-stone-light" , "quantity": 4}
         },
         "width": 2,
@@ -325,7 +325,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone" },
             "T": {type: "Item", code: "game:hammer-*" , "isTool": true },
-            "C": {type: "Block", code: "game:clay-*" },
+            "C": {type: "Item", code: "game:clay-*" },
             "P": {type: "Block", code: "game:diamond-stone-mixed" , "quantity": 4}
         },
         "width": 2,
