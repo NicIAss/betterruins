@@ -572,6 +572,26 @@
     "game:loretype-finalhour": "Story of someones last notes.",
     "game:loretype-minerlogentries": "Log entries found in a coalmine.",
     "game:loretype-universalstories": "Long forgotten stories from the past.",
+    "game:loretype-newmaterials": "Researchers notes found near Viridilite deposits.",
+    "game:loretype-viridiliteshift": "Observation point reports from an underground research complex.",
+    "game:loretype-greensecret": "A personal letter hidden near a Viridilite cache.",
+    "game:loretype-grandrifttheory": "Theory notes from the observation point.",
+    "game:loretype-sundialdiary": "Diary entries from the lens project in the cave complex.",
+    "game:loretype-maxwellscreations": "A performance note found in the scriptorium.",
+    "game:loretype-deliverieslist": "A delivery manifest from Hushward and nearby settlements.",
+    "game:loretype-reportslubrication": "Maintenance notes on lubricating the planetary gear system.",
+    "game:loretype-conditions": "Experiment planning notes from the leadership group.",
+    "game:loretype-favorableconditions": "A storm warning entry from the observation point.",
+    "game:loretype-strangetoylist": "A scribbled list left in the barracks before evacuation.",
+    "game:loretype-experimentteammember": "A personal entry from a member of the experiment team.",
+    "game:loretype-dutyofthescribe": "The scribe's log from the start of the experiment.",
+    "game:loretype-initialphases": "A phase report from the Grand Rift experiment.",
+    "game:loretype-finalentriesarchmaster": "Final notes of the Archmaster-leader.",
+    "game:loretype-tournamentwinners": "A tournament record kept by the tournament keeper.",
+    "game:loretype-messagetothestudent": "A workshop note addressed to a student mechanic.",
+    "game:loretype-desertexcavation": "Journal pages found in a buried desert temple.",
+
+
 
 
     "betterruins:Ahh I see I will try to get you those gears and return.": "Ahh I see I will try to get you those gears and return.",
