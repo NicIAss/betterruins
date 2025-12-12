@@ -170,6 +170,9 @@
     "game:ingamediscovery-lore-messagetothestudent": "Discovered lore 'Message to the Student'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
 
 
+    "lore-desertexcavation-title": "Desert Excavation Journal (BR)",
+    "lore-desertexcavation-piece1": "These decrepit walls are the only respite I get from the sweltering heat and the battering sand. Whenever the winds die down, I take my shovel and try again to unveil the entrance. But both the cold of night and heat of day demand that I take frequent breaks, and the equally frequent sandstorms quickly undo what little progress I am able to make.\r\n\r\nI sit here at my fire journaling to pass the time, waiting for the next opportunity to dig, but in my heart I know this is a fool’s errand. I suspect this temple's entrance was sealed entirely, and it must be broken into by force. Force I currently do not possess. Whatever I find here will surely be enough to fund my next expedition, but without the funds to hire labourers I cannot hope to excavate it.\r\n\r\nIt cannot be helped. It would be irresponsible to stay any longer with my dwindling rations. Next dawn, when the temperature begins to rise, I will start my journey home. I’m no cartographer, but I will try my best to record the location, so that I might at least sell a map to someone better equipped.\r\n\r\nI am well aware I am betraying my archeologist’s honor in giving a find like this up to the common graverobber! I can only hope my professors at the University will forgive me and understand my situation.",
+    "game:ingamediscovery-lore-desertexcavation": "Discovered lore 'Desert Excavation Journal'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
 
 
 
@@ -234,6 +237,8 @@
     "game:item-stackrandomizer-forlornhopestrategies":"BR Lore Forlornhope Strategies",
     "game:item-stackrandomizer-librarianslament":"BR Lore Librarian's Lament",
     "game:item-stackrandomizer-priestdiary":"BR Lore Priest's Diary",
+    "game:item-stackrandomizer-desertexcavation":"BR Lore Desert Excavation Journal",
+
 
 
 

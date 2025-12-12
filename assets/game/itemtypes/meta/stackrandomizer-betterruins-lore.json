@@ -39,7 +39,8 @@
 		"sundialdiary",
 		"tournamentwinners",
 		"viridiliteshift",
-		"messagetothestudent"
+		"messagetothestudent",
+		"desertexcavation"
 		] }
 	],
 	"attributesByType": {
@@ -468,6 +469,12 @@
 		"handbook": { "exclude": true },
 		"stacks": [
 			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "messagetothestudent" } }
+		]
+		},
+		"*-desertexcavation": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "desertexcavation" } }
 		]
 		}
 
