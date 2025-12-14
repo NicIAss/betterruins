@@ -28,7 +28,7 @@
                   "name": "quentin-waystones",
                   "group": "specialwaystones",
                   "minGroupDistance": 5000, 
-                  "chance": 0.002, 
+                  "chance": 0.0005, 
                   "schematics": [
                     "overground/special/waystones/quentin/waystone-quentin-legendarychisel-o3"
                   ],
