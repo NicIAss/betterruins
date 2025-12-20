@@ -171,49 +171,60 @@
     {
         "ingredientPattern": "XH,_C,_P",
         "ingredients": {
-            "P": {"type": "Item", "code": "game:shingle-burned-red" , "quantity": 4},
+            "P": {"type": "Item", "code": "game:shingle-burned-red" , "quantity": 2},
             "C": {"type": "Item", "code": "game:chisel-*", "isTool": true },
             "H": {"type": "Item", "code": "game:hammer-*", "isTool": true },
             "X": {"type": "Item", "code": "br-schematic-artisan" }
         },
         "width": 2,
         "height": 3,
-        "output": {"type": "Item", "code": "game:claytile-fired-plain-red" , "quantity": 16}
+        "output": {"type": "Item", "code": "game:claytile-fired-plain-red" , "quantity": 4}
     },
 
     {
         "ingredientPattern": "XH,_C,BP",
         "ingredients": {
-            "P": {"type": "Item", "code": "game:shingle-burned-red" , "quantity": 4},
+            "P": {"type": "Item", "code": "game:shingle-burned-red" , "quantity": 2},
             "C": {"type": "Item", "code": "game:chisel-*", "isTool": true },
             "H": {"type": "Item", "code": "game:hammer-*", "isTool": true },
             "X": {"type": "Item", "code": "br-schematic-artisan" },
-            "B": {"type": "block", "code": "game:bowl-*-fired"}
+            "B": {"type": "Item", "code": "game:clay-fire" }
         },
         "width": 2,
         "height": 3,
-        "attributes": {
-			"liquidContainerProps": {
-				"requiresContent": { "type": "item", "code": "game:dye-orange" },
-				"requiresLitres": 0.1,
-				"consumeContainer": false
-			}
-		},
-        "output": {"type": "Item", "code": "game:claytile-fired-circle-red" , "quantity": 16}
+        "output": {"type": "Item", "code": "game:claytile-fired-circle-red" , "quantity": 4}
     },
 
 
     {
         "ingredientPattern": "XH,_C,BP",
         "ingredients": {
-            "P": {"type": "Item", "code": "game:shingle-burned-red" , "quantity": 4},
+            "P": {"type": "Item", "code": "game:shingle-burned-red" , "quantity": 2},
             "C": {"type": "Item", "code": "game:chisel-*", "isTool": true },
             "H": {"type": "Item", "code": "game:hammer-*", "isTool": true },
             "X": {"type": "Item", "code": "br-schematic-artisan" },
-            "B": {"type": "block", "code": "game:bowl-*-fired"}
+            "B": {"type": "Item", "code": "game:clay-blue" }
         },
         "width": 2,
         "height": 3,
+        "output": {"type": "Item", "code": "game:claytile-fired-center-red" , "quantity": 4}
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         "attributes": {
 			"liquidContainerProps": {
 				"requiresContent": { "type": "item", "code": "game:dye-blue" },
