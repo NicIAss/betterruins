@@ -162,7 +162,7 @@
         "ingredientPattern": "S__,CPC,BBB",
         "ingredients": {
             "C": {type: "Item", code: "game:cloth-plain" },
-            "P": {type: "Block", code: "game:linen-normal-down" , quantity: 2},
+            "P": {type: "Block", code: "game:linen-normal-down" , quantity: 4},
             "B": {type: "Item", code: "game:plank-aged" , quantity: 5},
             "S": {"type": "Item", "code": "br-schematic-bed" }
         },
@@ -332,7 +332,22 @@
     },
 
 
-
+    {
+        "ingredientPattern": "PSA,CDE,BBB",
+        "ingredients": {
+            "A": {type: "Item", code: "game:sewingkit" },
+            "C": {type: "Item", code: "game:cloth-orange" },
+            "D": {type: "Item", code: "game:cloth-green" },
+            "E": {type: "Item", code: "game:cloth-red" },
+            "P": {type: "Block", code: "game:linen-normal-down"},
+            "B": {type: "Item", code: "game:plank-*" , quantity: 2, name: "wood", skipVariants: ["aged"]},
+            "S": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:bed-village-head-north" }
+        
+    },
 
 
 
