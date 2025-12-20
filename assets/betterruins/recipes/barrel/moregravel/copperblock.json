@@ -7,6 +7,11 @@
                 "type": "block",
                 "code": "game:metalblock-new-riveted-copper",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
             }
         ],
         "output": {
@@ -23,6 +28,11 @@
                 "type": "block",
                 "code": "game:metalblock-new-plain-copper",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
             }
         ],
         "output": {
@@ -39,6 +49,11 @@
                 "type": "block",
                 "code": "game:metalblock-new-plain-bismuthbronze",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
             }
         ],
         "output": {
@@ -55,6 +70,11 @@
                 "type": "block",
                 "code": "game:metalblock-new-plain-blackbronze",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
             }
         ],
         "output": {
@@ -71,6 +91,11 @@
                 "type": "block",
                 "code": "game:metalblock-new-riveted-electrum",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
             }
         ],
         "output": {
@@ -87,6 +112,11 @@
                 "type": "block",
                 "code": "game:metalblock-new-riveted-brass",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
             }
         ],
         "output": {
@@ -103,6 +133,11 @@
                 "type": "block",
                 "code": "game:metalblock-new-riveted-meteoriciron",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
             }
         ],
         "output": {
@@ -119,6 +154,11 @@
                 "type": "block",
                 "code": "game:metalblock-new-plain-gold",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
             }
         ],
         "output": {
@@ -135,6 +175,11 @@
                 "type": "block",
                 "code": "game:metalblock-new-plain-iron",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
             }
         ],
         "output": {
@@ -151,6 +196,11 @@
                 "type": "block",
                 "code": "game:metalblock-new-riveted-iron",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
             }
         ],
         "output": {
@@ -167,6 +217,11 @@
                 "type": "block",
                 "code": "game:metalblock-new-plain-lead",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
             }
         ],
         "output": {
@@ -183,6 +238,11 @@
                 "type": "block",
                 "code": "game:metalblock-new-riveted-molybdochalkos",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
             }
         ],
         "output": {
@@ -199,6 +259,11 @@
                 "type": "block",
                 "code": "game:metalblock-new-plain-silver",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
             }
         ],
         "output": {
@@ -215,6 +280,11 @@
                 "type": "block",
                 "code": "game:metalblock-new-plain-steel",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
             }
         ],
         "output": {
@@ -231,6 +301,11 @@
                 "type": "block",
                 "code": "game:metalblock-new-riveted-tin",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
             }
         ],
         "output": {
@@ -247,6 +322,11 @@
                 "type": "block",
                 "code": "game:metalblock-new-plain-tinbronze",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
             }
         ],
         "output": {
@@ -263,6 +343,386 @@
                 "type": "block",
                 "code": "game:metalblock-new-riveted-zinc",
                 "quantity": 2
+            },
+            {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-plain-zinc",
+            "stackSize": 2
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "code": "corrodedcopperblock1-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-riveted-copper",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-sheet-copper",
+            "stackSize": 2
+        }
+    },
+    {
+        "code": "corrodedcopperblock2-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-plain-copper",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-plain-copper",
+            "stackSize": 2
+        }
+    },
+    {
+        "code": "corrodedcopperblock4-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-plain-bismuthbronze",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-plain-bismuthbronze",
+            "stackSize": 2
+        }
+    },
+    {
+        "code": "corrodedcopperblock5-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-plain-blackbronze",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-plain-blackbronze",
+            "stackSize": 2
+        }
+    },
+    {
+        "code": "corrodedcopperblock6-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-riveted-electrum",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-plain-electrum",
+            "stackSize": 2
+        }
+    },
+    {
+        "code": "corrodedcopperblock7-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-riveted-brass",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-plain-brass",
+            "stackSize": 2
+        }
+    },
+    {
+        "code": "corrodedcopperblock10-meteoriciron-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-riveted-meteoriciron",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-plain-meteoriciron",
+            "stackSize": 2
+        }
+    },
+    {
+        "code": "corrodedcopperblock8-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-plain-gold",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-plain-gold",
+            "stackSize": 2
+        }
+    },
+    {
+        "code": "corrodedcopperblock9-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-plain-iron",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-plain-iron",
+            "stackSize": 2
+        }
+    },
+    {
+        "code": "corrodedcopperblock10-iron-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-riveted-iron",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-plain-rusty-iron",
+            "stackSize": 2
+        }
+    },
+    {
+        "code": "corrodedcopperblock11-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-plain-lead",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-plain-lead",
+            "stackSize": 2
+        }
+    },
+    {
+        "code": "corrodedcopperblock12-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-riveted-molybdochalkos",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-plain-molybdochalkos",
+            "stackSize": 2
+        }
+    },
+    {
+        "code": "corrodedcopperblock13-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-plain-silver",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-plain-silver",
+            "stackSize": 2
+        }
+    },
+    {
+        "code": "corrodedcopperblock14-steel-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-plain-steel",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-plain-steel",
+            "stackSize": 2
+        }
+    },
+    {
+        "code": "corrodedcopperblock15-tin-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-riveted-tin",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-plain-tin",
+            "stackSize": 2
+        }
+    },
+    {
+        "code": "corrodedcopperblock14-tinbronze-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-plain-tinbronze",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:metalblock-corroded-plain-tinbronze",
+            "stackSize": 2
+        }
+    },
+    {
+        "code": "corrodedcopperblock15-zinc-saltwater",
+        "sealHours": 27,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:metalblock-new-riveted-zinc",
+                "quantity": 2
+            },
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
             }
         ],
         "output": {
