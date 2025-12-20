@@ -10,6 +10,74 @@
         "height": 3,
         "output": {type: "Block", code: "game:chest-east", attributes: { "type": "normal-aged" } }
         
+    },
+    {
+        "ingredientPattern": "BBB,BMB,BSB",
+        "ingredients": {
+            "B": {type: "Item", code: "game:plank-aged", quantity: 2 },
+            "S": {"type": "Item", "code": "br-schematic-chest" },
+            "M": {type: "Block", code: "game:saw-*", isTool: true}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:crate", attributes: { "lidState": "closed", "type": "wood-aged" } }
+        
+    },
+
+    {
+        "ingredientPattern": "BGB,BCB,NS_",
+        "ingredients": {
+            "B": {type: "Item", code: "game:plank-*", name: "wood", skipVariants: ["aged"]},
+            "G": {type: "Item", code: "game:nugget-nativegold", quantity: 2},
+            "C": {type: "Item", code: "game:cloth-red"},
+            "N": {type: "Item", code: "game:metalnailsandstrips-*"},
+            "S": {"type": "Item", "code": "br-schematic-chest" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:chest-east", attributes: {"type": "golden"}}
+    },
+
+    {
+        "ingredientPattern": "BGB,BCB,NS_",
+        "ingredients": {
+            "B": {type: "Item", code: "game:plank-aged"},
+            "G": {type: "Item", code: "game:nugget-nativegold", quantity: 2},
+            "C": {type: "Item", code: "game:cloth-red"},
+            "N": {type: "Item", code: "game:metalnailsandstrips-*"},
+            "S": {"type": "Item", "code": "br-schematic-chest" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:chest-east", attributes: {"type": "golden-aged"}}
+    },
+
+    {
+        "ingredientPattern": "BGB,BCB,NS_",
+        "ingredients": {
+            "B": {type: "Item", code: "game:plank-*", name: "wood", skipVariants: ["aged"]},
+            "G": {type: "Item", code: "game:metalbit-brass", quantity: 2},
+            "C": {type: "Item", code: "game:cloth-blue"},
+            "N": {type: "Item", code: "game:metalnailsandstrips-*"},
+            "S": {"type": "Item", "code": "br-schematic-chest" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:chest-east", attributes: {"type": "owl"}}
+    },
+
+    {
+        "ingredientPattern": "BGB,BCB,NS_",
+        "ingredients": {
+            "B": {type: "Item", code: "game:plank-aged"},
+            "G": {type: "Item", code: "game:metalbit-brass", quantity: 2},
+            "C": {type: "Item", code: "game:cloth-blue"},
+            "N": {type: "Item", code: "game:metalnailsandstrips-*"},
+            "S": {"type": "Item", "code": "br-schematic-chest" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:chest-east", attributes: {"type": "owl-aged"}}
     }
 
 
