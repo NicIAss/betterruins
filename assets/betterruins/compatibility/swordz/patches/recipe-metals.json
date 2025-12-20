@@ -1,6 +1,6 @@
 [
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/11/ingredients/P/skipVariants",
     "value": [
       "mithril",
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/14/ingredients/B/skipVariants",
     "value": [
       "mithril",
@@ -26,6 +26,20 @@
       "adamant",
       "orichalcum",
       "aithril"
+    ],
+    "file": "betterruins:recipes/grid/schematic-mechanical/mechanical.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "swordz"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/16/ingredients/B/skipVariants",
+    "value": [
+      "tungsten"
     ],
     "file": "betterruins:recipes/grid/schematic-mechanical/mechanical.json",
     "side": "Server",
