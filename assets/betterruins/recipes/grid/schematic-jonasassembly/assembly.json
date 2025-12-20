@@ -4,8 +4,9 @@
     
     
     {
-        "ingredientPattern": "XP_,_GN,_P_",
+        "ingredientPattern": "XP_,_GN,_PB",
         "ingredients": {
+            "B": {type: "Item", code: "game:jonasframes*" },
             "X": {type: "Item", code: "betterruins:br-schematic-jonasassembly" },
             "G": {type: "Item", code: "game:gear-rusty" , quantity: 3},
             "P": {type: "Item", code: "game:rod-cupronickel" },
@@ -17,8 +18,9 @@
         
     },
     {
-        "ingredientPattern": "XP_,JGN,_P_",
+        "ingredientPattern": "XP_,JGN,_PB",
         "ingredients": {
+            "B": {type: "Item", code: "game:jonasframes*" },
             "X": {type: "Item", code: "betterruins:br-schematic-jonasassembly" },
             "G": {type: "Item", code: "game:gear-rusty" , quantity: 5},
             "P": {type: "Item", code: "game:rod-cupronickel" },
@@ -31,8 +33,9 @@
         
     },
     {
-        "ingredientPattern": "X__,NGN,___",
+        "ingredientPattern": "X__,NGN,_B_",
         "ingredients": {
+            "B": {type: "Item", code: "game:jonasframes*" },
             "X": {type: "Item", code: "betterruins:br-schematic-jonasassembly" },
             "G": {type: "Item", code: "game:gear-rusty" , quantity: 3},
             "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
@@ -43,8 +46,9 @@
         
     },
     {
-        "ingredientPattern": "XJ_,GNG,_O_",
+        "ingredientPattern": "XJ_,GNG,_OB",
         "ingredients": {
+            "B": {type: "Item", code: "game:jonasframes*" },
             "X": {type: "Item", code: "betterruins:br-schematic-jonasassembly" },
             "G": {type: "Item", code: "game:gear-rusty" , quantity: 1},
             "O": {type: "Item", code: "game:metalplate-iron" },
@@ -57,8 +61,9 @@
         
     },
     {
-        "ingredientPattern": "XM_,_N_,___",
+        "ingredientPattern": "XM_,_N_,_B_",
         "ingredients": {
+            "B": {type: "Item", code: "game:jonasframes*" },
             "X": {type: "Item", code: "betterruins:br-schematic-jonasassembly" },
             "M": {type: "Block", code: "game:metal-parts", quantity: 2 },
             "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
@@ -69,8 +74,9 @@
         
     },
     {
-        "ingredientPattern": "XM_,GGG,M_M",
+        "ingredientPattern": "XM_,GGG,MBM",
         "ingredients": {
+            "B": {type: "Item", code: "game:jonasframes*" },
             "X": {type: "Item", code: "betterruins:br-schematic-jonasassembly" },
             "M": {type: "Block", code: "game:metal-parts", quantity: 1 },
             "G": {type: "Item", code: "game:gear-rusty" , quantity: 1}
@@ -81,8 +87,9 @@
         
     },
     {
-        "ingredientPattern": "XN_,BGB,___",
+        "ingredientPattern": "XN_,BGB,_E_",
         "ingredients": {
+            "E": {type: "Item", code: "game:jonasframes*" },
             "X": {type: "Item", code: "betterruins:br-schematic-jonasassembly" },
             "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" },
             "B": {type: "Item", code: "game:metalnailsandstrips-iron" },
