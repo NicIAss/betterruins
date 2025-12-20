@@ -1,0 +1,16 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/25/ingredients/T/skipVariants",
+    "value": [
+      "bogiron"
+    ],
+    "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "geoaddons"
+      }
+    ]
+  }
+]
