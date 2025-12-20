@@ -115,7 +115,7 @@
         },
         "width": 3,
         "height": 3,
-        "output": {type: "Block", code: "game:ladder-rope-north" , quantity: 9 }
+        "output": {type: "Block", code: "game:ladder-rope-north" , quantity: 6 }
         
     },
 
@@ -211,8 +211,76 @@
 		},
 		width: 3,
 		height: 1,
-		output: { type: "block", code: "game:supportbeam-{wood}", quantity: 12  }
-	}
+		output: { type: "block", code: "game:supportbeam-{wood}", quantity: 9  }
+	},
+
+
+
+
+
+
+
+
+
+
+    {
+		ingredientPattern: "CLS,HLA,X__",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true, toolDurabilityCost: 1  },
+			"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 1  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 1  },
+			"L": { type: "block", code: "game:log-placed-*-ud", name: "material", quantity: 2 , skipVariants: ["aged"]},
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:figurehead-eidolon", quantity: 1, attributes: { "material": "{material}" } }
+	},
+
+    {
+		ingredientPattern: "CLH,SLA,X__",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true, toolDurabilityCost: 1  },
+			"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 1  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 1  },
+			"L": { type: "block", code: "game:log-placed-*-ud", name: "material", quantity: 2  , skipVariants: ["aged"]},
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:figurehead-erel", quantity: 1, attributes: { "material": "{material}" } }
+	},
+
+    {
+		ingredientPattern: "SLC,ALH,X__",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true, toolDurabilityCost: 1  },
+			"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 1  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 1  },
+			"L": { type: "block", code: "game:log-placed-*-ud", name: "material", quantity: 2  , skipVariants: ["aged"]},
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:figurehead-seamonster", quantity: 1, attributes: { "material": "{material}" } }
+	},
     
+    {
+		ingredientPattern: "HLC,SLA,X__",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true, toolDurabilityCost: 1  },
+			"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 1  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 1  },
+			"L": { type: "block", code: "game:log-placed-*-ud", name: "material", quantity: 2  , skipVariants: ["aged"]},
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:figurehead-thunderlord", quantity: 1, attributes: { "material": "{material}" } }
+	}
     
 ]
