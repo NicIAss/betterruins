@@ -1,0 +1,16 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/11/ingredients/P/skipVariants",
+    "value": [
+      "pewter"
+    ],
+    "file": "betterruins:recipes/grid/schematic-mechanical/mechanical.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "pewter"
+      }
+    ]
+  }
+]
