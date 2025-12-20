@@ -305,5 +305,41 @@
 		width: 2,
 		height: 1,
 		output: {type: "Block", code: "game:ironfence-base-ew" , "quantity": 1 }
+	},
+
+	{
+		ingredientPattern: "Y,S,B",
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical"},
+			"S": {type: "Item", code: "game:saw-*", isTool: true, toolDurabilityCost: 12},
+			"B": {type: "Block", code: "game:metalblock-corroded-plain-*", name: "metal",
+			allowedVariants: [
+				"bismuthbronze",
+				"copper",
+				"lead",
+				"iron",
+				"steel",
+				"blackbronze",
+				"brass",
+				"rusty-iron"
+				]
+			}
+		},
+		width: 1,
+		height: 3,
+		output: {type: "block", code: "game:supportbeam-tarnishedmetal-{metal}", quantity: 16}
+	},
+
+	{
+		ingredientPattern: "YH_,NPN",
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical"},
+			"H": {type: "Item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2},
+			"N": {type: "Item", code: "game:metalnailsandstrips-*"},
+			"P": {type: "Item", code: "game:metalplate-*", name: "metal"}
+		},
+		width: 3,
+		height: 2,
+		output: {type: "Block", code: "game:metalsheet-{metal}-down"}
 	}
 ]
