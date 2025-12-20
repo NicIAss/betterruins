@@ -88,5 +88,46 @@
     "path": "/attributes/handbook/exclude",
     "value": false,
     "side": "Server"
+  },
+  {
+    "enabled": true,
+    "file": "game:blocktypes/metal/suppportbeam",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  },
+  {
+    "enabled": true,
+    "file": "game:blocktypes/metal/suppportbeam",
+    "op": "replace",
+    "path": "/entityBehaviors/0/properties/dropWhenBroken",
+    "value": true
+  },
+  {
+    "enabled": true,
+    "file": "game:blocktypes/cloth/wallpaper",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  },
+  {
+    "enabled": true,
+    "file": "game:blocktypes/paperlantern",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  },
+  {
+    "enabled": true,
+    "file": "game:blocktypes/wood/woodtyped/figurehead",
+    "op": "remove",
+    "path": "/attributes/handbook/excludeByType"
+  },
+  {
+    "enabled": true,
+    "file": "game:blocktypes/cloth/leather",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
   }
 ]
