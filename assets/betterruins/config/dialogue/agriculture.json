@@ -1,0 +1,585 @@
+{
+	components: [
+		{
+			code: "testhasmet",
+			owner: "trader",
+			type: "condition",
+			variable: "player.hasmet",
+			isNotValue: "true",
+			thenJumpTo: "firstmeet",
+			elseJumpTo: "testnewtrader"
+		},
+		{
+			code: "testnewtrader",
+			owner: "trader",
+			type: "condition",
+			variable: "entity.hasmet",
+			isNotValue: "true",
+			thenJumpTo: "introduction",
+			elseJumpTo: "welcomeback"
+		},
+		{
+			code: "firstmeet",
+			owner: "trader",
+			type: "talk",
+			setVariables: { "entity.hasmet": "true" },
+			text: [
+				{ value: "game:Haven't seen you around before. You just wake up?" },
+			],
+		},
+		{
+			code: "firstmeetresponse",
+			owner: "player",
+			type: "talk",
+			setVariables: { "player.hasmet": "true" },
+			text: [
+				{ value: "game:I don't know what you mean.", jumpTo: "daisies" },
+				{ value: "game:I think so.", jumpTo: "morning" },
+				{ value: "game:I might still be dreaming.", jumpTo: "dream" },
+				{ value: "game:Damn it's good to see a friendly face.", jumpTo: "bold" },
+				{ value: "game:dialogue-trader-nochatter", jumpTo: "opentrade" },
+			],
+		},
+
+		{
+			code: "daisies",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-daisies" }
+			],
+		},
+		{
+			code: "daisiesresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "game:I'm sorry, it's better left unsaid.", jumpTo: "alright" },
+				{ value: "game:I'm not entirely sure myself.", jumpTo: "hm" },
+				{ value: "game:I'm just trying to survive. As always.", jumpTo: "always" },
+				{ value: "game:There are more out there... like this?", jumpTo: "strangers" }
+			],
+		},
+		{
+			code: "alright",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:That's alright, stranger. I didn't expect anything else." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "hm",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:Hm, wish I could be more help to ya." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "always",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:(He nods soberly) As always." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "strangers",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:That's right. Strange-colored strangers walk the land." }
+			],
+			jumpTo: "main"
+		},
+
+		{
+			code: "morning",
+			owner: "trader",
+			type: "talk",
+			trigger: "revealname",
+			text: [
+				{ value: "game:dialogue-goodmorning" }
+			],
+			jumpTo: "main"
+		},
+
+		{
+			code: "dream",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-aintadream" }
+			]
+		},
+		{
+			code: "dreamresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "game:I've seen worse.", jumpTo: "notbad" },
+				{ value: "game:dialogue-theairthesun", jumpTo: "tired" },
+				{ value: "game:Perhaps you're right. There's still work to do.", jumpTo: "alwaysmore" },
+			],
+		},
+		{
+			code: "notbad",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-damneddrifters" }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "tired",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-demonsstalk" }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "alwaysmore",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:Aye, there's always more work to do." }
+			],
+			jumpTo: "main"
+		},
+
+		{
+			code: "bold",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-welcome" }
+			],
+		},
+		{
+			code: "wellmet",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "game:Well met.", jumpTo: "main" }
+			]
+		},
+		{
+			code: "introduction",
+			owner: "trader",
+			type: "talk",
+			setVariables: { "entity.hasmet": "true" },
+			text: [
+				{ value: "game:dialogue-trader-newcustomer" }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "welcomeback",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:Welcome back {{playername}}! What can I do for you?" }
+			]
+		},
+
+		// ----------------------------
+		// MAIN DIALOGUE OPTIONS
+		// ----------------------------
+		{
+			code: "main",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "game:Got anything to trade, {{npcname}}?", jumpTo: "opentrade" },
+
+				// CALIX QUESTLINE BEGIN
+				{ value: "betterruins:Seen anything noteworthy around lately?", jumpTo: "agriquest1" },
+
+				{ value: "betterruins:I have your scythe.", jumpTo: "agri_takegoldscythe", conditions: [
+					{ variable: "entity.agri_requestscythe", isValue: "true" },
+					{ variable: "entity.agri_mapgiven", isNotValue: "true" },
+					{ variable: "player.inventory", isValue: "{type: 'item', code: 'game:scythe-gold'}" }
+				]},
+
+				// Free re-drop (only if you don't currently have it)
+				{ value: "betterruins:I lost that map you gave me.", jumpTo: "agri_maprepeat", conditions: [
+					{ variable: "entity.agri_mapgiven", isValue: "true" },
+					{ variable: "player.inventory", isNotValue: "{type: 'item', code: 'betterruins:locatormap-calix'}" }
+				]},
+				// CALIX QUESTLINE END
+
+				{ value: "game:dialogue-name", jumpTo: "name" },
+				{ value: "game:Why gears?", jumpTo: "gears" },
+				{ value: "game:Why live out here like this?", jumpTo: "profit" },
+				{ value: "game:dialogue-trader-know", jumpTo: "treasurehunter" },
+			]
+		},
+
+		{
+			code: "opentrade",
+			owner: "trader",
+			trigger: "opentrade"
+		},
+		{
+			code: "name",
+			owner: "trader",
+			type: "talk",
+			trigger: "revealname",
+			text: [
+				{ value: "game:dialogue-treasurehunter-name" }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "gears",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-perfectcurrency" }
+			]
+		},
+		{
+			code: "gearsresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "game:Surely you could find something better to use?", jumpTo: "specialgears" },
+				{ value: "game:What, you can't reproduce them?", jumpTo: "rustygears" },
+				{ value: "game:I see.", jumpTo: "main" }
+			]
+		},
+		{
+			code: "specialgears",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-seedsofthepast" }
+			]
+		},
+		{
+			code: "holysymbols",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-holysymbols" }
+			],
+			jumpTo: "gearsresponse"
+		},
+		{
+			code: "rustygears",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-somethinggreater" }
+			],
+			jumpTo: "gearsresponse"
+		},
+		{
+			code: "profit",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-profittobemade" }
+			]
+		},
+		{
+			code: "profitresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-horriblecreatures", jumpTo: "drifters" },
+				{ value: "game:dialogue-ravenousbeasts", jumpTo: "wealth" },
+				{ value: "game:dialogue-nicesafevillage", jumpTo: "main" }
+			]
+		},
+		{
+			code: "drifters",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-miserablesouls" }
+			]
+		},
+		{
+			code: "driftersresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-punishedbygod", jumpTo: "challenged" },
+				{ value: "game:dialogue-theveryair", jumpTo: "bonds" },
+				{ value: "game:dialogue-worldcouldnothouse", jumpTo: "afraidso" }
+			]
+		},
+		{
+			code: "challenged",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-wrigglelikeworms" }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "bonds",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-trulylostcreatures" }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "afraidso",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-tremblewithit" }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "wealth",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-wealthisavirtue" }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "treasurehunter",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-trader-treasure" }
+			],
+			jumpTo: "treasurehunterchoice"
+		},
+		{
+			code: "treasurehunterchoice",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-trader-fourgears", jumpTo: "treasurehunterpay", conditions: [ { variable: "player.inventory", isValue: "{type: 'item', code: 'game:gear-rusty', stacksize: 4}" } ]  },
+				{ value: "game:dialogue-trader-notmuchtospare", jumpTo: "main" },
+			]
+		},
+		{
+			code: "treasurehunterpay",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:Excellent. Thank you for the business." }
+			],
+			trigger: "takefrominventory",
+			triggerdata: {type: 'item', code: 'game:gear-rusty', quantity: 4 },
+			jumpTo: "treasurehuntercontinue"
+		},
+		{
+			code: "treasurehuntercontinue",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "game:dialogue-continue", jumpTo: "treasurehuntermap"  }
+			]
+		},
+		{
+			code: "treasurehuntermap",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "game:Here, I've marked on a map where you might find one of them. He had set up a small outpost there last time I passed by." }
+			],
+			trigger: "giveitemstack",
+			triggerdata: { type: "item", code: "game:locatormap-treasurehunter", stacksize: 1 },
+			jumpTo: "main"
+		},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		// Calix questline
+
+		{
+			code: "agriquest1",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Oh, look around you! What isn’t noteworthy around here? Nature is thriving and providing for all of us, even amidst the surge of cursed ones plaguing these lands. You adventuring types ought to sit still and appreciate that from time to time. You remind me of my colleague, who calls themself a treasure hunter. Recently sent me a letter about some discovery they lacked the manpower to unearth. Fool’s errands, all in all. I just wish they’d take the hint and accept that some things are best left buried." }
+			],
+			jumpTo: "agriquest1response"
+		},
+		{
+			code: "agriquest1response",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:I guess they are. I won’t pry further.", jumpTo: "agriquest2a" },
+				{ value: "betterruins:You mentioned a discovery?", jumpTo: "agriquest2b" }
+			]
+		},
+		{
+			code: "agriquest2a",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:See, there’s somebody with a good head on their shoulders.\nThere are exceptions to the rule, of course. Parsnips, onions, carrots... I could go on.\nWhy don’t you buy some?" }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "agriquest2b",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:So I did. They described it as a perfectly spherical crater left behind in the landscape, with dozens of sprawling tunnels opening into that pit. Said it was infested with drifters and the likes and didn’t want to take any chances, so they asked me to send any capable warriors their way. But what do they think little old me knows about fighting? I’d certainly not dare invite you to spar. No, I reckon I’ll trade the location to you, for a very specific price." }
+			],
+			jumpTo: "agriquest2bresponse"
+		},
+		{
+			code: "agriquest2bresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Sorry, not interested.", jumpTo: "agriquest3a" },
+				{ value: "betterruins:What would that price be?", jumpTo: "agriquest3b" }
+			]
+		},
+		{
+			code: "agriquest3a",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Then you are smarter than you look. Lesser adventurers would have disappeared into that ruin and not returned, blinded by the glimmer of gold, like so many before them.\n\nFeel free to stick around here and browse my wares instead. That way, you won’t go home empty-handed after all." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "agriquest3b",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:All the finest soldiers’ tombs are adorned by those ceremonial weapons of silver and gold, so, must mean you’re a pretty capable warrior if you can get your hands on something like that. I want you to give me a scythe forged of solid gold, and then I will share with you the location of this pit. It’d be impractical as a tool, of course! But oh, how fun! I can already see it, hanging upon the hearth... and the look on my colleagues’ face when I show up with it in tow will be more valuable than anything gears can buy." }
+			],
+			jumpTo: "agriquest3bresponse"
+		},
+		{
+			code: "agriquest3bresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:I’ll see what I can do.", jumpTo: "agriquest4a" },
+				{ value: "betterruins:Strange for you to request something like this.", jumpTo: "agriquest4b" }
+			]
+		},
+		{
+			code: "agriquest4a",
+			owner: "trader",
+			type: "talk",
+			setVariables: { "entity.agri_requestscythe": "true" },
+			text: [
+				{ value: "betterruins:Why, thank you for entertaining my request. Remember to stock up on food before you leave, it won’t do you any good to go prospecting on an empty stomach." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "agriquest4b",
+			owner: "trader",
+			type: "talk",
+			setVariables: { "entity.agri_requestscythe": "true" },
+			text: [
+				{ value: "betterruins:Yes, my appreciation of nature doesn’t end at all that sticks out of the ground, but my skills don’t lend themselves particularly well to working metal. This might be my only opportunity to see something like this, let alone own it for myself! And I don’t intend to squander it if you’re interested in that ruin. Trader’s mindset, I suppose. I just can't help myself! Speaking of trade, are you buying?" }
+			],
+			jumpTo: "main"
+		},
+
+		// Turn-in, vanilla-style: take item -> then give map
+		{
+			code: "agri_takegoldscythe",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Oh, I shudder to imagine how deep you must’ve dug to get your hands on all that precious gold... or how much time you must’ve spent sifting it from sandy shores. Well. Whether you’re strong enough to survive the lowest reaches of this world or patient enough to tread with utmost caution, either trait will serve you well when you head into that ruin. You’ve more than proven yourself as far as I’m concerned." }
+			],
+			trigger: "takefrominventory",
+			triggerdata: { type: "item", code: "game:scythe-gold" },
+			jumpTo: "agri_givemap"
+		},
+		{
+			code: "agri_givemap",
+			owner: "trader",
+			type: "talk",
+			setVariables: { "entity.agri_mapgiven": "true" },
+			text: [
+				{ value: "betterruins:Here’s your map, and best of luck on your journey.\n\nGive my regards to that old friend of mine when you get there, will you?" }
+			],
+			trigger: "giveitemstack",
+			triggerdata: { type: "item", code: "betterruins:locatormap-calix", stacksize: 1 },
+			jumpTo: "agri_aftermap_choice"
+		},
+		{
+			code: "agri_aftermap_choice",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Thank you!", jumpTo: "agri_6a" },
+				{ value: "betterruins:This had better be worth it...", jumpTo: "agri_6b" }
+			]
+		},
+		{
+			code: "agri_6a",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Well, thank you in turn! For humouring me, and getting me this scythe. This thing’s much heavier than it looks, and I could use someone of your faculties to carry it back to my farmhouse when I tire of trading. But that’s nowhere in the foreseeable future! Let’s worry about right now; all those gears that are weighing you down. Come take a look at my wares, I’ll gladly help you lighten those pockets." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "agri_6b",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Oh, quiet your yammering. Of course it will be. Matter of fact, it already is!\nYou’ve made me very happy. Honestly, can’t think of anything more worthwhile than that.\nIf you want to make me even happier, though, my storefront’s open...?" }
+			],
+			jumpTo: "main"
+		},
+
+		// Free re-drop of the map (no cost)
+		{
+			code: "agri_maprepeat",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Lost it already? Hah. No matter - here, take another. Try not to feed this one to the wind." }
+			],
+			trigger: "giveitemstack",
+			triggerdata: { type: "item", code: "betterruins:locatormap-calix", stacksize: 1 },
+			jumpTo: "main"
+		},
+	]
+}

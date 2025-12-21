@@ -1,0 +1,16 @@
+[
+  {
+    "op": "replace",
+    "path": "/client/behaviors/4/dialogue",
+    "value": "betterruins:config/dialogue/agriculture",
+    "file": "game:entities/humanoid/trader-agriculture.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/7/dialogue",
+    "value": "betterruins:config/dialogue/agriculture",
+    "file": "game:entities/humanoid/trader-agriculture.json",
+    "side": "Server"
+  }
+]
