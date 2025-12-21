@@ -118,5 +118,29 @@
         "modid": "TA_plainsandvalleys"
       }
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/17/requireLandform",
+    "value": "p&vcoastal flatlands",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "TA_plainsandvalleys"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/18/requireLandform",
+    "value": "p&vcoastal flatlands",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "TA_plainsandvalleys"
+      }
+    ]
   }
 ]

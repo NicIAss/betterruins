@@ -130,5 +130,29 @@
         "modid": "terraprety"
       }
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/17/requireLandform",
+    "value": "ultraflats",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "terraprety"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/18/requireLandform",
+    "value": "ultraflats",
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "terraprety"
+      }
+    ]
   }
 ]
