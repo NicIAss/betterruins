@@ -24,7 +24,9 @@
 				"thepanopticon",
 				"huaca",
 				"sunrift",
-				"agedsunrift"
+				"agedsunrift",
+				"calix",
+				"shoppingcentre"
 			]
 		}
 	],
@@ -209,6 +211,30 @@
 			"*-agedsunrift": {
 				"schematiccode": "sunrift",
 				"waypointtext": "location-sunrift",
+				"offset": { "x": 0, "y": 0, "z": 0 },
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.2,
+					0.25,
+					1,
+					1
+				]
+			},
+			"*-calix": {
+				"schematiccode": "calix",
+				"waypointtext": "location-calix",
+				"offset": { "x": 5, "y": 0, "z": -5 },
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.2,
+					0.25,
+					1,
+					1
+				]
+			},
+			"*-shoppingcentre": {
+				"schematiccode": "shoppingcentre",
+				"waypointtext": "location-shoppingcentre",
 				"offset": { "x": 0, "y": 0, "z": 0 },
 				"waypointicon": "x",
 				"waypointcolor": [

@@ -39,7 +39,18 @@
 		"sundialdiary",
 		"tournamentwinners",
 		"viridiliteshift",
-		"messagetothestudent"
+		"messagetothestudent",
+		"desertexcavation",
+		"paigeswoes",
+		"paigespleas",
+		"faulknersmusings",
+		"panopticonletters",
+		"hopeandisaiahsledgers",
+		"treasurehunternotes1",
+		"ripleysresearch",
+		"stokersdirective",
+		"brickworkerslament",
+		"agitatedregards"
 		] }
 	],
 	"attributesByType": {
@@ -469,8 +480,83 @@
 		"stacks": [
 			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "messagetothestudent" } }
 		]
+		},
+		"*-desertexcavation": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "desertexcavation" } }
+		]
+		},
+		"*-paigeswoes": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "paigeswoes" } },
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "paigeswoes" } }
+		]
+		},
+		"*-paigespleas": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "paigespleas" } },
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "paigespleas" } }
+		]
+		},
+		"*-faulknersmusings": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "faulknersmusings" } },
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "faulknersmusings" } }
+		]
+		},
+		"*-panopticonletters": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "panopticonletters" } },
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "panopticonletters" } }
+		]
+		},
+		"*-hopeandisaiahsledgers": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "hopeandisaiahsledgers" } },
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "hopeandisaiahsledgers" } }
+		]
+		},
+		"*-treasurehunternotes1": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "treasurehunternotes1" } },
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "treasurehunternotes1" } }
+		]
+		},
+		"*-ripleysresearch": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "ripleysresearch" } },
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "ripleysresearch" } }
+		]
+		},
+		"*-stokersdirective": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "stokersdirective" } },
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "stokersdirective" } }
+		]
+		},
+		"*-brickworkerslament": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "brickworkerslament" } },
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "brickworkerslament" } }
+		]
+		},
+		"*-agitatedregards": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "agitatedregards" } },
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "agitatedregards" } }
+		]
 		}
-
 	},
 	"maxstacksize": 1,
 	"texture": { "base": "item/meta/randomizer/brlore" },

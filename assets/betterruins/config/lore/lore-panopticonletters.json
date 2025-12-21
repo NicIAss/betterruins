@@ -1,0 +1,11 @@
+{
+  "code": "panopticonletters",
+  "category": "panopticonletters",
+  "title": "betterruins:lore-panopticonletters-title",
+  "pieces": [
+    "betterruins:lore-panopticonletters-piece1",
+    "betterruins:lore-panopticonletters-piece2",
+    "betterruins:lore-panopticonletters-piece3",
+    "betterruins:lore-panopticonletters-piece4"
+  ]
+}

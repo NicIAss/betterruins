@@ -338,7 +338,7 @@
 			owner: "trader",
 			type: "talk",
 			text: [
-				{ value: "betterruins:Eager, are you? Wise or foolish—we shall see. This map leads to a chamber beneath the sands, once known as the Crossroads Below. Vaulted stone, buried secrets. It's not marked by stone, but by silence—and silence keeps its secrets well." }
+				{ value: "betterruins:Eager, are you? Wise or foolish - we shall see. This map leads to a chamber beneath the sands, once known as the Crossroads Below. Vaulted stone, buried secrets. It's not marked by stone, but by silence - and silence keeps its secrets well." }
 			],
 			jumpTo: "crossroadfollowup2"
 		},

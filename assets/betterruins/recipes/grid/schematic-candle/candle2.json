@@ -86,6 +86,21 @@
         
     },
 
+    {
+        "ingredientPattern": "XPH,PLP,NPR",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "P": {type: "Item", code: "game:paper-parchment"},
+            "H": {type: "Item", code: "game:hammer-*", "isTool": true, toolDurabilityCost: 3},
+            "L": {type: "Block", code: "game:oillamp-*-up"},
+            "N": {type: "Item", code: "game:metalnailsandstrips-*", quantity: 4},
+            "R": {type: "Item", code: "game:rod-*", name: "metal", skipVariants: ["gold", "silver", "electrum"], quantity: 4 },
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:paperlantern-on"}
+    },
+
 ]
 
 

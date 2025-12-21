@@ -213,4 +213,112 @@
         "recipeGroup": 333,
         "output": {type: "Block", code: "game:smallcarpet-turqoise2" , "quantity": 2}
     },
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "X,C",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "C": {type: "Item", code: "game:cloth-blue" },
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:wallpaper-blue4", "quantity": 16}
+    },
+
+    {
+        "ingredientPattern": "X,C",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "C": {type: "Item", code: "game:cloth-green" },
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:wallpaper-green1", "quantity": 16}
+    },
+
+    {
+        "ingredientPattern": "X,C",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "C": {type: "Item", code: "game:cloth-gray" },
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:wallpaper-grey1", "quantity": 16}
+    },
+
+    {
+        "ingredientPattern": "X,C",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "C": {type: "Item", code: "game:cloth-brown" },
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:wallpaper-brown", "quantity": 16}
+    },
+
+    {
+        "ingredientPattern": "X,C",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "C": {type: "Item", code: "game:cloth-yellow" },
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:wallpaper-yellow", "quantity": 16}
+    },
+
+    {
+        "ingredientPattern": "X,C",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "C": {type: "Item", code: "game:cloth-pink" },
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:wallpaper-pink", "quantity": 16}
+    },
+
+    {
+        "ingredientPattern": "X_,CD",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "C": {type: "Item", code: "game:cloth-brown" },
+            "D": {type: "Item", code: "game:cloth-gray"}
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:wallpaper-walnut", "quantity": 32}
+    },
+
+    {
+        "ingredientPattern": "X_,CD",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "C": {type: "Item", code: "game:cloth-purple" },
+            "D": {type: "Item", code: "game:nugget-nativegold"}
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:wallpaper-darkpurple", "quantity": 16}
+    },
+
+    {
+        "ingredientPattern": "X_,CD",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver" },
+            "C": {type: "Item", code: "game:cloth-green" },
+            "D": {type: "Item", code: "game:cloth-white"}
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:wallpaper-lightgreen", "quantity": 32}
+    }
 ]

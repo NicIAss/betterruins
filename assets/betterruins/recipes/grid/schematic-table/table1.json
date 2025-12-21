@@ -169,7 +169,31 @@
         "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-tavern-double"  , "collected":true} }
     },
 
+    {
+        "ingredientPattern": "BC_,BCC,BXA",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "C": {type: "Item", code: "game:cloth-blue"},
+            "B": {type: "Item", code: "game:plank-*", name: "wood", skipVariants:["aged"]},
+            "A": {type: "Item", code: "game:plank-*", name: "wood", skipVariants:["aged"], quantity: 2},
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "chair-back", "collected":true} }
 
+    },
+    {
+        "ingredientPattern": "XC_,WWW,W_W",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "C": {type: "Item", code: "game:cloth-gray"},
+            "W": {type: "Item", code: "game:plank-ebony"}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "chair-ebony", "collected":true} }
+
+    },
 
 
 
@@ -359,6 +383,32 @@
         "width": 3,
         "height": 3,
         "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-tavern-double" } }
+    },
+
+
+    {
+        "ingredientPattern": "BC_,BCC,BXA",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "C": {type: "Item", code: "game:cloth-blue"},
+            "B": {type: "Item", code: "game:plank-*", name: "wood", skipVariants:["aged"]},
+            "A": {type: "Item", code: "game:plank-*", name: "wood", skipVariants:["aged"], quantity: 2},
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "chair-back"} }
+    },
+    {
+        "ingredientPattern": "XC_,WWW,W_W",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "C": {type: "Item", code: "game:cloth-gray"},
+            "W": {type: "Item", code: "game:plank-ebony"}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "chair-ebony"} }
+
     },
 
 

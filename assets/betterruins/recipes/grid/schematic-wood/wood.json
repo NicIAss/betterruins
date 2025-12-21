@@ -197,4 +197,31 @@
         "height": 3,
         "output": {type: "Block", code: "game:clutter", attributes: { "type": "cross-lattice"} , "quantity": 16}
     },
+
+    {
+        "ingredientPattern": "XLH,LDL,NLN",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "H": {type: "Item", code: "game:hammer-*", "isTool": true, toolDurabilityCost: 4},
+            "D": {type: "Block", code: "game:debarkedlog-*-ud" },
+            "L": {type: "Item", code: "game:leather-normal-plain"},
+            "N": {type: "Item", code: "game:metalnailsandstrips-*"}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:leather"}
+    },
+    {
+		"ingredientPattern": "HLX",
+        "recipeGroup": 333,
+		"ingredients": {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "game:debarkedlog-*-ud", name: "wood" },
+            "X": {type: "Item", code: "betterruins:br-schematic-wood" },
+
+		},
+		"width": 3,
+		"height": 1,
+		"output": { type: "block", code: "game:supportbeam-{wood}", quantity: 9  }
+	},
 ]

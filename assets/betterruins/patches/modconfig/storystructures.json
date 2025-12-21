@@ -12,7 +12,9 @@
       "story/brmansion": 32,
       "story/brthepanopticon": 32,
       "story/brhuaca": 20,
-      "story/brsunrift": 27
+      "story/brsunrift": 27,
+      "story/brcalix": 26,
+      "story/brshoppingcentre": 71
 
     },
     "file": "game:worldgen/storystructures.json",
@@ -389,6 +391,76 @@
         "shrubs": 0,
         "hotsprings": 200,
         "pond": 200,
+        "rivulets": 100,
+        "caves": 120,
+        "patches": 0
+      }
+    },
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "calix",
+      "group": "storystructure",
+      "name": "calix",
+      "schematics": [
+        "story/brcalix"
+      ],
+      "placement": "SurfaceRuin",
+      "dependsOnStructure": "spawn",
+      "minSpawnDistX": 14000,
+      "maxSpawnDistX": 15000,
+      "minSpawnDistZ": 6500,
+      "maxSpawnDistZ": 7500,
+      "requireLandform": "veryflat",
+      "generateGrass": true,
+      "landformRadius": 200,
+      "ExcludeSchematicSizeProtect":true,
+      "rockTypeRemapGroup": "underground",
+      "skipGenerationCategories": {
+        "structures": 180,
+        "trees": 150,
+        "shrubs": 0,
+        "hotsprings": 150,
+        "pond": 150,
+        "rivulets": 100,
+        "caves": 120,
+        "patches": 0
+      }
+    },
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "shoppingcentre",
+      "group": "storystructure",
+      "name": "shoppingcentre",
+      "schematics": [
+        "story/brshoppingcentre"
+      ],
+      "placement": "SurfaceRuin",
+      "dependsOnStructure": "spawn",
+      "minSpawnDistX": 8000,
+      "maxSpawnDistX": 9000,
+      "minSpawnDistZ": 13000,
+      "maxSpawnDistZ": 13000,
+      "requireLandform": "veryflat",
+      "generateGrass": true,
+      "landformRadius": 200,
+      "ExcludeSchematicSizeProtect":true,
+      "rockTypeRemapGroup": "underground",
+      "skipGenerationCategories": {
+        "structures": 180,
+        "trees": 150,
+        "shrubs": 0,
+        "hotsprings": 150,
+        "pond": 150,
         "rivulets": 100,
         "caves": 120,
         "patches": 0

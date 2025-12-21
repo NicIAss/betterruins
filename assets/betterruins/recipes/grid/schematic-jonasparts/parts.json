@@ -4,8 +4,9 @@
     
     
     {
-        "ingredientPattern": "XG_,MOM,_G_",
+        "ingredientPattern": "XG_,MOM,_GB",
         "ingredients": {
+            "B": {type: "Item", code: "game:jonasparts-*", "name": "jonasparts", skipVariants: ["pumphead"]},
             "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
             "G": {type: "Block", code: "game:glassslab-plain-down-free" },
             "M": {type: "Block", code: "game:metal-parts" },
@@ -17,8 +18,9 @@
         
     },
     {
-        "ingredientPattern": "XM_,NGN,_M_",
+        "ingredientPattern": "XM_,NGN,_MB",
         "ingredients": {
+            "B": {type: "Item", code: "game:jonasparts-*", "name": "jonasparts", skipVariants: ["pumphead"]},
             "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
             "G": {type: "Item", code: "game:gear-temporal" },
             "M": {type: "Block", code: "game:metal-parts" },
@@ -30,8 +32,9 @@
         
     },
     {
-        "ingredientPattern": "X_M,GPN,__M",
+        "ingredientPattern": "X_M,GPN,_BM",
         "ingredients": {
+            "B": {type: "Item", code: "game:jonasparts-*", "name": "jonasparts", skipVariants: ["pumphead"]},
             "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
             "G": {type: "Item", code: "game:gear-temporal" },
             "M": {type: "Block", code: "game:metal-parts" },
@@ -44,8 +47,9 @@
         
     },
     {
-        "ingredientPattern": "XP_,NGN,_P_",
+        "ingredientPattern": "XP_,NGN,_PB",
         "ingredients": {
+            "B": {type: "Item", code: "game:jonasparts-*", "name": "jonasparts", skipVariants: ["pumphead"]},
             "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
             "G": {type: "Item", code: "game:gear-temporal" },
             "P": {type: "Item", code: "game:rod-cupronickel" },
@@ -57,8 +61,9 @@
         
     },
     {
-        "ingredientPattern": "XM_,NGM,_M_",
+        "ingredientPattern": "XM_,NGM,_MB",
         "ingredients": {
+            "B": {type: "Item", code: "game:jonasparts-*", "name": "jonasparts", skipVariants: ["pumphead"]},
             "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
             "G": {type: "Item", code: "game:gear-temporal" },
             "M": {type: "Block", code: "game:metal-parts" },
@@ -70,8 +75,9 @@
         
     },
     {
-        "ingredientPattern": "XNM,___,___",
+        "ingredientPattern": "XNM,B__,___",
         "ingredients": {
+            "B": {type: "Item", code: "game:jonasparts-*", "name": "jonasparts", skipVariants: ["pumphead"]},
             "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
             "M": {type: "Block", code: "game:metal-parts" },
             "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
