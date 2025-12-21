@@ -362,6 +362,10 @@
     "item-locatormap-agedsunrift": "Aged Map to The Sunrift Experiment",
     "betterruins:item-handbooktext-betterruins:locatormap-agedsunrift": "<strong>Found in</strong>\nRare in a surface ruin",
 
+    "game:location-shoppingcentre": "The Dome Mall",
+    "item-locatormap-shoppingcentre": "Map to the Dome Mall",
+    "betterruins:item-handbooktext-betterruins:locatormap-shoppingcentre": "<strong>Found in</strong>\nCrossroads",
+
 
     "item-locatormap-graves": "Map to a Hidden Tomb",
     "item-locatormap-gates": "Map to a Hidden Passage",
