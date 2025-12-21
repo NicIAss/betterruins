@@ -1389,7 +1389,7 @@
         "name": "11shoppingcentre_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "default": 1.0,
+        "default": 0,
         "weight": 13.0,
         "logarithmic": true,
         "range": {
