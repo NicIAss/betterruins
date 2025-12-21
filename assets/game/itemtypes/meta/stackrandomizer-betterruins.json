@@ -2545,19 +2545,7 @@
 				},
 				{
 				  "type": "item",
-				  "code": "lore-book-aged-darkgreen",
-				  "attributes": { "category": "villager" },
-				  "chance": 10
-				},
-				{
-				  "type": "item",
 				  "code": "lore-book-aged-darkgray",
-				  "attributes": { "category": "tobias" },
-				  "chance": 10
-				},
-				{
-				  "type": "item",
-				  "code": "lore-book-aged-cherryred",
 				  "attributes": { "category": "tobias" },
 				  "chance": 10
 				},
@@ -2599,18 +2587,6 @@
 				},
 				{
 				  "type": "item",
-				  "code": "lore-book-rotten-gray",
-				  "attributes": { "category": "jonas" },
-				  "chance": 10
-				},
-				{
-				  "type": "item",
-				  "code": "lore-book-rotten-rust",
-				  "attributes": { "category": "jonas" },
-				  "chance": 10
-				},
-				{
-				  "type": "item",
 				  "code": "lore-book-rotten-purple",
 				  "attributes": { "category": "tobias" },
 				  "chance": 10
@@ -2631,13 +2607,13 @@
 				  "type": "item",
 				  "code": "lore-paper",
 				  "attributes": { "category": "jonas" },
-				  "chance": 100
+				  "chance": 10
 				},
 				{
 				  "type": "item",
 				  "code": "lore-scroll",
 				  "attributes": { "category": "villager" },
-				  "chance": 100
+				  "chance": 10
 				},
 				{
 				  "type": "item",
@@ -2649,35 +2625,35 @@
 					"type": "item",
 					"code": "lore-book-aged-purpleorange",
 					"attributes": { "category": "universalstories" },
-					"chance": 5
-				  },
-				  {
+					"chance": 10
+				},
+				{
 					"type": "item",
 					"code": "lore-book-aged-gray",
 					"attributes": { "category": "universalstories" },
-					"chance": 5
-				  },
-				  {
+					"chance": 10
+				},
+				{
 					"type": "item",
 					"code": "lore-book-rotten-gray",
-					"attributes": { "category": "universalstories" },
-					"chance": 5
-				  },
-				  {
+					"attributes": { "category": "allhandsrequired" },
+					"chance": 10
+				},
+				{
 					"type": "item",
 					"code": "lore-book-rotten-rust",
-					"attributes": { "category": "universalstories" },
-					"chance": 5
-				  },
-				  {
+					"attributes": { "category": "allhandsrequired" },
+					"chance": 10
+				},
+				{
 					"type": "item",
 					"code": "game:gear-rusty",
 					"chance": 1,
 					"quantity": {
 						"avg": 3,
 						"var": 2
-					  }
-				  }
+						}
+				}
 			  ]
 		},
 		"*-rottenkingclothing": {
