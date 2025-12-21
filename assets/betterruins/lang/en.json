@@ -362,6 +362,10 @@
     "item-locatormap-agedsunrift": "Aged Map to The Sunrift Experiment",
     "betterruins:item-handbooktext-betterruins:locatormap-agedsunrift": "<strong>Found in</strong>\nRare in a surface ruin",
 
+    "game:location-calix": "The Temporal Calix Project",
+    "item-locatormap-calix": "Map to the Temporal Calix Project",
+    "betterruins:item-handbooktext-betterruins:locatormap-calix": "<strong>Talk to</strong>\nAgriculture Trader",
+
     "game:location-shoppingcentre": "The Dome Mall",
     "item-locatormap-shoppingcentre": "Map to the Dome Mall",
     "betterruins:item-handbooktext-betterruins:locatormap-shoppingcentre": "<strong>Found in</strong>\nCrossroads",
