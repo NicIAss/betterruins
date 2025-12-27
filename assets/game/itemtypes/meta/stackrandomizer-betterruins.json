@@ -2733,6 +2733,15 @@
 				  "type": "item",
 				  "code": "clothes-upperbodyover-rotwalker",
 				  "chance": 1000
+				},
+				{
+					"type": "item",
+					"code": "game:stick",
+					"chance": 500,
+					"quantity": {
+					  "avg": 7,
+					  "var": 6
+					}
 				}
 			  ]
 		},
@@ -2843,7 +2852,16 @@
 				{ "type": "item", "code": "game:clothes-neck-forlorn-talisman", "chance": 7 },
 				{ "type": "item", "code": "game:clothes-shoulder-forlorn-sash", "chance": 7 },
 				{ "type": "item", "code": "game:clothes-upperbody-forlorn-tunic", "chance": 7 },
-				{ "type": "item", "code": "game:clothes-waist-forlorn-belt", "chance": 7 }
+				{ "type": "item", "code": "game:clothes-waist-forlorn-belt", "chance": 7 },
+				{
+					"type": "item",
+					"code": "game:arrow-gold",
+					"quantity": {
+						"avg": 10,
+						"var": 5
+					},
+					"chance": 7
+				}
 			]
 		},
 		
@@ -2859,6 +2877,15 @@
 					"type": "item",
 					"code": "game:clutter-art/gear3",
 					"chance": 10
+				},
+				{
+					"type": "item",
+					"code": "game:arrow-gold",
+					"quantity": {
+						"avg": 10,
+						"var": 5
+					},
+					"chance": 5
 				}
 			]
 		}

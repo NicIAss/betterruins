@@ -505,6 +505,10 @@
         "attributesByType/*-backpack/stacks/4/chance": "LOOT * value",
         "attributesByType/*-backpack/stacks/5/chance": "LOOT * value",
         "attributesByType/*-backpack/stacks/6/chance": "LOOT * value",
+        "attributesByType/*-backpack/stacks/7/chance": "LOOT * value",
+        "attributesByType/*-backpack/stacks/8/chance": "LOOT * value",
+        "attributesByType/*-backpack/stacks/9/chance": "LOOT * value",
+        "attributesByType/*-backpack/stacks/10/chance": "LOOT * value",
 
 
         "attributesByType/*-buildingblocks/stacks/0/chance": "LOOT * value",
@@ -599,7 +603,6 @@
         "attributesByType/*-buildingblocks/stacks/89/chance": "LOOT * value",
         "attributesByType/*-buildingblocks/stacks/90/chance": "LOOT * value",
         "attributesByType/*-buildingblocks/stacks/91/chance": "LOOT * value",
-        "attributesByType/*-buildingblocks/stacks/92/chance": "LOOT * value",
 
 
         "attributesByType/*-clayproducts/stacks/0/chance": "LOOT * value",
@@ -812,7 +815,6 @@
         "attributesByType/*-clayproducts/stacks/207/chance": "LOOT * value",
         "attributesByType/*-clayproducts/stacks/208/chance": "LOOT * value",
         "attributesByType/*-clayproducts/stacks/209/chance": "LOOT * value",
-        "attributesByType/*-clayproducts/stacks/210/chance": "LOOT * value",
 
 
         "attributesByType/*-kingclothing/stacks/0/chance": "LOOT * value",
@@ -929,10 +931,6 @@
         "attributesByType/*-newlore/stacks/16/chance": "(LORE) ? 1.0 : 0.0",
         "attributesByType/*-newlore/stacks/17/chance": "(LORE) ? 1.0 : 0.0",
         "attributesByType/*-newlore/stacks/18/chance": "(LORE) ? 1.0 : 0.0",
-        "attributesByType/*-newlore/stacks/19/chance": "(LORE) ? 1.0 : 0.0",
-        "attributesByType/*-newlore/stacks/20/chance": "(LORE) ? 1.0 : 0.0",
-        "attributesByType/*-newlore/stacks/21/chance": "(LORE) ? 1.0 : 0.0",
-        "attributesByType/*-newlore/stacks/22/chance": "(LORE) ? 1.0 : 0.0",
 
 
         "attributesByType/*-rottenkingclothing/stacks/0/chance": "LOOT * value",
@@ -954,7 +952,36 @@
         "attributesByType/*-blrmeteoriciron/stacks/1/chance": "METEORVALUE",
         "attributesByType/*-blrmeteoriciron/stacks/0/chance": "(100 - METEORVALUE) / 3",
         "attributesByType/*-blrmeteoriciron/stacks/2/chance": "(100 - METEORVALUE) / 3",
-        "attributesByType/*-blrmeteoriciron/stacks/3/chance": "(100 - METEORVALUE) / 3"
+        "attributesByType/*-blrmeteoriciron/stacks/3/chance": "(100 - METEORVALUE) / 3",
+
+        "attributesByType/*-forlornhope-weapons/stacks/0/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-weapons/stacks/2/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-weapons/stacks/3/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-weapons/stacks/4/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-weapons/stacks/5/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-weapons/stacks/6/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-weapons/stacks/7/chance": "LOOT * value",
+
+        "attributesByType/*-forlornhope-armor/stacks/0/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-armor/stacks/1/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-armor/stacks/2/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-armor/stacks/3/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-armor/stacks/4/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-armor/stacks/5/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-armor/stacks/6/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-armor/stacks/7/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-armor/stacks/8/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-armor/stacks/9/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-armor/stacks/10/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-armor/stacks/11/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-armor/stacks/12/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-armor/stacks/13/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-armor/stacks/14/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-armor/stacks/15/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-armor/stacks/16/chance": "LOOT * value",
+
+        "attributesByType/*-forlornhope-specials/stacks/0/chance": "LOOT * value",
+        "attributesByType/*-forlornhope-specials/stacks/1/chance": "LOOT * value"
 
       }
     },
