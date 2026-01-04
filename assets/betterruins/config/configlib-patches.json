@@ -103,7 +103,8 @@
         "43/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "44/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "45/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
-        "46/value/chance": "LARGERUINS_SPAWN_CHANCE * value"
+        "46/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "47/value/chance": "LARGERUINS_SPAWN_CHANCE * value"
       },
       "betterruins:patches/others/structurespatches/special.json": {
         "0/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
@@ -1141,7 +1142,7 @@
         "44/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "45/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "46/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
-
+        "47/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
 
         "0/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
         "1/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
@@ -1189,7 +1190,8 @@
         "43/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
         "44/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
         "45/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
-        "46/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE"
+        "46/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "47/value/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE"
       },
       "betterruins:patches/modconfig/village.json": {
         "0/value/minGroupDistance": "VSVILLAGE_MIN_DISTANCE",

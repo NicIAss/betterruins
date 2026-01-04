@@ -1505,5 +1505,37 @@
   },
   "file": "game:worldgen/structures.json",
   "side": "Server"
+},
+{
+  "op": "add",
+  "path": "/structures/-",
+  "value": {
+    "code": "brsurfaceruins-largeruins-o7-ogdred-bigcastleruin1",
+    "chance": 0.009, 
+    "minGroupDistance": 2800,
+    "group": "largeruins",
+    "schematics": [
+      "overground/main/largeruins/largeruins-o7-ogdred-bigcastleruin1"
+    ],
+    "suppressTrees": true,
+    "suppressWaterfalls": true,
+    "rockTypeRemapGroup": "standard",
+    "replacewithblocklayers": [
+      "soil-low-none",
+      "soil-medium-none",
+      "soil-medium-normal",
+      "soil-low-normal",
+      "forestfloor-1",
+      "soil-verylow-normal",
+      "soil-verylow-none",
+      "soil-verylow-sparse",
+      "soil-verylow-verysparse",
+        "gravel-granite"
+    ],
+    "MaxBelowSealevel": 2,
+    "MinSpawnDistance": 2500
+  },
+  "file": "game:worldgen/structures.json",
+  "side": "Server"
 }
 ]
