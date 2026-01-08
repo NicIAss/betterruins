@@ -8,14 +8,14 @@
         "ingredientPattern": "XS,CF",
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-weaver" },
-            "C": {type: "Item", code: "game:cloth-blue" },
+            "C": {type: "Item", code: "game:cloth-blue" , "quantity": 2},
             "S": {type: "Item", code: "game:sewingkit" },
-            "F": {type: "Item", code: "game:flaxtwine" }
+            "F": {type: "Item", code: "game:flaxtwine" , "quantity": 2}
         },
         "width": 2,
         "height": 2,
         "recipeGroup": 333,
-        "output": {type: "Block", code: "game:rug-blue-diamond-center" ,"quantity": 4}
+        "output": {type: "Block", code: "game:rug-blue-diamond-center" ,"quantity": 20}
     },
     {
         "ingredientPattern": "XR",
