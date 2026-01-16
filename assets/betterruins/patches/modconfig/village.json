@@ -312,11 +312,11 @@
       "code": "village-ogdred",
       "group": "village-ogdred",
 			"minGroupDistance": 1500,
-      "chance": 0.03,
+      "chance": 0.1,
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
-        "avg": 4,
+        "avg": 7,
         "var": 1,
         "dist": "InvExp"
       },
@@ -325,6 +325,11 @@
         {"path": "overground/main/village-ogdred/houses/house1-o5","weight": 100, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/village-ogdred/houses/house2-o2","weight": 100, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/village-ogdred/houses/house3-o6","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-ogdred/ruins/ruins1-o3","weight": 20, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-ogdred/ruins/ruins2-o4","weight": 20, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-ogdred/ruins/ruins3-o4","weight": 20, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-ogdred/ruins/ruins4-o4","weight": 20, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-ogdred/ruins/ruins5-o4","weight": 40, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/village-ogdred/main/*","weight": 100, "minQuantity": 1, "maxQuantity": 1}
     ],
       "replacewithblocklayers": ["soil-low-normal", "soil-low-none", "gravel-granite"],
@@ -341,7 +346,7 @@
       "code": "village-femursnapper",
       "group": "village-femursnapper",
 			"minGroupDistance": 1500,
-      "chance": 0.1,
+      "chance": 0.2,
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
@@ -353,7 +358,7 @@
         {"path": "overground/main/village-femursnapper/chapel1","weight": 500, "minQuantity": 1, "maxQuantity": 1},
         {"path": "overground/main/village-femursnapper/galgen1","weight": 200, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/village-femursnapper/house1","weight": 100, "minQuantity": 0, "maxQuantity": 1},
-        {"path": "overground/main/village-femursnapper/house2","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/house2","weight": 65, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/village-femursnapper/house3","weight": 100, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/village-femursnapper/house4","weight": 100, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/village-femursnapper/house5","weight": 100, "minQuantity": 0, "maxQuantity": 1},

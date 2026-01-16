@@ -4,7 +4,7 @@
   "name": "BetterRuins",
   "description" : "Adds a lot of structures to the worldgen over and underground.\nBuilders: Bellcross, Dampus, hřbitovník , Ifoz, Marlim, Ogdred, OnBean, Tiggetagg, Sirayne,\nPar, Quentin, StAdrian, SamGray, Tiggetagg, Vilderos, Virrnogamr, Freian, FemurSnapper,\nyapludepatte, Grendelbiter, AceGamePython, RowdyArt, Nybygget, ShikiTochi\nWriters: Blinky Dorf, Ifoz, dazedandconfused, GentleBoyHell, Joe Silent, moronwmachinegun,\nFullPlateArmor, Quilladile\nRecipes: Azriel, Pal_5000",
   "authors": ["NiclAss"],
-  "version": "0.5.5",
+  "version": "0.5.6",
   "side": "Universal",
   "dependencies": {
     "game": "1.21.0"

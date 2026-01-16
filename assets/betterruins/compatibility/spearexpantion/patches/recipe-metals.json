@@ -1,0 +1,16 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/16/ingredients/B/skipVariants",
+    "value": [
+      "temporalit"
+    ],
+    "file": "betterruins:recipes/grid/schematic-mechanical/mechanical.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "spearexpantion"
+      }
+    ]
+  }
+]

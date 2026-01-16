@@ -1,0 +1,17 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/25/ingredients/T/skipVariants",
+    "value": [
+      "vermiculite",
+      "soapstone"
+    ],
+    "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "deepveinasbestos"
+      }
+    ]
+  }
+]
