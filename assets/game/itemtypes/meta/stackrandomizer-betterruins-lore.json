@@ -50,7 +50,13 @@
 		"ripleysresearch",
 		"stokersdirective",
 		"brickworkerslament",
-		"agitatedregards"
+		"agitatedregards",
+		"smashingsuccess",
+		"severancenotice",
+		"quarrycorrespondences",
+		"authoritativecopy",
+		"saltstainedscrawlings",
+		"pawprints"
 		] }
 	],
 	"attributesByType": {
@@ -555,6 +561,48 @@
 		"stacks": [
 			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "agitatedregards" } },
 			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "agitatedregards" } }
+		]
+		},
+		"*-smashingsuccess": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "smashingsuccess" } },
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "smashingsuccess" } }
+		]
+		},
+		"*-severancenotice": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "severancenotice" } },
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "severancenotice" } }
+		]
+		},
+		"*-quarrycorrespondences": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "quarrycorrespondences" } },
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "quarrycorrespondences" } }
+		]
+		},
+		"*-saltstainedscrawlings": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "saltstainedscrawlings" } },
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "saltstainedscrawlings" } }
+		]
+		},
+		"*-authoritativecopy": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "authoritativecopy" } },
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "authoritativecopy" } }
+		]
+		},
+		"*-pawprints": {
+		"handbook": { "exclude": true },
+		"stacks": [
+			{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "pawprints" } },
+			{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "pawprints" } }
 		]
 		}
 	},
