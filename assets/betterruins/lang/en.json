@@ -497,7 +497,7 @@
 
 
     "game:item-textureflipper": "Temporal Transfigurator",
-    "game:itemdesc-textureflipper": "An ornate cupronickel device designed to transform some clutter block textures, channeling the essence of temporal reconfiguration.\n\nLook at a supported clutter block and use the F key to select alternate textures.\nThen right click to apply that texture to supported clutter blocks.\n\nMost wood or metal themed clutterblocks allow to be modified.\nTry it out!",
+    "game:itemdesc-textureflipper": "An ornate cupronickel device designed to transform some clutter block textures, channeling the essence of temporal reconfiguration.\n\nLook at a supported clutter block and use the F key to select alternate textures.\nThen right click to apply that texture to supported clutter blocks.\n\nMost wood or metal themed clutterblocks allow to be modified.\nTry it out!\n\nSupported clutter blocks include:\n Barricades, Ruined canopy beds, Ruined beds, Aged book lecterns, Aged lecterns, Aged lectern with empty book, Cluttered scroll racks, Ruined chair, Medium crates, Small crates, Stack of small crates, Small ruined crates, Braziers, Ruined braziers, Ruined segments, Ruined companions, Ruined chamber, Ruined plate, Ruins, Glass tanks, Metal tanks, Certain Ruined tools, Ruined table, Music box, Long chair, Scribe table, Ruined shelfs, Wood rubble, Cast iron swage block, Steel stake anvil, Steel wire drawing die, ... and more ... (This list is WIP)",
     "item-br-schematic-textureflipper": "Temporal Transfigurator Blueprint",
     "betterruins:item-handbooktext-betterruins:br-schematic-textureflipper": "<strong>Found in</strong>\nStory structure university",
 	"game:clutter-globe1": "Large Intact Globe",
