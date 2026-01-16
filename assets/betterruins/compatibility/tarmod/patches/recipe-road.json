@@ -1,0 +1,16 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/3/ingredients/P/skipVariants",
+    "value": [
+      "tarred"
+    ],
+    "file": "betterruins:recipes/grid/schematic-road/road1.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "tarmod"
+      }
+    ]
+  }
+]
