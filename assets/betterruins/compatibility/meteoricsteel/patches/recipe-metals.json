@@ -1,0 +1,16 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/13/ingredients/B/skipVariants",
+    "value": [
+      "meteoricsteel"
+    ],
+    "file": "betterruins:recipes/grid/schematic-mechanical/mechanical.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ]
+  }
+]
