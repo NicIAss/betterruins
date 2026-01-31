@@ -1,0 +1,23 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/16/ingredients/B/skipVariants",
+    "value": [
+      "weakblacksteel",
+      "weakredsteel",
+      "weakbluesteel",
+      "redsteel",
+      "bluesteel",
+      "blacksteel",
+      "rosegold",
+      "sterlingsilver"
+    ],
+    "file": "betterruins:recipes/grid/schematic-mechanical/mechanical.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "canadditionalmetals"
+      }
+    ]
+  }
+]
