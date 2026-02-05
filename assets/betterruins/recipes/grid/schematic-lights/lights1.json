@@ -84,6 +84,55 @@
         "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/lumi-floor3" ,"collected": true} }
     },
 
+    {
+        "ingredientPattern": "H,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/lumi-floor3"  ,"collected": true} },
+            "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor5"  ,"collected": true} }
+    },
+
+    {
+        "ingredientPattern": "H,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "L": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor5"  ,"collected": true} },
+            "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor6"  ,"collected": true} }
+    },
+
+    {
+        "ingredientPattern": "H,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "L": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor6"  ,"collected": true} },
+            "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor4"  ,"collected": true} }
+    },
+
+    {
+        "ingredientPattern": "H,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "L": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor4"  ,"collected": true} },
+            "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor7"  ,"collected": true} }
+    },
+
+
 
 
 
@@ -251,6 +300,39 @@
 
 
 
+        {
+        "ingredientPattern": "SGS,NRN,SXS",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "S": {type: "Block", code: "game:metal-scraps" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" },
+            "R": {type: "Item", code: "game:gear-rusty" },
+            "G": {type: "Block", code: "game:glassslab-*-down-free" , quantity: 2}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/lumi-pipe-h-lamp" , "collected": true} }
+        
+    },
+    {
+        "ingredientPattern": "SGS,NTN,SXS",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "S": {type: "Block", code: "game:metal-scraps" },
+            "T": {type: "Item", code: "game:gear-temporal" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" },
+            "G": {type: "Block", code: "game:glassslab-*-down-free" , quantity: 2}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/lumi-pipe-h-lamp" , "collected": true} }
+        
+    },
+
+
+
+
+
 
 
 
@@ -383,6 +465,54 @@
         "width": 1,
         "height": 3,
         "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/lumi-floor3" } }
+    },
+
+    {
+        "ingredientPattern": "H,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/lumi-floor3" } },
+            "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor5" } }
+    },
+
+    {
+        "ingredientPattern": "H,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "L": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor5" } },
+            "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor6" } }
+    },
+
+    {
+        "ingredientPattern": "H,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "L": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor6" } },
+            "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor4" } }
+    },
+
+    {
+        "ingredientPattern": "H,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "L": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor4" } },
+            "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor7" } }
     },
 
 
@@ -547,7 +677,34 @@
     },
 
 
-
+    {
+        "ingredientPattern": "SGS,NRN,SXS",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "S": {type: "Block", code: "game:metal-scraps" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" },
+            "R": {type: "Item", code: "game:gear-rusty" },
+            "G": {type: "Block", code: "game:glassslab-*-down-free" , quantity: 2}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/lumi-pipe-h-lamp" } }
+        
+    },
+    {
+        "ingredientPattern": "SGS,NTN,SXS",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "S": {type: "Block", code: "game:metal-scraps" },
+            "T": {type: "Item", code: "game:gear-temporal" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" },
+            "G": {type: "Block", code: "game:glassslab-*-down-free" , quantity: 2}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/lumi-pipe-h-lamp" } }
+        
+    },
 
 
 
