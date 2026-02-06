@@ -378,7 +378,7 @@
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
-			"P": { type: "item", code: "game:plank-*", name: "wood", quantity: 2 }
+			"P": { type: "item", code: "game:plank-*", name: "wood", quantity: 2 , "skipVariants": ["veryaged"] }
 				},
 		width: 3,
 		height: 3,
@@ -543,7 +543,7 @@
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
 
-			"B": { type: "item", code: "game:plank-*", name: "wood"}
+			"B": { type: "item", code: "game:plank-*", name: "wood", "skipVariants": ["veryaged"] }
 		},
 		width: 2,
 		height: 2,
@@ -556,7 +556,7 @@
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
 
-			"B": { type: "item", code: "game:plank-*", name: "wood"}
+			"B": { type: "item", code: "game:plank-*", name: "wood", "skipVariants": ["veryaged"] }
 		},
 		width: 1,
 		height: 2,

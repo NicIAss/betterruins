@@ -45,7 +45,7 @@
         ingredients: {
             "S": { type: "item", code: "game:saw-*", isTool: true },
             "X": {type: "Item", code: "br-schematic-road" },
-            "P": { type: "item", code: "game:plank-*", "name": "wood" , quantity: 2 }
+            "P": { type: "item", code: "game:plank-*", "name": "wood" , quantity: 2 , "skipVariants": ["veryaged"] }
         },
         width: 3,
         height: 1,

@@ -890,8 +890,7 @@
         "gravel-granite"
       ],
       "MaxBelowSealevel": 2,
-      "MinSpawnDistance": 2500,
-      "offsety": -6
+      "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"

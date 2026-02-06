@@ -181,7 +181,7 @@
         "recipeGroup": 333,
 
 		ingredients: {
-			"W": { type: "item", code: "game:plank-*", name: "wood",skipVariants: ["aged"] },
+			"W": { type: "item", code: "game:plank-*", name: "wood",skipVariants: ["aged", "veryaged"] },
             "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
 		},
 		width: 3,
