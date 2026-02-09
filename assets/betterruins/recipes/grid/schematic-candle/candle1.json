@@ -4,7 +4,7 @@
     {
         "ingredientPattern": "RGR,XN_",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "N": {type: "Item", code: "game:metalplate-*" },
             "R": {type: "Item", code: "game:clearquartz" },
             "G": {type: "Block", code: "game:clutter", attributes: { "type": "candlestub-single" , "collected": true} }
@@ -19,7 +19,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "H": {type: "Item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
             "L": {type: "Block", code: "game:clutter", attributes: { "type": "lantern/ground1" , "collected": true} }
         },
@@ -32,7 +32,7 @@
     {
         "ingredientPattern": "H,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "H": {type: "Item", code: "game:beeswax", quantity: 5 }
         },
         "width": 1,
@@ -44,7 +44,7 @@
     {
         "ingredientPattern": "H,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "H": {type: "Item", code: "game:beeswax", quantity: 4 }
         },
         "width": 1,
@@ -56,7 +56,7 @@
     {
         "ingredientPattern": "H,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "H": {type: "Item", code: "game:beeswax", quantity: 3 }
         },
         "width": 1,
@@ -69,7 +69,7 @@
     {
         "ingredientPattern": "H,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "H": {type: "Item", code: "game:beeswax", quantity: 2 }
         },
         "width": 1,
@@ -82,7 +82,7 @@
     {
         "ingredientPattern": "H,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "H": {type: "Item", code: "game:beeswax", quantity: 1 }
         },
         "width": 1,
@@ -113,7 +113,7 @@
     {
         "ingredientPattern": "RGR,XN_",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "N": {type: "Item", code: "game:metalplate-*" },
             "R": {type: "Item", code: "game:clearquartz" },
             "G": {type: "Block", code: "game:clutter", attributes: { "type": "candlestub-single" } }
@@ -128,7 +128,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "H": {type: "Item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 },
             "L": {type: "Block", code: "game:clutter", attributes: { "type": "lantern/ground1" } }
         },
@@ -141,7 +141,7 @@
     {
         "ingredientPattern": "H,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "H": {type: "Item", code: "game:beeswax", quantity: 5 }
         },
         "width": 1,
@@ -154,7 +154,7 @@
     {
         "ingredientPattern": "H,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "H": {type: "Item", code: "game:beeswax", quantity: 4 }
         },
         "width": 1,
@@ -167,7 +167,7 @@
     {
         "ingredientPattern": "H,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "H": {type: "Item", code: "game:beeswax", quantity: 3 }
         },
         "width": 1,
@@ -181,7 +181,7 @@
     {
         "ingredientPattern": "H,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "H": {type: "Item", code: "game:beeswax", quantity: 2 }
         },
         "width": 1,
@@ -193,7 +193,7 @@
     {
         "ingredientPattern": "H,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "H": {type: "Item", code: "game:beeswax", quantity: 1 }
         },
         "width": 1,

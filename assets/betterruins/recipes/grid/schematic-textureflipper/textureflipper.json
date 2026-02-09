@@ -4,7 +4,7 @@
         "ingredients": {
             "X": {
                 "type": "Item",
-                "code": "br-schematic-textureflipper"
+                "code": "br-schematic-textureflipper", "consume": false
             },
             "H": {
                 "type": "Item",

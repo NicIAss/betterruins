@@ -80,7 +80,7 @@
     {
         "ingredientPattern": "P,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:stone-*" }
         },
         "width": 1,
@@ -96,7 +96,7 @@
         "ingredientPattern": "P,B,X",
         "enabled": false,
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
             "B": {type: "Block", code: "game:stonebricks-*", name: "rock", skipVariants: ["travertine"]} 
         },
@@ -108,7 +108,7 @@
     {
         "ingredientPattern": "P,B,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
             "B": {type: "Block", code: "game:cobblestone-*", name: "rock", skipVariants: ["whitemarble", "suevite", "redmarble", "kimberlite", "greenmarble", "coral", "obsidian"]}
         },
@@ -120,7 +120,7 @@
     {
         "ingredientPattern": "P,B,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
             "B": {type: "Block", code: "game:rockpolished-*", name: "rock", skipVariants: ["suevite","kimberlite","obsidian"]}
         },
@@ -132,7 +132,7 @@
     {
         "ingredientPattern": "P,B,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
             "B": {type: "Block", code: "game:polishedrockold-full-*", name: "rock"}
         },
@@ -144,7 +144,7 @@
     {
         "ingredientPattern": "P,B,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
             "B": {type: "Block", code: "game:rock-*", name: "rock"}
         },
@@ -156,7 +156,7 @@
     {
         "ingredientPattern": "P,B,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
             "B": {type: "Block", code: "game:stonebricks-*", name: "rock", skipVariants: ["suevite","kimberlite","obsidian", "travertine"]} // bcs of bricklayers
         },
@@ -169,7 +169,7 @@
     {
         "ingredientPattern": "BPX",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:mortar" },
             "B": {type: "Block", code: "game:brickcourse-four-running-*" , name: "clay", skipVariants: ["clinker" ], quantity: 16}
         },
@@ -181,7 +181,7 @@
     {
         "ingredientPattern": "BPX",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:mortar" },
             "B": {type: "Block", code: "game:brickcourse-four-soldier-*" , name: "clay", skipVariants: ["clinker" ], quantity: 16}
         },
@@ -193,7 +193,7 @@
     {
         "ingredientPattern": "BPX",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:mortar" },
             "B": {type: "Block", code: "game:brickcourse-four-header-*" , name: "clay", skipVariants: ["clinker" ], quantity: 16}
         },
@@ -207,7 +207,7 @@
     {
         "ingredientPattern": "PX,B_",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:hammer-*" , "isTool": true },
             "B": {type: "Block", code: "game:claybricks-uneven-four-running-*" , name: "clay", allowedVariants: ["gray", "brown", "orange", "red", "tan" ], quantity: 1}
         },
@@ -222,7 +222,7 @@
     {
         "ingredientPattern": "BPX",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:mortar" },
             "B": {type: "Block", code: "game:claybricks-good-fire", quantity: 16}
         },
@@ -233,7 +233,7 @@
     {
         "ingredientPattern": "XP",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Block", code: "game:claybricks-uneven-four-running-fire" }
         },
         "width": 2,
@@ -243,7 +243,7 @@
     {
         "ingredientPattern": "XP",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Block", code: "game:claybricks-uneven-four-soldier-fire" }
         },
         "width": 2,
@@ -253,7 +253,7 @@
     {
         "ingredientPattern": "XP",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Block", code: "game:claybricks-uneven-four-header-fire" }
         },
         "width": 2,
@@ -281,7 +281,7 @@
     {
         "ingredientPattern": "XC,TP",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "T": {type: "Item", code: "game:hammer-*" , "isTool": true },
             "C": {type: "Item", code: "game:clay-*" },
             "P": {type: "Block", code: "game:diamond-stone-clean" , "quantity": 4}
@@ -293,7 +293,7 @@
     {
         "ingredientPattern": "XC,TP",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "T": {type: "Item", code: "game:hammer-*" , "isTool": true },
             "C": {type: "Item", code: "game:clay-*" },
             "P": {type: "Block", code: "game:diamond-stone-dark" , "quantity": 4}
@@ -305,7 +305,7 @@
     {
         "ingredientPattern": "XC,TP",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "T": {type: "Item", code: "game:hammer-*" , "isTool": true },
             "C": {type: "Item", code: "game:clay-*" },
             "P": {type: "Block", code: "game:diamond-stone-light" , "quantity": 4}
@@ -317,7 +317,7 @@
     {
         "ingredientPattern": "XC,TP",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "T": {type: "Item", code: "game:hammer-*" , "isTool": true },
             "C": {type: "Item", code: "game:clay-*" },
             "P": {type: "Block", code: "game:diamond-stone-mixed" , "quantity": 4}
@@ -340,7 +340,7 @@
     {
         "ingredientPattern": "XC_,TPB",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone" },
+            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "T": {type: "Item", code: "game:stone-*" , name:"rock", skipVariants: ["tuff", "suevite", "scoria", "kimberlite", "meteorite-iron", "obsidian", "halite", "whitemarble", "redmarble", "greenmarble", "travertine"],"quantity": 4},
             "C": {type: "Item", code: "game:clay-*" },
             "B": {type: "Item", code: "game:bone" ,"quantity": 2 },

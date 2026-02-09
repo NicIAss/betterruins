@@ -7,7 +7,7 @@
     {
         "ingredientPattern": "XS,CF",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "C": {type: "Item", code: "game:cloth-blue" , "quantity": 2},
             "S": {type: "Item", code: "game:sewingkit" },
             "F": {type: "Item", code: "game:flaxtwine" , "quantity": 2}
@@ -20,7 +20,7 @@
     {
         "ingredientPattern": "XR",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "R": {type: "Block", code: "game:rug-blue-diamond-center" }
         },
         "width": 2,
@@ -31,7 +31,7 @@
     {
         "ingredientPattern": "XR",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "R": {type: "Block", code: "game:rug-blue-diamond-corner" }
         },
         "width": 2,
@@ -42,7 +42,7 @@
     {
         "ingredientPattern": "XR",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "R": {type: "Block", code: "game:rug-blue-diamond-edge" }
         },
         "width": 2,
@@ -53,7 +53,7 @@
     {
         "ingredientPattern": "XR",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "R": {type: "Block", code: "game:rug-blue-diamond-cornernails" }
         },
         "width": 2,
@@ -64,7 +64,7 @@
     {
         "ingredientPattern": "XR",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "R": {type: "Block", code: "game:rug-blue-diamond-edgenails" }
         },
         "width": 2,
@@ -85,7 +85,7 @@
     {
         "ingredientPattern": "X_,C_,RR",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "C": {type: "Item", code: "game:cloth-black" },
             "R": {type: "Block", code: "game:rushmat" }
         },
@@ -97,7 +97,7 @@
     {
         "ingredientPattern": "X_,C_,RR",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "C": {type: "Item", code: "game:cloth-green" },
             "R": {type: "Block", code: "game:rushmat" }
         },
@@ -109,7 +109,7 @@
     {
         "ingredientPattern": "X_,CZ,RR",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "C": {type: "Item", code: "game:cloth-green" },
             "Z": {type: "Item", code: "game:cloth-black" },
             "R": {type: "Block", code: "game:rushmat" }
@@ -129,7 +129,7 @@
     {
         "ingredientPattern": "X,Z,R",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "Z": {type: "Item", code: "game:cloth-black" },
             "R": {type: "Block", code: "game:rushmat" }
         },
@@ -141,7 +141,7 @@
     {
         "ingredientPattern": "X,Z,R",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "Z": {type: "Item", code: "game:cloth-green" },
             "R": {type: "Block", code: "game:rushmat" }
         },
@@ -153,7 +153,7 @@
     {
         "ingredientPattern": "X,Z,R",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "Z": {type: "Item", code: "game:cloth-brown" },
             "R": {type: "Block", code: "game:rushmat" }
         },
@@ -165,7 +165,7 @@
     {
         "ingredientPattern": "X,Z,R",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "Z": {type: "Item", code: "game:cloth-purple" },
             "R": {type: "Block", code: "game:rushmat" }
         },
@@ -177,7 +177,7 @@
     {
         "ingredientPattern": "X,Z,R",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "Z": {type: "Item", code: "game:cloth-red" },
             "R": {type: "Block", code: "game:rushmat" }
         },
@@ -189,7 +189,7 @@
     {
         "ingredientPattern": "X_,CZ,R_",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "C": {type: "Item", code: "game:cloth-green" },
             "Z": {type: "Item", code: "game:cloth-black" },
             "R": {type: "Block", code: "game:rushmat" , "quantity": 2}
@@ -202,7 +202,7 @@
     {
         "ingredientPattern": "XG,CZ,R_",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "C": {type: "Item", code: "game:cloth-green" },
             "Z": {type: "Item", code: "game:cloth-black" },
             "G": {type: "Item", code: "game:metalbit-gold" },
@@ -223,7 +223,7 @@
     {
         "ingredientPattern": "X,C",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "C": {type: "Item", code: "game:cloth-blue" },
         },
         "width": 1,
@@ -234,7 +234,7 @@
     {
         "ingredientPattern": "X,C",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "C": {type: "Item", code: "game:cloth-green" },
         },
         "width": 1,
@@ -245,7 +245,7 @@
     {
         "ingredientPattern": "X,C",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "C": {type: "Item", code: "game:cloth-gray" },
         },
         "width": 1,
@@ -256,7 +256,7 @@
     {
         "ingredientPattern": "X,C",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "C": {type: "Item", code: "game:cloth-brown" },
         },
         "width": 1,
@@ -267,7 +267,7 @@
     {
         "ingredientPattern": "X,C",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "C": {type: "Item", code: "game:cloth-yellow" },
         },
         "width": 1,
@@ -278,7 +278,7 @@
     {
         "ingredientPattern": "X,C",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "C": {type: "Item", code: "game:cloth-pink" },
         },
         "width": 1,
@@ -289,7 +289,7 @@
     {
         "ingredientPattern": "X_,CD",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "C": {type: "Item", code: "game:cloth-brown" },
             "D": {type: "Item", code: "game:cloth-gray"}
         },
@@ -301,7 +301,7 @@
     {
         "ingredientPattern": "X_,CD",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "C": {type: "Item", code: "game:cloth-purple" },
             "D": {type: "Item", code: "game:nugget-nativegold"}
         },
@@ -313,7 +313,7 @@
     {
         "ingredientPattern": "X_,CD",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-weaver" },
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
             "C": {type: "Item", code: "game:cloth-green" },
             "D": {type: "Item", code: "game:cloth-white"}
         },

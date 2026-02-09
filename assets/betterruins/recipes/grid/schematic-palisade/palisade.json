@@ -3,7 +3,7 @@
     {
         "ingredientPattern": "XS,_L",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "X": {"type": "Item", "code": "br-schematic-palisade", "consume": false },
             "S": {"type": "Item", "code": "game:saw-*", "isTool": true },
             "L": {"type": "Block", "code": "game:supportbeam-oak" }
         },
@@ -14,7 +14,7 @@
     {
         "ingredientPattern": "XA,_L",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "X": {"type": "Item", "code": "br-schematic-palisade", "consume": false },
             "L": {"type": "Block", "code": "game:palisadewall-four-lower-cornerin-west" , "quantity": 1},
             "A": {"type": "Item", "code": "game:knife-generic-*", "isTool": true }
         },
@@ -25,7 +25,7 @@
     {
         "ingredientPattern": "XA,FL",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "X": {"type": "Item", "code": "br-schematic-palisade", "consume": false },
             "L": {"type": "Block", "code": "game:palisadewall-four-lower-cornerin-west" , "quantity": 1},
             "A": {"type": "Item", "code": "game:knife-generic-*", "isTool": true },
             "F": {"type": "Item", "code": "game:axe-felling-*", "isTool": true }
@@ -38,7 +38,7 @@
     {
         "ingredientPattern": "X__,LLL,_K_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "X": {"type": "Item", "code": "br-schematic-palisade", "consume": false },
             "L": {"type": "Block", "code": "game:palisadewall-four-top-cornerin-west" },
             "K": {"type": "Block", "code": "game:palisadewall-four-lower-cornerin-west" }
         },
@@ -53,7 +53,7 @@
     {
         "ingredientPattern": "X__,LLL",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "X": {"type": "Item", "code": "br-schematic-palisade", "consume": false },
             "L": {"type": "Block", "code": "game:palisadewall-four-lower-cornerin-west" , "quantity": 1}
         },
         "width": 3,
@@ -63,7 +63,7 @@
     {
         "ingredientPattern": "X__,LLL",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "X": {"type": "Item", "code": "br-schematic-palisade", "consume": false },
             "L": {"type": "Block", "code": "game:palisadewall-four-top-cornerin-west" , "quantity": 1}
         },
         "width": 3,
@@ -73,7 +73,7 @@
     {
         "ingredientPattern": "X__,LLL",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "X": {"type": "Item", "code": "br-schematic-palisade", "consume": false },
             "L": {"type": "Block", "code": "game:palisadewall-four-halftop-cornerin-west" , "quantity": 1}
         },
         "width": 3,
@@ -83,7 +83,7 @@
     {
         "ingredientPattern": "XF_,LLL",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "X": {"type": "Item", "code": "br-schematic-palisade", "consume": false },
             "L": {"type": "Block", "code": "game:palisadewall-four-halftop-cornerin-west" , "quantity": 1},
             "F": {"type": "Item", "code": "game:flaxfibers" }
         },
@@ -99,7 +99,7 @@
     {
         "ingredientPattern": "X__,LLL,L__",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "X": {"type": "Item", "code": "br-schematic-palisade", "consume": false },
             "L": {"type": "Block", "code": "game:palisadewall-four-lower-cornerin-west" , "quantity": 1}
         },
         "width": 3,
@@ -109,7 +109,7 @@
     {
         "ingredientPattern": "X__,LLL,L__",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "X": {"type": "Item", "code": "br-schematic-palisade", "consume": false },
             "L": {"type": "Block", "code": "game:palisadewall-four-top-cornerin-west" , "quantity": 1}
         },
         "width": 3,
@@ -119,7 +119,7 @@
     {
         "ingredientPattern": "X__,LLL,L__",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "X": {"type": "Item", "code": "br-schematic-palisade", "consume": false },
             "L": {"type": "Block", "code": "game:palisadewall-four-halftop-cornerin-west" , "quantity": 1}
         },
         "width": 3,
@@ -129,7 +129,7 @@
     {
         "ingredientPattern": "XF_,LLL,L__",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "X": {"type": "Item", "code": "br-schematic-palisade", "consume": false },
             "L": {"type": "Block", "code": "game:palisadewall-four-halftop-cornerin-west" , "quantity": 1},
             "F": {"type": "Item", "code": "game:flaxfibers" }
         },
@@ -145,7 +145,7 @@
     {
         "ingredientPattern": "X_,KL",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "X": {"type": "Item", "code": "br-schematic-palisade", "consume": false },
             "L": {"type": "Block", "code": "game:palisadewall-four-lower-wall-west" },
             "K": {"type": "Block", "code": "game:palisadestakes-west" }
         },
@@ -156,7 +156,7 @@
     {
         "ingredientPattern": "X_,KL",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "X": {"type": "Item", "code": "br-schematic-palisade", "consume": false },
             "L": {"type": "Block", "code": "game:palisadewall-three-lower-wall-west" },
             "K": {"type": "Block", "code": "game:palisadewall-four-lower-wall-west" }
         },
@@ -167,7 +167,7 @@
     {
         "ingredientPattern": "X_,KL",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "X": {"type": "Item", "code": "br-schematic-palisade", "consume": false },
             "L": {"type": "Block", "code": "game:palisadewall-four-halftop-wall-west" },
             "K": {"type": "Block", "code": "game:palisadewall-three-halftop-wall-west" }
         },
@@ -178,7 +178,7 @@
     {
         "ingredientPattern": "X_,KL",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-palisade" },
+            "X": {"type": "Item", "code": "br-schematic-palisade", "consume": false },
             "L": {"type": "Block", "code": "game:palisadewall-four-top-wall-west" },
             "K": {"type": "Block", "code": "game:palisadewall-three-top-wall-west" }
         },

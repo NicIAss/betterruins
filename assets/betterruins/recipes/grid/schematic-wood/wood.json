@@ -7,7 +7,7 @@
     {
         "ingredientPattern": "H_,CX,W_",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "H": {type: "Item", code: "game:hammer-*", isTool: true },
             "W": {type: "Block", code: "game:debarkedlog-acacia-ud" },
             "C": {type: "Item", code: "game:chisel-*", isTool: true }
@@ -21,7 +21,7 @@
     {
         "ingredientPattern": "WX",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "W": {type: "Block", code: "game:carvedlog-acacia-aged-middle-plain-ud" },
         },
         "width": 2,
@@ -33,7 +33,7 @@
     {
         "ingredientPattern": "WX",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "W": {type: "Block", code: "game:carvedlog-acacia-aged-top-plain-ud" },
         },
         "width": 2,
@@ -45,7 +45,7 @@
     {
         "ingredientPattern": "WX",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "W": {type: "Block", code: "game:carvedlog-acacia-aged-bottom-plain-ud" },
         },
         "width": 2,
@@ -57,7 +57,7 @@
     {
         "ingredientPattern": "WX",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "W": {type: "Block", code: "game:carvedlog-acacia-aged-top-fancy-ud" },
         },
         "width": 2,
@@ -69,7 +69,7 @@
     {
         "ingredientPattern": "WX",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "W": {type: "Block", code: "game:carvedlog-acacia-aged-middle-fancy-ud" },
         },
         "width": 2,
@@ -81,7 +81,7 @@
     {
         "ingredientPattern": "WX",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "W": {type: "Block", code: "game:carvedlog-acacia-aged-bottom-fancy-ud" },
         },
         "width": 2,
@@ -106,7 +106,7 @@
     {
         "ingredientPattern": "X,W",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "W": {type: "Block", code: "game:planks-ebony-*" }
         },
         "width": 1,
@@ -116,7 +116,7 @@
     {
         "ingredientPattern": "X,W",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "W": {type: "Block", code: "game:planks-agedebony-*" }
         },
         "width": 1,
@@ -131,7 +131,7 @@
     {
         "ingredientPattern": "X,W",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "W": {type: "Block", code: "game:debarkedlog-aged-*" }
         },
         "width": 1,
@@ -141,7 +141,7 @@
     {
         "ingredientPattern": "X,W",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "W": {type: "Block", code: "game:debarkedlog-veryaged-*" }
         },
         "width": 1,
@@ -154,7 +154,7 @@
     {
         "ingredientPattern": "BXB,BSB,B_B",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "B": {type: "Item", code: "game:plank-aged" },
             "S": {type: "Item", code: "game:stick" }
         },
@@ -165,7 +165,7 @@
     {
         "ingredientPattern": "BXB,BSB,B_B",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "B": {type: "Item", code: "game:plank-aged" },
             "S": {type: "Item", code: "game:stick" }
         },
@@ -178,7 +178,7 @@
     {
         "ingredientPattern": "XB_,BSB,_B_",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "B": {type: "Block", code: "game:supportbeam-oak" },
             "S": {type: "Item", code: "game:stick" , "quantity": 4 }
         },
@@ -189,7 +189,7 @@
     {
         "ingredientPattern": "XB_,BSB,_B_",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "B": {type: "Block", code: "game:supportbeam-oak" },
             "S": {type: "Item", code: "game:stick" , "quantity": 4 }
         },
@@ -201,7 +201,7 @@
     {
         "ingredientPattern": "XLH,LDL,NLN",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "H": {type: "Item", code: "game:hammer-*", "isTool": true, toolDurabilityCost: 4},
             "D": {type: "Block", code: "game:debarkedlog-*-ud" },
             "L": {type: "Item", code: "game:leather-normal-plain"},
@@ -217,7 +217,7 @@
 		"ingredients": {
 			"H": { type: "item", code: "game:saw-*", isTool: true  },
 			"L": { type: "block", code: "game:debarkedlog-*-ud", name: "wood" },
-            "X": {type: "Item", code: "betterruins:br-schematic-wood" },
+            "X": {type: "Item", code: "betterruins:br-schematic-wood", "consume": false },
 
 		},
 		"width": 3,
@@ -230,7 +230,7 @@
     {
         "ingredientPattern": "X,W",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
+            "X": {type: "Item", code: "br-schematic-wood", "consume": false },
             "W": {type: "Block", code: "game:debarkedlog-rotten-*" }
         },
         "width": 1,

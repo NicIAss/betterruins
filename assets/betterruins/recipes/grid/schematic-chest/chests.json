@@ -3,7 +3,7 @@
         "ingredientPattern": "BBB,BMB,BSB",
         "ingredients": {
             "B": {type: "Item", code: "game:plank-aged" },
-            "S": {"type": "Item", "code": "br-schematic-chest" },
+            "S": {"type": "Item", "code": "br-schematic-chest", "consume": false },
             "M": {type: "Block", code: "game:metal-scraps", quantity: 2 }
         },
         "width": 3,
@@ -15,7 +15,7 @@
         "ingredientPattern": "BBB,BMB,BSB",
         "ingredients": {
             "B": {type: "Item", code: "game:plank-aged", quantity: 2 },
-            "S": {"type": "Item", "code": "br-schematic-chest" },
+            "S": {"type": "Item", "code": "br-schematic-chest", "consume": false },
             "M": {type: "Block", code: "game:saw-*", isTool: true}
         },
         "width": 3,
@@ -31,7 +31,7 @@
             "G": {type: "Item", code: "game:nugget-nativegold", quantity: 2},
             "C": {type: "Item", code: "game:cloth-red"},
             "N": {type: "Item", code: "game:metalnailsandstrips-*"},
-            "S": {"type": "Item", "code": "br-schematic-chest" }
+            "S": {"type": "Item", "code": "br-schematic-chest", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -45,7 +45,7 @@
             "G": {type: "Item", code: "game:nugget-nativegold", quantity: 2},
             "C": {type: "Item", code: "game:cloth-red"},
             "N": {type: "Item", code: "game:metalnailsandstrips-*"},
-            "S": {"type": "Item", "code": "br-schematic-chest" }
+            "S": {"type": "Item", "code": "br-schematic-chest", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -59,7 +59,7 @@
             "G": {type: "Item", code: "game:metalbit-brass", quantity: 2},
             "C": {type: "Item", code: "game:cloth-blue"},
             "N": {type: "Item", code: "game:metalnailsandstrips-*"},
-            "S": {"type": "Item", "code": "br-schematic-chest" }
+            "S": {"type": "Item", "code": "br-schematic-chest", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -73,7 +73,7 @@
             "G": {type: "Item", code: "game:metalbit-brass", quantity: 2},
             "C": {type: "Item", code: "game:cloth-blue"},
             "N": {type: "Item", code: "game:metalnailsandstrips-*"},
-            "S": {"type": "Item", "code": "br-schematic-chest" }
+            "S": {"type": "Item", "code": "br-schematic-chest", "consume": false }
         },
         "width": 3,
         "height": 3,

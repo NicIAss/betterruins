@@ -28,7 +28,7 @@
         "ingredientPattern": "X,H",
         "ingredients": {
             "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 7},
-            "X": {"type": "Item", "code": "br-schematic-bed" }
+            "X": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -39,7 +39,7 @@
         "ingredientPattern": "X,H",
         "ingredients": {
             "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 6},
-            "X": {"type": "Item", "code": "br-schematic-bed" }
+            "X": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -50,7 +50,7 @@
         "ingredientPattern": "X,H",
         "ingredients": {
             "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 5},
-            "X": {"type": "Item", "code": "br-schematic-bed" }
+            "X": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -61,7 +61,7 @@
         "ingredientPattern": "X,H",
         "ingredients": {
             "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 4},
-            "X": {"type": "Item", "code": "br-schematic-bed" }
+            "X": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -72,7 +72,7 @@
         "ingredientPattern": "X,H",
         "ingredients": {
             "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 3},
-            "X": {"type": "Item", "code": "br-schematic-bed" }
+            "X": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -83,7 +83,7 @@
         "ingredientPattern": "X,H",
         "ingredients": {
             "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 2},
-            "X": {"type": "Item", "code": "br-schematic-bed" }
+            "X": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -94,7 +94,7 @@
         "ingredientPattern": "X,H",
         "ingredients": {
             "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 1},
-            "X": {"type": "Item", "code": "br-schematic-bed" }
+            "X": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -108,7 +108,7 @@
         "ingredientPattern": "X,H",
         "ingredients": {
             "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 7},
-            "X": {"type": "Item", "code": "br-schematic-bed" }
+            "X": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -119,7 +119,7 @@
         "ingredientPattern": "X,H",
         "ingredients": {
             "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 6},
-            "X": {"type": "Item", "code": "br-schematic-bed" }
+            "X": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -130,7 +130,7 @@
         "ingredientPattern": "X,H",
         "ingredients": {
             "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 5},
-            "X": {"type": "Item", "code": "br-schematic-bed" }
+            "X": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -141,7 +141,7 @@
         "ingredientPattern": "X,H",
         "ingredients": {
             "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 4},
-            "X": {"type": "Item", "code": "br-schematic-bed" }
+            "X": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -152,7 +152,7 @@
         "ingredientPattern": "X,H",
         "ingredients": {
             "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 3},
-            "X": {"type": "Item", "code": "br-schematic-bed" }
+            "X": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -163,7 +163,7 @@
         "ingredientPattern": "X,H",
         "ingredients": {
             "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 2},
-            "X": {"type": "Item", "code": "br-schematic-bed" }
+            "X": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -174,7 +174,7 @@
         "ingredientPattern": "X,H",
         "ingredients": {
             "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 1},
-            "X": {"type": "Item", "code": "br-schematic-bed" }
+            "X": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 1,
         "height": 2,

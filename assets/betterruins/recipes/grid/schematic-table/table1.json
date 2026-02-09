@@ -6,7 +6,7 @@
     {
         "ingredientPattern": "X,S,B",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "S": {type: "Block", code: "game:plankslab-aged-*" },
             "B": {type: "Item", code: "game:plank-aged" }
         },
@@ -18,7 +18,7 @@
     {
         "ingredientPattern": "X__,SSS,CBC",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "S": {type: "Block", code: "game:plankslab-aged-*" },
             "B": {type: "Item", code: "game:plank-aged" },
             "C": {type: "Block", code: "game:clutter", attributes: { "type": "chair-long", "collected":true } }
@@ -31,7 +31,7 @@
     {
         "ingredientPattern": "BBB,BXB,B_B",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "B": {type: "Item", code: "game:plank-aged" }
         },
         "width": 3,
@@ -42,7 +42,7 @@
     {
         "ingredientPattern": "BBB,BXB",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "B": {type: "Item", code: "game:plank-aged" }
         },
         "width": 3,
@@ -55,7 +55,7 @@
     {
         "ingredientPattern": "S,T,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "S": {type: "Item", code: "game:candle", quantity: 2 },
             "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long", "collected":true } }
         },
@@ -67,7 +67,7 @@
     {
         "ingredientPattern": "S,T,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "S": {type: "Item", code: "game:cloth-blue" },
             "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long", "collected":true } }
         },
@@ -79,7 +79,7 @@
     {
         "ingredientPattern": "S,T,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "S": {type: "Item", code: "game:cloth-green" },
             "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long", "collected":true } }
         },
@@ -91,7 +91,7 @@
     {
         "ingredientPattern": "S,T,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "S": {type: "Item", code: "game:cloth-purple" },
             "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long", "collected":true } }
         },
@@ -103,7 +103,7 @@
     {
         "ingredientPattern": "S,T,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "S": {type: "Item", code: "game:cloth-red" },
             "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long", "collected":true } }
         },
@@ -115,7 +115,7 @@
         {
         "ingredientPattern": "HS,NB,X_",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
             "S": {type: "Item", code: "game:saw-*" , isTool: true, toolDurabilityCost: 1 },
             "B": {type: "Item", code: "game:plank-ebony" , quantity: 16 },
@@ -130,7 +130,7 @@
     {
         "ingredientPattern": "HS_,NBN,X__",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
             "S": {type: "Item", code: "game:saw-*" , isTool: true, toolDurabilityCost: 1 },
             "B": {type: "Item", code: "game:plank-ebony" , quantity: 16 },
@@ -143,7 +143,7 @@
     {
         "ingredientPattern": "HS,NB,X_",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
             "S": {type: "Item", code: "game:saw-*" , isTool: true, toolDurabilityCost: 1 },
             "B": {type: "Item", code: "game:plank-oak" , quantity: 16 },
@@ -158,7 +158,7 @@
     {
         "ingredientPattern": "HS_,NBN,X__",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
             "S": {type: "Item", code: "game:saw-*" , isTool: true, toolDurabilityCost: 1 },
             "B": {type: "Item", code: "game:plank-oak" , quantity: 16 },
@@ -172,7 +172,7 @@
     {
         "ingredientPattern": "BC_,BCC,BXA",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "C": {type: "Item", code: "game:cloth-blue"},
             "B": {type: "Item", code: "game:plank-*", name: "wood", skipVariants:["aged"]},
             "A": {type: "Item", code: "game:plank-*", name: "wood", skipVariants:["aged"], quantity: 2},
@@ -185,7 +185,7 @@
     {
         "ingredientPattern": "XC_,WWW,W_W",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "C": {type: "Item", code: "game:cloth-gray"},
             "W": {type: "Item", code: "game:plank-ebony"}
         },
@@ -204,7 +204,7 @@
     {
         "ingredientPattern": "X,S,B",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "S": {type: "Block", code: "game:plankslab-aged-*" },
             "B": {type: "Item", code: "game:plank-aged" }
         },
@@ -216,7 +216,7 @@
     {
         "ingredientPattern": "X__,SSS,CBC",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "S": {type: "Block", code: "game:plankslab-aged-*" },
             "B": {type: "Item", code: "game:plank-aged" },
             "C": {type: "Block", code: "game:clutter", attributes: { "type": "chair-long"} }
@@ -229,7 +229,7 @@
     {
         "ingredientPattern": "BBB,BXB,B_B",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "B": {type: "Item", code: "game:plank-aged" }
         },
         "width": 3,
@@ -240,7 +240,7 @@
     {
         "ingredientPattern": "BBB,BXB",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "B": {type: "Item", code: "game:plank-aged" }
         },
         "width": 3,
@@ -253,7 +253,7 @@
     {
         "ingredientPattern": "S,T,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "S": {type: "Item", code: "game:candle", quantity: 2 },
             "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long"} }
         },
@@ -265,7 +265,7 @@
     {
         "ingredientPattern": "S,T,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "S": {type: "Item", code: "game:cloth-blue" },
             "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long"} }
         },
@@ -277,7 +277,7 @@
     {
         "ingredientPattern": "S,T,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "S": {type: "Item", code: "game:cloth-green" },
             "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long"} }
         },
@@ -289,7 +289,7 @@
     {
         "ingredientPattern": "S,T,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "S": {type: "Item", code: "game:cloth-purple" },
             "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long"} }
         },
@@ -301,7 +301,7 @@
     {
         "ingredientPattern": "S,T,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "S": {type: "Item", code: "game:cloth-red" },
             "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long"} }
         },
@@ -318,7 +318,7 @@
     {
         "ingredientPattern": "HS,NB,X_",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
             "S": {type: "Item", code: "game:saw-*" , isTool: true, toolDurabilityCost: 1 },
             "B": {type: "Item", code: "game:plank-ebony" , quantity: 16 },
@@ -333,7 +333,7 @@
     {
         "ingredientPattern": "HS_,NBN,X__",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
             "S": {type: "Item", code: "game:saw-*" , isTool: true, toolDurabilityCost: 1 },
             "B": {type: "Item", code: "game:plank-ebony" , quantity: 32 },
@@ -359,7 +359,7 @@
     {
         "ingredientPattern": "HS,NB,X_",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
             "S": {type: "Item", code: "game:saw-*" , isTool: true, toolDurabilityCost: 1 },
             "B": {type: "Item", code: "game:plank-oak" , quantity: 16 },
@@ -374,7 +374,7 @@
     {
         "ingredientPattern": "HS_,NBN,X__",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
             "S": {type: "Item", code: "game:saw-*" , isTool: true, toolDurabilityCost: 1 },
             "B": {type: "Item", code: "game:plank-oak" , quantity: 16 },
@@ -389,7 +389,7 @@
     {
         "ingredientPattern": "BC_,BCC,BXA",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "C": {type: "Item", code: "game:cloth-blue"},
             "B": {type: "Item", code: "game:plank-*", name: "wood", skipVariants:["aged"]},
             "A": {type: "Item", code: "game:plank-*", name: "wood", skipVariants:["aged"], quantity: 2},
@@ -401,7 +401,7 @@
     {
         "ingredientPattern": "XC_,WWW,W_W",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-table" },
+            "X": {type: "Item", code: "br-schematic-table", "consume": false },
             "C": {type: "Item", code: "game:cloth-gray"},
             "W": {type: "Item", code: "game:plank-ebony"}
         },

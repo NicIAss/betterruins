@@ -4,7 +4,7 @@
         "ingredients": {
             "B": {"type": "Block", "code": "game:metalblock-corroded-plain-rusty-iron" },
             "S": {"type": "Item", "code": "game:saw-*", "isTool": true },
-            "X": {"type": "Item", "code": "br-schematic-pipes" }
+            "X": {"type": "Item", "code": "br-schematic-pipes", "consume": false }
         },
         "width": 2,
         "height": 2,
@@ -15,7 +15,7 @@
         "ingredients": {
             "B": {"type": "Block", "code": "game:metalblock-corroded-plain-rusty-iron" },
             "S": {"type": "Item", "code": "game:saw-*", "isTool": true },
-            "X": {"type": "Item", "code": "br-schematic-pipes" }
+            "X": {"type": "Item", "code": "br-schematic-pipes", "consume": false }
         },
         "width": 2,
         "height": 2,
@@ -71,7 +71,7 @@
         "ingredientPattern": "XB,BB",
         "ingredients": {
             "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" , "collected":true} },
-            "X": {"type": "Item", "code": "br-schematic-pipes" }
+            "X": {"type": "Item", "code": "br-schematic-pipes", "consume": false }
         },
         "width": 2,
         "height": 2,
@@ -81,7 +81,7 @@
         "ingredientPattern": "XB,BB",
         "ingredients": {
             "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" } },
-            "X": {"type": "Item", "code": "br-schematic-pipes" }
+            "X": {"type": "Item", "code": "br-schematic-pipes", "consume": false }
         },
         "width": 2,
         "height": 2,
@@ -186,7 +186,7 @@
         "ingredientPattern": "XB_,BBB",
         "ingredients": {
             "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW", "collected":true } },
-            "X": {"type": "Item", "code": "br-schematic-pipes" }
+            "X": {"type": "Item", "code": "br-schematic-pipes", "consume": false }
         },
         "width": 3,
         "height": 2,
@@ -196,7 +196,7 @@
         "ingredientPattern": "XB_,BBB",
         "ingredients": {
             "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" } },
-            "X": {"type": "Item", "code": "br-schematic-pipes" }
+            "X": {"type": "Item", "code": "br-schematic-pipes", "consume": false }
         },
         "width": 3,
         "height": 2,
@@ -309,7 +309,7 @@
         "ingredientPattern": "XB_,BBB,_B_",
         "ingredients": {
             "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" , "collected":true} },
-            "X": {"type": "Item", "code": "br-schematic-pipes" }
+            "X": {"type": "Item", "code": "br-schematic-pipes", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -319,7 +319,7 @@
         "ingredientPattern": "XB_,BBB,_B_",
         "ingredients": {
             "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" } },
-            "X": {"type": "Item", "code": "br-schematic-pipes" }
+            "X": {"type": "Item", "code": "br-schematic-pipes", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -420,7 +420,7 @@
         "ingredientPattern": "XBB,BBB,_B_",
         "ingredients": {
             "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" , "collected":true} },
-            "X": {"type": "Item", "code": "br-schematic-pipes" }
+            "X": {"type": "Item", "code": "br-schematic-pipes", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -430,7 +430,7 @@
         "ingredientPattern": "XBB,BBB,_B_",
         "ingredients": {
             "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" } },
-            "X": {"type": "Item", "code": "br-schematic-pipes" }
+            "X": {"type": "Item", "code": "br-schematic-pipes", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -445,7 +445,7 @@
         "ingredientPattern": "XBB,BBB,BB_",
         "ingredients": {
             "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" , "collected":true} },
-            "X": {"type": "Item", "code": "br-schematic-pipes" }
+            "X": {"type": "Item", "code": "br-schematic-pipes", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -455,7 +455,7 @@
         "ingredientPattern": "XBB,BBB,BB_",
         "ingredients": {
             "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pipe-veryrusted-h-EW" } },
-            "X": {"type": "Item", "code": "br-schematic-pipes" }
+            "X": {"type": "Item", "code": "br-schematic-pipes", "consume": false }
         },
         "width": 3,
         "height": 3,

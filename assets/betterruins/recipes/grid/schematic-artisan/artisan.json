@@ -4,7 +4,7 @@
         "ingredients": {
             "P": {"type": "Block", "code": "game:plaster-plain" },
             "S": {"type": "Item", "code": "game:saw-*", "isTool": true },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "width": 2,
         "height": 2,
@@ -17,7 +17,7 @@
         "ingredients": {
             "P": {"type": "Block", "code": "game:plaster-plain" },
             "S": {"type": "Item", "code": "game:saw-*", "isTool": true },
-            "X": {"type": "Item", "code": "br-schematic-artisan" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false },
             "B": {"type": "block", "code": "game:bowl-*-fired"}
         },
         "width": 3,
@@ -174,7 +174,7 @@
             "P": {"type": "Item", "code": "game:shingle-burned-red" , "quantity": 2},
             "C": {"type": "Item", "code": "game:chisel-*", "isTool": true },
             "H": {"type": "Item", "code": "game:hammer-*", "isTool": true },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "width": 2,
         "height": 3,
@@ -187,7 +187,7 @@
             "P": {"type": "Item", "code": "game:shingle-burned-red" , "quantity": 2},
             "C": {"type": "Item", "code": "game:chisel-*", "isTool": true },
             "H": {"type": "Item", "code": "game:hammer-*", "isTool": true },
-            "X": {"type": "Item", "code": "br-schematic-artisan" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false },
             "B": {"type": "Item", "code": "game:clay-fire" }
         },
         "width": 2,
@@ -202,7 +202,7 @@
             "P": {"type": "Item", "code": "game:shingle-burned-red" , "quantity": 2},
             "C": {"type": "Item", "code": "game:chisel-*", "isTool": true },
             "H": {"type": "Item", "code": "game:hammer-*", "isTool": true },
-            "X": {"type": "Item", "code": "br-schematic-artisan" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false },
             "B": {"type": "Item", "code": "game:clay-blue" }
         },
         "width": 2,
@@ -230,7 +230,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-gray-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -247,7 +247,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-gray-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -264,7 +264,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-gray-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -281,7 +281,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-gray-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -298,7 +298,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-red-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -315,7 +315,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-cream-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -332,7 +332,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-gray-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -349,7 +349,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-blue-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -366,7 +366,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-red-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -383,7 +383,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-red-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -400,7 +400,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-blue-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -417,7 +417,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-blue-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -434,7 +434,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-blue-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -451,7 +451,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-blue-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -468,7 +468,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-gray-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -485,7 +485,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-cream-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -502,7 +502,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-cream-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -519,7 +519,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-cream-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -536,7 +536,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-red-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -553,7 +553,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-gray-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -570,7 +570,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-blue-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false },
             "G": {"type": "Item", "code": "game:metalbit-gold" , "quantity": 2}
         },
         "attributes": {
@@ -588,7 +588,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-black-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -605,7 +605,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-black-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -622,7 +622,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-cream-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -639,7 +639,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-black-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -656,7 +656,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-black-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
 			"liquidContainerProps": {
@@ -673,7 +673,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-cream-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false },
             "L": {"type": "Item", "code": "game:leather-normal-plain" , "quantity": 1}
         },
         "attributes": {
@@ -691,7 +691,7 @@
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
             "V": {"type": "Block", "code": "game:storagevessel-cream-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false },
             "L": {"type": "Item", "code": "game:leather-normal-plain" , "quantity": 1}
         },
         "attributes": {
@@ -709,7 +709,7 @@
         "ingredients": {
             "C": {"type": "Block", "code": "game:overlay-plaster-white-zigzag" },
             "V": {"type": "Block", "code": "game:storagevessel-cream-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" }
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },	
         "width": 2,
         "height": 2,
@@ -720,7 +720,7 @@
         "ingredients": {
             "C": {"type": "Block", "code": "game:overlay-plaster-white-normal" },
             "V": {"type": "Block", "code": "game:storagevessel-cream-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false },
             "L": {"type": "Block", "code": "game:overlay-plaster-white-bottom-rim" }
         },		
         "width": 2,
@@ -732,7 +732,7 @@
         "ingredients": {
             "C": {"type": "Block", "code": "game:overlay-plaster-white-normal" },
             "V": {"type": "Block", "code": "game:storagevessel-cream-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false },
             "L": {"type": "Block", "code": "game:overlay-plaster-white-top-rim" }
         },		
         "width": 2,
