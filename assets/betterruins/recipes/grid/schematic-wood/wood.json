@@ -146,7 +146,7 @@
         },
         "width": 1,
         "height": 2,
-        "output": {type: "Block", code: "game:debarkedlog-veryagedrotten-ud" }
+        "output": {type: "Block", code: "game:debarkedlog-rotten-ud" }
     },
 
 
@@ -224,4 +224,17 @@
 		"height": 1,
 		"output": { type: "block", code: "game:supportbeam-{wood}", quantity: 9  }
 	},
+
+
+
+    {
+        "ingredientPattern": "X,W",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "W": {type: "Block", code: "game:debarkedlog-rotten-*" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:debarkedlog-veryrotten-ud" }
+    },
 ]
