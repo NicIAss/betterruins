@@ -406,7 +406,16 @@
 				},
 				{
 				  "type": "block",
-				  "code": "debarkedlog-veryagedrotten-ud",
+				  "code": "debarkedlog-veryrotten-ud",
+				  "quantity": {
+					"avg": 30,
+					"var": 20
+				  },
+				  "chance": 100
+				},
+				{
+				  "type": "block",
+				  "code": "debarkedlog-rotten-ud",
 				  "quantity": {
 					"avg": 30,
 					"var": 20
@@ -2463,7 +2472,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "windmillrotor-north",
+				  "code": "windmillrotor-wood-north",
 				  "chance": 10
 				},
 				{
