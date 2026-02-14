@@ -1,0 +1,1140 @@
+{
+	"chanceMultiplier": 0.04,
+	"villageTypes": [
+		{
+			"name": "village-vsvillage",
+			"code": "village-vsvillage",
+			"group": "village-vsvillage",
+			"minGroupDistance": 2500,
+			"chance": 0.1,
+			"minY": 0,
+			"generator": "LooselyGrouped",
+			"quantityStructures": {
+				"avg": 10,
+				"var": 4,
+				"dist": "InvExp"
+			},
+			"schematics": [
+				{
+					"path": "overground/main/village-vsvillage/houses/*",
+					"weight": 100
+				},
+				{
+					"path": "overground/main/village-vsvillage/wells/*",
+					"weight": 100,
+					"minQuantity": 1,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-vsvillage/mainbuildings/*",
+					"weight": 10,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-vsvillage/wallsegments/*",
+					"weight": 10,
+					"minQuantity": 1,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-vsvillage/wallsegments2/*",
+					"weight": 10,
+					"minQuantity": 1,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-paths/normal/*",
+					"weight": 100,
+					"minQuantity": 2,
+					"maxQuantity": 3
+				}
+			],
+			"replacewithblocklayers": [
+				"game:soil-low-normal",
+				"game:soil-low-none"
+			],
+			"rockTypeRemapGroup": "standard"
+		},
+		{
+			"name": "village-forest",
+			"code": "village-forest",
+			"group": "village-forest",
+			"minGroupDistance": 1500,
+			"chance": 0.10,
+			"minY": 0,
+			"generator": "LooselyGrouped",
+			"quantityStructures": {
+				"avg": 9,
+				"var": 2,
+				"dist": "InvExp"
+			},
+			"schematics": [
+				{
+					"path": "overground/main/village-forest/all/village-forest-0101-o3-par",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0102-o3-par",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0103-o3-par",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0104-o3-virrno",
+					"weight": 33,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0105-o3-virrno",
+					"weight": 50,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0106-o3-virrno",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0107-o3-virrno",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0108-o3-virrno",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0109-o3-virrno",
+					"weight": 33,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0110-o3-virrno",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0111-o3-virrno",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0201-o3-virrno",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0202-o3-par",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0203-o3-par",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0204-o3-par",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0205-o3-par",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0206-o3-virrno",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0207-o3-virrno",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0208-o3-virrno",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0209-o5-virrno",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0210-o6-virrno",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0211-o5-par",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0301-o3-virrno",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0302-o10-virrno",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0303-o9-virrno",
+					"weight": 40,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0304-o8-virrno",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/all/village-forest-0305-o3-ifoz",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-forest/windmills/*",
+					"weight": 100,
+					"minQuantity": 1,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-paths/normal/*",
+					"weight": 100,
+					"minQuantity": 2,
+					"maxQuantity": 3
+				}
+			],
+			"replacewithblocklayers": [
+				"game:soil-low-normal",
+				"game:soil-low-none"
+			],
+			"rockTypeRemapGroup": "standard"
+		},
+		{
+			"name": "village-desert",
+			"code": "village-desert",
+			"group": "village-desert",
+			"minGroupDistance": 2500,
+			"chance": 0.01,
+			"minY": 0,
+			"generator": "LooselyGrouped",
+			"quantityStructures": {
+				"avg": 5,
+				"var": 1,
+				"dist": "InvExp"
+			},
+			"schematics": [
+				{
+					"path": "overground/main/village-desert/desertvillage-par-o2-0102",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-desert/desertvillage-par-o2-0103",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-desert/desertvillage-par-o2-0105",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-desert/desertvillage-par-o2-0106",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-desert/desertvillage-par-o3-0104",
+					"weight": 25,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-desert/desertvillage-par-o6-0101",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-paths/normal/*",
+					"weight": 100,
+					"minQuantity": 1,
+					"maxQuantity": 2
+				}
+			],
+			"rockTypeRemapGroup": "standard"
+		},
+		{
+			"name": "village-prison",
+			"code": "village-prison",
+			"group": "village-prison",
+			"minGroupDistance": 1500,
+			"chance": 0.02,
+			"minY": 0,
+			"generator": "LooselyGrouped",
+			"quantityStructures": {
+				"avg": 5,
+				"var": 1,
+				"dist": "InvExp"
+			},
+			"schematics": [
+				{
+					"path": "overground/main/village-prison/prison-1-long",
+					"weight": 500,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-prison/prison-2-big",
+					"weight": 500,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-prison/prison-3-medium",
+					"weight": 500,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-prison/prison-4-smalldestroyed",
+					"weight": 500,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-prison/prison-5-field",
+					"weight": 500,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-prison/prison-6-tinyroad",
+					"weight": 10
+				},
+				{
+					"path": "overground/main/village-prison/prison-7-road",
+					"weight": 100
+				},
+				{
+					"path": "overground/main/village-prison/prison-8-road",
+					"weight": 100
+				},
+				{
+					"path": "overground/main/village-prison/prison-9-road",
+					"weight": 100
+				}
+			],
+			"rockTypeRemapGroup": "standard"
+		},
+		{
+			"name": "village-samsvillage-redclay",
+			"code": "village-samsvillage-redclay",
+			"group": "village-samsvillage",
+			"minGroupDistance": 1500,
+			"chance": 0.08,
+			"minY": 0,
+			"generator": "LooselyGrouped",
+			"quantityStructures": {
+				"avg": 8,
+				"var": 2,
+				"dist": "InvExp"
+			},
+			"schematics": [
+				{
+					"path": "overground/main/village-samsvillage-redclay/01/*",
+					"weight": 700,
+					"minQuantity": 0,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-samsvillage-redclay/02/*",
+					"weight": 700,
+					"minQuantity": 0,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-samsvillage-redclay/03/*",
+					"weight": 250,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-redclay/04/*",
+					"weight": 500,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-redclay/05/*",
+					"weight": 1200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-redclay/06/*",
+					"weight": 400,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-redclay/07/*",
+					"weight": 300,
+					"minQuantity": 0,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-samsvillage-redclay/08/*",
+					"weight": 250,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-paths/aged/*",
+					"weight": 800,
+					"minQuantity": 3,
+					"maxQuantity": 3
+				}
+			],
+			"rockTypeRemapGroup": "standard"
+		},
+		{
+			"name": "village-samsvillage-blackclay",
+			"code": "village-samsvillage-blackclay",
+			"group": "village-samsvillage",
+			"minGroupDistance": 1500,
+			"chance": 0.08,
+			"minY": 0,
+			"generator": "LooselyGrouped",
+			"quantityStructures": {
+				"avg": 8,
+				"var": 2,
+				"dist": "InvExp"
+			},
+			"schematics": [
+				{
+					"path": "overground/main/village-samsvillage-blackclay/01/*",
+					"weight": 700,
+					"minQuantity": 0,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-samsvillage-blackclay/02/*",
+					"weight": 700,
+					"minQuantity": 0,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-samsvillage-blackclay/03/*",
+					"weight": 250,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-blackclay/04/*",
+					"weight": 500,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-blackclay/05/*",
+					"weight": 1200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-blackclay/06/*",
+					"weight": 400,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-blackclay/07/*",
+					"weight": 300,
+					"minQuantity": 0,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-samsvillage-blackclay/08/*",
+					"weight": 250,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-paths/aged/*",
+					"weight": 800,
+					"minQuantity": 3,
+					"maxQuantity": 3
+				}
+			],
+			"rockTypeRemapGroup": "standard"
+		},
+		{
+			"name": "village-samsvillage-fireclay",
+			"code": "village-samsvillage-fireclay",
+			"group": "village-samsvillage",
+			"minGroupDistance": 1500,
+			"chance": 0.08,
+			"minY": 0,
+			"generator": "LooselyGrouped",
+			"quantityStructures": {
+				"avg": 8,
+				"var": 2,
+				"dist": "InvExp"
+			},
+			"schematics": [
+				{
+					"path": "overground/main/village-samsvillage-fireclay/01/*",
+					"weight": 700,
+					"minQuantity": 0,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-samsvillage-fireclay/02/*",
+					"weight": 700,
+					"minQuantity": 0,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-samsvillage-fireclay/03/*",
+					"weight": 250,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-fireclay/04/*",
+					"weight": 500,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-fireclay/05/*",
+					"weight": 1200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-fireclay/06/*",
+					"weight": 400,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-fireclay/07/*",
+					"weight": 300,
+					"minQuantity": 0,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-samsvillage-fireclay/08/*",
+					"weight": 250,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-paths/aged/*",
+					"weight": 800,
+					"minQuantity": 3,
+					"maxQuantity": 3
+				}
+			],
+			"rockTypeRemapGroup": "standard"
+		},
+		{
+			"name": "village-samsvillage-orange",
+			"code": "village-samsvillage-orangeclay",
+			"group": "village-samsvillage",
+			"minGroupDistance": 1500,
+			"chance": 0.08,
+			"minY": 0,
+			"generator": "LooselyGrouped",
+			"quantityStructures": {
+				"avg": 8,
+				"var": 2,
+				"dist": "InvExp"
+			},
+			"schematics": [
+				{
+					"path": "overground/main/village-samsvillage-orangeclay/01/*",
+					"weight": 700,
+					"minQuantity": 0,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-samsvillage-orangeclay/02/*",
+					"weight": 700,
+					"minQuantity": 0,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-samsvillage-orangeclay/03/*",
+					"weight": 250,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-orangeclay/04/*",
+					"weight": 500,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-orangeclay/05/*",
+					"weight": 1200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-orangeclay/06/*",
+					"weight": 400,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-orangeclay/07/*",
+					"weight": 300,
+					"minQuantity": 0,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-samsvillage-orangeclay/08/*",
+					"weight": 250,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-paths/aged/*",
+					"weight": 800,
+					"minQuantity": 3,
+					"maxQuantity": 3
+				}
+			],
+			"rockTypeRemapGroup": "standard"
+		},
+		{
+			"name": "village-samsvillage-cream",
+			"code": "village-samsvillage-creamclay",
+			"group": "village-samsvillage",
+			"minGroupDistance": 1500,
+			"chance": 0.08,
+			"minY": 0,
+			"generator": "LooselyGrouped",
+			"quantityStructures": {
+				"avg": 8,
+				"var": 2,
+				"dist": "InvExp"
+			},
+			"schematics": [
+				{
+					"path": "overground/main/village-samsvillage-creamclay/01/*",
+					"weight": 700,
+					"minQuantity": 0,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-samsvillage-creamclay/02/*",
+					"weight": 700,
+					"minQuantity": 0,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-samsvillage-creamclay/03/*",
+					"weight": 250,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-creamclay/04/*",
+					"weight": 500,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-creamclay/05/*",
+					"weight": 1200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-creamclay/06/*",
+					"weight": 400,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-samsvillage-creamclay/07/*",
+					"weight": 300,
+					"minQuantity": 0,
+					"maxQuantity": 2
+				},
+				{
+					"path": "overground/main/village-samsvillage-creamclay/08/*",
+					"weight": 250,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-paths/aged/*",
+					"weight": 800,
+					"minQuantity": 3,
+					"maxQuantity": 3
+				}
+			],
+			"rockTypeRemapGroup": "standard"
+		},
+		{
+			"name": "village-ogdred",
+			"code": "village-ogdred",
+			"group": "village-ogdred",
+			"minGroupDistance": 1500,
+			"chance": 0.1,
+			"minY": 0,
+			"generator": "LooselyGrouped",
+			"quantityStructures": {
+				"avg": 7,
+				"var": 1,
+				"dist": "InvExp"
+			},
+			"schematics": [
+				{
+					"path": "overground/main/village-ogdred/statues/*",
+					"weight": 100,
+					"minQuantity": 1,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-ogdred/houses/house1-o5",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-ogdred/houses/house2-o2",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-ogdred/houses/house3-o6",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-ogdred/ruins/ruins1-o3",
+					"weight": 20,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-ogdred/ruins/ruins2-o4",
+					"weight": 20,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-ogdred/ruins/ruins3-o4",
+					"weight": 20,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-ogdred/ruins/ruins4-o4",
+					"weight": 20,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-ogdred/ruins/ruins5-o4",
+					"weight": 40,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-ogdred/main/*",
+					"weight": 100,
+					"minQuantity": 1,
+					"maxQuantity": 1
+				}
+			],
+			"replacewithblocklayers": [
+				"game:soil-low-normal",
+				"game:soil-low-none",
+				"game:gravel-granite"
+			],
+			"rockTypeRemapGroup": "standard"
+		},
+		{
+			"name": "village-femursnapper",
+			"code": "village-femursnapper",
+			"group": "village-femursnapper",
+			"minGroupDistance": 1500,
+			"chance": 0.2,
+			"minY": 0,
+			"generator": "LooselyGrouped",
+			"quantityStructures": {
+				"avg": 9,
+				"var": 2,
+				"dist": "InvExp"
+			},
+			"schematics": [
+				{
+					"path": "overground/main/village-femursnapper/chapel1",
+					"weight": 500,
+					"minQuantity": 1,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/galgen1",
+					"weight": 200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/house1",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/house2",
+					"weight": 65,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/house3",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/house4",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/house5",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/house6",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/house7",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/house8",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/house9",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/house10",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/well1",
+					"weight": 100,
+					"minQuantity": 1,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/ruin1",
+					"weight": 500,
+					"minQuantity": 1,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/ruin2",
+					"weight": 500,
+					"minQuantity": 1,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/ruin3",
+					"weight": 500,
+					"minQuantity": 1,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/wood1",
+					"weight": 200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/deco1",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/deco2",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-femursnapper/deco3",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				}
+			],
+			"replacewithblocklayers": [
+				"game:soil-low-normal",
+				"game:soil-low-none",
+				"game:gravel-granite"
+			],
+			"rockTypeRemapGroup": "standard"
+		},
+		{
+			"name": "village-stones-rowlyart",
+			"code": "village-stones-rowlyart",
+			"group": "village-stones-rowlyart",
+			"minGroupDistance": 1500,
+			"chance": 0.1,
+			"minY": 0,
+			"generator": "LooselyGrouped",
+			"quantityStructures": {
+				"avg": 9,
+				"var": 2,
+				"dist": "InvExp"
+			},
+			"schematics": [
+				{
+					"path": "overground/main/village-stones-rowlyart/small/small-1-o2",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/small/small-2-o3",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/small/small-3-o3",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/small/small-4-o3",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/small/small-5-o4",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/small/small-6-o3",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/small/small-7-o3",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/small/small-8-o4",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/small/small-9-o3",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/small/small-10-o2",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/small/small-11-o2",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/medium/medium-1-o4",
+					"weight": 200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/medium/medium-2-o4",
+					"weight": 200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/medium/medium-3-o4",
+					"weight": 200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/medium/medium-4-o4",
+					"weight": 200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/medium/medium-5-o4",
+					"weight": 200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/medium/medium-6-o5",
+					"weight": 200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/medium/medium-7-o5",
+					"weight": 200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/medium/medium-8-o4",
+					"weight": 200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/medium/medium-9-o3",
+					"weight": 200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/medium/medium-10-o3",
+					"weight": 200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/medium/medium-11-o4",
+					"weight": 200,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/large/large-1-o4",
+					"weight": 400,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/large/large-2-o4",
+					"weight": 400,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/large/large-3-o4",
+					"weight": 400,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/large/large-4-o5",
+					"weight": 400,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-stones-rowlyart/large/large-5-o4",
+					"weight": 400,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				}
+			],
+			"replacewithblocklayers": [
+				"game:soil-low-normal",
+				"game:soil-low-none",
+				"game:gravel-granite"
+			],
+			"rockTypeRemapGroup": "standard"
+		}
+	]
+}
