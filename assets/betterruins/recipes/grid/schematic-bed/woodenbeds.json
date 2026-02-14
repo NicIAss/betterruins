@@ -7,7 +7,7 @@
         "ingredients": {
             "P": {"type": "Item", "code": "game:plank-aged" },
             "C": {type: "Item", code: "game:cloth-green" },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -19,7 +19,7 @@
         "ingredients": {
             "P": {"type": "Item", "code": "game:plank-aged" },
             "C": {type: "Item", code: "game:cloth-plain" },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -31,7 +31,7 @@
         "ingredients": {
             "P": {"type": "Item", "code": "game:plank-aged" },
             "C": {type: "Item", code: "game:cloth-brown" },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -48,7 +48,7 @@
         "ingredients": {
             "P": {"type": "Item", "code": "game:plank-aged" },
             "C": {type: "Item", code: "game:cloth-green" },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -60,7 +60,7 @@
         "ingredients": {
             "P": {"type": "Item", "code": "game:plank-aged" },
             "C": {type: "Item", code: "game:cloth-plain" },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -72,7 +72,7 @@
         "ingredients": {
             "P": {"type": "Item", "code": "game:plank-aged" },
             "C": {type: "Item", code: "game:cloth-brown" },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -88,7 +88,7 @@
         "ingredients": {
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-old" , "collected": true} },
             "C": {type: "Item", code: "game:cloth-brown" },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 2,
         "height": 2,
@@ -99,7 +99,7 @@
         "ingredientPattern": "BS",
         "ingredients": {
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-old-drapes-opened" , "collected": true} },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 2,
         "height": 1,
@@ -110,7 +110,7 @@
         "ingredientPattern": "BS",
         "ingredients": {
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-old-drapes-closed" , "collected": true} },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 2,
         "height": 1,
@@ -127,7 +127,7 @@
         "ingredients": {
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-green" , "collected": true} },
             "C": {type: "Item", code: "game:cloth-green" },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 2,
         "height": 2,
@@ -138,7 +138,7 @@
         "ingredientPattern": "BS",
         "ingredients": {
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-green-drapes-opened" , "collected": true} },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 2,
         "height": 1,
@@ -149,7 +149,7 @@
         "ingredientPattern": "BS",
         "ingredients": {
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-green-drapes-closed" , "collected": true} },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 2,
         "height": 1,
@@ -164,7 +164,7 @@
             "C": {type: "Item", code: "game:cloth-plain" },
             "P": {type: "Block", code: "game:linen-normal-down" , quantity: 4},
             "B": {type: "Item", code: "game:plank-aged" , quantity: 5},
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -181,7 +181,7 @@
         "ingredients": {
             "P": {"type": "Item", "code": "game:plank-aged" },
             "C": {type: "Item", code: "game:cloth-green" },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -193,7 +193,7 @@
         "ingredients": {
             "P": {"type": "Item", "code": "game:plank-aged" },
             "C": {type: "Item", code: "game:cloth-plain" },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -205,7 +205,7 @@
         "ingredients": {
             "P": {"type": "Item", "code": "game:plank-aged" },
             "C": {type: "Item", code: "game:cloth-brown" },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -222,7 +222,7 @@
         "ingredients": {
             "P": {"type": "Item", "code": "game:plank-aged" },
             "C": {type: "Item", code: "game:cloth-green" },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -234,7 +234,7 @@
         "ingredients": {
             "P": {"type": "Item", "code": "game:plank-aged" },
             "C": {type: "Item", code: "game:cloth-plain" },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -246,7 +246,7 @@
         "ingredients": {
             "P": {"type": "Item", "code": "game:plank-aged" },
             "C": {type: "Item", code: "game:cloth-brown" },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -262,7 +262,7 @@
         "ingredients": {
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-old" } },
             "C": {type: "Item", code: "game:cloth-brown" },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 2,
         "height": 2,
@@ -273,7 +273,7 @@
         "ingredientPattern": "BS",
         "ingredients": {
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-old-drapes-opened" } },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 2,
         "height": 1,
@@ -284,7 +284,7 @@
         "ingredientPattern": "BS",
         "ingredients": {
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-old-drapes-closed" } },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 2,
         "height": 1,
@@ -301,7 +301,7 @@
         "ingredients": {
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-green" } },
             "C": {type: "Item", code: "game:cloth-green" },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 2,
         "height": 2,
@@ -312,7 +312,7 @@
         "ingredientPattern": "BS",
         "ingredients": {
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-green-drapes-opened" } },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 2,
         "height": 1,
@@ -323,7 +323,7 @@
         "ingredientPattern": "BS",
         "ingredients": {
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-green-drapes-closed" } },
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 2,
         "height": 1,
@@ -341,7 +341,7 @@
             "E": {type: "Item", code: "game:cloth-red" },
             "P": {type: "Block", code: "game:linen-normal-down"},
             "B": {type: "Item", code: "game:plank-*" , quantity: 2, name: "wood", skipVariants: ["aged"]},
-            "S": {"type": "Item", "code": "br-schematic-bed" }
+            "S": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 3,
         "height": 3,

@@ -7,7 +7,7 @@
         "ingredientPattern": "HCZ,XFS,BBB",
         "recipeGroup": 333,
         "ingredients": {
-            "X": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+            "X": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
             "B": {type: "Item", code: "game:plank-oak" , quantity: 2},
             "F": {type: "Item", code: "game:fat" , quantity: 2},
             "S": {type: "Item", code: "game:stick" , quantity: 6},
@@ -36,7 +36,7 @@
         "ingredientPattern": "XH,PC",
         "recipeGroup": 333,
         "ingredients": {
-            "X": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+            "X": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
             "H": {type: "Item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
             "C": {type: "Item", code: "game:chutesection-copper" },
             "P": {type: "Item", code: "game:metalplate-copper" }
@@ -64,7 +64,7 @@
 		ingredientPattern: "HXY,PCP,RSF",
         "recipeGroup": 333,
 		ingredients: {
-            "Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+            "Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"X": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 10 },
 			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 10 },
@@ -81,7 +81,7 @@
 		ingredientPattern: "HXY,PCP,RSF",
         "recipeGroup": 333,
 		ingredients: {
-            "Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+            "Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"X": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 10 },
 			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 10 },
@@ -106,7 +106,7 @@
 		ingredientPattern: "HY,C_,SF",
         "recipeGroup": 333,
 		ingredients: {
-            "Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+            "Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 30 },
 			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 30 },
 			"S": { type: "block", code: "game:log-placed-*-ud", name: "wood" , quantity: 3 },
@@ -120,7 +120,7 @@
 		ingredientPattern: "HY,C_,SF",
         "recipeGroup": 333,
 		ingredients: {
-            "Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+            "Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 30 },
 			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 30 },
 			"S": { type: "block", code: "game:logsection-placed-*-ud" , quantity: 3 },
@@ -137,7 +137,7 @@
 		ingredientPattern: "I_,YI",
 		"recipeGroup": 333,
 		ingredients: {
-			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"I": { type: "item", code: "game:chutesection-copper" }
 		},
 		width: 2,
@@ -148,7 +148,7 @@
 		ingredientPattern: "II,Y_",
 		"recipeGroup": 333,
 		ingredients: {
-			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"I": { type: "item", code: "game:chutesection-copper" }
 		},
 		width: 2,
@@ -159,7 +159,7 @@
 		ingredientPattern: "YI_,I_I,_I_",
 		"recipeGroup": 333,
 		ingredients: {
-			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"I": { type: "item", code: "game:chutesection-copper" }
 		},
 		width: 3,
@@ -170,7 +170,7 @@
 		ingredientPattern: "YI_,I_I",
 		"recipeGroup": 333,
 		ingredients: {
-			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"I": { type: "item", code: "game:chutesection-copper" }
 		},
 		width: 3,
@@ -181,7 +181,7 @@
 		ingredientPattern: "YI_,II_",
 		"recipeGroup": 333,
 		ingredients: {
-			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"I": { type: "item", code: "game:chutesection-copper" }
 		},
 		width: 3,
@@ -202,7 +202,7 @@
 		ingredientPattern: "YH,PP",
 		"recipeGroup": 333,
 		ingredients: {
-			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 10 },
 			"P": {type: "Item", code: "game:metalplate-*" , "name": "metal"}
 		},
@@ -214,7 +214,7 @@
 		ingredientPattern: "YH,BN",
 		"recipeGroup": 333,
 		ingredients: {
-			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
 			"B": {type: "Block", code: "game:metalblock-corroded-plain-*" , "name": "metal"},
 			"N": {type: "Item", code: "game:metalnailsandstrips-*" }
@@ -227,7 +227,7 @@
 		ingredientPattern: "YB",
 		"recipeGroup": 333,
 		ingredients: {
-			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"B": {type: "Block", code: "game:metalblock-new-riveted-*" , "name": "metal",skipVariants: ["bismuth", "brass", "chromium", "electrum", "meteoriciron", "molybdochalkos", "platinum", "nickel", "stainlesssteel", "tin", "titanium", "uranium", "zinc"] }
 		},
 		width: 2,
@@ -238,7 +238,7 @@
 		ingredientPattern: "YB",
 		"recipeGroup": 333,
 		ingredients: {
-			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"B": {type: "Block", code: "game:metalblock-new-plain-*"  , "name": "metal"}
 		},
 		width: 2,
@@ -249,7 +249,7 @@
 		ingredientPattern: "YB",
 		"recipeGroup": 333,
 		ingredients: {
-			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"B": {type: "Block", code: "game:metalblock-corroded-sheet-*"   , "name": "metal"}
 		},
 		width: 2,
@@ -260,7 +260,7 @@
 		ingredientPattern: "YB",
 		"recipeGroup": 333,
 		ingredients: {
-			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"B": {type: "Block", code: "game:metalblock-corroded-plain-*"   , "name": "metal",skipVariants: ["rusty-iron", "bismuthbronze", "blackbronze", "brass", "cupronickel", "electrum", "iron", "gold", "meteoriciron", "lead", "molybdochalkos", "silver", "steel", "tin", "tinbronze", "zinc"]}
 		},
 		width: 2,
@@ -275,7 +275,7 @@
 		ingredientPattern: "YH,BN",
 		"recipeGroup": 111,
 		ingredients: {
-			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5 },
 			"B": {type: "Item", code: "game:rod-iron" , "quantity": 7},
 			"N": {type: "Item", code: "game:metalnailsandstrips-iron" , "quantity": 2}
@@ -288,7 +288,7 @@
 		ingredientPattern: "YB",
 		"recipeGroup": 333,
 		ingredients: {
-			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"B": {type: "Block", code: "game:ironfence-base-ew" , "quantity": 1 }
 		},
 		width: 2,
@@ -299,7 +299,7 @@
 		ingredientPattern: "YB",
 		"recipeGroup": 333,
 		ingredients: {
-			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
 			"B": {type: "Block", code: "game:ironfence-top-ew" , "quantity": 1 }
 		},
 		width: 2,
@@ -310,7 +310,7 @@
 	{
 		ingredientPattern: "Y,S,B",
 		ingredients: {
-			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical"},
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false},
 			"S": {type: "Item", code: "game:saw-*", isTool: true, toolDurabilityCost: 12},
 			"B": {type: "Block", code: "game:metalblock-corroded-plain-*", name: "metal",
 			allowedVariants: [
@@ -333,7 +333,7 @@
 	{
 		ingredientPattern: "YH_,NPN",
 		ingredients: {
-			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical"},
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false},
 			"H": {type: "Item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2},
 			"N": {type: "Item", code: "game:metalnailsandstrips-*"},
 			"P": {type: "Item", code: "game:metalplate-*", name: "metal"}

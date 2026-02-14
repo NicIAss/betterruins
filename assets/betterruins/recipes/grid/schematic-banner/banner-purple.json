@@ -2,7 +2,7 @@
     {
         "ingredientPattern": "OX,BS,C_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "O": {
                 "type": "item",
                 "code": "game:leather-normal-orange"
@@ -34,7 +34,7 @@
     {
         "ingredientPattern": "CX,BS,O_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "O": {
                 "type": "item",
                 "code": "game:leather-normal-orange"
@@ -66,7 +66,7 @@
     {
         "ingredientPattern": "CX,CS,C_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "S": {
                 "type": "item",
                 "code": "game:sewingkit"
@@ -92,7 +92,7 @@
     {
         "ingredientPattern": "XO,SB,_C",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "O": {
                 "type": "item",
                 "code": "game:leather-normal-orange"
@@ -124,7 +124,7 @@
     {
         "ingredientPattern": "XC,SB,_O",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "O": {
                 "type": "item",
                 "code": "game:leather-normal-orange"
@@ -156,7 +156,7 @@
     {
         "ingredientPattern": "XC,SC,_C",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "S": {
                 "type": "item",
                 "code": "game:sewingkit"
@@ -184,7 +184,7 @@
     {
         "ingredientPattern": "OX,BS,C_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "O": {
                 "type": "item",
                 "code": "game:leather-normal-orange"
@@ -215,7 +215,7 @@
     {
         "ingredientPattern": "CX,BS,O_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "O": {
                 "type": "item",
                 "code": "game:leather-normal-orange"
@@ -246,7 +246,7 @@
     {
         "ingredientPattern": "CX,CS,C_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "S": {
                 "type": "item",
                 "code": "game:sewingkit"
@@ -271,7 +271,7 @@
     {
         "ingredientPattern": "XO,SB,_C",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "O": {
                 "type": "item",
                 "code": "game:leather-normal-orange"
@@ -302,7 +302,7 @@
     {
         "ingredientPattern": "XC,SB,_O",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "O": {
                 "type": "item",
                 "code": "game:leather-normal-orange"
@@ -333,7 +333,7 @@
     {
         "ingredientPattern": "XC,SC,_C",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "S": {
                 "type": "item",
                 "code": "game:sewingkit"

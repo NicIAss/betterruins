@@ -2,7 +2,7 @@
     {
         "ingredientPattern": "SPX,RWR,BWB",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "S": {
                 "type": "item",
                 "code": "game:sewingkit"
@@ -46,7 +46,7 @@
     {
         "ingredientPattern": "SPX,RWR,RWR",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "S": {
                 "type": "item",
                 "code": "game:sewingkit"
@@ -92,7 +92,7 @@
     {
         "ingredientPattern": "SPX,WBW,WRW",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "S": {
                 "type": "item",
                 "code": "game:sewingkit"
@@ -138,7 +138,7 @@
     {
         "ingredientPattern": "SPX,BWB,GWG",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "S": {
                 "type": "item",
                 "code": "game:sewingkit"
@@ -184,7 +184,7 @@
     {
         "ingredientPattern": "SPX,GWG,GWG",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "S": {
                 "type": "item",
                 "code": "game:sewingkit"
@@ -228,7 +228,7 @@
     {
         "ingredientPattern": "HX,B_,N_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "B": {
                 "type": "block",
                 "code": "game:supportbeam-aged",
@@ -267,7 +267,7 @@
     {
         "ingredientPattern": "XP,PB,P_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "P": {
                 "type": "block",
                 "code": "game:banner-segment",
@@ -303,7 +303,7 @@
     {
         "ingredientPattern": "XP,PB,P_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "P": {
                 "type": "block",
                 "code": "game:banner-segment",
@@ -344,7 +344,7 @@
     {
         "ingredientPattern": "XP,PB,P_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "P": {
                 "type": "block",
                 "code": "game:banner-segment",
@@ -392,7 +392,7 @@
     {
         "ingredientPattern": "XP,PB,P_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "P": {
                 "type": "block",
                 "code": "game:banner-segment",
@@ -513,7 +513,7 @@
     {
         "ingredientPattern": "SPX,RWR,BWB",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "S": {
                 "type": "item",
                 "code": "game:sewingkit"
@@ -557,7 +557,7 @@
     {
         "ingredientPattern": "SPX,RWR,RWR",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "S": {
                 "type": "item",
                 "code": "game:sewingkit"
@@ -601,7 +601,7 @@
     {
         "ingredientPattern": "SPX,WBW,WRW",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "S": {
                 "type": "item",
                 "code": "game:sewingkit"
@@ -647,7 +647,7 @@
     {
         "ingredientPattern": "SPX,BWB,GWG",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "S": {
                 "type": "item",
                 "code": "game:sewingkit"
@@ -693,7 +693,7 @@
     {
         "ingredientPattern": "SPX,GWG,GWG",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "S": {
                 "type": "item",
                 "code": "game:sewingkit"
@@ -736,7 +736,7 @@
     {
         "ingredientPattern": "HX,B_,N_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "B": {
                 "type": "block",
                 "code": "game:supportbeam-aged",
@@ -776,7 +776,7 @@
     {
         "ingredientPattern": "XP,PB,P_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "P": {
                 "type": "block",
                 "code": "game:banner-segment",
@@ -811,7 +811,7 @@
     {
         "ingredientPattern": "XP,PB,P_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "P": {
                 "type": "block",
                 "code": "game:banner-segment",
@@ -850,7 +850,7 @@
     {
         "ingredientPattern": "XP,PB,P_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "P": {
                 "type": "block",
                 "code": "game:banner-segment",
@@ -896,7 +896,7 @@
     {
         "ingredientPattern": "XP,PB,P_",
         "ingredients": {
-            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
             "P": {
                 "type": "block",
                 "code": "game:banner-segment",

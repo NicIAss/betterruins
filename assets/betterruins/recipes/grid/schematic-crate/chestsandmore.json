@@ -4,7 +4,7 @@
         "ingredientPattern": "B,S",
         "ingredients": {
             "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -21,7 +21,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:spiderweb" },
             "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -33,7 +33,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:metal-scraps" },
             "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -45,7 +45,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:crucible-*-fired" },
             "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -57,7 +57,7 @@
         "ingredients": {
             "X": {type: "Item", code: "game:rot" },
             "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -72,7 +72,7 @@
         "ingredients": {
             "X": {type: "Item", code: "game:cloth-plain" },
             "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -101,7 +101,7 @@
         "ingredients": {
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
             "P": {type: "Item", code: "game:metalplate-iron" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -114,7 +114,7 @@
         "ingredients": {
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
             "P": {type: "Item", code: "game:metalplate-iron" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -130,7 +130,7 @@
         "ingredients": {
             "B": {type: "Block", code: "game:planks-aged-ud" },
             "P": {type: "Item", code: "game:plank-aged" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -145,7 +145,7 @@
         "ingredientPattern": "S__,P_P,PPP",
         "ingredients": {
             "P": {type: "Item", code: "game:plank-aged" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -157,7 +157,7 @@
         "ingredientPattern": "B,S",
         "ingredients": {
             "B": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "crate/crate-small-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -172,7 +172,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:metal-scraps" },
             "B": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "crate/crate-small-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -183,7 +183,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:crucible-*-fired" },
             "B": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "crate/crate-small-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -194,7 +194,7 @@
         "ingredients": {
             "X": {type: "Item", code: "game:rot" },
             "B": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "crate/crate-small-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -208,7 +208,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:metal-scraps" },
             "B": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "crate/crate-medium-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -219,7 +219,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:crucible-*-fired" },
             "B": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "crate/crate-medium-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -230,7 +230,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:crock-*-fired" },
             "B": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "crate/crate-medium-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -241,7 +241,7 @@
         "ingredients": {
             "X": {type: "Item", code: "game:book-rotten-*" },
             "B": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "crate/crate-medium-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -254,7 +254,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:glassslab-plain-down-free" },
             "B": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "crate/crate-medium-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -267,7 +267,7 @@
             "X": {type: "Block", code: "game:glassslab-plain-down-free" },
             "B": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "crate/crate-medium-empty" } },
             "P": {type: "Item", code: "game:metalplate-*" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -294,7 +294,7 @@
             "I": { type: "item", code: "game:solderingiron", isTool: true, toolDurabilityCost: 1 },
             "P": {type: "Item", code: "game:metalplate-copper" },
             "X": {type: "Item", code: "game:solderbar-tin" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 2,
@@ -308,7 +308,7 @@
             "P": {type: "Item", code: "game:metalplate-copper" },
             "N": {type: "Item", code: "game:metalnailsandstrips-copper" },
             "X": {type: "Item", code: "game:solderbar-tin" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -322,7 +322,7 @@
             "P": {type: "Item", code: "game:metalplate-copper" },
             "N": {type: "Item", code: "game:metalnailsandstrips-copper" },
             "X": {type: "Item", code: "game:solderbar-tin" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -337,7 +337,7 @@
         "ingredientPattern": "SXX",
         "ingredients": {
             "X": {type: "Block", code: "game:stonecoffinsection-andesite-north" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 1,
@@ -347,7 +347,7 @@
         "ingredientPattern": "SXX",
         "ingredients": {
             "X": {type: "Block", code: "game:stonecoffinlid-andesite" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 1,
@@ -359,7 +359,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "coffin-rot-no-lid" } },
             "Y": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "coffin-rot-lid" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -370,7 +370,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "coffin-rot-no-lid" } },
             "Y": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "coffin-rot-lid" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -451,7 +451,7 @@
         "ingredientPattern": "B,S",
         "ingredients": {
             "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -468,7 +468,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:spiderweb" },
             "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -480,7 +480,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:metal-scraps" },
             "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -492,7 +492,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:crucible-*-fired" },
             "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -504,7 +504,7 @@
         "ingredients": {
             "X": {type: "Item", code: "game:rot" },
             "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -517,7 +517,7 @@
         "ingredients": {
             "X": {type: "Item", code: "game:cloth-plain" },
             "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -535,7 +535,7 @@
         "ingredients": {
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
             "P": {type: "Item", code: "game:metalplate-iron" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -548,7 +548,7 @@
         "ingredients": {
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
             "P": {type: "Item", code: "game:metalplate-iron" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -564,7 +564,7 @@
         "ingredients": {
             "B": {type: "Block", code: "game:planks-aged-ud" },
             "P": {type: "Item", code: "game:plank-aged" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -579,7 +579,7 @@
         "ingredientPattern": "S__,P_P,PPP",
         "ingredients": {
             "P": {type: "Item", code: "game:plank-aged" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -591,7 +591,7 @@
         "ingredientPattern": "B,S",
         "ingredients": {
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-small-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 2,
@@ -606,7 +606,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:metal-scraps" },
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-small-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -617,7 +617,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:crucible-*-fired" },
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-small-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -628,7 +628,7 @@
         "ingredients": {
             "X": {type: "Item", code: "game:rot" },
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-small-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -656,7 +656,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:metal-scraps" },
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-medium-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -667,7 +667,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:crucible-*-fired" },
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-medium-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -678,7 +678,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:crock-*-fired" },
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-medium-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -689,7 +689,7 @@
         "ingredients": {
             "X": {type: "Item", code: "game:book-rotten-*" },
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-medium-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -702,7 +702,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:glassslab-plain-down-free" },
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-medium-empty" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -715,7 +715,7 @@
             "X": {type: "Block", code: "game:glassslab-plain-down-free" },
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-medium-empty" } },
             "P": {type: "Item", code: "game:metalplate-*" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -742,7 +742,7 @@
             "I": { type: "item", code: "game:solderingiron", isTool: true, toolDurabilityCost: 1 },
             "P": {type: "Item", code: "game:metalplate-copper" },
             "X": {type: "Item", code: "game:solderbar-tin" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 2,
@@ -756,7 +756,7 @@
             "P": {type: "Item", code: "game:metalplate-copper" },
             "N": {type: "Item", code: "game:metalnailsandstrips-copper" },
             "X": {type: "Item", code: "game:solderbar-tin" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -770,7 +770,7 @@
             "P": {type: "Item", code: "game:metalplate-copper" },
             "N": {type: "Item", code: "game:metalnailsandstrips-copper" },
             "X": {type: "Item", code: "game:solderbar-tin" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -785,7 +785,7 @@
         "ingredientPattern": "SXX",
         "ingredients": {
             "X": {type: "Block", code: "game:stonecoffinsection-andesite-north" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 1,
@@ -795,7 +795,7 @@
         "ingredientPattern": "SXX",
         "ingredients": {
             "X": {type: "Block", code: "game:stonecoffinlid-andesite" },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 3,
         "height": 1,
@@ -807,7 +807,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:clutter", attributes: { "type": "coffin-rot-no-lid" } },
             "Y": {type: "Block", code: "game:clutter", attributes: { "type": "coffin-rot-lid" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -818,7 +818,7 @@
         "ingredients": {
             "X": {type: "Block", code: "game:clutter", attributes: { "type": "coffin-rot-no-lid" } },
             "Y": {type: "Block", code: "game:clutter", attributes: { "type": "coffin-rot-lid" } },
-            "S": {"type": "Item", "code": "br-schematic-crate" }
+            "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
         "height": 3,
@@ -846,7 +846,7 @@
     {
         "ingredientPattern": "BBB,FXF,BBB",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-crate" },
+            "X": {type: "Item", code: "br-schematic-crate", "consume": false },
             "B": {type: "Item", code: "game:plank-aged" },
             "F": {type: "Block", code: "game:planks-aged-ud" }
         },

@@ -5,7 +5,7 @@
 			"C": { type: "item", code: "game:compost", quantity: 1 },
 			"S": { type: "item", code: "game:powder-charcoal", quantity: 2  },
 			"B": { type: "item", code: "game:bonemeal", quantity: 2  },
-            "X": {"type": "Item", "code": "br-schematic-farmer" }
+            "X": {"type": "Item", "code": "br-schematic-farmer", "consume": false }
 
 		},
 		recipeGroup: 332,
@@ -20,7 +20,7 @@
 			"S": { type: "block", code: "game:soil-compost-none", quantity: 1  },
 			"K": { type: "item", code: "game:powder-charcoal", quantity: 2  },
 			"B": { type: "item", code: "game:bonemeal", quantity: 8  },
-            "X": {"type": "Item", "code": "br-schematic-farmer" }
+            "X": {"type": "Item", "code": "br-schematic-farmer", "consume": false }
 		},
 		recipeGroup: 333,
 		width: 3,

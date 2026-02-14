@@ -4,7 +4,7 @@
         "ingredients": {
             "P": {type: "Item", code: "game:metalplate-*" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
-            "X": {"type": "Item", "code": "br-schematic-bed" }
+            "X": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 2,
         "height": 2,
@@ -17,7 +17,7 @@
         "ingredients": {
             "P": {type: "Item", code: "game:metalplate-*" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
-            "X": {"type": "Item", "code": "br-schematic-bed" }
+            "X": {"type": "Item", "code": "br-schematic-bed", "consume": false }
         },
         "width": 2,
         "height": 2,

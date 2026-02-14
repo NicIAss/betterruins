@@ -7,7 +7,7 @@
         "ingredientPattern": "XG_,MOM,_GB",
         "ingredients": {
             "B": {type: "Item", code: "game:jonasparts-*", "name": "jonasparts", skipVariants: ["pumphead"]},
-            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
+            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart", "consume": false },
             "G": {type: "Block", code: "game:glassslab-plain-down-free" },
             "M": {type: "Block", code: "game:metal-parts" },
             "O": {type: "Item", code: "game:metalbit-gold", quantity: 10 }
@@ -21,7 +21,7 @@
         "ingredientPattern": "XM_,NGN,_MB",
         "ingredients": {
             "B": {type: "Item", code: "game:jonasparts-*", "name": "jonasparts", skipVariants: ["pumphead"]},
-            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
+            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart", "consume": false },
             "G": {type: "Item", code: "game:gear-temporal" },
             "M": {type: "Block", code: "game:metal-parts" },
             "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
@@ -35,7 +35,7 @@
         "ingredientPattern": "X_M,GPN,_BM",
         "ingredients": {
             "B": {type: "Item", code: "game:jonasparts-*", "name": "jonasparts", skipVariants: ["pumphead"]},
-            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
+            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart", "consume": false },
             "G": {type: "Item", code: "game:gear-temporal" },
             "M": {type: "Block", code: "game:metal-parts" },
             "P": {type: "Item", code: "game:rod-cupronickel" },
@@ -50,7 +50,7 @@
         "ingredientPattern": "XP_,NGN,_PB",
         "ingredients": {
             "B": {type: "Item", code: "game:jonasparts-*", "name": "jonasparts", skipVariants: ["pumphead"]},
-            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
+            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart", "consume": false },
             "G": {type: "Item", code: "game:gear-temporal" },
             "P": {type: "Item", code: "game:rod-cupronickel" },
             "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
@@ -64,7 +64,7 @@
         "ingredientPattern": "XM_,NGM,_MB",
         "ingredients": {
             "B": {type: "Item", code: "game:jonasparts-*", "name": "jonasparts", skipVariants: ["pumphead"]},
-            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
+            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart", "consume": false },
             "G": {type: "Item", code: "game:gear-temporal" },
             "M": {type: "Block", code: "game:metal-parts" },
             "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
@@ -78,7 +78,7 @@
         "ingredientPattern": "XNM,B__,___",
         "ingredients": {
             "B": {type: "Item", code: "game:jonasparts-*", "name": "jonasparts", skipVariants: ["pumphead"]},
-            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
+            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart", "consume": false },
             "M": {type: "Block", code: "game:metal-parts" },
             "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
         },

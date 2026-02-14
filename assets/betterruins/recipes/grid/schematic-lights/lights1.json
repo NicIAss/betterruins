@@ -4,7 +4,7 @@
     {
         "ingredientPattern": "X__,SRS,NGN",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "S": {type: "Block", code: "game:metal-scraps" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
             "R": {type: "Item", code: "game:gear-rusty" },
@@ -21,7 +21,7 @@
     {
         "ingredientPattern": "X__,STS,NGN",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "T": {type: "Item", code: "game:gear-temporal" },
             "S": {type: "Block", code: "game:metal-scraps" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
@@ -39,7 +39,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/lumi-floor8" ,"collected":true} },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -51,7 +51,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/lumi-floor10" ,"collected":true} },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -63,7 +63,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/lumi-floor1" ,"collected":true} },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -75,7 +75,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/lumi-floor2" ,"collected":true} },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -87,7 +87,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/lumi-floor3"  ,"collected": true} },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -99,7 +99,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor5"  ,"collected": true} },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -111,7 +111,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor6"  ,"collected": true} },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -123,7 +123,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor4"  ,"collected": true} },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -158,7 +158,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/lumi-floor8" ,"collected":true} },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -170,7 +170,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/lumi-floor10" ,"collected":true} },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -182,7 +182,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/lumi-floor1" ,"collected":true} },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -194,7 +194,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/lumi-floor2" ,"collected":true} },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -231,7 +231,7 @@
     {
         "ingredientPattern": "SXS,ZRZ,NGN",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "Z": {type: "Block", code: "game:metal-scraps", quantity: 2},
             "S": {type: "Block", code: "game:metal-scraps" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
@@ -251,7 +251,7 @@
     {
         "ingredientPattern": "SXS,ZTZ,NGN",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "Z": {type: "Block", code: "game:metal-scraps", quantity: 2},
             "S": {type: "Block", code: "game:metal-scraps" },
             "T": {type: "Item", code: "game:gear-temporal" },
@@ -270,7 +270,7 @@
     {
         "ingredientPattern": "SXS,NRN,SGS",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "S": {type: "Block", code: "game:metal-scraps" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
             "R": {type: "Item", code: "game:gear-rusty" },
@@ -284,7 +284,7 @@
     {
         "ingredientPattern": "SXS,NTN,SGS",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "S": {type: "Block", code: "game:metal-scraps" },
             "T": {type: "Item", code: "game:gear-temporal" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
@@ -303,7 +303,7 @@
         {
         "ingredientPattern": "SGS,NRN,SXS",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "S": {type: "Block", code: "game:metal-scraps" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
             "R": {type: "Item", code: "game:gear-rusty" },
@@ -317,7 +317,7 @@
     {
         "ingredientPattern": "SGS,NTN,SXS",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "S": {type: "Block", code: "game:metal-scraps" },
             "T": {type: "Item", code: "game:gear-temporal" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
@@ -381,7 +381,7 @@
     {
         "ingredientPattern": "X__,SRS,NGN",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "S": {type: "Block", code: "game:metal-scraps" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
             "R": {type: "Item", code: "game:gear-rusty" },
@@ -399,7 +399,7 @@
     {
         "ingredientPattern": "X__,STS,NGN",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "T": {type: "Item", code: "game:gear-temporal" },
             "S": {type: "Block", code: "game:metal-scraps" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
@@ -422,7 +422,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/lumi-floor8" } },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -434,7 +434,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/lumi-floor10" } },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -446,7 +446,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/lumi-floor1" } },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -458,7 +458,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/lumi-floor2" } },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -470,7 +470,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/lumi-floor3" } },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -482,7 +482,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor5" } },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -494,7 +494,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor6" } },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -506,7 +506,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:clutter", attributes: { "type": "jonas-lamp/floor4" } },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -540,7 +540,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/lumi-floor8" } },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -552,7 +552,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/lumi-floor10" } },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -564,7 +564,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/lumi-floor1" } },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -576,7 +576,7 @@
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/lumi-floor2" } },
             "H": {type: "Item", code: "game:hammer-*" , isTool: true, toolDurabilityCost: 5}
         },
@@ -609,7 +609,7 @@
     {
         "ingredientPattern": "SXS,ZRZ,NGN",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "Z": {type: "Block", code: "game:metal-scraps", quantity: 2},
             "S": {type: "Block", code: "game:metal-scraps" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
@@ -630,7 +630,7 @@
     {
         "ingredientPattern": "SXS,ZTZ,NGN",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "Z": {type: "Block", code: "game:metal-scraps", quantity: 2},
             "S": {type: "Block", code: "game:metal-scraps" },
             "T": {type: "Item", code: "game:gear-temporal" },
@@ -650,7 +650,7 @@
     {
         "ingredientPattern": "SXS,NRN,SGS",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "S": {type: "Block", code: "game:metal-scraps" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
             "R": {type: "Item", code: "game:gear-rusty" },
@@ -664,7 +664,7 @@
     {
         "ingredientPattern": "SXS,NTN,SGS",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "S": {type: "Block", code: "game:metal-scraps" },
             "T": {type: "Item", code: "game:gear-temporal" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
@@ -680,7 +680,7 @@
     {
         "ingredientPattern": "SGS,NRN,SXS",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "S": {type: "Block", code: "game:metal-scraps" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
             "R": {type: "Item", code: "game:gear-rusty" },
@@ -694,7 +694,7 @@
     {
         "ingredientPattern": "SGS,NTN,SXS",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-jonaslamp" },
+            "X": {type: "Item", code: "br-schematic-jonaslamp", "consume": false },
             "S": {type: "Block", code: "game:metal-scraps" },
             "T": {type: "Item", code: "game:gear-temporal" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },

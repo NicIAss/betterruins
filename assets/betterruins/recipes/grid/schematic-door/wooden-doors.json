@@ -3,7 +3,7 @@
         "ingredientPattern": "PP_,PPS,PP_",
         "ingredients": {
             "P": {"type": "Item", "code": "game:plank-aged" },
-            "S": {"type": "Item", "code": "br-schematic-door" }
+            "S": {"type": "Item", "code": "br-schematic-door", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -42,7 +42,7 @@
         "ingredientPattern": "_PP,SPP,_PP",
         "ingredients": {
             "P": {"type": "Item", "code": "game:plank-aged" },
-            "S": {"type": "Item", "code": "br-schematic-door" }
+            "S": {"type": "Item", "code": "br-schematic-door", "consume": false }
         },
         "width": 3,
         "height": 3,
@@ -89,7 +89,7 @@
 		ingredients: {
 			"W": { type: "item", code: "game:plank-*", name: "wood" },
             "A": { type: "item", code: "game:saw-*", isTool: true  },
-            "S": {"type": "Item", "code": "br-schematic-door" }
+            "S": {"type": "Item", "code": "br-schematic-door", "consume": false }
 		},
 		width: 3,
 		height: 3,

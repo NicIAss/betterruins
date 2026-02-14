@@ -1,9 +1,9 @@
 [
   {
     "op": "replace",
-    "path": "/structures/6/requireLandform",
+    "path": "/structures/0/requireLandform",
     "value": "veryflat",
-    "file": "game:worldgen/storystructures.json",
+    "file": "betterruins:worldgen/storystructures.json",
     "side": "Server",
     "dependsOn": [
       {
@@ -13,93 +13,9 @@
   },
   {
     "op": "replace",
-    "path": "/structures/7/requireLandform",
+    "path": "/structures/1/requireLandform",
     "value": "veryflat",
-    "file": "game:worldgen/storystructures.json",
-    "side": "Server",
-    "dependsOn": [
-      {
-        "modid": "worldgenfix"
-      }
-    ]
-  },
-  {
-    "op": "replace",
-    "path": "/structures/12/requireLandform",
-    "value": "veryflat",
-    "file": "game:worldgen/storystructures.json",
-    "side": "Server",
-    "dependsOn": [
-      {
-        "modid": "worldgenfix"
-      }
-    ]
-  },
-  {
-    "op": "replace",
-    "path": "/structures/13/requireLandform",
-    "value": "veryflat",
-    "file": "game:worldgen/storystructures.json",
-    "side": "Server",
-    "dependsOn": [
-      {
-        "modid": "worldgenfix"
-      }
-    ]
-  },
-  {
-    "op": "replace",
-    "path": "/structures/14/requireLandform",
-    "value": "veryflat",
-    "file": "game:worldgen/storystructures.json",
-    "side": "Server",
-    "dependsOn": [
-      {
-        "modid": "worldgenfix"
-      }
-    ]
-  },
-  {
-    "op": "replace",
-    "path": "/structures/15/requireLandform",
-    "value": "veryflat",
-    "file": "game:worldgen/storystructures.json",
-    "side": "Server",
-    "dependsOn": [
-      {
-        "modid": "worldgenfix"
-      }
-    ]
-  },
-  {
-    "op": "replace",
-    "path": "/structures/16/requireLandform",
-    "value": "veryflat",
-    "file": "game:worldgen/storystructures.json",
-    "side": "Server",
-    "dependsOn": [
-      {
-        "modid": "worldgenfix"
-      }
-    ]
-  },
-  {
-    "op": "replace",
-    "path": "/structures/17/requireLandform",
-    "value": "veryflat",
-    "file": "game:worldgen/storystructures.json",
-    "side": "Server",
-    "dependsOn": [
-      {
-        "modid": "worldgenfix"
-      }
-    ]
-  },
-  {
-    "op": "replace",
-    "path": "/structures/18/requireLandform",
-    "value": "veryflat",
-    "file": "game:worldgen/storystructures.json",
+    "file": "betterruins:worldgen/storystructures.json",
     "side": "Server",
     "dependsOn": [
       {

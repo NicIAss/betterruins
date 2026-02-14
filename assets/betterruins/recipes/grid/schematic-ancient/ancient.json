@@ -6,7 +6,7 @@
     {
         "ingredientPattern": "XH,WC",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-ancient" },
+            "X": {type: "Item", code: "br-schematic-ancient" ,"consume": false },
             "H": {type: "Item", code: "game:hammer-*", isTool: true },
             "W": {type: "Block", code: "game:rock-chalk" },
             "C": {type: "Item", code: "game:chisel-*", isTool: true }
@@ -19,7 +19,7 @@
     {
         "ingredientPattern": "XH,WC",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-ancient" },
+            "X": {type: "Item", code: "br-schematic-ancient" ,"consume": false },
             "H": {type: "Item", code: "game:hammer-*", isTool: true },
             "W": {type: "Block", code: "game:quartz-plain" },
             "C": {type: "Item", code: "game:chisel-*", isTool: true }
@@ -32,7 +32,7 @@
     {
         "ingredientPattern": "HX,CW",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-ancient" },
+            "X": {type: "Item", code: "br-schematic-ancient" ,"consume": false },
             "H": {type: "Item", code: "game:hammer-*", isTool: true },
             "W": {type: "Block", code: "game:quartz-plain" },
             "C": {type: "Item", code: "game:chisel-*", isTool: true }
@@ -45,7 +45,7 @@
     {
         "ingredientPattern": "X_,SW",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-ancient" },
+            "X": {type: "Item", code: "br-schematic-ancient" ,"consume": false },
             "S": {type: "Item", code: "game:saw-*", isTool: true },
             "W": {type: "Block", code: "game:quartz-plain" },
 
@@ -58,7 +58,7 @@
     {
         "ingredientPattern": "XS,_W",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-ancient" },
+            "X": {type: "Item", code: "br-schematic-ancient" ,"consume": false },
             "S": {type: "Item", code: "game:saw-*", isTool: true },
             "W": {type: "Block", code: "game:quartz-plain" },
 

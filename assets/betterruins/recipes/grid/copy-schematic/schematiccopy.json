@@ -14,7 +14,8 @@
         "P": {
             "type": "item",
             "code": "br-schematic-*",
-            "name": "type"
+            "name": "type",
+            "consume": false 
         }
     },
     "shapeless": true,

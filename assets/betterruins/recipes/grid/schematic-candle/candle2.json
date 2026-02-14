@@ -4,7 +4,7 @@
     {
         "ingredientPattern": "XC_,N_N,_N_",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" },
             "C": {type: "Item", code: "game:metalchain-*" }
         },
@@ -19,7 +19,7 @@
     {
         "ingredientPattern": "XR_,_R_,NPN",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "P": {type: "Item", code: "game:metalplate-*" },
             "R": {type: "Item", code: "game:hoop-*" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" }
@@ -33,7 +33,7 @@
     {
         "ingredientPattern": "XF,_B",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "F": {type: "Item", code: "game:firewood" , quantity: 8},
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "brazier1" , "collected": true} }
         },
@@ -62,7 +62,7 @@
     {
         "ingredientPattern": "XR_,_R_,NPN",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "P": {type: "Item", code: "game:metalplate-*" },
             "R": {type: "Item", code: "game:hoop-*" },
             "N": {type: "Item", code: "game:metalnailsandstrips-*" }
@@ -76,7 +76,7 @@
     {
         "ingredientPattern": "XF,_B",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "F": {type: "Item", code: "game:firewood" , quantity: 8},
             "B": {type: "Block", code: "game:clutter", attributes: { "type": "brazier1" } }
         },
@@ -89,7 +89,7 @@
     {
         "ingredientPattern": "XPH,PLP,NPR",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-candle" },
+            "X": {type: "Item", code: "br-schematic-candle", "consume": false },
             "P": {type: "Item", code: "game:paper-parchment"},
             "H": {type: "Item", code: "game:hammer-*", "isTool": true, toolDurabilityCost: 3},
             "L": {type: "Block", code: "game:oillamp-*-up"},

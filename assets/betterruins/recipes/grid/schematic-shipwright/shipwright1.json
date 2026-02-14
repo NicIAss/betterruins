@@ -6,7 +6,7 @@
     {
         "ingredientPattern": "RX",
         "ingredients": {
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
             "R": {type: "Item", code: "game:rope" }
         },
         "width": 2,
@@ -17,7 +17,7 @@
     {
         "ingredientPattern": "RX,R_",
         "ingredients": {
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
             "R": {type: "Item", code: "game:rope" }
         },
         "width": 2,
@@ -28,7 +28,7 @@
 	{
         "ingredientPattern": "RX,R_,R_",
         "ingredients": {
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
             "R": {type: "Item", code: "game:rope" }
         },
         "width": 2,
@@ -44,7 +44,7 @@
         "ingredientPattern": "RX",
 		"recipeGroup": 333,
         "ingredients": {
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
             "R": {type: "Block", code: "game:supportrope-one-new" }
         },
         "width": 2,
@@ -57,7 +57,7 @@
         "ingredientPattern": "RX",
 		"recipeGroup": 333,
         "ingredients": {
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
             "R": {type: "Block", code: "game:supportrope-two-new" }
         },
         "width": 2,
@@ -70,7 +70,7 @@
         "ingredientPattern": "RX",
 		"recipeGroup": 333,
         "ingredients": {
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
             "R": {type: "Block", code: "game:supportrope-three-new" }
         },
         "width": 2,
@@ -83,7 +83,7 @@
         "ingredientPattern": "RXR",
 		"recipeGroup": 333,
         "ingredients": {
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
             "R": {type: "Item", code: "game:cattailtops" }
         },
         "width": 3,
@@ -96,7 +96,7 @@
         "ingredientPattern": "RXR",
 		"recipeGroup": 333,
         "ingredients": {
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
             "R": {type: "Block", code: "game:wildvine-section-north" }
         },
         "width": 3,
@@ -109,7 +109,7 @@
         "ingredientPattern": "XS_,RSR,_S_",
 		"recipeGroup": 333,
         "ingredients": {
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
             "R": {type: "Item", code: "game:rope" },
             "S": {type: "Item", code: "game:stick" }
         },
@@ -127,7 +127,7 @@
 		ingredientPattern: "LXL,LRL,LRL",
 		ingredients: {
 			"L": { type: "block", code: "game:log-placed-*-ud", name: "wood", quantity: 1 },
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
 			"R": { type: "item", code: "game:rope" }
 		},
 		width: 3,
@@ -140,7 +140,7 @@
 		ingredientPattern: "LXL,LRL,LRL",
 		ingredients: {
 			"L": { type: "block", code: "game:logsection-placed-*-ne-ud", name: "wood", quantity: 1 },
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
 			"R": { type: "item", code: "game:rope" }
 		},
 		width: 3,
@@ -153,7 +153,7 @@
 		ingredientPattern: "LXL,LRL,LRL",
 		ingredients: {
 			"L": { type: "item", code: "game:bamboostakes", quantity: 1 },
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
 			"R": { type: "item", code: "game:rope" }
 		},
 		width: 3,
@@ -165,7 +165,7 @@
         "recipeGroup": 333,
         ingredients: {
             "H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 },
-            "Z": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "Z": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
             "C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 10 },
             "F": { type: "item", code: "game:firewood", quantity: 2 },
             "X": { type: "block", code: "game:rock-*", name: "rock" },
@@ -182,7 +182,7 @@
 
 		ingredients: {
 			"W": { type: "item", code: "game:plank-*", name: "wood",skipVariants: ["aged", "veryaged"] },
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
 		},
 		width: 3,
 		height: 2,
@@ -194,7 +194,7 @@
 
         ingredients: {
             "R": { type: "item", code: "game:rope", quantity: 1 },
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
         },
         width: 3,
         height: 3,
@@ -206,7 +206,7 @@
 		ingredients: {
 			"H": { type: "item", code: "game:saw-*", isTool: true  },
 			"L": { type: "block", code: "game:debarkedlog-*-ud", name: "wood" },
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
 
 		},
 		width: 3,
@@ -231,7 +231,7 @@
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 1  },
 			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 1  },
 			"L": { type: "block", code: "game:log-placed-*-ud", name: "material", quantity: 2 , skipVariants: ["aged"]},
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
 		},
 		width: 3,
 		height: 3,
@@ -246,7 +246,7 @@
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 1  },
 			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 1  },
 			"L": { type: "block", code: "game:log-placed-*-ud", name: "material", quantity: 2  , skipVariants: ["aged"]},
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
 		},
 		width: 3,
 		height: 3,
@@ -261,7 +261,7 @@
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 1  },
 			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 1  },
 			"L": { type: "block", code: "game:log-placed-*-ud", name: "material", quantity: 2  , skipVariants: ["aged"]},
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
 		},
 		width: 3,
 		height: 3,
@@ -276,7 +276,7 @@
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 1  },
 			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 1  },
 			"L": { type: "block", code: "game:log-placed-*-ud", name: "material", quantity: 2  , skipVariants: ["aged"]},
-            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright", "consume": false },
 		},
 		width: 3,
 		height: 3,
