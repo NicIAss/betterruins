@@ -3425,6 +3425,32 @@
 			"MaxBelowSealevel": 2,
 			"offsety": -6,
 			"MinSpawnDistance": 2500
+		},
+		{
+			"code": "nybygget-translocatornexus",
+			"group": "translocatornexus",
+			"minGroupDistance": 30000,
+			"replacewithblocklayers": [
+				"game:soil-low-none",
+				"game:soil-medium-none",
+				"game:soil-medium-normal",
+				"game:soil-low-normal",
+				"game:forestfloor-1",
+				"game:soil-verylow-normal",
+				"game:soil-verylow-none",
+				"game:soil-verylow-sparse",
+				"game:soil-verylow-verysparse",
+				"game:gravel-granite"
+			],
+			"chance": 0.005,
+			"schematics": [
+				"overground/special/translocatornexus/translocatornexus-nybygget-o68"
+			],
+			"rockTypeRemapGroup": "standard",
+			"minY": 1,
+			"offsety": -63,
+			"MaxBelowSealevel": 0,
+			"MinSpawnDistance": 8000
 		}
 	]
 }
