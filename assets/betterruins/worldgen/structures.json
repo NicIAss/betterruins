@@ -1009,7 +1009,7 @@
 			"code": "megastructures-normancastle-par",
 			"group": "megastructures",
 			"minGroupDistance": 5000,
-			"chance": 0.03,
+			"chance": 0.04,
 			"placement": "surface",
 			"schematics": [
 				"overground/megastructures/megastructure-16/*"
