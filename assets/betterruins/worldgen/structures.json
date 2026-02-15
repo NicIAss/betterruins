@@ -3396,6 +3396,33 @@
 			"offsety": -2,
 			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 600
+		},
+		{
+			"code": "largeruins-0803-par-largeruin-whitehillcastleruin-o6",
+			"chance": 0.01,
+			"minGroupDistance": 2800,
+			"group": "largeruins",
+			"schematics": [
+				"overground/main/largeruins/0803-par-largeruin-whitehillcastleruin-o6"
+			],
+			"suppressTrees": true,
+			"suppressWaterfalls": true,
+			"rockTypeRemapGroup": "standard",
+			"replacewithblocklayers": [
+				"game:soil-low-none",
+				"game:soil-medium-none",
+				"game:soil-medium-normal",
+				"game:soil-low-normal",
+				"game:forestfloor-1",
+				"game:soil-verylow-normal",
+				"game:soil-verylow-none",
+				"game:soil-verylow-sparse",
+				"game:soil-verylow-verysparse",
+				"game:gravel-granite"
+			],
+			"MaxBelowSealevel": 2,
+			"offsety": -6,
+			"MinSpawnDistance": 2500
 		}
 	]
 }
