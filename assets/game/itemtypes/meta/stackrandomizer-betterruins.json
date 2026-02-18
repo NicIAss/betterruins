@@ -2655,6 +2655,42 @@
 					"chance": 10
 				},
 				{
+				  "type": "item",
+				  "code": "lore-book-aged-gray",
+				  "attributes": { "category": "doubts" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-purple",
+				  "attributes": { "category": "doubts" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-green",
+				  "attributes": { "category": "doubts" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-brown",
+				  "attributes": { "category": "doubts" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-paper",
+				  "attributes": { "category": "doubts" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-scroll",
+				  "attributes": { "category": "doubts" },
+				  "chance": 10
+				},
+				{
 					"type": "item",
 					"code": "game:gear-rusty",
 					"chance": 1,
