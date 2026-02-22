@@ -11,7 +11,8 @@
 		"story/betterruins:brhuaca": 20,
 		"story/betterruins:brsunrift": 27,
 		"story/betterruins:brcalix": 26,
-		"story/betterruins:brshoppingcentre": 71
+		"story/betterruins:brshoppingcentre": 71,
+		"story/betterruins:brhalitequarry": 18
 	},
 	"structures": [
 		{
@@ -383,6 +384,35 @@
 				"rivulets": 100,
 				"caves": 120,
 				"patches": 0
+			}
+		},
+		{
+			"code": "halitequarry",
+			"group": "storystructure",
+			"name": "halitequarry",
+			"schematics": [
+				"story/brhalitequarry"
+			],
+			"placement": "SurfaceRuin",
+			"dependsOnStructure": "spawn",
+			"minSpawnDistX": 2000,
+			"maxSpawnDistX": 3000,
+			"minSpawnDistZ": 14000,
+			"maxSpawnDistZ": 15000,
+			"requireLandform": "veryflat",
+			"generateGrass": true,
+			"landformRadius": 200,
+			"ExcludeSchematicSizeProtect": true,
+			"rockTypeRemapGroup": "underground",
+			"skipGenerationCategories": {
+				"structures": 180,
+				"trees": 150,
+				"shrubs": 50,
+				"hotsprings": 150,
+				"pond": 150,
+				"rivulets": 100,
+				"caves": 120,
+				"patches": 30
 			}
 		}
 	],

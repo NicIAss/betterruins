@@ -14,7 +14,6 @@
 				"undergroundruins",
 				"forlornhopetower",
 				"forlornhopedungeon",
-				"giantcathedral",
 				"university",
 				"coalmine",
 				"mine1",
@@ -26,7 +25,8 @@
 				"sunrift",
 				"agedsunrift",
 				"calix",
-				"shoppingcentre"
+				"shoppingcentre",
+				"halitequarry"
 			]
 		}
 	],
@@ -85,17 +85,6 @@
 			"*-forlornhopedungeon": {
 				"schematiccode": "forlornhopedungeon",
 				"waypointtext": "location-forlornhopedungeon",
-				"waypointicon": "x",
-				"waypointcolor": [
-					0.2,
-					0.25,
-					1,
-					1
-				]
-			},
-			"*-giantcathedral": {
-				"schematiccode": "giantcathedral",
-				"waypointtext": "location-giantcathedral",
 				"waypointicon": "x",
 				"waypointcolor": [
 					0.2,
@@ -235,6 +224,18 @@
 			"*-shoppingcentre": {
 				"schematiccode": "shoppingcentre",
 				"waypointtext": "location-shoppingcentre",
+				"offset": { "x": 0, "y": 0, "z": 0 },
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.2,
+					0.25,
+					1,
+					1
+				]
+			},
+			"*-halitequarry": {
+				"schematiccode": "halitequarry",
+				"waypointtext": "location-halitequarry",
 				"offset": { "x": 0, "y": 0, "z": 0 },
 				"waypointicon": "x",
 				"waypointcolor": [

@@ -379,7 +379,6 @@
     "game:location-gates": "Hidden Passage",
     "game:location-undergroundruins": "Underground Hideout",
     "game:location-forlornhopetower": "Forlorn Hope Tower",
-    "game:location-giantcathedral": "The Grand Cathedral",
     "game:location-forlornhopedungeon": "The Forlorn Bastion",
     "game:location-university": "The University",
 
@@ -423,12 +422,15 @@
     "item-locatormap-shoppingcentre": "Map to the Dome Mall",
     "betterruins:item-handbooktext-betterruins:locatormap-shoppingcentre": "<strong>Found in</strong>\nCrossroads",
 
+    "game:location-halitequarry": "The Halite Quarry",
+    "item-locatormap-halitequarry": "Map to the Halite Quarry",
+    "betterruins:item-handbooktext-betterruins:locatormap-halitequarry": "<strong>Talk to</strong>\nAgriculture Trader",
+
 
     "item-locatormap-graves": "Map to a Hidden Tomb",
     "item-locatormap-gates": "Map to a Hidden Passage",
     "item-locatormap-undergroundruins": "Map to an Underground Hideout",
     "item-locatormap-forlornhopetower": "Map to the Forlorn Hope Tower",
-    "item-locatormap-giantcathedral": "Map to the Grand Cathedral",
     "item-locatormap-forlornhopedungeon": "Map to the Forlorn Bastion",
     "item-locatormap-university": "Map to the University",
     "itemdesc-locatormap-gates": "A map leading to a translocator location. Recommended to dig down on the exact location.\n(Right click to mark on map)",
@@ -438,7 +440,6 @@
     "betterruins:item-handbooktext-betterruins:locatormap-forlornhopetower": "<strong>Talk to</strong>\nLuxuries Trader",
     "betterruins:item-handbooktext-betterruins:locatormap-forlornhopedungeon": "<strong>Found in</strong>\nThe Forlorn Hope Tower",
     "betterruins:item-handbooktext-betterruins:locatormap-university": "<strong>Talk to</strong>\nLuxuries Trader",
-    "betterruins:item-handbooktext-betterruins:locatormap-giantcathedral": "<strong>Talk to</strong>\nWilfred Ivor Prescott (WIP)",
     "betterruins:item-handbooktext-betterruins:locatormap-coalmine": "<strong>Found in</strong>\nRare in any ruin",
     "betterruins:item-handbooktext-betterruins:locatormap-mine1": "<strong>Found in</strong>\nRare in any ruin",
     "betterruins:item-handbooktext-betterruins:locatormap-mine2": "<strong>Found in</strong>\nRare in any ruin",
@@ -795,9 +796,39 @@
     "betterruins:This had better be worth it...": "This had better be worth it...",
     "betterruins:Well, thank you in turn! For humouring me, and getting me this scythe. This thing’s much heavier than it looks, and I could use someone of your faculties to carry it back to my farmhouse when I tire of trading. But that’s nowhere in the foreseeable future! Let’s worry about right now; all those gears that are weighing you down. Come take a look at my wares, I’ll gladly help you lighten those pockets.": "Well, thank you in turn! For humouring me, and getting me this scythe. This thing’s much heavier than it looks, and I could use someone of your faculties to carry it back to my farmhouse when I tire of trading. But that’s nowhere in the foreseeable future! Let’s worry about right now; all those gears that are weighing you down. Come take a look at my wares, I’ll gladly help you lighten those pockets.",
     "betterruins:Oh, quiet your yammering. Of course it will be. Matter of fact, it already is!\nYou’ve made me very happy. Honestly, can’t think of anything more worthwhile than that.\nIf you want to make me even happier, though, my storefront’s open...?": "Oh, quiet your yammering. Of course it will be. Matter of fact, it already is!\nYou’ve made me very happy. Honestly, can’t think of anything more worthwhile than that.\nIf you want to make me even happier, though, my storefront’s open...?",
-    "betterruins:Lost it already? Hah. No matter - here, take another. Try not to feed this one to the wind.": "Lost it already? Hah. No matter - here, take another. Try not to feed this one to the wind."
+    "betterruins:Lost it already? Hah. No matter - here, take another. Try not to feed this one to the wind.": "Lost it already? Hah. No matter - here, take another. Try not to feed this one to the wind.",
 
 
+    "betterruins:[BR Quest] Do you have any tips for preserving food?": "[BR Quest] Do you have any tips for preserving food?",
+    "betterruins:I’ve got the andesite quern!": "I’ve got the andesite quern!",
+    "betterruins:I’ve got the basalt quern!": "I’ve got the basalt quern!",
+    "betterruins:I’ve got the peridotite quern!": "I’ve got the peridotite quern!",
+    "betterruins:I lost the map to the Halite Quarry!": "I lost the map to the Halite Quarry!",
+
+    "betterruins:I’m sure you already have a cellar to keep your foodstuffs out of the sun. When I’m travelling around local farmsteads to stock up, though, I don’t quite have that luxury.\n\nIt’s salt! If you use enough of it it tastes better, too. Cured meats, pickled veggies…\nI pass by this salt mine on occasion during my travels and always take some to top off my supply.\nIt’s been abandoned since long before I first set foot there, so I’m sure they don’t mind.": "I’m sure you already have a cellar to keep your foodstuffs out of the sun. When I’m travelling around local farmsteads to stock up, though, I don’t quite have that luxury.\n\nIt’s salt! If you use enough of it it tastes better, too. Cured meats, pickled veggies…\nI pass by this salt mine on occasion during my travels and always take some to top off my supply.\nIt’s been abandoned since long before I first set foot there, so I’m sure they don’t mind.",
+
+    "betterruins:I already knew that...": "I already knew that...",
+    "betterruins:You mentioned a salt mine?": "You mentioned a salt mine?",
+    "betterruins:Don’t be salty, now.": "Don’t be salty, now.",
+
+    "betterruins:More of a quarry, really. Halite. Gorgeous pink stone. I’ve tried to use it for bowls to no avail, the stuff dissolves in liquids. But if you grind it up you get salt. As for the site itself, it’s full of decrepit buildings that I personally take wide berths around. Leave it to the treasure hunter types to get trapped in collapsing ruins.\n\nI don’t think you could exhaust its reserves if you tried, so I feel comfortable sharing its location with you. I’ve seen folks like you running up to my storefront scarfing down ten or so uncooked carrots in a single sitting. So it would bring me comfort knowing that you’ve got salt available, at the very least.": "More of a quarry, really. Halite. Gorgeous pink stone. I’ve tried to use it for bowls to no avail, the stuff dissolves in liquids. But if you grind it up you get salt. As for the site itself, it’s full of decrepit buildings that I personally take wide berths around. Leave it to the treasure hunter types to get trapped in collapsing ruins.\n\nI don’t think you could exhaust its reserves if you tried, so I feel comfortable sharing its location with you. I’ve seen folks like you running up to my storefront scarfing down ten or so uncooked carrots in a single sitting. So it would bring me comfort knowing that you’ve got salt available, at the very least.",
+
+    "betterruins:You don’t know good eating.": "You don’t know good eating.",
+    "betterruins:Where is it?": "Where is it?",
+    "betterruins:I’m sure I simply don’t appreciate Seraph cuisine.": "I’m sure I simply don’t appreciate Seraph cuisine.",
+
+    "betterruins:I’ll tell you, but I need to be sure that you know how to put together a quern or you’ll be left with useless halite stone. Conveniently, I’ve also gotten very bored of the dull granite grey of my own quern. You work on bringing me one with a prettier colour and I’ll work on drawing you up a map. Andesite, basalt, peridotite, a quern carved from any of those three would do.": "I’ll tell you, but I need to be sure that you know how to put together a quern or you’ll be left with useless halite stone. Conveniently, I’ve also gotten very bored of the dull granite grey of my own quern. You work on bringing me one with a prettier colour and I’ll work on drawing you up a map. Andesite, basalt, peridotite, a quern carved from any of those three would do.",
+
+    "betterruins:I’ll bring you a quern!": "I’ll bring you a quern!",
+    "betterruins:Not worth my time.": "Not worth my time.",
+    "betterruins:I’m looking forward to it. I’ll have the map ready when you return.": "I’m looking forward to it. I’ll have the map ready when you return.",
+    "betterruins:I suppose poor taste can’t be helped.": "I suppose poor taste can’t be helped.",
+
+    "betterruins:Oh, it’ll look great in my kitchen! Thank you kindly for your service, and here’s your map, as promised. I’m very thankful to have been a part of your culinary journey.": "Oh, it’ll look great in my kitchen! Thank you kindly for your service, and here’s your map, as promised. I’m very thankful to have been a part of your culinary journey.",
+
+    "betterruins:Here you go.": "Here you go.",
+
+    "betterruins:Don’t you fret. I thought this might happen, so I kept another copy on hand. You Seraphs ought to stop making up stories about having died far-away every single time you misplace your things.": "Don’t you fret. I thought this might happen, so I kept another copy on hand. You Seraphs ought to stop making up stories about having died far-away every single time you misplace your things."
 
 
 

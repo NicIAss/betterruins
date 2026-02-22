@@ -5,7 +5,7 @@
             "K": {
                 "type": "Item",
                 "code": "betterruins:locatormap-*",
-                "skipVariants": [ "forlornhopetower", "university", "sunrift", "calix" ]
+                "skipVariants": [ "forlornhopetower", "university", "sunrift", "calix", "halitequarry" ]
             },
             "M": {
                 "type": "Item",

@@ -154,5 +154,17 @@
         "modid": "TA_fieldsandplateaus"
       }
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/13/requireLandform",
+    "value": "f&pcoastal flatlands",
+    "file": "betterruins:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "TA_fieldsandplateaus"
+      }
+    ]
   }
 ]
