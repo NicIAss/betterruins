@@ -37,6 +37,29 @@
 			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
 			"scale": 0.48
 		},
+		"displayable": {
+			"shelf": {
+				"size": {
+					"width": 7,
+					"height": 2,
+					"length": 7
+				},
+				"transform": {
+					"translation": {
+						"x": 0,
+						"y": -0.434,
+						"z": 0.03
+					},
+					"rotation": {
+						"x": -68,
+						"y": 0,
+						"z": 0
+					},
+					"scale": 0.45
+				},
+				"randYRotAngle": 0
+			}
+		},
 		"locatorPropsbyType": {
 			"*-graves": {
 				"schematiccode": "graves",
