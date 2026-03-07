@@ -341,5 +341,58 @@
 		width: 3,
 		height: 2,
 		output: {type: "Block", code: "game:metalsheet-{metal}-down"}
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "YI,SN",
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false},
+			"S": {type: "Item", code: "game:solderbar-*"},
+			"I": {type: "Item", code: "game:solderingiron" , "isTool":true, toolDurabilityCost: 5 },
+			"N": {type: "Item", code: "game:metalnailsandstrips-iron" }
+		},
+		width: 2,
+		height: 2,
+		output: {type: "Block", code: "game:supportchain-twonew" , "quantity": 64}
+	},
+	{
+		ingredientPattern: "YI_,SNN",
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false},
+			"S": {type: "Item", code: "game:solderbar-*"},
+			"I": {type: "Item", code: "game:solderingiron" , "isTool":true, toolDurabilityCost: 5 },
+			"N": {type: "Item", code: "game:metalnailsandstrips-iron" }
+		},
+		width: 3,
+		height: 2,
+		output: {type: "Block", code: "game:supportchain-fournew" , "quantity": 64}
+	},
+	{
+		ingredientPattern: "YI,SN",
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false},
+			"S": {type: "Item", code: "game:solderbar-*"},
+			"I": {type: "Item", code: "game:solderingiron" , "isTool":true, toolDurabilityCost: 5 },
+			"N": {type: "Item", code: "game:metalnailsandstrips-blackbronze" }
+		},
+		width: 2,
+		height: 2,
+		output: {type: "Block", code: "game:supportchain-two" , "quantity": 64}
+	},
+	{
+		ingredientPattern: "YI_,SNN",
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false},
+			"S": {type: "Item", code: "game:solderbar-*"},
+			"I": {type: "Item", code: "game:solderingiron" , "isTool":true, toolDurabilityCost: 5 },
+			"N": {type: "Item", code: "game:metalnailsandstrips-blackbronze" }
+		},
+		width: 3,
+		height: 2,
+		output: {type: "Block", code: "game:supportchain-four" , "quantity": 64}
 	}
 ]

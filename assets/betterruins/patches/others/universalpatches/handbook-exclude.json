@@ -122,5 +122,12 @@
     "op": "replace",
     "path": "/attributes/handbook/exclude",
     "value": false
+  },
+  {
+    "enabled": true,
+    "file": "game:blocktypes/metal/supportchain",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
   }
 ]
