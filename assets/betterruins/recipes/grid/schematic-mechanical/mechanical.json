@@ -9,7 +9,7 @@
         "ingredients": {
             "X": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
             "B": {type: "Item", code: "game:plank-*" , quantity: 2},
-            "F": {type: "Item", code: "game:fat" , quantity: 2},
+            "F": {type: "Item", code: "game:fat-rendered" , quantity: 2},
             "S": {type: "Item", code: "game:stick" , quantity: 6},
             "H": {type: "Item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 },
             "Z": {type: "Item", code: "game:saw-*", isTool: true },
@@ -71,7 +71,7 @@
 			"S": { type: "block", code: "game:log-placed-*-ud" , quantity: 2 },
 			"R": { type: "item", code: "game:resin" },
 			"P": { type: "item", code: "game:stick" , quantity: 2 },
-			"F": { type: "item", code: "game:fat" }
+			"F": { type: "item", code: "game:fat-rendered" }
 		},
 		width: 3,
 		height: 3,
@@ -88,7 +88,7 @@
 			"S": { type: "block", code: "game:logsection-placed-*-ud" , quantity: 2 },
 			"R": { type: "item", code: "game:resin" },
 			"P": { type: "item", code: "game:stick" , quantity: 2 },
-			"F": { type: "item", code: "game:fat" }
+			"F": { type: "item", code: "game:fat-rendered" }
 		},
 		width: 3,
 		height: 3,
@@ -110,7 +110,7 @@
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 30 },
 			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 30 },
 			"S": { type: "block", code: "game:log-placed-*-ud", name: "wood" , quantity: 3 },
-			"F": { type: "item", code: "game:fat" }
+			"F": { type: "item", code: "game:fat-rendered" }
 		},
 		width: 2,
 		height: 3,
@@ -124,7 +124,7 @@
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 30 },
 			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 30 },
 			"S": { type: "block", code: "game:logsection-placed-*-ud" , quantity: 3 },
-			"F": { type: "item", code: "game:fat" }
+			"F": { type: "item", code: "game:fat-rendered" }
 		},
 		width: 2,
 		height: 3,
