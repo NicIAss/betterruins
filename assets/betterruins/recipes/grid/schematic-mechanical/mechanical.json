@@ -8,7 +8,7 @@
         "recipeGroup": 333,
         "ingredients": {
             "X": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
-            "B": {type: "Item", code: "game:plank-oak" , quantity: 2},
+            "B": {type: "Item", code: "game:plank-*" , quantity: 2},
             "F": {type: "Item", code: "game:fat" , quantity: 2},
             "S": {type: "Item", code: "game:stick" , quantity: 6},
             "H": {type: "Item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 },
