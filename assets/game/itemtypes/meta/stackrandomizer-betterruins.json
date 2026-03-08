@@ -2402,7 +2402,7 @@
 				},
 				{
 				  "type": "item",
-				  "code": "fat",
+				  "code": "fat-rendered",
 				  "quantity": {
 					"avg": 4,
 					"var": 2
