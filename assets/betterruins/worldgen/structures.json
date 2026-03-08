@@ -656,7 +656,12 @@
 		"overground/main/village-stones-rowlyart/large/large-2-o4": -4,
 		"overground/main/village-stones-rowlyart/large/large-3-o4": -4,
 		"overground/main/village-stones-rowlyart/large/large-4-o5": -5,
-		"overground/main/village-stones-rowlyart/large/large-5-o4": -4
+		"overground/main/village-stones-rowlyart/large/large-5-o4": -4,
+		"overground/main/village-ruins-par/village-ruins-par-1-o5": -4,
+		"overground/main/village-ruins-par/village-ruins-par-2-o5": -4,
+		"overground/main/village-ruins-par/village-ruins-par-3-o4": -3,
+		"overground/main/village-ruins-par/village-ruins-par-4-o4": -3,
+		"overground/main/village-ruins-par/village-ruins-par-5-o4": -3
 	},
 	"structures": [
 		{
