@@ -1,0 +1,48 @@
+[
+  {
+    "op": "remove",
+    "path": "/client/behaviors/4/dialogueByType",
+    "file": "game:entities/humanoid/trader-male.json"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/7/dialogueByType",
+    "file": "game:entities/humanoid/trader-male.json"
+  },
+  {
+    "op": "remove",
+    "path": "/client/behaviors/4/dialogueByType",
+    "file": "game:entities/humanoid/trader-female.json"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/7/dialogueByType",
+    "file": "game:entities/humanoid/trader-female.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/behaviorConfigs/conversable",
+    "value": {
+      "dialogueByType": {
+        "trader-male-treasurehunter-*": "config/dialogue/treasurehunter",
+        "trader-male-luxuries-*": "betterruins:config/dialogue/luxuries",
+        "trader-male-agriculture-*": "betterruins:config/dialogue/agriculture",
+        "trader-male-*": "config/dialogue/trader"
+      }
+    },
+    "file": "game:entities/humanoid/trader-male.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/behaviorConfigs/conversable",
+    "value": {
+      "dialogueByType": {
+        "trader-female-treasurehunter-*": "config/dialogue/treasurehunter",
+        "trader-female-luxuries-*": "betterruins:config/dialogue/luxuries",
+        "trader-female-agriculture-*": "betterruins:config/dialogue/agriculture",
+        "trader-female-*": "config/dialogue/trader"
+      }
+    },
+    "file": "game:entities/humanoid/trader-female.json"
+  }
+]
