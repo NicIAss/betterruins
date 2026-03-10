@@ -215,6 +215,34 @@
 				]},
 				// CALIX QUESTLINE END
 
+
+				// HALITEQUARRY QUESTLINE BEGIN
+				{ value: "betterruins:[BR Quest] Do you have any tips for preserving food?", jumpTo: "brfood_0" },
+
+				{ value: "betterruins:I’ve got the andesite quern!", jumpTo: "brfood_takequern_andesite", conditions: [
+				{ variable: "entity.br_halite_requestquern", isValue: "true" },
+				{ variable: "entity.br_halite_mapgiven", isNotValue: "true" },
+				{ variable: "player.inventory", isValue: "{type: 'block', code: 'game:quern-andesite'}" }
+				]},
+				
+				{ value: "betterruins:I’ve got the basalt quern!", jumpTo: "brfood_takequern_basalt", conditions: [
+				{ variable: "entity.br_halite_requestquern", isValue: "true" },
+				{ variable: "entity.br_halite_mapgiven", isNotValue: "true" },
+				{ variable: "player.inventory", isValue: "{type: 'block', code: 'game:quern-basalt'}" }
+				]},
+				
+				{ value: "betterruins:I’ve got the peridotite quern!", jumpTo: "brfood_takequern_peridotite", conditions: [
+				{ variable: "entity.br_halite_requestquern", isValue: "true" },
+				{ variable: "entity.br_halite_mapgiven", isNotValue: "true" },
+				{ variable: "player.inventory", isValue: "{type: 'block', code: 'game:quern-peridotite'}" }
+				]},
+
+				{ value: "betterruins:I lost the map to the Halite Quarry!", jumpTo: "brfood_maprepeat", conditions: [
+				{ variable: "entity.br_halite_mapgiven", isValue: "true" },
+				{ variable: "player.inventory", isNotValue: "{type: 'item', code: 'betterruins:locatormap-halitequarry'}" }
+				]},
+				// HALITEQUARRY QUESTLINE END
+
 				{ value: "game:dialogue-name", jumpTo: "name" },
 				{ value: "game:Why gears?", jumpTo: "gears" },
 				{ value: "game:Why live out here like this?", jumpTo: "profit" },
@@ -581,5 +609,184 @@
 			triggerdata: { type: "item", code: "betterruins:locatormap-calix", stacksize: 1 },
 			jumpTo: "main"
 		},
+
+
+
+
+
+
+
+
+
+
+
+
+
+		// ----------------------------
+		// BR Food Preservation Questline (NEW)
+		// ----------------------------
+
+		{
+		code: "brfood_0",
+		owner: "trader",
+		type: "talk",
+		text: [
+			{ value: "betterruins:I’m sure you already have a cellar to keep your foodstuffs out of the sun. When I’m travelling around local farmsteads to stock up, though, I don’t quite have that luxury.\n\nIt’s salt! If you use enough of it it tastes better, too. Cured meats, pickled veggies…\nI pass by this salt mine on occasion during my travels and always take some to top off my supply.\nIt’s been abandoned since long before I first set foot there, so I’m sure they don’t mind." }
+		],
+		jumpTo: "brfood_0_response"
+		},
+		{
+		code: "brfood_0_response",
+		owner: "player",
+		type: "talk",
+		text: [
+			{ value: "betterruins:I already knew that...", jumpTo: "brfood_end_salty" },
+			{ value: "betterruins:You mentioned a salt mine?", jumpTo: "brfood_1_quarry" }
+		]
+		},
+		{
+		code: "brfood_end_salty",
+		owner: "trader",
+		type: "talk",
+		text: [
+			{ value: "betterruins:Don’t be salty, now." }
+		],
+		jumpTo: "main"
+		},
+
+		{
+		code: "brfood_1_quarry",
+		owner: "trader",
+		type: "talk",
+		text: [
+			{ value: "betterruins:More of a quarry, really. Halite. Gorgeous pink stone. I’ve tried to use it for bowls to no avail, the stuff dissolves in liquids. But if you grind it up you get salt. As for the site itself, it’s full of decrepit buildings that I personally take wide berths around. Leave it to the treasure hunter types to get trapped in collapsing ruins.\n\nI don’t think you could exhaust its reserves if you tried, so I feel comfortable sharing its location with you. I’ve seen folks like you running up to my storefront scarfing down ten or so uncooked carrots in a single sitting. So it would bring me comfort knowing that you’ve got salt available, at the very least." }
+		],
+		jumpTo: "brfood_1_quarry_response"
+		},
+		{
+		code: "brfood_1_quarry_response",
+		owner: "player",
+		type: "talk",
+		text: [
+			{ value: "betterruins:You don’t know good eating.", jumpTo: "brfood_end_cuisine" },
+			{ value: "betterruins:Where is it?", jumpTo: "brfood_2_quernrequest" }
+		]
+		},
+		{
+		code: "brfood_end_cuisine",
+		owner: "trader",
+		type: "talk",
+		text: [
+			{ value: "betterruins:I’m sure I simply don’t appreciate Seraph cuisine." }
+		],
+		jumpTo: "main"
+		},
+
+		{
+		code: "brfood_2_quernrequest",
+		owner: "trader",
+		type: "talk",
+		setVariables: { "entity.br_halite_requestquern": "true" },
+		text: [
+			{ value: "betterruins:I’ll tell you, but I need to be sure that you know how to put together a quern or you’ll be left with useless halite stone. Conveniently, I’ve also gotten very bored of the dull granite grey of my own quern. You work on bringing me one with a prettier colour and I’ll work on drawing you up a map. Andesite, basalt, peridotite, a quern carved from any of those three would do." }
+		],
+		jumpTo: "brfood_2_quernrequest_response"
+		},
+		{
+		code: "brfood_2_quernrequest_response",
+		owner: "player",
+		type: "talk",
+		text: [
+			{ value: "betterruins:I’ll bring you a quern!", jumpTo: "brfood_end_quern_yes" },
+			{ value: "betterruins:Not worth my time.", jumpTo: "brfood_end_quern_no" }
+		]
+		},
+		{
+		code: "brfood_end_quern_yes",
+		owner: "trader",
+		type: "talk",
+		text: [
+			{ value: "betterruins:I’m looking forward to it. I’ll have the map ready when you return." }
+		],
+		jumpTo: "main"
+		},
+		{
+		code: "brfood_end_quern_no",
+		owner: "trader",
+		type: "talk",
+		text: [
+			{ value: "betterruins:I suppose poor taste can’t be helped." }
+		],
+		jumpTo: "main"
+		},
+
+		// Delivery: take quern -> give map
+		// NOTE: Item codes for colored querns can vary by mod/game version.
+		// Replace the inventory checks + triggerdata codes below with your actual quern item codes.
+		{
+		code: "brfood_takequern_andesite",
+		owner: "trader",
+		type: "talk",
+		setVariables: { "entity.br_halite_mapgiven": "true" },
+		text: [
+			{ value: "betterruins:Oh, it’ll look great in my kitchen! Thank you kindly for your service, and here’s your map, as promised. I’m very thankful to have been a part of your culinary journey." }
+		],
+		trigger: "takefrominventory",
+		triggerdata: { type: "block", code: "game:quern-andesite", quantity: 1 },
+		jumpTo: "brfood_givemap"
+		},
+		{
+		code: "brfood_takequern_basalt",
+		owner: "trader",
+		type: "talk",
+		setVariables: { "entity.br_halite_mapgiven": "true" },
+		text: [
+			{ value: "betterruins:Oh, it’ll look great in my kitchen! Thank you kindly for your service, and here’s your map, as promised. I’m very thankful to have been a part of your culinary journey." }
+		],
+		trigger: "takefrominventory",
+		triggerdata: { type: "block", code: "game:quern-basalt", quantity: 1 },
+		jumpTo: "brfood_givemap"
+		},
+		{
+		code: "brfood_takequern_peridotite",
+		owner: "trader",
+		type: "talk",
+		setVariables: { "entity.br_halite_mapgiven": "true" },
+		text: [
+			{ value: "betterruins:Oh, it’ll look great in my kitchen! Thank you kindly for your service, and here’s your map, as promised. I’m very thankful to have been a part of your culinary journey." }
+		],
+		trigger: "takefrominventory",
+		triggerdata: { type: "block", code: "game:quern-peridotite", quantity: 1 },
+		jumpTo: "brfood_givemap"
+		},
+
+
+
+
+		{
+		code: "brfood_givemap",
+		owner: "trader",
+		type: "talk",
+		trigger: "giveitemstack",
+		triggerdata: { type: "item", code: "betterruins:locatormap-halitequarry", stacksize: 1 },
+		text: [
+			{ value: "betterruins:Here you go." }
+		],
+		jumpTo: "main"
+		},
+
+		// Free re-drop of the map (no cost)
+		{
+		code: "brfood_maprepeat",
+		owner: "trader",
+		type: "talk",
+		text: [
+			{ value: "betterruins:Don’t you fret. I thought this might happen, so I kept another copy on hand. You Seraphs ought to stop making up stories about having died far-away every single time you misplace your things." }
+		],
+		trigger: "giveitemstack",
+		triggerdata: { type: "item", code: "betterruins:locatormap-halitequarry", stacksize: 1 },
+		jumpTo: "main"
+		},
+
 	]
 }

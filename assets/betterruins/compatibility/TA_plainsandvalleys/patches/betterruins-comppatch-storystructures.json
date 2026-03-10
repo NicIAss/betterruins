@@ -154,5 +154,17 @@
         "modid": "TA_plainsandvalleys"
       }
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/13/requireLandform",
+    "value": "p&vcoastal flatlands",
+    "file": "betterruins:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "TA_plainsandvalleys"
+      }
+    ]
   }
 ]

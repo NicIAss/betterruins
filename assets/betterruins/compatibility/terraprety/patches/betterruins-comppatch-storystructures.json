@@ -154,5 +154,17 @@
         "modid": "terraprety"
       }
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/13/requireLandform",
+    "value": "ultraflats",
+    "file": "betterruins:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "terraprety"
+      }
+    ]
   }
 ]

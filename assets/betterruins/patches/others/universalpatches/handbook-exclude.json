@@ -105,13 +105,6 @@
   },
   {
     "enabled": true,
-    "file": "game:blocktypes/cloth/wallpaper",
-    "op": "replace",
-    "path": "/attributes/handbook/exclude",
-    "value": false
-  },
-  {
-    "enabled": true,
     "file": "game:blocktypes/paperlantern",
     "op": "replace",
     "path": "/attributes/handbook/exclude",
@@ -126,6 +119,13 @@
   {
     "enabled": true,
     "file": "game:blocktypes/cloth/leather",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  },
+  {
+    "enabled": true,
+    "file": "game:blocktypes/metal/supportchain",
     "op": "replace",
     "path": "/attributes/handbook/exclude",
     "value": false

@@ -1135,6 +1135,57 @@
 				"game:gravel-granite"
 			],
 			"rockTypeRemapGroup": "standard"
+		},
+		{
+			"name": "village-ruins-par",
+			"code": "village-ruins-par",
+			"group": "village-ruins-par",
+			"minGroupDistance": 2000,
+			"chance": 0.2,
+			"minY": 0,
+			"generator": "LooselyGrouped",
+			"quantityStructures": {
+				"avg": 3,
+				"var": 1,
+				"dist": "InvExp"
+			},
+			"schematics": [
+				{
+					"path": "overground/main/village-ruins-par/village-ruins-par-1-o5",
+					"weight": 350,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-ruins-par/village-ruins-par-2-o5",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-ruins-par/village-ruins-par-3-o4",
+					"weight": 80,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-ruins-par/village-ruins-par-4-o4",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				},
+				{
+					"path": "overground/main/village-ruins-par/village-ruins-par-5-o4",
+					"weight": 100,
+					"minQuantity": 0,
+					"maxQuantity": 1
+				}
+			],
+			"replacewithblocklayers": [
+				"game:soil-low-normal",
+				"game:soil-low-none"
+			],
+			"rockTypeRemapGroup": "standard"
 		}
 	]
 }

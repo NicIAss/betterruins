@@ -139,7 +139,7 @@
     "path": "/attributesByType/*-resource/stacks/-",
     "value": {
       "type": "item",
-      "code": "fat",
+      "code": "fat-rendered",
       "quantity": {
         "avg": 2,
         "var": 1

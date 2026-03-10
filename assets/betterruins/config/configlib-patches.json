@@ -32,7 +32,6 @@
         "structures/22/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * value",
         "structures/23/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * value",
         "structures/24/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * value",
-        
         "structures/26/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value",
         "structures/27/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value",
         "structures/28/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value",
@@ -130,7 +129,8 @@
         "structures/120/chance": "WAYSTONES_SPAWN_CHANCE * value",
         "structures/121/chance": "WAYSTONES_SPAWN_CHANCE * value",
         "structures/122/chance": "WAYSTONES_SPAWN_CHANCE * value",
-        "structures/123/chance": "WAYSTONES_SPAWN_CHANCE * value"
+        "structures/123/chance": "WAYSTONES_SPAWN_CHANCE * value",
+        "structures/124/chance": "LARGERUINS_SPAWN_CHANCE * value"
       },
       "betterruins:worldgen/villages.json": {
         "villageTypes/0/chance": "VSVILLAGE_SPAWN_CHANCE * value",
@@ -875,7 +875,6 @@
         "structures/90/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
         "structures/91/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
         "structures/92/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
-
         "structures/107/minGroupDistance": "GRAVES_MIN_DISTANCE",
         "structures/108/minGroupDistance": "GRAVES_MIN_DISTANCE",
         "structures/109/minGroupDistance": "GRAVES_MIN_DISTANCE",
@@ -902,7 +901,9 @@
         "structures/120/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
         "structures/121/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
         "structures/122/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
-        "structures/123/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE"
+        "structures/123/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
+        "structures/124/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "structures/124/minGroupDistance": "LARGERUINS_MIN_DISTANCE"
       },
       "betterruins:worldgen/villages.json": {
         "villageTypes/0/minGroupDistance": "VSVILLAGE_MIN_DISTANCE",

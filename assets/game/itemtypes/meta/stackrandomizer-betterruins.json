@@ -2402,7 +2402,7 @@
 				},
 				{
 				  "type": "item",
-				  "code": "fat",
+				  "code": "fat-rendered",
 				  "quantity": {
 					"avg": 4,
 					"var": 2
@@ -2653,6 +2653,42 @@
 					"code": "lore-book-rotten-rust",
 					"attributes": { "category": "allhandsrequired" },
 					"chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-gray",
+				  "attributes": { "category": "doubts" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-purple",
+				  "attributes": { "category": "doubts" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-green",
+				  "attributes": { "category": "doubts" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-brown",
+				  "attributes": { "category": "doubts" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-paper",
+				  "attributes": { "category": "doubts" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-scroll",
+				  "attributes": { "category": "doubts" },
+				  "chance": 10
 				},
 				{
 					"type": "item",

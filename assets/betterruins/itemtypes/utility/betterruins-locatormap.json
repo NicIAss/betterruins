@@ -14,7 +14,6 @@
 				"undergroundruins",
 				"forlornhopetower",
 				"forlornhopedungeon",
-				"giantcathedral",
 				"university",
 				"coalmine",
 				"mine1",
@@ -26,7 +25,8 @@
 				"sunrift",
 				"agedsunrift",
 				"calix",
-				"shoppingcentre"
+				"shoppingcentre",
+				"halitequarry"
 			]
 		}
 	],
@@ -36,6 +36,29 @@
 			"rotation": { "x": -67, "y": 0, "z": 0 },
 			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
 			"scale": 0.48
+		},
+		"displayable": {
+			"shelf": {
+				"size": {
+					"width": 7,
+					"height": 2,
+					"length": 7
+				},
+				"transform": {
+					"translation": {
+						"x": 0,
+						"y": -0.434,
+						"z": 0.03
+					},
+					"rotation": {
+						"x": -68,
+						"y": 0,
+						"z": 0
+					},
+					"scale": 0.45
+				},
+				"randYRotAngle": 0
+			}
 		},
 		"locatorPropsbyType": {
 			"*-graves": {
@@ -85,17 +108,6 @@
 			"*-forlornhopedungeon": {
 				"schematiccode": "forlornhopedungeon",
 				"waypointtext": "location-forlornhopedungeon",
-				"waypointicon": "x",
-				"waypointcolor": [
-					0.2,
-					0.25,
-					1,
-					1
-				]
-			},
-			"*-giantcathedral": {
-				"schematiccode": "giantcathedral",
-				"waypointtext": "location-giantcathedral",
 				"waypointicon": "x",
 				"waypointcolor": [
 					0.2,
@@ -235,6 +247,18 @@
 			"*-shoppingcentre": {
 				"schematiccode": "shoppingcentre",
 				"waypointtext": "location-shoppingcentre",
+				"offset": { "x": 0, "y": 0, "z": 0 },
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.2,
+					0.25,
+					1,
+					1
+				]
+			},
+			"*-halitequarry": {
+				"schematiccode": "halitequarry",
+				"waypointtext": "location-halitequarry",
 				"offset": { "x": 0, "y": 0, "z": 0 },
 				"waypointicon": "x",
 				"waypointcolor": [

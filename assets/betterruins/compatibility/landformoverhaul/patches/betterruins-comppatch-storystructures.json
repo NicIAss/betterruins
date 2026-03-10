@@ -154,5 +154,17 @@
         "modid": "landformoverhaul"
       }
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/13/requireLandform",
+    "value": "cr plains",
+    "file": "betterruins:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "landformoverhaul"
+      }
+    ]
   }
 ]
