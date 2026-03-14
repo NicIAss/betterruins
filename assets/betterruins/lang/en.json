@@ -605,9 +605,9 @@
 
 
     "dialogue-newalwaysmore": "Aye, there's always more work to do. I might have something for you to do ...",
-    "dialogue-anythingspecialtosell": "Anything special you are selling currently?",
-    "dialogue-fromwheredoyougetall": "From where do you get all those valuable items?",
-    "dialogue-imbackandibring": "I'm back, and I bring with an intact Globe.",
+    "dialogue-anythingspecialtosell": "[BR Quest] Anything special you are selling currently?",
+    "dialogue-fromwheredoyougetall": "[BR Quest] From where do you get all those valuable items?",
+    "dialogue-imbackandibring": "[BR Quest] I'm back, and I bring with an intact Globe.",
     "dialogue-couldyouremindme": "Could you remind me where you\nthought the location marked on the Globe was?",
     "dialogue-ahyouhavecometotherightplace": "Ah, you’ve come to the right person. I deal in opportunities most wouldn’t dare entertain. Tell me - are you the sort who seeks the rare and the extraordinary? If so, I have a map that may interest you. It marks the location of an ancient tower once used by a renowned group of warriors, the Forlorn Hope. Ever heard of them?",
     "The Forlorn Hope? Tell me more.": "The Forlorn Hope? Tell me more.",
@@ -649,8 +649,8 @@
 
 
 
-    "betterruins:Do you know anything interesting around here?": "Do you know anything interesting around here?",
-    "betterruins:I have the meteoric knife you asked for. Here take it.": "I have the meteoric knife you asked for. Here take it.",
+    "betterruins:Do you know anything interesting around here?": "[BR Quest] Do you know anything interesting around here?",
+    "betterruins:I have the meteoric knife you asked for. Here take it.": "[BR Quest] I have the meteoric knife you asked for. Here take it.",
     "betterruins:There are whispers, traveler. Tales passed from one sun-scorched tongue to the next - of a place far beneath the dunes. An ancient tomb, where four trade empires once crossed paths and secrets were locked away in silence. It's not on any common map... but I may possess something rare.": "There are whispers, traveler. Tales passed from one sun-scorched tongue to the next - of a place far beneath the dunes. An ancient tomb, where four trade empires once crossed paths and secrets were locked away in silence. It's not on any common map... but I may possess something rare.",
     "betterruins:Why hasn't anyone gone after it?": "Why hasn't anyone gone after it?",
     "betterruins:Show me the map.": "Show me the map.",
@@ -732,9 +732,9 @@
 
 
     "betterruins:Ahh I see I will try to get you those gears and return.": "Ahh I see I will try to get you those gears and return.",
-    "betterruins:You probably wander the world a lot. Heard many stories?": "You probably wander the world a lot. Heard many stories?",
-    "betterruins:Can you remind me where the location with the sun symbol was?": "Can you remind me where the location with the sun symbol was?",
-    "betterruins:I have the pickaxe in exchange for the map with the sun.": "I have the pickaxe in exchange for the map with the sun.",
+    "betterruins:You probably wander the world a lot. Heard many stories?": "[BR Quest] You probably wander the world a lot. Heard many stories?",
+    "betterruins:Can you remind me where the location with the sun symbol was?": "[BR Quest] Can you remind me where the location with the sun symbol was?",
+    "betterruins:I have the pickaxe in exchange for the map with the sun.": "[BR Quest] I have the pickaxe in exchange for the map with the sun.",
     "betterruins:There are plenty of stories. They gather like dirt on boots. Listening to them is certainly safer than checking them.": "There are plenty of stories. They gather like dirt on boots. Listening to them is certainly safer than checking them.",
     "betterruins:Is there one? Not too old.": "Is there one? Not too old.",
     "betterruins:I understand. I'll step away.": "I understand. I'll step away.",
