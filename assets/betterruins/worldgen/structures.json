@@ -352,6 +352,7 @@
 		"overground/main/translocators/o1/translocator-niclass-o1-0103": -1,
 		"overground/main/translocators/o1/translocator-niclass-o1-0104": -1,
 		"overground/main/translocators/o2/translocator-niclass-o2-0201": -2,
+		"overground/main/translocators/o2/translocator-niclass-o2-0202": -2,
 		"overground/main/translocators/o2/translocator-niclass-o2-0203": -2,
 		"overground/main/translocators/o2/translocator-niclass-o2-0204": -2,
 		"overground/main/translocators/o2/translocator-niclass-o2-0205": -2,
@@ -1248,7 +1249,7 @@
 			"name": "surface-translocators-3",
 			"group": "translocators",
 			"minGroupDistance": 1600,
-			"chance": 0.006,
+			"chance": 0.01,
 			"placement": "surface",
 			"replacewithblocklayers": [
 				"game:soil-low-none",
