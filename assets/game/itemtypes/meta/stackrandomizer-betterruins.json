@@ -942,6 +942,672 @@
 					  "avg": 7,
 					  "var": 6
 					}
+				},
+				{
+					"type": "block",
+					"code": "diamond-stone-clean-aged",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "diamond-stone-dark-aged",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "diamond-stone-light-aged",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "diamond-stone-mixed-aged",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "cobblestone-obsidian",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "stonebrickstairs-travertine-up-north-free",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "stonebricks-travertine",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "agedstonebricks-travertine",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "stonebrickslab-travertine-down-free",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "rock-travertine",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-ash-cracked",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-blue-cracked",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-brown-cracked",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-browngolden-cracked",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-brownlight-cracked",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-brownweathered-cracked",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-tan-cracked",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-ash-normal",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-blue-normal",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-brown-normal",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-browngolden-normal",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-brownlight-normal",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-brownweathered-normal",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-tan-normal",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "diamond-stone-clean",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "diamond-stone-dark",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "diamond-stone-light",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "diamond-stone-mixed",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-green-cracked",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-orange-cracked",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-pink-cracked",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-yellow-cracked",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-green-normal",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-orange-normal",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-pink-normal",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "daub-yellow-normal",
+					"quantity": {
+						"avg": 50,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "rammed-light-plain",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "mudbrickslab-light-down-free",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "stonepath-free",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "stonepathslab-free",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "stonepathstairs-up-north-free",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "planks-agedebony-ud",
+					"quantity": {
+						"avg": 30,
+						"var": 20
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "planks-rottenebony-ud",
+					"quantity": {
+						"avg": 30,
+						"var": 20
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "plankstairs-veryaged-up-north-free",
+					"quantity": {
+						"avg": 40,
+						"var": 20
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "planks-aged-ud",
+					"quantity": {
+						"avg": 40,
+						"var": 20
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "planks-agedacacia-ud",
+					"quantity": {
+						"avg": 40,
+						"var": 20
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "plankslab-veryaged-down-free",
+					"quantity": {
+						"avg": 40,
+						"var": 20
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "burnedplanks-normal-blackened-ud",
+					"quantity": {
+						"avg": 30,
+						"var": 20
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "burnedplanks-narrow-charred-ud",
+					"quantity": {
+						"avg": 30,
+						"var": 20
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "burnedplanks-normal-charred-ud",
+					"quantity": {
+						"avg": 30,
+						"var": 20
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "burnedplanks-narrow-scorched-ud",
+					"quantity": {
+						"avg": 30,
+						"var": 20
+					},
+					"chance": 100
+				},
+				{
+					"type": "block",
+					"code": "altar-north",
+					"quantity": {
+						"avg": 1,
+						"var": 0
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:shingle-burned-gray",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:shingle-burned-fire",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:shingle-burned-red",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:shingle-burned-brown",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:shingle-burned-black",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:shingle-burned-cream",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:shingle-burned-orange",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:shingle-burned-tan",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:tile-stone-travertine",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:claytile-fired-center-red",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:claytile-fired-circle-red",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:claytile-fired-plain-red",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:claytile-fired-plain-blue",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:claytile-fired-plain-fire",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:claytile-fired-plain-black",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:claytile-fired-plain-brown",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:claytile-fired-plain-cream",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:claytile-fired-plain-earthyorange",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:claytile-fired-plain-gray",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:claytile-fired-plain-orange",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:claytile-fired-plain-tan",
+					"quantity": {
+						"avg": 45,
+						"var": 10
+					},
+					"chance": 100
+				},
+				{
+					"type": "item",
+					"code": "game:mortar",
+					"quantity": {
+						"avg": 120,
+						"var": 50
+					},
+					"chance": 100
 				}
 			  ]
 		},
