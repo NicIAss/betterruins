@@ -916,6 +916,204 @@
         "width": 2,
         "height": 2,
         "output": {"type": "Block", "code": "game:flowerpot-tenmoku" }
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "ctode": "game:clayplanter-cream-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-blue" },
+				"requiresLitres": 1
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clayplanter-seasalt" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:clayplanter-cream-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-black" },
+				"requiresLitres": 1
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clayplanter-tenmoku" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": { "type": "Block", "code": "game:clayplanter-black-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-green" },
+				"requiresLitres": 1
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clayplanter-undergrowth" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:clayplanter-black-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-orange" },
+				"requiresLitres": 1
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clayplanter-earthern" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:clayplanter-black-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-white" },
+				"requiresLitres": 1
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clayplanter-loam" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:clayplanter-fire-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-black" },
+				"requiresLitres": 1
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clayplanter-ochre" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": { "type": "Block", "code": "game:clayplanter-blue-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-white" },
+				"requiresLitres": 1
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clayplanter-rime" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:clayplanter-fire-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-white" },
+				"requiresLitres": 1
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clayplanter-amber" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:clayplanter-black-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-blue" },
+				"requiresLitres": 1
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clayplanter-ashforest" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:clayplanter-gray-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-red" },
+				"requiresLitres": 1
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clayplanter-copper" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": { "type": "Block", "code": "game:clayplanter-gray-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-orange" },
+				"requiresLitres": 1
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clayplanter-cthonic" }
     }
 
 
