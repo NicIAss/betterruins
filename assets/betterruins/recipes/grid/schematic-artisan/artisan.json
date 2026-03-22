@@ -738,9 +738,185 @@
         "width": 2,
         "height": 2,
         "output": {"type": "Block", "code": "game:storagevessel-waves", "attributes": { "type": "normal" } }
+    },
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:flowerpot-fire-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-orange" },
+				"requiresLitres": 0.5
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:flowerpot-amber" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:flowerpot-gray-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-gray" },
+				"requiresLitres": 0.5
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:flowerpot-boneash" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:flowerpot-black-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-white" },
+				"requiresLitres": 0.5
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:flowerpot-celadon" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:flowerpot-gray-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-red" },
+				"requiresLitres": 0.5
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:flowerpot-copper" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:flowerpot-cream-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-gray" },
+				"requiresLitres": 0.5
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:flowerpot-earthern" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:flowerpot-black-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-green" },
+				"requiresLitres": 0.5
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:flowerpot-moss" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:flowerpot-fire-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-black" },
+				"requiresLitres": 0.5
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:flowerpot-ochre" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:flowerpot-cream-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-woad" },
+				"requiresLitres": 0.5
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:flowerpot-rutile" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:flowerpot-cream-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-blue" },
+				"requiresLitres": 0.5
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:flowerpot-seasalt" }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:flowerpot-cream-fired" },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-black" },
+				"requiresLitres": 0.5
+			}
+		},		
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:flowerpot-tenmoku" }
     }
-
-
 
 
 
