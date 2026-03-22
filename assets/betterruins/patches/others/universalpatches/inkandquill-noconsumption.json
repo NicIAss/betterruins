@@ -1,9 +1,0 @@
-[
-  {
-    "op": "add",
-    "path": "/attributes/noConsumeOnCrafting",
-    "value": true,
-    "file": "game:itemtypes/tool/inkandquill.json",
-    "side": "Server"
-  }
-]
