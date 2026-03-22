@@ -1,4 +1,4 @@
-{
+﻿{
     "lore-wolfstone-title": "Wolfstone Kastalinn",
     "lore-darkheat-title": "Myrkvaði Hitinn",
     "lore-lastwall-title": "Síðasti Standandi Veggurinn",
@@ -42,7 +42,6 @@
     "villages_spawn_chance": "Þorps Uppsprettu líkur",
     "villages_spawn_chance_comment": "Hefur áhrif á líkur á uppsprettu allra þorpa sem eru hópar af smærri byggingum nálægt hvort öðrum (ekki byggingar).",
     "megastructures_min_distance": "Lágmarks Fjarlægð Risabygginga",
-    "lore": "Sagnafróðleiks Víxlstilling",
     "megastructures_min_spawn_distance": "Lágmarks fjarlægð frá Uppsprettu (spawn)",
     "villages_min_distance": "Lágmarks fjarlægð"
 }

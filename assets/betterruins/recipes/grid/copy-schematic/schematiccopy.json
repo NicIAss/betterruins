@@ -3,8 +3,8 @@
     "ingredients": {
         "I": {
             "type": "Item",
-            "code": "game:inkandquill"
-			
+            "code": "game:inkandquill",
+            "consume": false 			
         },
         "S": {
             "type": "item",

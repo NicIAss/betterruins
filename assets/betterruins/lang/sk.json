@@ -1,4 +1,4 @@
-{
+﻿{
     "lore-wolfstone-title": "Hrad Wolfstone",
     "lore-wolfstone-piece1": "Čiastočne zrúcaný hrad Wolfstone má bohatú históriu, ktorá sa začala pred storočiami, keď to bola iba jedna štvorcová veža, postavená na dohľad nad cennými banskými ložiskami v okolí. Veža bola postavená s veľkou starostlivosťou, pretože bane boli pre ekonomiku a bezpečnosť regiónu životne dôležité. Časom sa veža ukázala ako odolná štruktúra, ktorá odolala skúške času a živlom.\r\n\r\nAko roky plynuli, veža bola darovaná novo povýšenému barónovi za jeho úspechy v nejakej vojne. Barón bol vďačný za dar a usilovne pracoval na rozšírení veže na plnohodnotný hrad, pričom pridal priekopu a pevné múry na ochranu oblasti. Hrad sa naďalej rozvíjal a rozširoval pod vedením potomkov pôvodného baróna, keď bane boli čoraz prosperujúce.\r\n\r\nHrad bol pomenovaný podľa svorky vlkov, ktorí žili v okolitých oblastiach a ktorých miestni ľudia uctievali pre ich divokú silu a odolnosť. Tak sa hrad stal známym ako Wolfstone, meno, ktoré pretrvávalo po stáročia.\r\n\r\nPosledný pán Wolfstone bol náruživý čitateľ a spisovateľ, ktorý strávil mnoho hodín prehliadaním rozsiahlej zbierky kníh v hradnej knižnici. Bol to vzdelaný muž s bystrým intelektom a hlbokým pochopením sveta okolo seba. Často trávil dlhé hodiny čítaním pri ohni, stratený v myšlienkach, keď premýšľal o záhadách života.\r\n\r\nNapriek svojej láske ku knihám bol posledný pán Wolfstone tiež divoký bojovník, ktorý statočne viedol svoj ľud do boja. Bol to spravodlivý a čestný vládca, ktorý sa hlboko staral o svoj ľud a neúnavne pracoval na zabezpečení ich bezpečnosti a prosperity. Napriek jeho najlepším snahám však hrad nakoniec upadol do zániku, keď bane začali vysychať a okolitá oblasť sa stala menej prosperujúcou.\r\n\r\nDnes čiastočne zrúcaný hrad Wolfstone stojí ako svedectvo dávnej doby, pripomienka bohatých histórií a tradícií, ktoré formovali svet okolo nás.                     ",
     "game:ingamediscovery-lore-wolfstonecastle": "Objavená história 'Hrad Wolfstone'\r\nČasť {0} / {1}\r\n<font size=\"20\">Stlačte J na otvorenie denníka</font>",
@@ -99,7 +99,6 @@
     "game:location-gates": "Skrytý priechod",
     "game:location-undergroundruins": "Podzemné úkryt",
     "game:location-forlornhopetower": "Veža Forlorn Hope",
-    "game:location-giantcathedral": "Veľká katedrála",
     "game:location-forlornhopedungeon": "Bastion Forlorn",
     "game:location-university": "Univerzita",
     "game:location-coalmine": "Uhoľná baňa",
@@ -113,14 +112,12 @@
     "item-locatormap-gates": "Mapa k skrytému priechodu",
     "item-locatormap-undergroundruins": "Mapa k podzemnému úkrytu",
     "item-locatormap-forlornhopetower": "Mapa k veži Forlorn Hope",
-    "item-locatormap-giantcathedral": "Mapa k veľkej katedrále",
     "item-locatormap-forlornhopedungeon": "Mapa k bastionu Forlorn",
     "item-locatormap-university": "Mapa k univerzite",
     "itemdesc-locatormap-*": "Mapa vedúca k skrytej lokalite. Použite ju na nájdenie vchodu do skrytej oblasti.\n(Pravým tlačidlom myši označte na mape)",
     "betterruins:item-handbooktext-betterruins:locatormap-forlornhopetower": "<strong>Hovorte s</strong>\nObchodníkom s luxusným tovarom",
     "betterruins:item-handbooktext-betterruins:locatormap-forlornhopedungeon": "<strong>Nájdete v</strong>\nVeži Forlorn Hope",
     "betterruins:item-handbooktext-betterruins:locatormap-university": "<strong>Hovorte s</strong>\nObchodníkom s luxusným tovarom",
-    "betterruins:item-handbooktext-betterruins:locatormap-giantcathedral": "<strong>Hovorte s</strong>\nWilfredom Ivorom Prescottom",
     "betterruins:item-handbooktext-betterruins:locatormap-coalmine": "<strong>Nájdete v</strong>\nZriedkavo v akýchkoľvek ruinách",
     "betterruins:item-handbooktext-betterruins:locatormap-mine1": "<strong>Nájdete v</strong>\nZriedkavo v akýchkoľvek ruinách",
     "betterruins:item-handbooktext-betterruins:locatormap-mine2": "<strong>Nájdete v</strong>\nZriedkavo v akýchkoľvek ruinách",
