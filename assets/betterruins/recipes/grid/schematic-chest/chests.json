@@ -16,7 +16,7 @@
         "ingredients": {
             "B": {type: "Item", code: "game:plank-aged", quantity: 2 },
             "S": {"type": "Item", "code": "br-schematic-chest", "consume": false },
-            "M": {type: "Block", code: "game:saw-*", isTool: true}
+            "M": {type: "Item", code: "game:saw-*", isTool: true}
         },
         "width": 3,
         "height": 3,
