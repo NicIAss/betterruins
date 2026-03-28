@@ -4,8 +4,8 @@
     "path": "/attributesByType/*-clayproducts/stacks/-",
     "value": {
       "type": "block",
-      "code": "primitivesurvival:pslargemold-burned-fishinglure",
-      "chance": 80
+      "code": "primitivesurvival:pstoolmold-blue-fired-fishinglure",
+      "chance": 10
     },
     "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
     "side": "Server",
@@ -20,8 +20,8 @@
     "path": "/attributesByType/*-clayproducts/stacks/-",
     "value": {
       "type": "block",
-      "code": "primitivesurvival:pslargemold-burned-metalfishinghook",
-      "chance": 80
+      "code": "primitivesurvival:pstoolmold-fire-fired-fishinglure",
+      "chance": 10
     },
     "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
     "side": "Server",
@@ -36,8 +36,8 @@
     "path": "/attributesByType/*-clayproducts/stacks/-",
     "value": {
       "type": "block",
-      "code": "primitivesurvival:pslargemold-burned-spikeplate",
-      "chance": 80
+      "code": "primitivesurvival:pstoolmold-black-fired-fishinglure",
+      "chance": 10
     },
     "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
     "side": "Server",
@@ -52,8 +52,504 @@
     "path": "/attributesByType/*-clayproducts/stacks/-",
     "value": {
       "type": "block",
-      "code": "primitivesurvival:irrigationvessel-normal",
-      "chance": 80
+      "code": "primitivesurvival:pstoolmold-brown-fired-fishinglure",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-cream-fired-fishinglure",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-gray-fired-fishinglure",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-orange-fired-fishinglure",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-red-fired-fishinglure",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-tan-fired-fishinglure",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-blue-fired-metalfishinghook",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-fire-fired-metalfishinghook",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-black-fired-metalfishinghook",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-brown-fired-metalfishinghook",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-cream-fired-metalfishinghook",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-gray-fired-metalfishinghook",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-orange-fired-metalfishinghook",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-red-fired-metalfishinghook",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-blue-fired-spikeplate",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-fire-fired-spikeplate",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-black-fired-spikeplate",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-brown-fired-spikeplate",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-cream-fired-spikeplate",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-gray-fired-spikeplate",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-orange-fired-spikeplate",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-red-fired-spikeplate",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-tan-fired-spikeplate",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:irrigationvessel-fire",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:irrigationvessel-black",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:irrigationvessel-brown",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:irrigationvessel-cream",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:irrigationvessel-gray",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:irrigationvessel-orange",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:pstoolmold-blue-raw-fishinglure",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:irrigationvessel-red",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:irrigationvessel-tan",
+      "chance": 10
     },
     "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
     "side": "Server",
