@@ -34,16 +34,6 @@
 				},
 				{
 				  "type": "item",
-				  "code": "miningbagsturdy",
-				  "chance": 40
-				},
-				{
-				  "type": "item",
-				  "code": "backpack-sturdy",
-				  "chance": 40
-				},
-				{
-				  "type": "item",
 				  "code": "linensack",
 				  "chance": 400
 				},

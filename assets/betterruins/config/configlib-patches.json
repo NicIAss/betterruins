@@ -255,8 +255,6 @@
         "attributesByType/*-backpack/stacks/6/chance": "LOOT * value",
         "attributesByType/*-backpack/stacks/7/chance": "LOOT * value",
         "attributesByType/*-backpack/stacks/8/chance": "LOOT * value",
-        "attributesByType/*-backpack/stacks/9/chance": "LOOT * value",
-        "attributesByType/*-backpack/stacks/10/chance": "LOOT * value",
         "attributesByType/*-buildingblocks/stacks/0/chance": "LOOT * value",
         "attributesByType/*-buildingblocks/stacks/1/chance": "LOOT * value",
         "attributesByType/*-buildingblocks/stacks/2/chance": "LOOT * value",
