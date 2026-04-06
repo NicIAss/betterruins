@@ -143,12 +143,6 @@
 					"maxQuantity": 1
 				},
 				{
-					"path": "overground/main/village-forest/all/village-forest-0202-o3-par",
-					"weight": 100,
-					"minQuantity": 0,
-					"maxQuantity": 1
-				},
-				{
 					"path": "overground/main/village-forest/all/village-forest-0203-o3-par",
 					"weight": 100,
 					"minQuantity": 0,
@@ -222,12 +216,6 @@
 				},
 				{
 					"path": "overground/main/village-forest/all/village-forest-0304-o8-virrno",
-					"weight": 100,
-					"minQuantity": 0,
-					"maxQuantity": 1
-				},
-				{
-					"path": "overground/main/village-forest/all/village-forest-0305-o3-ifoz",
 					"weight": 100,
 					"minQuantity": 0,
 					"maxQuantity": 1
