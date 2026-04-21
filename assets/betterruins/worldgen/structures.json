@@ -218,12 +218,9 @@
 		"overground/main/largeruins/0101-femursnapper-largeruin-o7": -5,
 		"overground/main/largeruins/0102-femursnapper-largeruin-o7": -6,
 		"overground/main/largeruins/0103-femursnapper-largeruin-o7": -6,
-		"overground/main/largeruins/0104-freianofvoid-largeruin-o7": -8,
 		"overground/main/largeruins/0701-femursnapper-largeruin-o4": -4,
 		"overground/main/largeruins/0702-femursnapper-largeruin-o4": -4,
 		"overground/main/largeruins/0105-dampus-largeruin-o7": -6,
-		"overground/main/largeruins/0106-niclass-largeruin-o7": -6,
-		"overground/main/largeruins/0107-niclass-largeruin-o7": -6,
 		"overground/main/largeruins/0201-ifoz-largeruin-o11": -10,
 		"overground/main/largeruins/0202-ifoz-largeruin-o11": -10,
 		"overground/main/largeruins/0203-ifoz-largeruin-o11": -10,
@@ -1765,90 +1762,12 @@
 			"MinSpawnDistance": 2500
 		},
 		{
-			"code": "largeruins-0104-freianofvoid-o7",
-			"chance": 0.008,
-			"minGroupDistance": 2800,
-			"group": "largeruins",
-			"schematics": [
-				"overground/main/largeruins/0104-freianofvoid-largeruin-o7"
-			],
-			"suppressTrees": true,
-			"suppressWaterfalls": true,
-			"rockTypeRemapGroup": "standard",
-			"replacewithblocklayers": [
-				"game:soil-low-none",
-				"game:soil-medium-none",
-				"game:soil-medium-normal",
-				"game:soil-low-normal",
-				"game:forestfloor-1",
-				"game:soil-verylow-normal",
-				"game:soil-verylow-none",
-				"game:soil-verylow-sparse",
-				"game:soil-verylow-verysparse",
-				"game:gravel-granite"
-			],
-			"MaxBelowSealevel": 2,
-			"MinSpawnDistance": 2500
-		},
-		{
 			"code": "largeruins-0105-dampus-o7",
 			"chance": 0.002,
 			"minGroupDistance": 2800,
 			"group": "largeruins",
 			"schematics": [
 				"overground/main/largeruins/0105-dampus-largeruin-o7"
-			],
-			"suppressTrees": true,
-			"suppressWaterfalls": true,
-			"rockTypeRemapGroup": "standard",
-			"replacewithblocklayers": [
-				"game:soil-low-none",
-				"game:soil-medium-none",
-				"game:soil-medium-normal",
-				"game:soil-low-normal",
-				"game:forestfloor-1",
-				"game:soil-verylow-normal",
-				"game:soil-verylow-none",
-				"game:soil-verylow-sparse",
-				"game:soil-verylow-verysparse",
-				"game:gravel-granite"
-			],
-			"MaxBelowSealevel": 2,
-			"MinSpawnDistance": 2500
-		},
-		{
-			"code": "largeruins-0106-niclass-o7",
-			"chance": 0.0005,
-			"minGroupDistance": 2800,
-			"group": "largeruins",
-			"schematics": [
-				"overground/main/largeruins/0106-niclass-largeruin-o7"
-			],
-			"suppressTrees": true,
-			"suppressWaterfalls": true,
-			"rockTypeRemapGroup": "standard",
-			"replacewithblocklayers": [
-				"game:soil-low-none",
-				"game:soil-medium-none",
-				"game:soil-medium-normal",
-				"game:soil-low-normal",
-				"game:forestfloor-1",
-				"game:soil-verylow-normal",
-				"game:soil-verylow-none",
-				"game:soil-verylow-sparse",
-				"game:soil-verylow-verysparse",
-				"game:gravel-granite"
-			],
-			"MaxBelowSealevel": 2,
-			"MinSpawnDistance": 2500
-		},
-		{
-			"code": "largeruins-0107-niclass-o7",
-			"chance": 0.0005,
-			"minGroupDistance": 2800,
-			"group": "largeruins",
-			"schematics": [
-				"overground/main/largeruins/0107-niclass-largeruin-o7"
 			],
 			"suppressTrees": true,
 			"suppressWaterfalls": true,
