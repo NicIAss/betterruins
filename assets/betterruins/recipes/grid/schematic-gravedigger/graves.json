@@ -1,0 +1,141 @@
+[
+    {
+        ingredientPattern: "XC,_B,_S",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-gravedigger", "consume": false },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
+            "B": {type: "Block", code: "game:cobblestone-*" },
+            "S": {type: "Item", code: "game:stone-*" , quantity: 8 },
+            
+        },
+        width: 2,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "gravestone-1"  , "collected": true} }
+    },
+    {
+        ingredientPattern: "XC,_B,_B",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-gravedigger", "consume": false },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
+            "B": {type: "Block", code: "game:cobblestone-*" }
+            
+        },
+        width: 2,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "gravestone-2"  , "collected": true} }
+    },
+    {
+        ingredientPattern: "XC,_B",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-gravedigger", "consume": false },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
+            "B": {type: "Block", code: "game:cobblestone-*" }
+            
+        },
+        width: 2,
+        height: 2,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "gravestone-4"  , "collected": true} }
+    },
+    {
+        ingredientPattern: "XC,_W,_B",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-gravedigger", "consume": false },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
+            "W": {type: "Item", code: "game:plank-*" , quantity: 3},
+            "B": {type: "Item", code: "game:stone-*" , quantity: 8 }
+            
+        },
+        width: 2,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "gravestone-3"  , "collected": true} }
+    },
+    {
+        ingredientPattern: "XC,_W,_B",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-gravedigger", "consume": false },
+            "C": {type: "Item", code: "game:clutter-skull/humanoid" },
+            "W": {type: "Item", code: "game:stick" },
+            "B": {type: "Item", code: "game:stone-*" , quantity: 1 }
+            
+        },
+        width: 2,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "gravestone-5" , "collected": true} }
+    },
+
+
+
+    {
+        ingredientPattern: "XC,_B,_S",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-gravedigger", "consume": false },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
+            "B": {type: "Block", code: "game:cobblestone-*" },
+            "S": {type: "Item", code: "game:stone-*" , quantity: 8 },
+            
+        },
+        width: 2,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "gravestone-1" } }
+    },
+    {
+        ingredientPattern: "XC,_B,_B",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-gravedigger", "consume": false },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
+            "B": {type: "Block", code: "game:cobblestone-*" }
+            
+        },
+        width: 2,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "gravestone-2" } }
+    },
+    {
+        ingredientPattern: "XC,_B",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-gravedigger", "consume": false },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
+            "B": {type: "Block", code: "game:cobblestone-*" }
+            
+        },
+        width: 2,
+        height: 2,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "gravestone-4" } }
+    },
+    {
+        ingredientPattern: "XC,_W,_B",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-gravedigger", "consume": false },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
+            "W": {type: "Item", code: "game:plank-*" , quantity: 3},
+            "B": {type: "Item", code: "game:stone-*" , quantity: 8 }
+            
+        },
+        width: 2,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "gravestone-3" } }
+    },
+    {
+        ingredientPattern: "XC,_W,_B",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-gravedigger", "consume": false },
+            "C": {type: "Item", code: "game:clutter-skull/humanoid" },
+            "W": {type: "Item", code: "game:stick" },
+            "B": {type: "Item", code: "game:stone-*" , quantity: 1 }
+            
+        },
+        width: 2,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "gravestone-5" } }
+    }
+]

@@ -500,6 +500,17 @@
     "betterruins:item-handbooktext-betterruins:br-schematic-artisan": "<strong>Found in</strong>\nRare in any ruin",
     "item-br-schematic-pipes": "Plumber's Blueprint",
     "betterruins:item-handbooktext-betterruins:br-schematic-pipes": "<strong>Found in</strong>\nRare in any ruin",
+    "item-br-schematic-gravedigger": "Gravedigger's Blueprint",
+    "betterruins:item-handbooktext-betterruins:br-schematic-gravedigger": "<strong>Found in</strong>\nRare in any ruin",
+    "item-br-schematic-cartwright": "Cartwright's Blueprint",
+    "betterruins:item-handbooktext-betterruins:br-schematic-cartwright": "<strong>Found in</strong>\nRare in any ruin",
+    "item-br-schematic-toymaker": "Toymaker's Blueprint",
+    "betterruins:item-handbooktext-betterruins:br-schematic-toymaker": "<strong>Found in</strong>\nRare in any ruin",
+    "item-br-schematic-carpenter": "Carpenter's Blueprint",
+    "betterruins:item-handbooktext-betterruins:br-schematic-carpenter": "<strong>Found in</strong>\nRare in any ruin",
+    "item-br-schematic-alchemist": "Alchemist's Blueprint",
+    "betterruins:item-handbooktext-betterruins:br-schematic-alchemist": "<strong>Found in</strong>\nRare in any ruin",
+
 
 
     "itemdesc-br-schematic-*": "These Blueprints are reusable, containing the secrets of forgotten recipes crafted by masters of their trade.\n\n(Note: Clutter items will appear twice in the recipe browser right below here. The lower ones will work the others will not be clickable.)",
@@ -561,7 +572,7 @@
     "underground_title": "Underground",
     "graves_title": "Graves",
     "loot_title": "Loot",
-    "blueprints_spawn_chance_title": "Blueprints Spawn Chance",
+    "blueprints_spawn_chance_title": "Blueprint Duplication Toggle",
     "waystones_title": "Waystones",
     "monoliths_title": "Monoliths",
     "megastructure_wallsegment": "Megastructure Wallsegment",

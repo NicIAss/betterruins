@@ -1,0 +1,111 @@
+[
+    {
+        "ingredientPattern": "PPP,SXS,BBB",
+        "recipeGroup": 333,
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-carpenter", "consume": false },
+            "S": {"type": "Item", "code": "game:stick" , "quantity": 2 },
+            "P": {"type": "Block", "code": "game:plankslab-*-down-free" },
+            "B": {"type": "Item", "code": "game:plank-*" , "quantity": 1}
+            
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "stall1x1-crude" } }
+    },
+    {
+        "ingredientPattern": "X_,BB",
+        "recipeGroup": 333,
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-carpenter", "consume": false },
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "stall1x1-crude" } }
+            
+        },
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "stall2x1-crude" } }
+    },
+    {
+        "ingredientPattern": "PPP,SXS,BBB",
+        "recipeGroup": 333,
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-carpenter", "consume": false },
+            "S": {"type": "Block", "code": "game:supportbeam-*" },
+            "P": {"type": "Block", "code": "game:plankslab-*-down-free" },
+            "B": {"type": "Item", "code": "game:plank-*" , "quantity": 1}
+            
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "stall1x1-plain" } }
+    },
+    {
+        "ingredientPattern": "X_,BB",
+        "recipeGroup": 333,
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-carpenter", "consume": false },
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "stall1x1-plain" } }
+            
+        },
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "stall2x1-plain" } }
+    },
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "BXB,BBB,S_S",
+        "recipeGroup": 333,
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-carpenter", "consume": false },
+            "S": {"type": "Item", "code": "game:stick" },
+            "B": {"type": "Item", "code": "game:plank-*" , "quantity": 1}
+            
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "angledstall1x1-crude" } }
+    },
+    {
+        "ingredientPattern": "X_,BB",
+        "recipeGroup": 333,
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-carpenter", "consume": false },
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "angledstall1x1-crude" } }
+            
+        },
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "angledstall2x1-crude" } }
+    },
+    {
+        "ingredientPattern": "BXB,BBB,S_S",
+        "recipeGroup": 333,
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-carpenter", "consume": false },
+            "S": {"type": "Block", "code": "game:supportbeam-*" },
+            "B": {"type": "Item", "code": "game:plank-*" , "quantity": 1}
+            
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "angledstall1x1-plain" } }
+    },
+    {
+        "ingredientPattern": "X_,BB",
+        "recipeGroup": 333,
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-carpenter", "consume": false },
+            "B": {"type": "Block", "code": "game:clutter", "attributes": { "type": "angledstall1x1-plain" } }
+            
+        },
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "angledstall2x1-plain" } }
+    }
+]

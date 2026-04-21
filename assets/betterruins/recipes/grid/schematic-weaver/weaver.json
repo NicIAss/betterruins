@@ -320,5 +320,297 @@
         "width": 2,
         "height": 2,
         "output": {type: "Block", code: "game:wallpaper-lightgreen", "quantity": 32}
+    },
+
+
+
+    {
+        "ingredientPattern": "_X_,PPP",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
+            "P": {type: "Item", code: "game:papyrustops" }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {type: "Block", code: "game:paper-flat-ragged" , "quantity": 3}
+    },
+    {
+        "ingredientPattern": "XP",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
+            "P": {type: "Block", code: "game:paper-flat-ragged"}
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:paper-roll-ragged" }
+    },
+    {
+        "ingredientPattern": "XP",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
+            "P": {type: "Block", code: "game:paper-roll-ragged" }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:paper-lifted-ragged" }
+    },
+    {
+        "ingredientPattern": "XP",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
+            "P": {type: "Block", code: "game:paper-lifted-ragged" }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:paper-tear-ragged" }
+    },
+    {
+        "ingredientPattern": "XP",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-weaver", "consume": false },
+            "P": {type: "Block", code: "game:paper-tear-ragged" }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:paper-flat-ragged"}
+    },
+
+
+
+
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Item", "code": "game:cloth-plain" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth1" , "collected":true } }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth1" , "collected":true } }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth2" , "collected":true } }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth2" , "collected":true } }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth3" , "collected":true } }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth3" , "collected":true } }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth4" , "collected":true } }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth4" , "collected":true } }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth5" , "collected":true } }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth5" , "collected":true } }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth1" , "collected":true } }
+    },
+
+
+
+
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Item", "code": "game:cloth-plain" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth1" } }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth1" } }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth2" } }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth2" } }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth3" } }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth3" } }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth4" } }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth4" } }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth5" } }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth5" } }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "pile-cloth1" } }
+    },
+
+
+
+
+
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Item", "code": "game:linensack" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "sacks1" , "collected":true} }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Block", "code": "game:clutter", "attributes": { "type": "sacks1" , "collected":true} }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "sacks2" , "collected":true} }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Block", "code": "game:clutter", "attributes": { "type": "sacks2" , "collected":true} }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "sacks3" , "collected":true} }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Block", "code": "game:clutter", "attributes": { "type": "sacks3" , "collected":true} }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "sacks1" , "collected":true} }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": {"type": "Item", "code": "game:sewingkit" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pile-sewingkit" , "collected":true} }
+    },
+
+
+
+
+
+
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Item", "code": "game:linensack" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "sacks1" } }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Block", "code": "game:clutter", "attributes": { "type": "sacks1" } }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "sacks2" } }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Block", "code": "game:clutter", "attributes": { "type": "sacks2" } }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "sacks3" } }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": { "type": "Block", "code": "game:clutter", "attributes": { "type": "sacks3" } }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "Block", "code": "game:clutter", "attributes": { "type": "sacks1" } }
+    },
+    {
+        "ingredientPattern": "X,P",
+        "ingredients": {
+        "X": { "type": "Item", "code": "br-schematic-weaver", "consume": false },
+        "P": {"type": "Item", "code": "game:sewingkit" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "pile-sewingkit" } }
     }
 ]

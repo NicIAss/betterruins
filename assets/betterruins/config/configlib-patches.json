@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "patches": {
     "float": {
       "betterruins:patches/modconfig/overallspawnchance.json": {
@@ -96,9 +96,9 @@
         "structures/87/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "structures/88/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "structures/89/chance": "LARGERUINS_SPAWN_CHANCE * value",
-        "structures/90/chance": "LARGERUINS_SPAWN_CHANCE * value",
-        "structures/91/chance": "LARGERUINS_SPAWN_CHANCE * value",
-        "structures/92/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "structures/90/chance": "UNDERGROUND_SPAWN_CHANCE * value",
+        "structures/91/chance": "UNDERGROUND_SPAWN_CHANCE * value",
+        "structures/92/chance": "UNDERGROUND_SPAWN_CHANCE * value",
         "structures/93/chance": "UNDERGROUND_SPAWN_CHANCE * value",
         "structures/94/chance": "UNDERGROUND_SPAWN_CHANCE * value",
         "structures/95/chance": "UNDERGROUND_SPAWN_CHANCE * value",
@@ -110,27 +110,24 @@
         "structures/101/chance": "UNDERGROUND_SPAWN_CHANCE * value",
         "structures/102/chance": "UNDERGROUND_SPAWN_CHANCE * value",
         "structures/103/chance": "UNDERGROUND_SPAWN_CHANCE * value",
-        "structures/104/chance": "UNDERGROUND_SPAWN_CHANCE * value",
-        "structures/105/chance": "UNDERGROUND_SPAWN_CHANCE * value",
-        "structures/106/chance": "UNDERGROUND_SPAWN_CHANCE * value",
+        "structures/104/chance": "GRAVES_SPAWN_CHANCE * value",
+        "structures/105/chance": "GRAVES_SPAWN_CHANCE * value",
+        "structures/106/chance": "GRAVES_SPAWN_CHANCE * value",
         "structures/107/chance": "GRAVES_SPAWN_CHANCE * value",
         "structures/108/chance": "GRAVES_SPAWN_CHANCE * value",
         "structures/109/chance": "GRAVES_SPAWN_CHANCE * value",
         "structures/110/chance": "GRAVES_SPAWN_CHANCE * value",
-        "structures/111/chance": "GRAVES_SPAWN_CHANCE * value",
-        "structures/112/chance": "GRAVES_SPAWN_CHANCE * value",
-        "structures/113/chance": "GRAVES_SPAWN_CHANCE * value",
-        "structures/114/chance": "MONOLITH_SPAWN_CHANCE * value",
+        "structures/111/chance": "MONOLITH_SPAWN_CHANCE * value",
+        "structures/112/chance": "WAYSTONES_SPAWN_CHANCE * value",
+        "structures/113/chance": "WAYSTONES_SPAWN_CHANCE * value",
+        "structures/114/chance": "WAYSTONES_SPAWN_CHANCE * value",
         "structures/115/chance": "WAYSTONES_SPAWN_CHANCE * value",
         "structures/116/chance": "WAYSTONES_SPAWN_CHANCE * value",
         "structures/117/chance": "WAYSTONES_SPAWN_CHANCE * value",
         "structures/118/chance": "WAYSTONES_SPAWN_CHANCE * value",
         "structures/119/chance": "WAYSTONES_SPAWN_CHANCE * value",
         "structures/120/chance": "WAYSTONES_SPAWN_CHANCE * value",
-        "structures/121/chance": "WAYSTONES_SPAWN_CHANCE * value",
-        "structures/122/chance": "WAYSTONES_SPAWN_CHANCE * value",
-        "structures/123/chance": "WAYSTONES_SPAWN_CHANCE * value",
-        "structures/124/chance": "LARGERUINS_SPAWN_CHANCE * value"
+        "structures/121/chance": "LARGERUINS_SPAWN_CHANCE * value"
       },
       "betterruins:worldgen/villages.json": {
         "villageTypes/0/chance": "VSVILLAGE_SPAWN_CHANCE * value",
@@ -255,8 +252,6 @@
         "attributesByType/*-backpack/stacks/6/chance": "LOOT * value",
         "attributesByType/*-backpack/stacks/7/chance": "LOOT * value",
         "attributesByType/*-backpack/stacks/8/chance": "LOOT * value",
-        "attributesByType/*-backpack/stacks/9/chance": "LOOT * value",
-        "attributesByType/*-backpack/stacks/10/chance": "LOOT * value",
         "attributesByType/*-buildingblocks/stacks/0/chance": "LOOT * value",
         "attributesByType/*-buildingblocks/stacks/1/chance": "LOOT * value",
         "attributesByType/*-buildingblocks/stacks/2/chance": "LOOT * value",
@@ -900,9 +895,6 @@
         "structures/87/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "structures/88/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "structures/89/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
-        "structures/90/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
-        "structures/91/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
-        "structures/92/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "structures/45/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
         "structures/46/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
         "structures/47/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
@@ -948,38 +940,35 @@
         "structures/87/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
         "structures/88/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
         "structures/89/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
-        "structures/90/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
-        "structures/91/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
-        "structures/92/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "structures/104/minGroupDistance": "GRAVES_MIN_DISTANCE",
+        "structures/105/minGroupDistance": "GRAVES_MIN_DISTANCE",
+        "structures/106/minGroupDistance": "GRAVES_MIN_DISTANCE",
         "structures/107/minGroupDistance": "GRAVES_MIN_DISTANCE",
         "structures/108/minGroupDistance": "GRAVES_MIN_DISTANCE",
         "structures/109/minGroupDistance": "GRAVES_MIN_DISTANCE",
         "structures/110/minGroupDistance": "GRAVES_MIN_DISTANCE",
-        "structures/111/minGroupDistance": "GRAVES_MIN_DISTANCE",
-        "structures/112/minGroupDistance": "GRAVES_MIN_DISTANCE",
-        "structures/113/minGroupDistance": "GRAVES_MIN_DISTANCE",
-        "structures/114/minGroupDistance": "MONOLITH_MIN_DISTANCE",
-        "structures/114/MinSpawnDistance": "MONOLITH_MIN_SPAWN_DISTANCE",
+        "structures/111/minGroupDistance": "MONOLITH_MIN_DISTANCE",
+        "structures/111/MinSpawnDistance": "MONOLITH_MIN_SPAWN_DISTANCE",
+        "structures/112/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
+        "structures/113/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
+        "structures/114/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
         "structures/115/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
         "structures/116/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
         "structures/117/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
         "structures/118/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
         "structures/119/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
         "structures/120/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
-        "structures/121/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
-        "structures/122/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
-        "structures/123/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
+        "structures/112/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
+        "structures/113/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
+        "structures/114/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
         "structures/115/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
         "structures/116/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
         "structures/117/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
         "structures/118/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
         "structures/119/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
         "structures/120/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
-        "structures/121/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
-        "structures/122/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
-        "structures/123/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
-        "structures/124/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
-        "structures/124/minGroupDistance": "LARGERUINS_MIN_DISTANCE"
+        "structures/121/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "structures/121/minGroupDistance": "LARGERUINS_MIN_DISTANCE"
       },
       "betterruins:worldgen/villages.json": {
         "villageTypes/0/minGroupDistance": "VSVILLAGE_MIN_DISTANCE",
@@ -1484,282 +1473,6 @@
         "range": {
           "min": 0.0,
           "max": 100.0
-        }
-      },
-      "SCHEMATIC_DOOR": {
-        "name": "schematic_door",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-door",
-        "default": 3.0,
-        "weight": 28.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_BED": {
-        "name": "schematic_bed",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-bed",
-        "default": 3.0,
-        "weight": 28.1,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_CHEST": {
-        "name": "schematic_chest",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-chest",
-        "default": 3.0,
-        "weight": 28.2,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_CRATE": {
-        "name": "schematic_crate",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-crate",
-        "default": 3.0,
-        "weight": 28.3,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_GASLAMP": {
-        "name": "schematic_gaslamp",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-gaslamp",
-        "default": 3.0,
-        "weight": 28.4,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_JONASLAMP": {
-        "name": "schematic_jonaslamp",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-jonaslamp",
-        "default": 3.0,
-        "weight": 28.5,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_BANNER": {
-        "name": "schematic_banner",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-banner",
-        "default": 3.0,
-        "weight": 28.6,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_TABLE": {
-        "name": "schematic_table",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-table",
-        "default": 3.0,
-        "weight": 28.7,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_STONE": {
-        "name": "schematic_stone",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-stone",
-        "default": 3.0,
-        "weight": 28.8,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_WOOD": {
-        "name": "schematic_wood",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-wood",
-        "default": 3.0,
-        "weight": 28.9,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_ANCIENT": {
-        "name": "schematic_ancient",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-ancient",
-        "default": 3.0,
-        "weight": 29.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_CANDLE": {
-        "name": "schematic_candle",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-candle",
-        "default": 3.0,
-        "weight": 29.1,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_ROAD": {
-        "name": "schematic_road",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-road",
-        "default": 3.0,
-        "weight": 29.2,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_MECHANICAL": {
-        "name": "schematic_mechanical",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-mechanical",
-        "default": 1.5,
-        "weight": 29.3,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_JONASPART": {
-        "name": "schematic_jonaspart",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-jonaspart",
-        "default": 1.5,
-        "weight": 29.4,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_JONASASSEMBLY": {
-        "name": "schematic_jonasassembly",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-jonasassembly",
-        "default": 1.5,
-        "weight": 29.5,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_ROOFING": {
-        "name": "schematic_roofing",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-roofing",
-        "default": 3.0,
-        "weight": 29.22,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_PALISADE": {
-        "name": "schematic_palisade",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-palisade",
-        "default": 3.0,
-        "weight": 29.221,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_FARMER": {
-        "name": "schematic_farmer",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-farmer",
-        "default": 3.0,
-        "weight": 29.222,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_SHIPWRIGHT": {
-        "name": "schematic_shipwright",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-shipwright",
-        "default": 3.0,
-        "weight": 29.223,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_WEAVER": {
-        "name": "schematic_weaver",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-weaver",
-        "default": 3.0,
-        "weight": 29.2231,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_ARTISAN": {
-        "name": "schematic_artisan",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-artisan",
-        "default": 3.0,
-        "weight": 29.2232,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
-        }
-      },
-      "SCHEMATIC_PIPES": {
-        "name": "schematic_pipes",
-        "comment": "betterruins:universal_schematic_comment",
-        "ingui": "betterruins:item-br-schematic-pipes",
-        "default": 3.0,
-        "weight": 29.2233,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 1000
         }
       }
     },

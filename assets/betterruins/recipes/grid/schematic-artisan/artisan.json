@@ -932,7 +932,7 @@
         "ingredientPattern": "XC,_V",
         "ingredients": {
             "C": { "type": "Block", "code": "game:bowl-*-fired" },
-            "V": {"type": "Block", "ctode": "game:clayplanter-cream-fired" },
+            "V": {"type": "Block", "code": "game:clayplanter-cream-fired" },
             "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
         },
         "attributes": {
