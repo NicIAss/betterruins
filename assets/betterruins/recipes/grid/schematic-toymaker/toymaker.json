@@ -1,0 +1,718 @@
+[
+  {
+    "ingredientPattern": "XFS,HCH,W_W",
+    "recipeGroup": 333,
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "F": { "type": "Item", "code": "game:flaxtwine" },
+      "S": { "type": "Item", "code": "game:flaxfibers", "quantity": 2 },
+      "H": { "type": "Item", "code": "game:drygrass", "quantity": 2 },
+      "C": { "type": "Item", "code": "game:cloth-plain" },
+      "W": { "type": "Item", "code": "game:stick" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy1", "collected": true }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy1", "collected": true }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy2", "collected": true }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy2", "collected": true }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy3", "collected": true }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy3", "collected": true }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy4", "collected": true }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy4", "collected": true }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy5", "collected": true }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy5", "collected": true }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy6", "collected": true }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy6", "collected": true }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy7", "collected": true }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy7", "collected": true }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy8", "collected": true }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy8", "collected": true }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy9", "collected": true }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy9", "collected": true }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy10", "collected": true }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy10", "collected": true }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy11", "collected": true }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy11", "collected": true }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy12", "collected": true }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy12", "collected": true }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy13", "collected": true }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy13", "collected": true }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy14", "collected": true }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy14", "collected": true }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy15", "collected": true }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy15", "collected": true }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy16", "collected": true }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy16", "collected": true }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy1", "collected": true }
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+    {
+    "ingredientPattern": "XFS,HCH,W_W",
+    "recipeGroup": 333,
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "F": { "type": "Item", "code": "game:flaxtwine" },
+      "S": { "type": "Item", "code": "game:flaxfibers", "quantity": 2 },
+      "H": { "type": "Item", "code": "game:drygrass", "quantity": 2 },
+      "C": { "type": "Item", "code": "game:cloth-plain" },
+      "W": { "type": "Item", "code": "game:stick" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy1" }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy1" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy2" }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy2" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy3" }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy3" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy4" }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy4" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy5" }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy5" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy6" }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy6" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy7" }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy7" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy8" }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy8" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy9" }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy9" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy10" }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy10" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy11" }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy11" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy12" }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy12" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy13" }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy13" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy14" }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy14" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy15" }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy15" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy16" }
+    }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "toy16" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "toy1" }
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+    {
+    "ingredientPattern": "XFS,HCH,WNW",
+    "recipeGroup": 333,
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "F": { "type": "Item", "code": "game:flaxtwine" },
+      "S": { "type": "Item", "code": "game:flaxfibers", "quantity": 2 },
+      "H": { "type": "Item", "code": "game:drygrass", "quantity": 2 },
+      "C": { "type": "Item", "code": "game:cloth-plain" },
+      "W": { "type": "Item", "code": "game:stick" },
+      "N": {"type": "Block", "code": "game:clutter", "attributes": { "type": "crate/crate-medium-empty" , "collected": true } }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "crate/medium-toybox1" , "collected": true} }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {"type": "Block", "code": "game:clutter", "attributes": { "type": "crate/medium-toybox1" , "collected": true} }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "crate/medium-toybox2" , "collected": true} }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {"type": "Block", "code": "game:clutter", "attributes": { "type": "crate/medium-toybox2" , "collected": true} }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "crate/medium-toybox1" , "collected": true} }
+  },
+
+
+
+
+
+
+    {
+    "ingredientPattern": "XFS,HCH,WNW",
+    "recipeGroup": 333,
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "F": { "type": "Item", "code": "game:flaxtwine" },
+      "S": { "type": "Item", "code": "game:flaxfibers", "quantity": 2 },
+      "H": { "type": "Item", "code": "game:drygrass", "quantity": 2 },
+      "C": { "type": "Item", "code": "game:cloth-plain" },
+      "W": { "type": "Item", "code": "game:stick" },
+      "N": {"type": "Block", "code": "game:clutter", "attributes": { "type": "crate/crate-medium-empty" } }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "crate/medium-toybox1" } }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {"type": "Block", "code": "game:clutter", "attributes": { "type": "crate/medium-toybox1" } }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "crate/medium-toybox2" } }
+  },
+  {
+    "ingredientPattern": "X,P",
+    "ingredients": {
+      "X": { "type": "Item", "code": "br-schematic-toymaker", "consume": false },
+      "P": {"type": "Block", "code": "game:clutter", "attributes": { "type": "crate/medium-toybox2" } }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "Block", "code": "game:clutter", "attributes": { "type": "crate/medium-toybox1" } }
+  }
+
+
+
+]

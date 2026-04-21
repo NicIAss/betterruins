@@ -226,6 +226,35 @@
 
 
     {
+        "ingredientPattern": "HX,B_",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
+            "B": {
+                "type": "block",
+                "code": "game:supportbeam-aged",
+                "quantity": 3
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true,
+                "toolDurabilityCost": 5
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "game:banner-segment",
+            "attributes": {
+                "type": "segment",
+                "collected": true
+            }
+        }
+    },
+
+
+    {
         "ingredientPattern": "HX,B_,N_",
         "ingredients": {
             "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
@@ -247,14 +276,8 @@
         },
         "width": 2,
         "height": 3,
-        "output": {
-            "type": "block",
-            "code": "game:banner-segment",
-            "attributes": {
-                "type": "segment",
-                "collected": true
-            }
-        }
+        "output": {"type": "Block", "code": "game:banner-bottom", "attributes": { "type": "bottom" ,
+                "collected": true} }
     },
 
 
@@ -734,6 +757,34 @@
 
 
     {
+        "ingredientPattern": "HX,B_",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
+            "B": {
+                "type": "block",
+                "code": "game:supportbeam-aged",
+                "quantity": 3
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true,
+                "toolDurabilityCost": 5
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "game:banner-segment",
+            "attributes": {
+                "type": "segment"
+            }
+        }
+    },
+
+
+    {
         "ingredientPattern": "HX,B_,N_",
         "ingredients": {
             "X": {"type": "Item", "code": "br-schematic-banner", "consume": false },
@@ -755,17 +806,8 @@
         },
         "width": 2,
         "height": 3,
-        "output": {
-            "type": "block",
-            "code": "game:banner-segment",
-            "attributes": {
-                "type": "segment"
-            }
-        }
+        "output": {"type": "Block", "code": "game:banner-bottom", "attributes": { "type": "bottom" } }
     },
-
-
-
 
 
 

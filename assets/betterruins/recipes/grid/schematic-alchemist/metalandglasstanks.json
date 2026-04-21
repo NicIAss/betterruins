@@ -1,0 +1,206 @@
+[
+
+
+    {
+        "ingredientPattern": "SX_,X_X,_X_",
+        "ingredients": {
+            "X": {type: "Block", code: "game:glassslab-plain-down-free" },
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-medium-empty" } },
+            "S": {"type": "Item", "code": "br-schematic-alchemist", "consume": false }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "tank-glass1" , "collected": true} }
+    },
+
+    {
+        "ingredientPattern": "SX_,P_P,_X_",
+        "ingredients": {
+            "X": {type: "Block", code: "game:glassslab-plain-down-free" },
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-medium-empty" } },
+            "P": {type: "Item", code: "game:metalplate-*" },
+            "S": {"type": "Item", "code": "br-schematic-alchemist", "consume": false }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "tank-glass5" , "collected": true} }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "S_I,PXP",
+        "ingredients": {
+            "I": { type: "item", code: "game:solderingiron", isTool: true, toolDurabilityCost: 1 },
+            "P": {type: "Item", code: "game:metalplate-copper" },
+            "X": {type: "Item", code: "game:solderbar-tin" },
+            "S": {"type": "Item", "code": "br-schematic-alchemist", "consume": false }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "tank-metal1", "collected": true } }
+    },
+
+    {
+        "ingredientPattern": "SNI,PXP,_N_",
+        "ingredients": {
+            "I": { type: "item", code: "game:solderingiron", isTool: true, toolDurabilityCost: 1 },
+            "P": {type: "Item", code: "game:metalplate-copper" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-copper" },
+            "X": {type: "Item", code: "game:solderbar-tin" },
+            "S": {"type": "Item", "code": "br-schematic-alchemist", "consume": false }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "tank-metal2" , "collected": true} }
+    },
+
+    {
+        "ingredientPattern": "S_I,PXP,NPN",
+        "ingredients": {
+            "I": { type: "item", code: "game:solderingiron", isTool: true, toolDurabilityCost: 1 },
+            "P": {type: "Item", code: "game:metalplate-copper" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-copper" },
+            "X": {type: "Item", code: "game:solderbar-tin" },
+            "S": {"type": "Item", "code": "br-schematic-alchemist", "consume": false }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "tank-metal3", "collected": true } }
+    },
+
+    {
+        "ingredientPattern": "SN_,HPI,_X_",
+        "ingredients": {
+            "I": { type: "item", code: "game:solderingiron", isTool: true, toolDurabilityCost: 1 },
+            "P": {type: "Item", code: "game:metalplate-copper" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-copper" },
+            "X": {type: "Item", code: "game:solderbar-tin" },
+            "H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 3 },
+            "S": {"type": "Item", "code": "br-schematic-alchemist", "consume": false }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "cauldron-empty" , "collected": true } }
+    },
+
+
+
+
+
+
+
+
+
+
+
+    
+    {
+        "ingredientPattern": "SX_,X_X,_X_",
+        "ingredients": {
+            "X": {type: "Block", code: "game:glassslab-plain-down-free" },
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-medium-empty" } },
+            "S": {"type": "Item", "code": "br-schematic-alchemist", "consume": false }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "tank-glass1" } }
+    },
+
+    {
+        "ingredientPattern": "SX_,P_P,_X_",
+        "ingredients": {
+            "X": {type: "Block", code: "game:glassslab-plain-down-free" },
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-medium-empty" } },
+            "P": {type: "Item", code: "game:metalplate-*" },
+            "S": {"type": "Item", "code": "br-schematic-alchemist", "consume": false }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "tank-glass5" } }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "S_I,PXP",
+        "ingredients": {
+            "I": { type: "item", code: "game:solderingiron", isTool: true, toolDurabilityCost: 1 },
+            "P": {type: "Item", code: "game:metalplate-copper" },
+            "X": {type: "Item", code: "game:solderbar-tin" },
+            "S": {"type": "Item", "code": "br-schematic-alchemist", "consume": false }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "tank-metal1" } }
+    },
+
+    {
+        "ingredientPattern": "SNI,PXP,_N_",
+        "ingredients": {
+            "I": { type: "item", code: "game:solderingiron", isTool: true, toolDurabilityCost: 1 },
+            "P": {type: "Item", code: "game:metalplate-copper" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-copper" },
+            "X": {type: "Item", code: "game:solderbar-tin" },
+            "S": {"type": "Item", "code": "br-schematic-alchemist", "consume": false }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "tank-metal2" } }
+    },
+
+    {
+        "ingredientPattern": "S_I,PXP,NPN",
+        "ingredients": {
+            "I": { type: "item", code: "game:solderingiron", isTool: true, toolDurabilityCost: 1 },
+            "P": {type: "Item", code: "game:metalplate-copper" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-copper" },
+            "X": {type: "Item", code: "game:solderbar-tin" },
+            "S": {"type": "Item", "code": "br-schematic-alchemist", "consume": false }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "tank-metal3" } }
+    },
+
+    {
+        "ingredientPattern": "SN_,HPI,_X_",
+        "ingredients": {
+            "I": { type: "item", code: "game:solderingiron", isTool: true, toolDurabilityCost: 1 },
+            "P": {type: "Item", code: "game:metalplate-copper" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-copper" },
+            "X": {type: "Item", code: "game:solderbar-tin" },
+            "H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 3 },
+            "S": {"type": "Item", "code": "br-schematic-alchemist", "consume": false }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "cauldron-empty" } }
+    }
+]

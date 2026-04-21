@@ -1,0 +1,140 @@
+[
+    {
+        ingredientPattern: "NB_,BXB,_B_",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-cartwright", "consume": false },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" , skipVariants: ["blackbronze"]},
+            "B": {type: "Item", code: "game:plank-*" , "quantity": 2}
+            
+        },
+        width: 3,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "wheel-spoked", "collected": true} }
+    },
+    {
+        ingredientPattern: "NB_,BXB,_B_",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-cartwright", "consume": false },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" , allowedVariants: ["blackbronze"]},
+            "B": {type: "Item", code: "game:plank-*" , "quantity": 2}
+            
+        },
+        width: 3,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "wheel-spoked-rusty", "collected": true} }
+    },
+
+    {
+        ingredientPattern: "NBB,BXB,BBB",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-cartwright", "consume": false },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" , skipVariants: ["blackbronze"]},
+            "B": {type: "Item", code: "game:plank-*" , "quantity": 2}
+            
+        },
+        width: 3,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "wheel-solid", "collected": true} }
+    },
+    {
+        ingredientPattern: "NBB,BXB,BBB",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-cartwright", "consume": false },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" , allowedVariants: ["blackbronze"]},
+            "B": {type: "Item", code: "game:plank-*" , "quantity": 2}
+            
+        },
+        width: 3,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "wheel-solid-rusty", "collected": true} }
+    },
+    {
+        ingredientPattern: "NBB,BXB,BBB",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-cartwright", "consume": false },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*"},
+            "B": {type: "Block", code: "game:supportbeam-aged" , "quantity": 2}
+            
+        },
+        width: 3,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "wheel-large", "collected": true} }
+    },
+
+
+
+
+
+
+    {
+        ingredientPattern: "NB_,BXB,_B_",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-cartwright", "consume": false },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" , skipVariants: ["blackbronze"]},
+            "B": {type: "Item", code: "game:plank-*" , "quantity": 2}
+            
+        },
+        width: 3,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "wheel-spoked"} }
+    },
+    {
+        ingredientPattern: "NB_,BXB,_B_",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-cartwright", "consume": false },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" , allowedVariants: ["blackbronze"]},
+            "B": {type: "Item", code: "game:plank-*" , "quantity": 2}
+            
+        },
+        width: 3,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "wheel-spoked-rusty"} }
+    },
+
+    {
+        ingredientPattern: "NBB,BXB,BBB",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-cartwright", "consume": false },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" , skipVariants: ["blackbronze"]},
+            "B": {type: "Item", code: "game:plank-*" , "quantity": 2}
+            
+        },
+        width: 3,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "wheel-solid"} }
+    },
+    {
+        ingredientPattern: "NBB,BXB,BBB",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-cartwright", "consume": false },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" , allowedVariants: ["blackbronze"]},
+            "B": {type: "Item", code: "game:plank-*" , "quantity": 2}
+            
+        },
+        width: 3,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "wheel-solid-rusty"} }
+    },
+    {
+        ingredientPattern: "NBB,BXB,BBB",
+        "recipeGroup": 333,
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-cartwright", "consume": false },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*"},
+            "B": {type: "Block", code: "game:supportbeam-aged" , "quantity": 2}
+            
+        },
+        width: 3,
+        height: 3,
+        output: {type: "Block", code: "game:clutter", attributes: { "type": "wheel-large"} }
+    }
+]

@@ -1,6 +1,7 @@
 [
   {
     "op": "addmerge",
+    "side": "Server",
     "path": "/attributes/panningDrops/@(sand|gravel|sandwavy)-.*/-",
     "value": {
       "type": "item",
