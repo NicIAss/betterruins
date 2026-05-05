@@ -127,7 +127,8 @@
         "structures/118/chance": "WAYSTONES_SPAWN_CHANCE * value",
         "structures/119/chance": "WAYSTONES_SPAWN_CHANCE * value",
         "structures/120/chance": "WAYSTONES_SPAWN_CHANCE * value",
-        "structures/121/chance": "LARGERUINS_SPAWN_CHANCE * value"
+        "structures/121/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "structures/123/chance": "LARGERUINS_SPAWN_CHANCE * value"
       },
       "betterruins:worldgen/villages.json": {
         "villageTypes/0/chance": "VSVILLAGE_SPAWN_CHANCE * value",
@@ -968,7 +969,9 @@
         "structures/119/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
         "structures/120/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
         "structures/121/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
-        "structures/121/minGroupDistance": "LARGERUINS_MIN_DISTANCE"
+        "structures/121/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "structures/123/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
+        "structures/123/minGroupDistance": "LARGERUINS_MIN_DISTANCE"
       },
       "betterruins:worldgen/villages.json": {
         "villageTypes/0/minGroupDistance": "VSVILLAGE_MIN_DISTANCE",
