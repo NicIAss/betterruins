@@ -3375,6 +3375,20 @@
 			"offsety": -63,
 			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 8000
+		{
+			"code": "gates",
+			"chance": 10,
+			"name": "underground-translocator-uncommon",
+			"placement": "underground",
+			"schematics": [
+				"underground/underground-translocator-sirayne/*"
+			],
+			"depth": {
+				"dist": "invexp",
+				"avg": 50,
+				"var": 30
+			},
+			"rockTypeRemapGroup": "standard"
 		}
 	]
 }
