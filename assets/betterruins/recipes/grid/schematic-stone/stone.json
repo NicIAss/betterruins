@@ -110,7 +110,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
-            "B": {type: "Block", code: "game:cobblestone-*", name: "rock", skipVariants: ["whitemarble", "suevite", "redmarble", "kimberlite", "greenmarble", "coral", "obsidian"]}
+            "B": {type: "Block", code: "game:cobblestone-*", name: "rock", skipVariants: ["whitemarble", "suevite", "redmarble", "kimberlite", "greenmarble", "coral", "obsidian", "junk"]}
         },
         "width": 1,
         "height": 3,
@@ -341,7 +341,7 @@
         "ingredientPattern": "XC_,TPB",
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone", "consume": false },
-            "T": {type: "Item", code: "game:stone-*" , name:"rock", skipVariants: ["tuff", "suevite", "scoria", "kimberlite", "meteorite-iron", "obsidian", "halite", "whitemarble", "redmarble", "greenmarble", "travertine"],"quantity": 4},
+            "T": {type: "Item", code: "game:stone-*" , name:"rock", skipVariants: ["tuff", "suevite", "scoria", "kimberlite", "meteorite-iron", "obsidian", "halite", "whitemarble", "redmarble", "greenmarble", "travertine", "junk"],"quantity": 4},
             "C": {type: "Item", code: "game:clay-*" },
             "B": {type: "Item", code: "game:bone" ,"quantity": 2 },
             "P": {type: "Block", code: "game:bonysoil"}

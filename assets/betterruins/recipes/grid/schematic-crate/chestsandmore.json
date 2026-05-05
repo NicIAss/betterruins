@@ -3,7 +3,7 @@
     {
         "ingredientPattern": "B,S",
         "ingredients": {
-            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
+            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "closed", "type": "wood-aged" } },
             "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
@@ -20,7 +20,7 @@
         "ingredientPattern": "X,B,S",
         "ingredients": {
             "X": {type: "Block", code: "game:spiderweb" },
-            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
+            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "closed", "type": "wood-aged" } },
             "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
@@ -32,7 +32,7 @@
         "ingredientPattern": "X,B,S",
         "ingredients": {
             "X": {type: "Block", code: "game:metal-scraps" },
-            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
+            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "closed", "type": "wood-aged" } },
             "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
@@ -44,7 +44,7 @@
         "ingredientPattern": "X,B,S",
         "ingredients": {
             "X": {type: "Block", code: "game:crucible-*-fired" },
-            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
+            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "closed", "type": "wood-aged" } },
             "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
@@ -56,7 +56,7 @@
         "ingredientPattern": "X,B,S",
         "ingredients": {
             "X": {type: "Item", code: "game:rot" },
-            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
+            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "closed", "type": "wood-aged" } },
             "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
@@ -71,7 +71,7 @@
         "ingredientPattern": "X,B,S",
         "ingredients": {
             "X": {type: "Item", code: "game:cloth-plain" },
-            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
+            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "closed", "type": "wood-aged" } },
             "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
@@ -370,7 +370,7 @@
     {
         "ingredientPattern": "B,S",
         "ingredients": {
-            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
+            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "closed", "type": "wood-aged" } },
             "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
@@ -387,7 +387,7 @@
         "ingredientPattern": "X,B,S",
         "ingredients": {
             "X": {type: "Block", code: "game:spiderweb" },
-            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
+            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "closed", "type": "wood-aged" } },
             "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
@@ -399,7 +399,7 @@
         "ingredientPattern": "X,B,S",
         "ingredients": {
             "X": {type: "Block", code: "game:metal-scraps" },
-            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
+            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "closed", "type": "wood-aged" } },
             "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
@@ -411,7 +411,7 @@
         "ingredientPattern": "X,B,S",
         "ingredients": {
             "X": {type: "Block", code: "game:crucible-*-fired" },
-            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
+            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "closed", "type": "wood-aged" } },
             "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
@@ -423,7 +423,7 @@
         "ingredientPattern": "X,B,S",
         "ingredients": {
             "X": {type: "Item", code: "game:rot" },
-            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
+            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "closed", "type": "wood-aged" } },
             "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
@@ -436,7 +436,7 @@
         "ingredientPattern": "X,B,S",
         "ingredients": {
             "X": {type: "Item", code: "game:cloth-plain" },
-            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
+            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "closed", "type": "wood-aged" } },
             "S": {"type": "Item", "code": "br-schematic-crate", "consume": false }
         },
         "width": 1,
