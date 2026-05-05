@@ -228,7 +228,7 @@
 		"recipeGroup": 333,
 		ingredients: {
 			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false },
-			"B": {type: "Block", code: "game:metalblock-new-riveted-*" , "name": "metal",skipVariants: ["bismuth", "brass", "chromium", "electrum", "meteoriciron", "molybdochalkos", "platinum", "nickel", "stainlesssteel", "tin", "titanium", "uranium", "zinc"] }
+			"B": {type: "Block", code: "game:metalblock-new-riveted-*" , "name": "metal",skipVariants: ["bismuth", "brass", "chromium", "electrum", "meteoriciron", "molybdochalkos", "platinum", "nickel", "stainlesssteel", "tin", "titanium", "uranium", "zinc", "carbonized"] }
 		},
 		width: 2,
 		height: 1,
@@ -336,7 +336,7 @@
 			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical", "consume": false},
 			"H": {type: "Item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2},
 			"N": {type: "Item", code: "game:metalnailsandstrips-*"},
-			"P": {type: "Item", code: "game:metalplate-*", name: "metal"}
+			"P": {type: "Item", code: "game:metalplate-*", name: "metal", skipVariants: ["carbonized"]}
 		},
 		width: 3,
 		height: 2,

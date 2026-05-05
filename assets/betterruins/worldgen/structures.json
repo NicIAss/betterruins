@@ -963,7 +963,7 @@
 			"code": "megastructures-undergroundlibrary-marlim",
 			"group": "megastructures",
 			"minGroupDistance": 5000,
-			"chance": 1.45,
+			"chance": 0.6,
 			"placement": "surface",
 			"schematics": [
 				"overground/megastructures/megastructure-12/*"
@@ -1188,7 +1188,7 @@
 			"name": "surface-translocators-1",
 			"group": "translocators",
 			"minGroupDistance": 1600,
-			"chance": 0.03,
+			"chance": 0.01,
 			"placement": "surface",
 			"replacewithblocklayers": [
 				"game:soil-low-none",
@@ -1244,7 +1244,7 @@
 			"name": "surface-translocators-3",
 			"group": "translocators",
 			"minGroupDistance": 1600,
-			"chance": 0.01,
+			"chance": 0.05,
 			"placement": "surface",
 			"replacewithblocklayers": [
 				"game:soil-low-none",
@@ -1386,7 +1386,7 @@
 				"game:soil-verylow-verysparse",
 				"game:dirtygravel-dry-stoney"
 			],
-			"chance": 0.015,
+			"chance": 0.008,
 			"schematics": [
 				"overground/main/surfaceunderground/virrnosdungeonwithtopentranceo34"
 			],
@@ -1435,7 +1435,7 @@
 			],
 			"minTemp": 25,
 			"maxTemp": 60,
-			"MaxBelowSealevel": 2,
+			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 500
 		},
 		{
@@ -1453,7 +1453,7 @@
 			],
 			"minTemp": 25,
 			"maxTemp": 60,
-			"MaxBelowSealevel": 2,
+			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 500
 		},
 		{
@@ -1471,7 +1471,7 @@
 			],
 			"minTemp": 25,
 			"maxTemp": 60,
-			"MaxBelowSealevel": 2,
+			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 500
 		},
 		{
@@ -1489,7 +1489,7 @@
 			],
 			"minTemp": 25,
 			"maxTemp": 60,
-			"MaxBelowSealevel": 2,
+			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 500
 		},
 		{
@@ -1507,7 +1507,7 @@
 			],
 			"minTemp": 25,
 			"maxTemp": 60,
-			"MaxBelowSealevel": 2,
+			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 500
 		},
 		{
@@ -1525,7 +1525,7 @@
 			],
 			"minTemp": 25,
 			"maxTemp": 60,
-			"MaxBelowSealevel": 2,
+			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 500
 		},
 		{
@@ -1543,7 +1543,7 @@
 			],
 			"minTemp": 25,
 			"maxTemp": 60,
-			"MaxBelowSealevel": 2,
+			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 500
 		},
 		{
@@ -1561,7 +1561,7 @@
 			],
 			"minTemp": 25,
 			"maxTemp": 60,
-			"MaxBelowSealevel": 2,
+			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 500
 		},
 		{
@@ -1579,7 +1579,7 @@
 			],
 			"minTemp": 25,
 			"maxTemp": 60,
-			"MaxBelowSealevel": 2,
+			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 500
 		},
 		{
@@ -1597,7 +1597,7 @@
 			],
 			"minTemp": 25,
 			"maxTemp": 60,
-			"MaxBelowSealevel": 2,
+			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 500
 		},
 		{
@@ -1619,7 +1619,7 @@
 			"maxRain": 0.3,
 			"minForest": 0,
 			"maxForest": 0.3,
-			"MaxBelowSealevel": 2,
+			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 500
 		},
 		{
@@ -1641,7 +1641,7 @@
 			"maxRain": 0.3,
 			"minForest": 0,
 			"maxForest": 0.3,
-			"MaxBelowSealevel": 2,
+			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 500
 		},
 		{
@@ -1658,7 +1658,7 @@
 				"game:soil-medium-none"
 			],
 			"minTemp": 25,
-			"MaxBelowSealevel": 2,
+			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 500
 		},
 		{
@@ -1680,7 +1680,7 @@
 			"maxRain": 1,
 			"minForest": 0.5,
 			"maxForest": 1,
-			"MaxBelowSealevel": 2,
+			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 500
 		},
 		{
@@ -2075,7 +2075,7 @@
 		},
 		{
 			"code": "largeruins-0404-vil-o7",
-			"chance": 0.01,
+			"chance": 0.001,
 			"minGroupDistance": 2800,
 			"group": "largeruins",
 			"schematics": [
@@ -2413,7 +2413,7 @@
 		},
 		{
 			"code": "largeruins-0608-sirayne-o7",
-			"chance": 0.008,
+			"chance": 0.002,
 			"minGroupDistance": 2800,
 			"group": "largeruins",
 			"schematics": [
@@ -2907,7 +2907,7 @@
 		},
 		{
 			"code": "undergroundruins",
-			"chance": 10,
+			"chance": 7,
 			"name": "underground-rare",
 			"placement": "underground",
 			"schematics": [
@@ -2922,7 +2922,7 @@
 		},
 		{
 			"code": "gates",
-			"chance": 8,
+			"chance": 16,
 			"name": "underground-translocator-common",
 			"placement": "underground",
 			"schematics": [
@@ -2932,7 +2932,7 @@
 		},
 		{
 			"code": "gates",
-			"chance": 6,
+			"chance": 2,
 			"name": "underground-translocator-common-lowerchance",
 			"placement": "underground",
 			"schematics": [
@@ -2942,7 +2942,7 @@
 		},
 		{
 			"code": "gates",
-			"chance": 3,
+			"chance": 2,
 			"name": "underground-translocator-uncommon",
 			"placement": "underground",
 			"schematics": [
@@ -2968,7 +2968,7 @@
 		{
 			"code": "undergroundruins",
 			"group": "rank-1",
-			"chance": 50,
+			"chance": 15,
 			"name": "underground-samgrey-1",
 			"schematics": [
 				"underground/rank-1/*"
@@ -3366,7 +3366,7 @@
 				"game:soil-verylow-verysparse",
 				"game:gravel-granite"
 			],
-			"chance": 0.005,
+			"chance": 0.0004,
 			"schematics": [
 				"overground/special/translocatornexus/translocatornexus-nybygget-o68"
 			],
@@ -3374,7 +3374,55 @@
 			"minY": 1,
 			"offsety": -63,
 			"MaxBelowSealevel": 0,
-			"MinSpawnDistance": 8000
+			"MinSpawnDistance": 12000
+		},
+		{
+			"code": "largeruins-largeruins-femur-o3-overgrownruin",
+			"chance": 0.006,
+			"minGroupDistance": 2800,
+			"group": "largeruins",
+			"schematics": [
+				"overground/main/largeruins/largeruins-femur-o3-overgrownruin"
+			],
+			"suppressTrees": true,
+			"suppressWaterfalls": true,
+			"rockTypeRemapGroup": "standard",
+			"replacewithblocklayers": [
+				"game:soil-low-none",
+				"game:soil-medium-none",
+				"game:soil-medium-normal",
+				"game:soil-low-normal",
+				"game:forestfloor-1",
+				"game:soil-verylow-normal",
+				"game:soil-verylow-none",
+				"game:soil-verylow-sparse",
+				"game:soil-verylow-verysparse",
+				"game:gravel-granite"
+			],
+			"MaxBelowSealevel": 1,
+			"offsety": -3,
+			"minTemp": -15,
+			"maxTemp": 30,
+			"minRain": 0.5,
+			"maxRain": 1,
+			"minForest": 0.7,
+			"maxForest": 1,
+			"MinSpawnDistance": 2500
+		},
+		{
+			"code": "gates",
+			"chance": 10,
+			"name": "underground-translocator-uncommon",
+			"placement": "underground",
+			"schematics": [
+				"underground/underground-translocator-sirayne/*"
+			],
+			"depth": {
+				"dist": "invexp",
+				"avg": 50,
+				"var": 30
+			},
+			"rockTypeRemapGroup": "standard"
 		}
 	]
 }

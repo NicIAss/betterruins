@@ -7,20 +7,6 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/creativeinventoryStacks/0/stacks/-",
-    "value": {
-      "type": "block",
-      "code": "crate",
-      "attributes": {
-        "lidState": "opened",
-        "type": "wood-aged"
-      }
-    },
-    "file": "game:blocktypes/wood/woodtyped/crate.json",
-    "side": "Server"
-  },
-  {
     "file": "game:blocktypes/roofing/beam-plane.json",
     "op": "replace",
     "path": "/attributes/handbook/exclude",
