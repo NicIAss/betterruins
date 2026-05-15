@@ -106,7 +106,7 @@
 			"game:ore-*-redmarble": "game:ore-*-{rock}",
 			"game:ore-*-greenmarble": "game:ore-*-{rock}",
 			"game:rock-granite": "game:rock-{rock}",
-			"game:crackedrock-granite": "game:rock-{rock}",
+			"game:crackedrock-granite": "game:crackedrock-{rock}",
 			"game:gravel-granite": "game:gravel-{rock}",
 			"game:sand-granite": "game:sand-{rock}",
 			"game:stalagsection-granite-04": "game:stalagsection-{rock}-04",
