@@ -1,5 +1,5 @@
 {
-	"chanceMultiplier": 0.04,
+	"chanceMultiplier": 0.08,
 	"villageTypes": [
 		{
 			"name": "village-vsvillage",
