@@ -237,7 +237,7 @@
 		"overground/main/largeruins/0406-vil-largeruin-o7": -6,
 		"overground/main/largeruins/0407-virrno-largeruin-o7": -6,
 		"overground/main/largeruins/0408-virrno-largeruin-o7": -6,
-		"overground/main/largeruins/0501-freianofvoid-largeruin-o10": -10,
+		"overground/main/largeruins/0501-freianofvoid-largeruin-o16": -16,
 		"overground/main/largeruins/0601-sirayne-largeruin-o7": -7,
 		"overground/main/largeruins/0602-sirayne-largeruin-o7": -7,
 		"overground/main/largeruins/0603-sirayne-largeruin-o7": -7,
@@ -2204,12 +2204,12 @@
 			"MinSpawnDistance": 2500
 		},
 		{
-			"code": "largeruins-0501-freianofvoid-o10",
+			"code": "largeruins-0501-freianofvoid-o16",
 			"chance": 0.005,
 			"minGroupDistance": 2800,
 			"group": "largeruins",
 			"schematics": [
-				"overground/main/largeruins/0501-freianofvoid-largeruin-o10"
+				"overground/main/largeruins/0501-freianofvoid-largeruin-o16"
 			],
 			"suppressTrees": true,
 			"suppressWaterfalls": true,
