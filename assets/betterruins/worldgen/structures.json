@@ -239,7 +239,7 @@
 		"overground/main/largeruins/0408-virrno-largeruin-o7": -6,
 		"overground/main/largeruins/0501-freianofvoid-largeruin-o16": -16,
 		"overground/main/largeruins/0601-sirayne-largeruin-o7": -7,
-		"overground/main/largeruins/0602-sirayne-largeruin-o7": -5,
+		"overground/main/largeruins/0602-sirayne-largeruin-o7": -4,
 		"overground/main/largeruins/0603-sirayne-largeruin-o7": -7,
 		"overground/main/largeruins/0604-sirayne-largeruin-o7": -6,
 		"overground/main/largeruins/0605-sirayne-largeruin-o7": -6,
@@ -3234,9 +3234,9 @@
 				"game:soil-verylow-sparse",
 				"game:soil-verylow-verysparse"
 			],
-			"chance": 0.014,
+			"chance": 0.01,
 			"schematics": [
-				"overground/special/waystones/bellcross/o3/*"
+				"overground/special/waystones/bellcross/o3/waystone-bellcross-o3-1"
 			],
 			"rockTypeRemapGroup": "standard",
 			"minY": 1,
@@ -3260,7 +3260,7 @@
 				"game:soil-verylow-sparse",
 				"game:soil-verylow-verysparse"
 			],
-			"chance": 0.001,
+			"chance": 0.002,
 			"schematics": [
 				"overground/special/waystones/bellcross/o1/*"
 			],
@@ -3423,6 +3423,58 @@
 				"var": 30
 			},
 			"rockTypeRemapGroup": "standard"
+		},
+		{
+			"code": "bellcross-waystones",
+			"name": "bellcross-waystones",
+			"group": "specialwaystones",
+			"minGroupDistance": 5000,
+			"replacewithblocklayers": [
+				"game:soil-low-none",
+				"game:soil-medium-none",
+				"game:soil-medium-normal",
+				"game:soil-low-normal",
+				"game:forestfloor-1",
+				"game:soil-verylow-normal",
+				"game:soil-verylow-none",
+				"game:soil-verylow-sparse",
+				"game:soil-verylow-verysparse"
+			],
+			"chance": 0.01,
+			"schematics": [
+				"overground/special/waystones/bellcross/o3/waystone-bellcross-o3-2"
+			],
+			"rockTypeRemapGroup": "standard",
+			"minY": 1,
+			"offsety": -3,
+			"MaxBelowSealevel": 0,
+			"MinSpawnDistance": 600
+		},
+		{
+			"code": "bellcross-waystones",
+			"name": "bellcross-waystones",
+			"group": "specialwaystones",
+			"minGroupDistance": 5000,
+			"replacewithblocklayers": [
+				"game:soil-low-none",
+				"game:soil-medium-none",
+				"game:soil-medium-normal",
+				"game:soil-low-normal",
+				"game:forestfloor-1",
+				"game:soil-verylow-normal",
+				"game:soil-verylow-none",
+				"game:soil-verylow-sparse",
+				"game:soil-verylow-verysparse"
+			],
+			"chance": 0.005,
+			"schematics": [
+				"overground/special/waystones/bellcross/o3/waystone-bellcross-o3-3"
+			],
+			"rockTypeRemapGroup": "standard",
+			"minY": 1,
+			"offsety": -3,
+			"MaxBelowSealevel": 0,
+			"MinSpawnDistance": 600
 		}
 	]
 }
