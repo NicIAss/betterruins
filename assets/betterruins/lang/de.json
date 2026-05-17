@@ -404,7 +404,7 @@
     "item-br-schematic-textureflipper": "Bauplan für den Temporalen Transfigurator",
     "betterruins:item-handbooktext-betterruins:br-schematic-textureflipper": "<strong>Gefunden in</strong>\nStory Struktur Universität",
     "game:clutter-globe1": "Großer Intakter Globus",
-    "universal_schematic_comment": "Legt die Wahrscheinlichkeit fest, mit der dieser Bauplan in Strukturen erscheinen kann. Ein höherer Wert erhöht die Spawn-Wahrscheinlichkeit. Auf 0 setzen, um das Spawnen zu deaktivieren, ohne das Item selbst zu deaktivieren.",
+    "universal_schematic_comment": "Legt die Wahrscheinlichkeit fest, mit der diese Blaupause in Strukturen erscheinen kann. Ein höherer Wert erhöht die Spawn-Wahrscheinlichkeit. Auf 0 setzen, um das Spawnen zu deaktivieren, ohne das Item selbst zu deaktivieren.",
     "universal_spawnchance": "Spawn-Chance",
     "universal_spawnchance_comment": "Legt die Wahrscheinlichkeit fest, mit der diese Struktur (innerhalb ihrer Gruppe, falls zutreffend) spawnen kann. Höhere Werte erhöhen die Spawn-Frequenz.",
     "universal_mindistance": "Mindestabstand",
