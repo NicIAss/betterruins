@@ -805,7 +805,7 @@
 			"code": "megastructures-wolfstonecastle-normalclimate-par",
 			"group": "megastructures",
 			"minGroupDistance": 5000,
-			"chance": 0.05,
+			"chance": 0.06,
 			"placement": "surface",
 			"schematics": [
 				"overground/megastructures/megastructure-7/megastructure7-5-normal",
@@ -829,7 +829,7 @@
 			"code": "megastructures-wolfstonecastle-forest-par",
 			"group": "megastructures",
 			"minGroupDistance": 5000,
-			"chance": 0.05,
+			"chance": 0.06,
 			"placement": "surface",
 			"schematics": [
 				"overground/megastructures/megastructure-7/megastructure7-7-forest",
@@ -853,7 +853,7 @@
 			"code": "megastructures-wolfstonecastle-dryclimate-par",
 			"group": "megastructures",
 			"minGroupDistance": 5000,
-			"chance": 0.05,
+			"chance": 0.06,
 			"placement": "surface",
 			"schematics": [
 				"overground/megastructures/megastructure-7/megastructure7-3-dry",
@@ -877,7 +877,7 @@
 			"code": "megastructures-wolfstonecastle-desert-par",
 			"group": "megastructures",
 			"minGroupDistance": 5000,
-			"chance": 0.05,
+			"chance": 0.06,
 			"placement": "surface",
 			"schematics": [
 				"overground/megastructures/megastructure-7/megastructure7-1-desert",
@@ -927,7 +927,7 @@
 			"code": "megastructures-forlornhopetower-common-niclass",
 			"group": "megastructures",
 			"minGroupDistance": 5000,
-			"chance": 0.07,
+			"chance": 0.05,
 			"placement": "surface",
 			"schematics": [
 				"overground/megastructures/megastructure-9/common/*"
@@ -945,7 +945,7 @@
 			"code": "megastructures-giantcathedral-dampus",
 			"group": "megastructures",
 			"minGroupDistance": 5000,
-			"chance": 15,
+			"chance": 10,
 			"placement": "surface",
 			"schematics": [
 				"overground/megastructures/megastructure-10/*"
@@ -987,7 +987,7 @@
 			"code": "megastructures-auldburg-dampusandtiggetagg",
 			"group": "megastructures",
 			"minGroupDistance": 5000,
-			"chance": 2.3,
+			"chance": 2.8,
 			"placement": "surface",
 			"schematics": [
 				"overground/megastructures/megastructure-15/*"
@@ -1038,7 +1038,7 @@
 			"code": "megastructures-aqueduct-dampus",
 			"group": "megastructures",
 			"minGroupDistance": 5000,
-			"chance": 0.04,
+			"chance": 0.03,
 			"placement": "surface",
 			"schematics": [
 				"overground/megastructures/megastructure-17/*"
@@ -1061,7 +1061,7 @@
 			"code": "megastructures-jumblerockcastle-dampus",
 			"group": "megastructures",
 			"minGroupDistance": 5000,
-			"chance": 0.8,
+			"chance": 1,
 			"placement": "surface",
 			"schematics": [
 				"overground/megastructures/megastructure-18/*"
@@ -1084,7 +1084,7 @@
 			"code": "megastructures-settlementofkeykeepers-sirayne",
 			"group": "megastructures",
 			"minGroupDistance": 5000,
-			"chance": 0.45,
+			"chance": 0.6,
 			"placement": "surface",
 			"schematics": [
 				"overground/megastructures/megastructure-19/*"
@@ -2075,7 +2075,7 @@
 		},
 		{
 			"code": "largeruins-0404-vil-o7",
-			"chance": 0.001,
+			"chance": 0.0004,
 			"minGroupDistance": 2800,
 			"group": "largeruins",
 			"schematics": [

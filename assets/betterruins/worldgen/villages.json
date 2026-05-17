@@ -1129,7 +1129,7 @@
 			"code": "village-ruins-par",
 			"group": "village-ruins-par",
 			"minGroupDistance": 2000,
-			"chance": 0.2,
+			"chance": 0.05,
 			"minY": 0,
 			"generator": "LooselyGrouped",
 			"quantityStructures": {
