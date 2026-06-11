@@ -3,10 +3,11 @@
   "patches": {
     "float": {
       "betterruins:patches/modconfig/overallspawnchance.json": {
-        "0/value": "STRUCTURES_SPAWN_CHANCE * value",
-        "1/value": "VILLAGES_SPAWN_CHANCE * value"
+        "0/value": "VANILLA_STRUCTURES_SPAWN_CHANCE * value",
+        "1/value": "VANILLA_VILLAGES_SPAWN_CHANCE * value"
       },
       "betterruins:worldgen/structures.json": {
+        "chanceMultiplier": "BETTERRUINS_STRUCTURES_SPAWN_CHANCE * value",
         "structures/0/chance": "WALLSEGMENT_SPAWN_CHANCE * value",
         "structures/1/chance": "ROCKFORMATION_SPAWN_CHANCE * value",
         "structures/2/chance": "HOUSEOFUSHER_SPAWN_CHANCE * value",
@@ -133,6 +134,7 @@
         "structures/126/chance": "WAYSTONES_SPAWN_CHANCE * value"
       },
       "betterruins:worldgen/villages.json": {
+        "chanceMultiplier": "BETTERRUINS_VILLAGES_SPAWN_CHANCE * value",
         "villageTypes/0/chance": "VSVILLAGE_SPAWN_CHANCE * value",
         "villageTypes/1/chance": "FORESTVILLAGE_SPAWN_CHANCE * value",
         "villageTypes/2/chance": "DESERTVILLAGE_SPAWN_CHANCE * value",
@@ -1009,10 +1011,10 @@
       }
     },
     "number": {
-      "STRUCTURES_SPAWN_CHANCE": {
-        "name": "structures_spawn_chance",
-        "comment": "betterruins:structures_spawn_chance_comment",
-        "ingui": "betterruins:structures_spawn_chance",
+      "VANILLA_STRUCTURES_SPAWN_CHANCE": {
+        "name": "vanilla_structures_spawn_chance",
+        "comment": "betterruins:vanilla_structures_spawn_chance_comment",
+        "ingui": "betterruins:vanilla_structures_spawn_chance",
         "default": 1.0,
         "weight": 1.8,
         "logarithmic": true,
@@ -1021,12 +1023,36 @@
           "max": 100.0
         }
       },
-      "VILLAGES_SPAWN_CHANCE": {
-        "name": "villages_spawn_chance",
-        "comment": "betterruins:villages_spawn_chance_comment",
-        "ingui": "betterruins:villages_spawn_chance",
+      "VANILLA_VILLAGES_SPAWN_CHANCE": {
+        "name": "vanilla_villages_spawn_chance",
+        "comment": "betterruins:vanilla_villages_spawn_chance_comment",
+        "ingui": "betterruins:vanilla_villages_spawn_chance",
         "default": 1.0,
-        "weight": 2.0,
+        "weight": 1.85,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "BETTERRUINS_STRUCTURES_SPAWN_CHANCE": {
+        "name": "betterruins_structures_spawn_chance",
+        "comment": "betterruins:betterruins_structures_spawn_chance_comment",
+        "ingui": "betterruins:betterruins_structures_spawn_chance",
+        "default": 1.0,
+        "weight": 1.9,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "BETTERRUINS_VILLAGES_SPAWN_CHANCE": {
+        "name": "betterruins_villages_spawn_chance",
+        "comment": "betterruins:betterruins_villages_spawn_chance_comment",
+        "ingui": "betterruins:betterruins_villages_spawn_chance",
+        "default": 1.0,
+        "weight": 1.95,
         "logarithmic": true,
         "range": {
           "min": 0.0,

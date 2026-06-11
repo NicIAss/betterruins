@@ -538,10 +538,14 @@
 
 
 
-    "structures_spawn_chance": "Structures Spawn Chance",
-    "structures_spawn_chance_comment": "Affects the spawn chance of all structures (not villages).",
-    "villages_spawn_chance": "Villages Spawn Chance",
-    "villages_spawn_chance_comment": "Affects the spawn chance of all villages which are groups of smaller structures cluttered close to each other (not structures).",
+    "vanilla_structures_spawn_chance": "Vanilla Structures Spawn Chance",
+    "vanilla_structures_spawn_chance_comment": "Affects the spawn chance of all vanilla structures (not villages).",
+    "vanilla_villages_spawn_chance": "Vanilla Villages Spawn Chance",
+    "vanilla_villages_spawn_chance_comment": "Affects the spawn chance of all vanilla villages which are groups of smaller structures cluttered close to each other (not structures).",
+    "betterruins_structures_spawn_chance": "BetterRuins Structures Spawn Chance",
+    "betterruins_structures_spawn_chance_comment": "Affects the spawn chance of all betterruins structures (not villages).",
+    "betterruins_villages_spawn_chance": "BetterRuins Villages Spawn Chance",
+    "betterruins_villages_spawn_chance_comment": "Affects the spawn chance of all betterruins villages which are groups of smaller structures cluttered close to each other (not structures).",
     "megastructures_min_distance": "Minimum Distance Megastructures",
     "megastructures_min_distance_comment": "Defines the distance between so called megastructures and is measured in blocks.",
     "loot": "Loot Multiplier",
