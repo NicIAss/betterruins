@@ -104,7 +104,8 @@
     "file": "game:blocktypes/wood/woodtyped/figurehead",
     "op": "remove",
     "path": "/attributes/handbook/excludeByType",
-    "side": "Server"
+    "side": "Server",
+    "dependsOn": [ { "modid": "specializedclasses", "invert": true } ]
   },
   {
     "enabled": true,
