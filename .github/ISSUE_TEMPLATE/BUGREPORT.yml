@@ -9,7 +9,7 @@ body:
     attributes:
       label: Mod Version
       description: What BetterRuins Version where you using?
-      placeholder: v0.0.4
+      placeholder: v0.6.2
     validations:
       required: true
   - type: input
@@ -17,7 +17,7 @@ body:
     attributes:
       label: Game Version
       description: What Game Version where you using?
-      placeholder: v1.17.4
+      placeholder: v1.22.3
     validations:
       required: true
   - type: dropdown

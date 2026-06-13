@@ -45,7 +45,7 @@
         ingredients: {
             "S": { type: "item", code: "game:saw-*", isTool: true },
             "X": {type: "Item", code: "br-schematic-road", "consume": false },
-            "P": { type: "item", code: "game:plank-*", "name": "wood" , quantity: 2 , "skipVariants": ["veryaged"] }
+            "P": { type: "item", code: "game:plank-*", "name": "wood" , quantity: 2 , "allowedVariants": ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart"] }
         },
         width: 3,
         height: 1,
