@@ -665,7 +665,7 @@
 
 
     "betterruins:Do you know anything interesting around here?": "[BR Quest] Do you know anything interesting around here?",
-    "betterruins:I have the meteoric knife you asked for. Here take it.": "[BR Quest] I have the meteoric knife you asked for. Here take it.",
+    "betterruins:I have the silver knife you asked for. Here take it.": "[BR Quest] I have the silver knife you asked for. Here take it.",
     "betterruins:There are whispers, traveler. Tales passed from one sun-scorched tongue to the next - of a place far beneath the dunes. An ancient tomb, where four trade empires once crossed paths and secrets were locked away in silence. It's not on any common map... but I may possess something rare.": "There are whispers, traveler. Tales passed from one sun-scorched tongue to the next - of a place far beneath the dunes. An ancient tomb, where four trade empires once crossed paths and secrets were locked away in silence. It's not on any common map... but I may possess something rare.",
     "betterruins:Why hasn't anyone gone after it?": "Why hasn't anyone gone after it?",
     "betterruins:Show me the map.": "Show me the map.",
@@ -674,8 +674,8 @@
     "betterruins:Sounds like a fairytale.": "Sounds like a fairytale.",
     "betterruins:I’ve dealt with worse. What’s your price?": "I’ve dealt with worse. What’s your price?",
     "betterruins:Then walk on, dreamer. Some things are best left to the wind and to the dead.": "Then walk on, dreamer. Some things are best left to the wind and to the dead.",
-    "betterruins:Spoken like one born of purpose. But rusty gears is not enough, not for this. I require something rarer - something that fell from the stars. Bring me a knife of meteoric iron. Freshly forged. Untouched by blood or rust. Only then shall I entrust you with the map.": "Spoken like one born of purpose. But rusty gears is not enough, not for this. I require something rarer - something that fell from the stars. Bring me a knife of meteoric iron. Freshly forged. Untouched by blood or rust. Only then shall I entrust you with the map.",
-    "betterruins:I will come back with a meteoric knife!": "I will come back with a meteoric knife!",
+    "betterruins:Spoken like one born of purpose. But rusty gears is not enough, not for this. I require something rarer - something that fell from the stars. Bring me a silver knife. Freshly forged. Untouched by blood or rust. Only then shall I entrust you with the map.": "Spoken like one born of purpose. But rusty gears is not enough, not for this. I require something rarer - something that fell from the stars. Bring me a silver knife. Freshly forged. Untouched by blood or rust. Only then shall I entrust you with the map.",
+    "betterruins:I will come back with a silver knife!": "I will come back with a silver knife!",
     "betterruins:You truly have it... A blade that sings of the forge and starlight. You’ve earned this.": "You truly have it... A blade that sings of the forge and starlight. You’ve earned this.",
     "betterruins:Take the map. May it guide you true, and may the sands be kind to your steps.": "Take the map. May it guide you true, and may the sands be kind to your steps.",
     "betterruins:Eager, are you? Wise or foolish - we shall see. This map leads to a chamber beneath the sands, once known as the Crossroads Below. Vaulted stone, buried secrets. It's not marked by stone, but by silence - and silence keeps its secrets well.": "Eager, are you? Wise or foolish - we shall see. This map leads to a chamber beneath the sands, once known as the Crossroads Below. Vaulted stone, buried secrets. It's not marked by stone, but by silence - and silence keeps its secrets well.",
@@ -684,7 +684,7 @@
     "betterruins:Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them.": "Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them.",
     "betterruins:Thanks!": "Thanks!",
     "betterruins:Now give me the map please.": "Now give me the map please.",
-    "betterruins:Here take the Meteoric Knife.": "Here take the Meteoric Knife.",
+    "betterruins:Here take the Silver knife.": "Here take the Silver knife.",
 
 
 
@@ -768,7 +768,7 @@
     "betterruins:I think I have a map from there... I'm not sure it leads exactly to it, but the mark with the sun suggests otherwise. The sun - the symbol of that place...": "I think I have a map from there... I'm not sure it leads exactly to it, but the mark with the sun suggests otherwise. The sun - the symbol of that place...",
     "betterruins:I want to obtain it. I assume you need something in return?": "I want to obtain it. I assume you need something in return?",
     "betterruins:Maybe you should get rid of it, might be safer for both of us.": "Maybe you should get rid of it, might be safer for both of us.",
-    "betterruins:Yes, but not exactly payment. A confirmation of your abilities. Show that you can handle good metal - bring me an iron pickaxe you forged yourself. If you're going there, better not go without purpose or craftsmanship.": "Yes, but not exactly payment. A confirmation of your abilities. Show that you can handle good metal - bring me an iron pickaxe you forged yourself. If you're going there, better not go without purpose or craftsmanship.",
+    "betterruins:Yes, but not exactly payment. A confirmation of your abilities. Show that you can handle good metal - bring me a blackbronze pickaxe. If you're going there, better not go without purpose or craftsmanship.": "Yes, but not exactly payment. A confirmation of your abilities. Show that you can handle good metal - bring me a blackbronze pickaxe. If you're going there, better not go without purpose or craftsmanship.",
     "betterruins:Sounds worthy, but I still need to learn that.": "Sounds worthy, but I still need to learn that.",
     "betterruins:I'll try to satisfy your request to prove my intentions.": "I'll try to satisfy your request to prove my intentions.",
     "betterruins:Of course... I see... yes, the pickaxe is solid. I think I can trust you with more than just the map.": "Of course... I see... yes, the pickaxe is solid. I think I can trust you with more than just the map.",
