@@ -10,7 +10,7 @@
 		},
 		width: 2,
 		height: 2,
-		output: { type: "block", code: "game:slantedroofing-thatch-east-free", quantity: 4  }
+		output: { type: "block", code: "game:slantedroofing-thatch-east-free", quantity: 2  }
 	},
 	{
 		ingredientPattern: "XH,H_",
@@ -23,7 +23,7 @@
 		},
 		width: 2,
 		height: 2,
-		output: { type: "block", code: "game:slantedroofing-thatch-east-free", quantity: 16  }
+		output: { type: "block", code: "game:slantedroofing-thatch-east-free", quantity: 8  }
 	},
 
 	{
@@ -37,7 +37,7 @@
 		},
 		width: 3,
 		height: 2,
-		output: { type: "block", code: "game:slantedroofingridge-thatch-ns-free", quantity: 4  }
+		output: { type: "block", code: "game:slantedroofingridge-thatch-ns-free", quantity: 2  }
 	},
 	{
 		ingredientPattern: "XH_,H_H",
@@ -50,7 +50,7 @@
 		},
 		width: 3,
 		height: 2,
-		output: { type: "block", code: "game:slantedroofingridge-thatch-ns-free", quantity: 16  }
+		output: { type: "block", code: "game:slantedroofingridge-thatch-ns-free", quantity: 8  }
 	},
 
 	{
@@ -91,7 +91,7 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "block", code: "game:slantedroofingcornerinner-thatch-east-free", quantity: 4  }
+		output: { type: "block", code: "game:slantedroofingcornerinner-thatch-east-free", quantity: 2  }
 	},
 	{
 		ingredientPattern: "XH,H_,_H",
@@ -104,7 +104,7 @@
 		},
 		width: 2,
 		height: 3,
-		output: { type: "block", code: "game:slantedroofingcornerinner-thatch-east-free", quantity: 16  }
+		output: { type: "block", code: "game:slantedroofingcornerinner-thatch-east-free", quantity: 8  }
 	},
 
 	{
@@ -118,7 +118,7 @@
 		},
 		width: 2,
 		height: 2,
-		output: { type: "block", code: "game:slantedroofingcornerouter-thatch-east-free", quantity: 4  }
+		output: { type: "block", code: "game:slantedroofingcornerouter-thatch-east-free", quantity: 2  }
 	},
 	{
 		ingredientPattern: "XH,HH",
@@ -131,7 +131,7 @@
 		},
 		width: 2,
 		height: 2,
-		output: { type: "block", code: "game:slantedroofingcornerouter-thatch-east-free", quantity: 16  }
+		output: { type: "block", code: "game:slantedroofingcornerouter-thatch-east-free", quantity: 8  }
 	},
 
 	{
