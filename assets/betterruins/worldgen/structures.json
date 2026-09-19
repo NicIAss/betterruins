@@ -3530,6 +3530,24 @@
 			"MaxBelowSealevel": 0,
 			"MinSpawnDistance": 600
 		},
+		{
+			"code": "megastructures-undergroundcastle-ogdred-o8",
+			"group": "megastructures",
+			"minGroupDistance": 5000,
+			"chance": 1,
+			"placement": "surface",
+			"schematics": [
+				"overground/megastructures/megastructure-22/*"
+			],
+			"suppressTrees": false,
+			"suppressWaterfalls": true,
+			"offsety": -9,
+			"minTemp": -4,
+			"minRain": 0.12,
+			"rockTypeRemapGroup": "standard",
+			"MaxBelowSealevel": 3,
+			"MinSpawnDistance": 2500
+		},
 		}
 	]
 }
