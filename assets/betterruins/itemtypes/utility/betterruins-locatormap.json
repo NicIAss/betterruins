@@ -26,7 +26,8 @@
 				"agedsunrift",
 				"calix",
 				"shoppingcentre",
-				"halitequarry"
+				"halitequarry",
+				"forgottenvillage"
 			]
 		}
 	],
@@ -259,6 +260,18 @@
 			"*-halitequarry": {
 				"schematiccode": "halitequarry",
 				"waypointtext": "location-halitequarry",
+				"offset": { "x": 0, "y": 0, "z": 0 },
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.2,
+					0.25,
+					1,
+					1
+				]
+			},
+			"*-forgottenvillage": {
+				"schematiccode": "forgottenvillage",
+				"waypointtext": "location-forgottenvillage",
 				"offset": { "x": 0, "y": 0, "z": 0 },
 				"waypointicon": "x",
 				"waypointcolor": [

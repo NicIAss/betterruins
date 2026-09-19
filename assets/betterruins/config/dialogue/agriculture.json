@@ -243,6 +243,29 @@
 				]},
 				// HALITEQUARRY QUESTLINE END
 
+
+
+				// OVERGROWN VILLAGE QUESTLINE BEGIN
+				{ value: "betterruins:[BR Quest] It looks like you’re nursing a bad injury, there…", jumpTo: "brovergrown_0", conditions: [
+					{ variable: "entity.br_overgrown_requestpoultice", isNotValue: "true" },
+					{ variable: "entity.br_overgrown_mapgiven", isNotValue: "true" }
+				]},
+
+				{ value: "betterruins:[BR Quest] I've got your poultice.", jumpTo: "brovergrown_takepoultice", conditions: [
+					{ variable: "entity.br_overgrown_requestpoultice", isValue: "true" },
+					{ variable: "entity.br_overgrown_mapgiven", isNotValue: "true" },
+					{ variable: "player.inventory", isValue: "{type: 'item', code: 'game:poultice-linen-honey-sulfur'}" }
+				]},
+
+				{ value: "betterruins:[BR Quest] I lost the village map!", jumpTo: "brovergrown_maprepeat", conditions: [
+					{ variable: "entity.br_overgrown_mapgiven", isValue: "true" },
+					{ variable: "player.inventory", isNotValue: "{type: 'item', code: 'betterruins:locatormap-forgottenvillage'}" }
+				]},
+				// OVERGROWN VILLAGE QUESTLINE END
+
+
+
+
 				{ value: "game:dialogue-name", jumpTo: "name" },
 				{ value: "game:Why gears?", jumpTo: "gears" },
 				{ value: "game:Why live out here like this?", jumpTo: "profit" },
@@ -787,6 +810,165 @@
 		triggerdata: { type: "item", code: "betterruins:locatormap-halitequarry", stacksize: 1 },
 		jumpTo: "main"
 		},
+
+
+		// ----------------------------
+		// Overgrown Village Questline
+		// ----------------------------
+
+		{
+			code: "brovergrown_0",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Oh, it’s nothing life-threatening, so nothing worth worrying over. But thank you kindly for being concerned about little old me. Just… need to wait for it to get better, I suppose. If I were one of them treasure hunters, I’d have it easy. Their relics only get more valuable while they sit around doing nothing, but my vegetables are bound to spoil soon, and I’ve got farmsteads expecting me shortly. I don’t have the time to sit around until this heals!" }
+			],
+			jumpTo: "brovergrown_0_response"
+		},
+		{
+			code: "brovergrown_0_response",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:What happened?", jumpTo: "brovergrown_happened" },
+				{ value: "betterruins:I’ll leave you to recover.", jumpTo: "brovergrown_leave" }
+			]
+		},
+		{
+			code: "brovergrown_leave",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Thank you kindly, Seraph. My shop is nevertheless open for you! Even stale carrots taste better than fistfuls of potentially toxic berries, so don’t be a stranger." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "brovergrown_happened",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:That dearly beloved colleague of mine finally got under my skin. Kept insisting I had no right to complain about treasure hunting when I’d never given it a shot myself. They found this overgrown village, long since abandoned, and invited me to come along. Said they could use somebody there who knew their plants, and assured me it was safe. Safe! Safe!? I suppose compared to sticking my head inside one of them rifts, maybe!   I fell through some rotten flooring and got badly hurt. At least my colleague was kind enough to walk me back to my post, but they’ve since returned to poke around more of it by themselves." }
+			],
+			jumpTo: "brovergrown_happened_response"
+		},
+		{
+			code: "brovergrown_happened_response",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Is there anything I could do to help?", jumpTo: "brovergrown_help" },
+				{ value: "betterruins:Sounds like you ought to rest.", jumpTo: "brovergrown_rest" }
+			]
+		},
+		{
+			code: "brovergrown_rest",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Wouldn’t have it any other way. It’d be too soon if I ever had to go on an adventure again… but if you’re planning to go on any, you shouldn’t do so on an empty stomach, so stock up!" }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "brovergrown_help",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:There is one thing… I have horsetail and reeds on hand for basic treatment. But higher quality wound care would make a world of difference in getting me back on my feet. If you could bring me, say, a linen honey-sulfur poultice, I can heal much quicker, and I’ll make it worth your while.  I’ll get you a map to that village. Yes! My colleague should be camped out inside of it still. You tell that bastard for me that they were wrong and I was correct about leaving the adventures to you Seraphs! And you can help yourself to those treasures right out from under their nose, as a bit of payback. I'm sure they’re sitting on plenty of gears to buy them off of you afterwards." }
+			],
+			jumpTo: "brovergrown_help_response"
+		},
+		{
+			code: "brovergrown_help_response",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Alright, sounds like a deal!", jumpTo: "brovergrown_accept" },
+				{ value: "betterruins:Sorry, no.", jumpTo: "brovergrown_decline" }
+			]
+		},
+		{
+			code: "brovergrown_accept",
+			owner: "trader",
+			type: "talk",
+			setVariables: { "entity.br_overgrown_requestpoultice": "true" },
+			text: [
+				{ value: "betterruins:Remember, a linen honey-sulfur poultice! So long as we’re putting in the effort, you might just as well go for the best of the best!" }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "brovergrown_decline",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:A shame. I’ll stick it to them when they come here to stock up on rations… Speaking of, are you in need of any of my stock?" }
+			],
+			jumpTo: "main"
+		},
+
+		{
+			code: "brovergrown_takepoultice",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Ah, there we are! Linen, honey and sulfur. This ought to do a whole lot more for me than those itchy reeds... Thank you kindly, Seraph. Give me a moment to get this tied down properly... I can already tell I'll be back on my feet much sooner thanks to you." }
+			],
+			trigger: "takefrominventory",
+			triggerdata: { type: "item", code: "game:poultice-linen-honey-sulfur", quantity: 1 },
+			jumpTo: "brovergrown_map_prompt"
+		},
+		{
+			code: "brovergrown_map_prompt",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:And my map?", jumpTo: "brovergrown_givemap" }
+			]
+		},
+		{
+			code: "brovergrown_givemap",
+			owner: "trader",
+			type: "talk",
+			setVariables: { "entity.br_overgrown_mapgiven": "true" },
+			text: [
+				{ value: "betterruins:Yes, yes! I didn't forget our deal. I marked the village down for you. Don't leave my colleague waiting too long, now. They must be getting lonely! I'm sure they wouldn't mind you taking whatever treasures catch your eye. Here you are. And do make sure they know exactly who sent you." }
+			],
+			trigger: "giveitemstack",
+			triggerdata: { type: "item", code: "betterruins:locatormap-forgottenvillage", stacksize: 1 },
+			jumpTo: "brovergrown_aftermap_response"
+		},
+		{
+			code: "brovergrown_aftermap_response",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "betterruins:I'll be sure to pay them a visit.", jumpTo: "brovergrown_end" }
+			]
+		},
+		{
+			code: "brovergrown_end",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:Please do. I'd hate for them to think I wasn't grateful for the experience." }
+			],
+			jumpTo: "main"
+		},
+
+		{
+			code: "brovergrown_maprepeat",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "betterruins:You lost it!? So the rumours are true, you Seraphs really do have rifts inside your skulls.  Ah, nevermind. I remember the way well enough. Hard to forget that gruelling hike back here. Give me but a moment, I'll draw you up another." }
+			],
+			trigger: "giveitemstack",
+			triggerdata: { type: "item", code: "betterruins:locatormap-forgottenvillage", stacksize: 1 },
+			jumpTo: "main"
+		},
+
 
 	]
 }
