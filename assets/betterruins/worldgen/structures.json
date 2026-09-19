@@ -712,7 +712,7 @@
 			"code": "megastructures-houseofusher-virrno",
 			"group": "megastructures",
 			"minGroupDistance": 5000,
-			"chance": 1.4,
+			"chance": 0.6,
 			"placement": "surface",
 			"schematics": [
 				"overground/megastructures/megastructure-3/*"
@@ -1062,7 +1062,7 @@
 			"code": "megastructures-jumblerockcastle-dampus",
 			"group": "megastructures",
 			"minGroupDistance": 5000,
-			"chance": 1,
+			"chance": 0.8,
 			"placement": "surface",
 			"schematics": [
 				"overground/megastructures/megastructure-18/*"
