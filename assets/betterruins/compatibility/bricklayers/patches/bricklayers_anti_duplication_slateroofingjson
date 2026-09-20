@@ -1,0 +1,314 @@
+[
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/0/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/0/output/quantity",
+        "value": 5,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/1/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/1/output/quantity",
+        "value": 5,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/2/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/2/output/quantity",
+        "value": 5,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/3/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/3/output/quantity",
+        "value": 5,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/6/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/6/output/quantity",
+        "value": 5,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/7/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/7/output/quantity",
+        "value": 5,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/8/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/8/output/quantity",
+        "value": 5,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/9/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/9/output/quantity",
+        "value": 5,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/4/output/quantity",
+        "value": 1,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/5/output/quantity",
+        "value": 1,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/10/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/10/output/quantity",
+        "value": 5,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/11/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/11/output/quantity",
+        "value": 5,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/12/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/12/output/quantity",
+        "value": 5,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/13/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/block_slateroofing_to_stones.json",
+        "op": "replace",
+        "path": "/13/output/quantity",
+        "value": 5,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    }
+]

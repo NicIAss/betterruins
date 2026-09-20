@@ -712,7 +712,7 @@
 			"code": "megastructures-houseofusher-virrno",
 			"group": "megastructures",
 			"minGroupDistance": 5000,
-			"chance": 1.4,
+			"chance": 0.6,
 			"placement": "surface",
 			"schematics": [
 				"overground/megastructures/megastructure-3/*"
@@ -1062,7 +1062,7 @@
 			"code": "megastructures-jumblerockcastle-dampus",
 			"group": "megastructures",
 			"minGroupDistance": 5000,
-			"chance": 1,
+			"chance": 0.8,
 			"placement": "surface",
 			"schematics": [
 				"overground/megastructures/megastructure-18/*"
@@ -3502,6 +3502,68 @@
 			],
 			"MaxBelowSealevel": 1,
 			"offsety": -6,
+			"MinSpawnDistance": 2500
+		},
+		{
+			"code": "yapludepatte-waystones",
+			"name": "yapludepatte-waystones",
+			"group": "specialwaystones",
+			"minGroupDistance": 5000,
+			"replacewithblocklayers": [
+				"game:soil-low-none",
+				"game:soil-medium-none",
+				"game:soil-medium-normal",
+				"game:soil-low-normal",
+				"game:forestfloor-1",
+				"game:soil-verylow-normal",
+				"game:soil-verylow-none",
+				"game:soil-verylow-sparse",
+				"game:soil-verylow-verysparse"
+			],
+			"chance": 0.005,
+			"schematics": [
+				"overground/special/waystones/yapludepatte/o1/waystone-yapludepatte1-o1"
+			],
+			"rockTypeRemapGroup": "standard",
+			"minY": 1,
+			"offsety": -1,
+			"MaxBelowSealevel": 0,
+			"MinSpawnDistance": 600
+		},
+		{
+			"code": "megastructures-undergroundcastle-ogdred-o8",
+			"group": "megastructures",
+			"minGroupDistance": 5000,
+			"chance": 1,
+			"placement": "surface",
+			"schematics": [
+				"overground/megastructures/megastructure-22/*"
+			],
+			"suppressTrees": false,
+			"suppressWaterfalls": true,
+			"offsety": -9,
+			"minTemp": -4,
+			"minRain": 0.12,
+			"rockTypeRemapGroup": "standard",
+			"MaxBelowSealevel": 3,
+			"MinSpawnDistance": 2500
+		},
+		{
+			"code": "megastructures-mountaincastle-ogdred-o10",
+			"group": "megastructures",
+			"minGroupDistance": 5000,
+			"chance": 1,
+			"placement": "surface",
+			"schematics": [
+				"overground/megastructures/megastructure-23/*"
+			],
+			"suppressTrees": false,
+			"suppressWaterfalls": true,
+			"offsety": -10,
+			"minTemp": -4,
+			"minRain": 0.12,
+			"rockTypeRemapGroup": "standard",
+			"MaxBelowSealevel": 3,
 			"MinSpawnDistance": 2500
 		}
 	]

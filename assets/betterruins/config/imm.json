@@ -1,0 +1,1205 @@
+{
+	"Configuration": [
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:loot_title",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:loot",
+					"Description": "betterruins:loot_comment",
+					"Code": "LOOT",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:patches/others/randomizers/stackrandomizers-ingots.json",
+							"Path": "[0..7]/value/chance",
+							"Expression": "Setting * Current"
+						},
+						{
+							"Asset": "betterruins:patches/others/randomizers/stackrandomizers-lantern.json",
+							"Path": "[0..12]/value/chance",
+							"Expression": "Setting * Current"
+						},
+						{
+							"Asset": "betterruins:patches/others/randomizers/stackrandomizers-paintings.json",
+							"Path": "[0..17]/value/chance",
+							"Expression": "Setting * Current"
+						},
+						{
+							"Asset": "betterruins:patches/others/randomizers/stackrandomizers-resource.json",
+							"Path": "[0..20]/value/chance",
+							"Expression": "Setting * Current"
+						},
+						{
+							"Asset": "betterruins:patches/others/randomizers/stackrandomizers-seeds.json",
+							"Path": "[0..18]/value/chance",
+							"Expression": "Setting * Current"
+						},
+						{
+							"Asset": "betterruins:patches/others/randomizers/stackrandomizers-weapon.json",
+							"Path": "[0..7]/value/chance",
+							"Expression": "Setting * Current"
+						},
+						{
+							"Asset": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+							"Paths": [
+								"attributesByType/*-backpack/stacks/[0..8]/chance",
+								"attributesByType/*-buildingblocks/stacks/[0..167]/chance",
+								"attributesByType/*-clayproducts/stacks/[0..209]/chance",
+								"attributesByType/*-kingclothing/stacks/[0..35]/chance",
+								"attributesByType/*-mask/stacks/[0..26]/chance",
+								"attributesByType/*-mechanical/stacks/[0..3]/chance",
+								"attributesByType/*-mechanical/stacks/[6..27]/chance",
+								"attributesByType/*-rottenkingclothing/stacks/[0..14]/chance",
+								"attributesByType/*-forlornhope-weapons/stacks/[0]/chance",
+								"attributesByType/*-forlornhope-weapons/stacks/[2..7]/chance",
+								"attributesByType/*-forlornhope-armor/stacks/[0..16]/chance",
+								"attributesByType/*-forlornhope-specials/stacks/[0..1]/chance"
+							],
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:meteorvalue",
+					"Description": "betterruins:meteorvalue_comment",
+					"Code": "METEORVALUE",
+					"Default": 25.0,
+					"Targets": [
+						{
+							"Asset": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+							"Path": "attributesByType/*-blrmeteoriciron/stacks/[1]/chance"
+						},
+						{
+							"Asset": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+							"Paths": [
+								"attributesByType/*-blrmeteoriciron/stacks/[0]/chance",
+								"attributesByType/*-blrmeteoriciron/stacks/[2..3]/chance"
+							],
+							"Expression": "(100 - Setting) / 3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:overall_spawn_chances_title",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:vanilla_structures_spawn_chance",
+					"Description": "betterruins:vanilla_structures_spawn_chance_comment",
+					"Code": "VANILLA_STRUCTURES_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:patches/modconfig/overallspawnchance.json",
+							"Path": "[0]/value",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:vanilla_villages_spawn_chance",
+					"Description": "betterruins:vanilla_villages_spawn_chance_comment",
+					"Code": "VANILLA_VILLAGES_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:patches/modconfig/overallspawnchance.json",
+							"Path": "[1]/value",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:betterruins_structures_spawn_chance",
+					"Description": "betterruins:betterruins_structures_spawn_chance_comment",
+					"Code": "BETTERRUINS_STRUCTURES_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "chanceMultiplier",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:betterruins_villages_spawn_chance",
+					"Description": "betterruins:betterruins_villages_spawn_chance_comment",
+					"Code": "BETTERRUINS_VILLAGES_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "chanceMultiplier",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructures_title",
+			"Settings": [
+				{
+					"Type": "Integer",
+					"Label": "betterruins:megastructures_min_distance",
+					"Description": "betterruins:universal_mindistance_comment",
+					"Code": "MEGASTRUCTURES_MIN_DISTANCE",
+					"Default": 5000,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Paths": [
+								"structures/[0..20]/minGroupDistance",
+								"structures/[129..130]/minGroupDistance"
+							]
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:megastructures_min_spawn_distance",
+					"Description": "betterruins:universal_minspawndistance_comment",
+					"Code": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+					"Default": 2500,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Paths": [
+								"structures/[0..20]/MinSpawnDistance",
+								"structures/[129..130]/MinSpawnDistance"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_wallsegment",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "WALLSEGMENT_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[0]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_rockformation",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "ROCKFORMATION_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[1]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_houseofusher",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "HOUSEOFUSHER_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[2]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_visingborg",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "VISINGBORG_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[3]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_catnoirscastleruin",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "CATNOIRSCASTLERUIN_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[4]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_destroyedlargechurch",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "DESTROYEDLARGECHURCH_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[5]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_wolfstonecastle",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "WOLFSTONECASTLE_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[6..9]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_oasis",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "OASIS_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[10]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_forlornhopetower",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "FORLORNHOPETOWER_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[11]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_giantcathedral",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "GIANTCATHEDRAL_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[12]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_undergroundlibrary",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "UNDERGROUNDLIBRARY_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[13]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_auldburg",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "AULDBURG_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[14]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_normancastle",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "NORMANCASTLE_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[15]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_aqueduct",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "AQUEDUCT_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[16]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_jumblerockcastle",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "JUMBLEROCKCASTLE_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[17]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_settlementofkeykeepers",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "SETTLEMENTOFKEYKEEPERS_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[18]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_romanbathhouse",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "ROMANBATHHOUSE_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[19]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_palaceofnestor",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "PALACEOFNESTOR_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[20]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_undergroundcastle",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "UNDERGROUNDCASTLE_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[129]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:megastructure_mountaincastle",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "MOUNTAINCASTLE_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[130]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:translocators_title",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "TRANSLOCATORRUINS_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[22..24]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:universal_mindistance",
+					"Description": "betterruins:universal_mindistance_comment",
+					"Code": "TRANSLOCATORRUINS_MIN_DISTANCE",
+					"Default": 1600,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[22..24]/minGroupDistance"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:universal_min_spawn_distance",
+					"Description": "betterruins:universal_minspawndistance_comment",
+					"Code": "TRANSLOCATORRUINS_MIN_SPAWN_DISTANCE",
+					"Default": 1500,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[22..24]/MinSpawnDistance"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:villages_title",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:vsvillage_spawn_chance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "VSVILLAGE_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "villageTypes/[0]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:villages_min_distance",
+					"Description": "betterruins:universal_mindistance_comment",
+					"Code": "VSVILLAGE_MIN_DISTANCE",
+					"Default": 2500,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "villageTypes/[0]/minGroupDistance"
+						}
+					]
+				},
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:forestvillage_spawn_chance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "FORESTVILLAGE_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "villageTypes/[1]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:villages_min_distance",
+					"Description": "betterruins:universal_mindistance_comment",
+					"Code": "FORESTVILLAGE_MIN_DISTANCE",
+					"Default": 1500,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "villageTypes/[1]/minGroupDistance"
+						}
+					]
+				},
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:desertvillage_spawn_chance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "DESERTVILLAGE_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "villageTypes/[2]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:villages_min_distance",
+					"Description": "betterruins:universal_mindistance_comment",
+					"Code": "DESERTVILLAGE_MIN_DISTANCE",
+					"Default": 2500,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "villageTypes/[2]/minGroupDistance"
+						}
+					]
+				},
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:prisonvillage_spawn_chance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "PRISONVILLAGE_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "villageTypes/[3]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:villages_min_distance",
+					"Description": "betterruins:universal_mindistance_comment",
+					"Code": "PRISONVILLAGE_MIN_DISTANCE",
+					"Default": 1500,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "villageTypes/[3]/minGroupDistance"
+						}
+					]
+				},
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:coloredvillage_spawn_chance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "COLOREDVILLAGE_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "villageTypes/[4..8]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:villages_min_distance",
+					"Description": "betterruins:universal_mindistance_comment",
+					"Code": "COLOREDVILLAGE_MIN_DISTANCE",
+					"Default": 1500,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "villageTypes/[4..8]/minGroupDistance"
+						}
+					]
+				},
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:ogdredvillage_spawn_chance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "OGDREDVILLAGE_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "villageTypes/[9]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:villages_min_distance",
+					"Description": "betterruins:universal_mindistance_comment",
+					"Code": "OGDREDVILLAGE_MIN_DISTANCE",
+					"Default": 1500,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "villageTypes/[9]/minGroupDistance"
+						}
+					]
+				},
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:femursnappervillage_spawn_chance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "FEMURSNAPPERVILLAGE_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "villageTypes/[10]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:villages_min_distance",
+					"Description": "betterruins:universal_mindistance_comment",
+					"Code": "FEMURSNAPPERVILLAGE_MIN_DISTANCE",
+					"Default": 1500,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "villageTypes/[10]/minGroupDistance"
+						}
+					]
+				},
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:villagestonesrowlyart_spawn_chance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "VILLAGESTONESROWLYART_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "villageTypes/[11]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:villages_min_distance",
+					"Description": "betterruins:universal_mindistance_comment",
+					"Code": "VILLAGESTONESROWLYART_MIN_DISTANCE",
+					"Default": 1500,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/villages.json",
+							"Path": "villageTypes/[11]/minGroupDistance"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:largeruins_title",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "LARGERUINS_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Paths": [
+								"structures/[45..89]/chance",
+								"structures/[121]/chance",
+								"structures/[123]/chance",
+								"structures/[127]/chance"
+							],
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:universal_min_spawn_distance",
+					"Description": "betterruins:universal_minspawndistance_comment",
+					"Code": "LARGERUINS_MIN_SPAWN_DISTANCE",
+					"Default": 2500,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Paths": [
+								"structures/[45..89]/MinSpawnDistance",
+								"structures/[121]/MinSpawnDistance",
+								"structures/[123]/MinSpawnDistance",
+								"structures/[127]/MinSpawnDistance"
+							]
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:largeruins_min_distance",
+					"Description": "betterruins:universal_mindistance_comment",
+					"Code": "LARGERUINS_MIN_DISTANCE",
+					"Default": 2800,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Paths": [
+								"structures/[45..89]/minGroupDistance",
+								"structures/[121]/minGroupDistance",
+								"structures/[123]/minGroupDistance",
+								"structures/[127]/minGroupDistance"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:mediumruins_title",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "MEDIUMRUINS_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[21]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:universal_min_spawn_distance",
+					"Description": "betterruins:universal_minspawndistance_comment",
+					"Code": "MEDIUMRUINS_MIN_SPAWN_DISTANCE",
+					"Default": 500,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[21]/MinSpawnDistance"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:desertruins_title",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "DESERTRUINS_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[31..44]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:universal_mindistance",
+					"Description": "betterruins:universal_mindistance_comment",
+					"Code": "DESERTRUINS_MIN_DISTANCE",
+					"Default": 1800,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[31..44]/minGroupDistance"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:universal_min_spawn_distance",
+					"Description": "betterruins:universal_minspawndistance_comment",
+					"Code": "DESERTRUINS_MIN_SPAWN_DISTANCE",
+					"Default": 500,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[31..44]/MinSpawnDistance"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:surfaceundergroundruins_title",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "SURFACEUNDERGROUND_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[26..30]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:surfaceunderground_min_distance",
+					"Description": "betterruins:universal_mindistance_comment",
+					"Code": "SURFACEUNDERGROUND_MIN_DISTANCE",
+					"Default": 7500,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[26..30]/minGroupDistance"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:waystones_title",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "WAYSTONES_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Paths": [
+								"structures/[112..120]/chance",
+								"structures/[125..126]/chance",
+								"structures/[128]/chance"
+							],
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:universal_mindistance",
+					"Description": "betterruins:universal_mindistance_comment",
+					"Code": "WAYSTONES_MIN_DISTANCE",
+					"Default": 5000,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Paths": [
+								"structures/[112..120]/minGroupDistance",
+								"structures/[125..126]/minGroupDistance",
+								"structures/[128]/minGroupDistance"
+							]
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:universal_min_spawn_distance",
+					"Description": "betterruins:universal_minspawndistance_comment",
+					"Code": "WAYSTONES_MIN_SPAWN_DISTANCE",
+					"Default": 600,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Paths": [
+								"structures/[112..120]/MinSpawnDistance",
+								"structures/[125..126]/MinSpawnDistance",
+								"structures/[128]/MinSpawnDistance"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:monoliths_title",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "MONOLITH_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[111]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:universal_mindistance",
+					"Description": "betterruins:universal_mindistance_comment",
+					"Code": "MONOLITH_MIN_DISTANCE",
+					"Default": 40000,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[111]/minGroupDistance"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:universal_min_spawn_distance",
+					"Description": "betterruins:universal_minspawndistance_comment",
+					"Code": "MONOLITH_MIN_SPAWN_DISTANCE",
+					"Default": 2500,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[111]/MinSpawnDistance"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:underground_title",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "UNDERGROUND_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[90..103]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:graves_title",
+			"Settings": [
+				{
+					"Type": "Decimal",
+					"Label": "betterruins:universal_spawnchance",
+					"Description": "betterruins:universal_spawnchance_comment",
+					"Code": "GRAVES_SPAWN_CHANCE",
+					"Default": 1.0,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[104..110]/chance",
+							"Expression": "Setting * Current"
+						}
+					]
+				},
+				{
+					"Type": "Integer",
+					"Label": "betterruins:universal_mindistance",
+					"Description": "betterruins:universal_mindistance_comment",
+					"Code": "GRAVES_MIN_DISTANCE",
+					"Default": 850,
+					"Targets": [
+						{
+							"Asset": "betterruins:worldgen/structures.json",
+							"Path": "structures/[104..110]/minGroupDistance"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ConfigSource": "PatchSettings",
+			"ConfigLabel": "betterruins:blueprints_spawn_chance_title",
+			"Settings": [
+				{
+					"Type": "Boolean",
+					"Label": "betterruins:schematic_crafting",
+					"Description": "betterruins:schematic_crafting_comment",
+					"Code": "SCHEMATIC_CRAFTING",
+					"Default": false,
+					"Targets": [
+						{
+							"Asset": "betterruins:recipes/grid/copy-schematic/schematiccopy.json",
+							"Path": "enabled"
+						}
+					]
+				}
+			]
+		}
+	]
+}

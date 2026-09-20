@@ -201,12 +201,12 @@
 				{ value: "betterruins:dialogue-fromwheredoyougetall", jumpTo: "strategy", conditions: [{ variable: "player.globedone", isNotValue: "true" } ] },
 				{ value: "betterruins:dialogue-imbackandibring", jumpTo: "takeglobe", conditions: [{ variable: "player.globedone", isValue: "true" } ,{ variable: "player.inventory", isValue: "{ type: 'block', code: 'game:clutter', attributes: { type: 'globe1',collected:true } }" }, {"variable": "player.inventory", "isNotValue": "{type: 'item', code: 'betterruins:locatormap-university'}"}] },
 				{ value: "betterruins:Do you know anything interesting around here?", jumpTo: "sellingquestion2" },
-				{ value: "betterruins:I have the meteoric knife you asked for. Here take it.", jumpTo: "acceptmeteorknife2", conditions: [{ variable: "player.requestmeteorknife", isValue: "true" }, { variable: "player.inventory", isValue: "{ type: 'item', code: 'game:knife-generic-meteoriciron'}" }, {"variable": "player.inventory", "isNotValue": "{type: 'item', code: 'betterruins:locatormap-crossroadsbelow'}"} ] },
+				{ value: "betterruins:I have the silver knife you asked for. Here take it.", jumpTo: "acceptmeteorknife2", conditions: [{ variable: "player.requestmeteorknife", isValue: "true" }, { variable: "player.inventory", isValue: "{ type: 'item', code: 'game:knife-generic-silver'}" }, {"variable": "player.inventory", "isNotValue": "{type: 'item', code: 'betterruins:locatormap-crossroadsbelow'}"} ] },
 				
 				
 				{ value: "betterruins:You probably wander the world a lot. Heard many stories?", jumpTo: "sunrift_storyintro" , conditions: [{ variable: "player.gaveironpickaxe", isNotValue: "true" } ]},
 				{ value: "betterruins:Can you remind me where the location with the sun symbol was?", jumpTo: "sunrift_redrop" , conditions: [{ variable: "player.gaveironpickaxe", isValue: "true" } , {"variable": "player.inventory", "isNotValue": "{type: 'item', code: 'betterruins:locatormap-sunrift'}"}]},
-				{ value: "betterruins:I have the pickaxe in exchange for the map with the sun.", jumpTo: "sunrift_havepickaxe", conditions: [{ variable: "player.requestironpickaxe", isValue: "true" } ,{ variable: "player.inventory", isValue: "{ type: 'item', code: 'game:pickaxe-iron' }" }, {"variable": "player.inventory", "isNotValue": "{type: 'item', code: 'betterruins:locatormap-sunrift'}"}] }
+				{ value: "betterruins:I have the pickaxe in exchange for the map with the sun.", jumpTo: "sunrift_havepickaxe", conditions: [{ variable: "player.requestironpickaxe", isValue: "true" } ,{ variable: "player.inventory", isValue: "{ type: 'item', code: 'game:pickaxe-blackbronze' }" }, {"variable": "player.inventory", "isNotValue": "{type: 'item', code: 'betterruins:locatormap-sunrift'}"}] }
 
 			]
 		},
@@ -272,7 +272,7 @@
 			owner: "trader",
 			type: "talk",
 			text: [
-				{ value: "betterruins:Spoken like one born of purpose. But rusty gears is not enough, not for this. I require something rarer - something that fell from the stars. Bring me a knife of meteoric iron. Freshly forged. Untouched by blood or rust. Only then shall I entrust you with the map." }
+				{ value: "betterruins:Spoken like one born of purpose. But rusty gears is not enough, not for this. I require something rarer - something that fell from the stars. Bring me a silver knife. Freshly forged. Untouched by blood or rust. Only then shall I entrust you with the map." }
 			],
 			setVariables: { "player.requestmeteorknife": "true" },
 			jumpTo: "howmuchisit32"
@@ -282,7 +282,7 @@
 			owner: "player",
 			type: "talk",
 			text: [
-				{ value: "betterruins:I will come back with a meteoric knife!", jumpTo: "main" },
+				{ value: "betterruins:I will come back with a silver knife!", jumpTo: "main" },
 			]
 		},
 		
@@ -300,7 +300,7 @@
 			owner: "player",
 			type: "talk",
 			text: [
-				{ value: "betterruins:Here take the Meteoric Knife.", jumpTo: "givecrossroadsmap2" },
+				{ value: "betterruins:Here take the Silver knife.", jumpTo: "givecrossroadsmap2" },
 			]
 		},
 		{
@@ -311,7 +311,7 @@
 				{ value: "betterruins:Thanks!" }
 			],
 			trigger: "takefrominventory",
-			triggerdata: { type: 'item', code: 'game:knife-generic-meteoriciron'},
+			triggerdata: { type: 'item', code: 'game:knife-generic-silver'},
 			jumpTo: "givecrossroadsmap33"
 		},
 		{
@@ -889,7 +889,7 @@
 			owner: "trader",
 			type: "talk",
 			text: [
-				{ value: "betterruins:Yes, but not exactly payment. A confirmation of your abilities. Show that you can handle good metal - bring me an iron pickaxe you forged yourself. If you're going there, better not go without purpose or craftsmanship." }
+				{ value: "betterruins:Yes, but not exactly payment. A confirmation of your abilities. Show that you can handle good metal - bring me a blackbronze pickaxe. If you're going there, better not go without purpose or craftsmanship." }
 			],
 			setVariables: { "player.requestironpickaxe": "true" },
 			jumpTo: "sunrift_pickaxe_request_response"
@@ -921,7 +921,7 @@
 				{ value: "betterruins:Of course... I see... yes, the pickaxe is solid. I think I can trust you with more than just the map." }
 			],
 			trigger: "takefrominventory",
-			triggerdata: { type: "item", code: "game:pickaxe-iron"},
+			triggerdata: { type: "item", code: "game:pickaxe-blackbronze"},
 			setVariables: { "player.gaveironpickaxe": "true" },
 			jumpTo: "sunrift_pickaxe_choice"
 		},

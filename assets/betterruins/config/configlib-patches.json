@@ -132,7 +132,10 @@
         "structures/123/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "structures/125/chance": "WAYSTONES_SPAWN_CHANCE * value",
         "structures/126/chance": "WAYSTONES_SPAWN_CHANCE * value",
-        "structures/127/chance": "LARGERUINS_SPAWN_CHANCE * value"
+        "structures/127/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "structures/128/chance": "WAYSTONES_SPAWN_CHANCE * value",
+        "structures/129/chance": "UNDERGROUNDCASTLE_SPAWN_CHANCE * value",
+        "structures/130/chance": "MOUNTAINCASTLE_SPAWN_CHANCE * value"
       },
       "betterruins:worldgen/villages.json": {
         "chanceMultiplier": "BETTERRUINS_VILLAGES_SPAWN_CHANCE * value",
@@ -982,7 +985,13 @@
         "structures/126/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
         "structures/126/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
         "structures/127/MinSpawnDistance": "LARGERUINS_MIN_SPAWN_DISTANCE",
-        "structures/127/minGroupDistance": "LARGERUINS_MIN_DISTANCE"
+        "structures/127/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "structures/128/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
+        "structures/128/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
+        "structures/129/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "structures/129/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "structures/130/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "structures/130/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE"
       },
       "betterruins:worldgen/villages.json": {
         "villageTypes/0/minGroupDistance": "VSVILLAGE_MIN_DISTANCE",
@@ -1278,11 +1287,35 @@
           "max": 100.0
         }
       },
+      "UNDERGROUNDCASTLE_SPAWN_CHANCE": {
+        "name": "22undergroundcastle_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
+        "default": 1.0,
+        "weight": 14.38612,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "MOUNTAINCASTLE_SPAWN_CHANCE": {
+        "name": "23mountaincastle_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
+        "default": 1.0,
+        "weight": 14.38712,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
       "TRANSLOCATORRUINS_SPAWN_CHANCE": {
         "name": "translocatorruins_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:universal_spawnchance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/translocators",
+        "link": "https://betterruins.org/wiki/translocators",
         "default": 1.0,
         "weight": 15.0,
         "logarithmic": true,
@@ -1295,7 +1328,7 @@
         "name": "vsvillage_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:vsvillage_spawn_chance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/villages#vsvillage",
+        "link": "https://betterruins.org/structure/ruined-vsvillage",
         "default": 1.0,
         "weight": 17.0,
         "logarithmic": true,
@@ -1308,7 +1341,7 @@
         "name": "forestvillage_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:forestvillage_spawn_chance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/villages#forest-village",
+        "link": "https://betterruins.org/structure/forest-village",
         "default": 1.0,
         "weight": 18.0,
         "logarithmic": true,
@@ -1321,7 +1354,7 @@
         "name": "desertvillage_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:desertvillage_spawn_chance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/villages#desert-village",
+        "link": "https://betterruins.org/structure/desert-village",
         "default": 1.0,
         "weight": 19.0,
         "logarithmic": true,
@@ -1334,7 +1367,7 @@
         "name": "prisonvillage_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:prisonvillage_spawn_chance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/villages#prison-village",
+        "link": "https://betterruins.org/structure/prison-village",
         "default": 1.0,
         "weight": 19.1,
         "logarithmic": true,
@@ -1347,7 +1380,7 @@
         "name": "coloredvillage_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:coloredvillage_spawn_chance",
-        "link": "https://github.com/AreYSerious/betterruins/wiki/villages#colored-village",
+        "link": "https://betterruins.org/structure/colored-village",
         "default": 1.0,
         "weight": 19.2,
         "logarithmic": true,
@@ -1360,7 +1393,7 @@
         "name": "ogdredvillage_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:ogdredvillage_spawn_chance",
-        "link": "https://github.com/NicIAss/betterruins/wiki/villages#ogdreds-village",
+        "link": "https://betterruins.org/structure/ogdreds-village",
         "default": 1.0,
         "weight": 19.22,
         "logarithmic": true,
@@ -1373,7 +1406,7 @@
         "name": "femursnappervillage_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:femursnappervillage_spawn_chance",
-        "link": "https://github.com/NicIAss/betterruins/wiki/villages#femursnappers-village",
+        "link": "https://betterruins.org/structure/femursnapper-village",
         "default": 1.0,
         "weight": 19.24,
         "logarithmic": true,
@@ -1386,7 +1419,7 @@
         "name": "villagestonesrowlyart_spawn_chance",
         "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:villagestonesrowlyart_spawn_chance",
-        "link": "https://github.com/NicIAss/betterruins/wiki/villages#rowdyart-stones-village",
+        "link": "https://betterruins.org/structure/rowdyarts-stone-formation",
         "default": 1.0,
         "weight": 19.25,
         "logarithmic": true,
@@ -1807,14 +1840,14 @@
     {
       "type": "separator",
       "title": "betterruins:translocators_title",
-      "link": "https://github.com/NicIAss/betterruins/wiki/translocators",
+      "link": "https://betterruins.org/wiki/translocators",
       "linktext": "betterruins:wiki_link",
       "weight": 14.5
     },
     {
       "type": "separator",
       "title": "betterruins:villages_title",
-      "link": "https://github.com/NicIAss/betterruins/wiki/villages",
+      "link": "https://betterruins.org/wiki/villages",
       "linktext": "betterruins:wiki_link",
       "weight": 15.5
     },
@@ -1856,14 +1889,13 @@
     {
       "type": "separator",
       "title": "betterruins:graves_title",
-      "link": "https://github.com/NicIAss/betterruins/wiki/graves",
       "linktext": "betterruins:wiki_link",
       "weight": 26
     },
     {
       "type": "separator",
       "title": "betterruins:monoliths_title",
-      "link": "https://github.com/NicIAss/betterruins/wiki/statues#monoliths",
+      "link": "https://betterruins.org/structure/monoliths-by-virrno",
       "linktext": "betterruins:wiki_link",
       "weight": 23.5399
     },
@@ -1875,142 +1907,156 @@
     {
       "type": "separator",
       "title": "betterruins:blueprints_spawn_chance_title",
-      "link": "https://github.com/NicIAss/betterruins/wiki/blueprints",
+      "link": "https://betterruins.org/wiki/blueprints",
       "linktext": "betterruins:wiki_link",
       "weight": 27.90
     },
     {
       "type": "separator",
       "title": "betterruins:waystones_title",
-      "link": "https://github.com/NicIAss/betterruins/wiki/statues#waystones",
+      "link": "https://betterruins.org/wiki/statues",
       "linktext": "betterruins:wiki_link",
       "weight": 23.49
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_wallsegment",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#01-wall-segment",
+      "link": "https://betterruins.org/structure/mega-wall-segment",
       "linktext": "betterruins:wiki_link",
       "weight": 2.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_rockformation",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#02-rock-formation",
+      "link": "https://betterruins.org/structure/mega-rock-formation",
       "linktext": "betterruins:wiki_link",
       "weight": 3.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_houseofusher",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#03-nordic-house",
+      "link": "https://betterruins.org/structure/mega-house-of-usher",
       "linktext": "betterruins:wiki_link",
       "weight": 4.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_visingborg",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#04-visingsborg",
+      "link": "https://betterruins.org/structure/mega-visingsborg",
       "linktext": "betterruins:wiki_link",
       "weight": 5.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_catnoirscastleruin",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#05-catnoirs-castle-ruin",
+      "link": "https://betterruins.org/structure/mega-catnoir-s-castle-ruin",
       "linktext": "betterruins:wiki_link",
       "weight": 6.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_destroyedlargechurch",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#06-destroyed-large-church",
+      "link": "https://betterruins.org/structure/mega-destroyed-large-church",
       "linktext": "betterruins:wiki_link",
       "weight": 7.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_wolfstonecastle",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#07-wolfstone-castle",
+      "link": "https://betterruins.org/structure/mega-wolfstone-castle",
       "linktext": "betterruins:wiki_link",
       "weight": 8.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_oasis",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#08-oasis",
+      "link": "https://betterruins.org/structure/mega-oasis",
       "linktext": "betterruins:wiki_link",
       "weight": 9.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_forlornhopetower",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#09-forlorn-hope-tower",
+      "link": "https://betterruins.org/structure/mega-forlornhopetower",
       "linktext": "betterruins:wiki_link",
       "weight": 10.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_giantcathedral",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#10-giant-cathedral",
+      "link": "https://betterruins.org/structure/mega-giantcathedral",
       "linktext": "betterruins:wiki_link",
       "weight": 11.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_undergroundlibrary",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#12-underground-library",
+      "link": "https://betterruins.org/structure/mega-undergroundlibrary",
       "linktext": "betterruins:wiki_link",
       "weight": 13.95
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_auldburg",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#15-auldburg",
+      "link": "https://betterruins.org/structure/mega-auldburg",
       "linktext": "betterruins:wiki_link",
       "weight": 14.335
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_normancastle",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#16-normancastle",
+      "link": "https://betterruins.org/structure/mega-normancastle",
       "linktext": "betterruins:wiki_link",
       "weight": 14.355
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_aqueduct",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#17-aqueduct",
+      "link": "https://betterruins.org/structure/mega-aqueduct",
       "linktext": "betterruins:wiki_link",
       "weight": 14.375
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_jumblerockcastle",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#18-jumblerock-castle",
+      "link": "https://betterruins.org/structure/mega-jumblerock-castle",
       "linktext": "betterruins:wiki_link",
       "weight": 14.38290
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_settlementofkeykeepers",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#19-settlement-of-the-keykeepers",
+      "link": "https://betterruins.org/structure/mega-settlement-of-the-keykeepers",
       "linktext": "betterruins:wiki_link",
       "weight": 14.3831
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_romanbathhouse",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#20-roman-bathhouse",
+      "link": "https://betterruins.org/structure/mega-roman-bathhouse",
       "linktext": "betterruins:wiki_link",
       "weight": 14.3841
     },
     {
       "type": "separator",
       "title": "betterruins:megastructure_palaceofnestor",
-      "link": "https://github.com/NicIAss/betterruins/wiki/mega-structures#21-palace-of-nestor",
+      "link": "https://betterruins.org/structure/mega-palace-of-nestor",
       "linktext": "betterruins:wiki_link",
       "weight": 14.3851
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_undergroundcastle",
+      "link": "https://betterruins.org/structure/mega-underground-castle",
+      "linktext": "betterruins:wiki_link",
+      "weight": 14.3861
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_mountaincastle",
+      "link": "https://betterruins.org/structure/mega-mountain-castle",
+      "linktext": "betterruins:wiki_link",
+      "weight": 14.3871
     }
   ]
 }

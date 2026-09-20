@@ -144,7 +144,7 @@
     "lore-strangetoylist-piece1": "We are asked to leave this place for a while.\r\nI can’t manage to gather the less important things, so I’m leaving this note for my future self who will return.\r\n\r\nLeft here:\r\n...a toy in the decorative niche in the wall to the right of the exit from the barracks...\r\n...\r\n...a toy behind the column, going down from the first floor...\r\n...\r\n...a whole box of toys behind the piano in the scriptorium...\r\n...\r\n___NEWPAGE___",
     "game:ingamediscovery-lore-strangetoylist": "Discovered lore 'Strange List of Toys'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
 
-    "lore-experimentteammember-title": "Entry from a Member of the Experiment Team",
+    "lore-experimentteammember-title": "Entry from a Member of the Experiment Team (BR)",
     "lore-experimentteammember-piece1": "We are ready for the experiment; outsiders are being evacuated.\r\nThe entire team is preparing, especially the combat team.\r\n\r\nI am quite excited; I wish I could be in their place - \r\nto peek into another world unlike our own, despite the skepticism and concerns of most of the leadership group...\r\n\r\n___NEWPAGE___",
     "game:ingamediscovery-lore-experimentteammember": "Discovered lore 'Entry from a Member of the Experiment Team'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
 
@@ -665,7 +665,7 @@
 
 
     "betterruins:Do you know anything interesting around here?": "[BR Quest] Do you know anything interesting around here?",
-    "betterruins:I have the meteoric knife you asked for. Here take it.": "[BR Quest] I have the meteoric knife you asked for. Here take it.",
+    "betterruins:I have the silver knife you asked for. Here take it.": "[BR Quest] I have the silver knife you asked for. Here take it.",
     "betterruins:There are whispers, traveler. Tales passed from one sun-scorched tongue to the next - of a place far beneath the dunes. An ancient tomb, where four trade empires once crossed paths and secrets were locked away in silence. It's not on any common map... but I may possess something rare.": "There are whispers, traveler. Tales passed from one sun-scorched tongue to the next - of a place far beneath the dunes. An ancient tomb, where four trade empires once crossed paths and secrets were locked away in silence. It's not on any common map... but I may possess something rare.",
     "betterruins:Why hasn't anyone gone after it?": "Why hasn't anyone gone after it?",
     "betterruins:Show me the map.": "Show me the map.",
@@ -674,8 +674,8 @@
     "betterruins:Sounds like a fairytale.": "Sounds like a fairytale.",
     "betterruins:I’ve dealt with worse. What’s your price?": "I’ve dealt with worse. What’s your price?",
     "betterruins:Then walk on, dreamer. Some things are best left to the wind and to the dead.": "Then walk on, dreamer. Some things are best left to the wind and to the dead.",
-    "betterruins:Spoken like one born of purpose. But rusty gears is not enough, not for this. I require something rarer - something that fell from the stars. Bring me a knife of meteoric iron. Freshly forged. Untouched by blood or rust. Only then shall I entrust you with the map.": "Spoken like one born of purpose. But rusty gears is not enough, not for this. I require something rarer - something that fell from the stars. Bring me a knife of meteoric iron. Freshly forged. Untouched by blood or rust. Only then shall I entrust you with the map.",
-    "betterruins:I will come back with a meteoric knife!": "I will come back with a meteoric knife!",
+    "betterruins:Spoken like one born of purpose. But rusty gears is not enough, not for this. I require something rarer - something that fell from the stars. Bring me a silver knife. Freshly forged. Untouched by blood or rust. Only then shall I entrust you with the map.": "Spoken like one born of purpose. But rusty gears is not enough, not for this. I require something rarer - something that fell from the stars. Bring me a silver knife. Freshly forged. Untouched by blood or rust. Only then shall I entrust you with the map.",
+    "betterruins:I will come back with a silver knife!": "I will come back with a silver knife!",
     "betterruins:You truly have it... A blade that sings of the forge and starlight. You’ve earned this.": "You truly have it... A blade that sings of the forge and starlight. You’ve earned this.",
     "betterruins:Take the map. May it guide you true, and may the sands be kind to your steps.": "Take the map. May it guide you true, and may the sands be kind to your steps.",
     "betterruins:Eager, are you? Wise or foolish - we shall see. This map leads to a chamber beneath the sands, once known as the Crossroads Below. Vaulted stone, buried secrets. It's not marked by stone, but by silence - and silence keeps its secrets well.": "Eager, are you? Wise or foolish - we shall see. This map leads to a chamber beneath the sands, once known as the Crossroads Below. Vaulted stone, buried secrets. It's not marked by stone, but by silence - and silence keeps its secrets well.",
@@ -684,7 +684,7 @@
     "betterruins:Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them.": "Those who made it sealed themselves in, taking their names with them. But they left warnings, etched in stone and scratched into bone. Listen closely when you're down there... you might still hear them.",
     "betterruins:Thanks!": "Thanks!",
     "betterruins:Now give me the map please.": "Now give me the map please.",
-    "betterruins:Here take the Meteoric Knife.": "Here take the Meteoric Knife.",
+    "betterruins:Here take the Silver knife.": "Here take the Silver knife.",
 
 
 
@@ -768,7 +768,7 @@
     "betterruins:I think I have a map from there... I'm not sure it leads exactly to it, but the mark with the sun suggests otherwise. The sun - the symbol of that place...": "I think I have a map from there... I'm not sure it leads exactly to it, but the mark with the sun suggests otherwise. The sun - the symbol of that place...",
     "betterruins:I want to obtain it. I assume you need something in return?": "I want to obtain it. I assume you need something in return?",
     "betterruins:Maybe you should get rid of it, might be safer for both of us.": "Maybe you should get rid of it, might be safer for both of us.",
-    "betterruins:Yes, but not exactly payment. A confirmation of your abilities. Show that you can handle good metal - bring me an iron pickaxe you forged yourself. If you're going there, better not go without purpose or craftsmanship.": "Yes, but not exactly payment. A confirmation of your abilities. Show that you can handle good metal - bring me an iron pickaxe you forged yourself. If you're going there, better not go without purpose or craftsmanship.",
+    "betterruins:Yes, but not exactly payment. A confirmation of your abilities. Show that you can handle good metal - bring me a blackbronze pickaxe. If you're going there, better not go without purpose or craftsmanship.": "Yes, but not exactly payment. A confirmation of your abilities. Show that you can handle good metal - bring me a blackbronze pickaxe. If you're going there, better not go without purpose or craftsmanship.",
     "betterruins:Sounds worthy, but I still need to learn that.": "Sounds worthy, but I still need to learn that.",
     "betterruins:I'll try to satisfy your request to prove my intentions.": "I'll try to satisfy your request to prove my intentions.",
     "betterruins:Of course... I see... yes, the pickaxe is solid. I think I can trust you with more than just the map.": "Of course... I see... yes, the pickaxe is solid. I think I can trust you with more than just the map.",
@@ -843,7 +843,38 @@
 
     "betterruins:Here you go.": "Here you go.",
 
-    "betterruins:Don’t you fret. I thought this might happen, so I kept another copy on hand. You Seraphs ought to stop making up stories about having died far-away every single time you misplace your things.": "Don’t you fret. I thought this might happen, so I kept another copy on hand. You Seraphs ought to stop making up stories about having died far-away every single time you misplace your things."
+    "betterruins:Don’t you fret. I thought this might happen, so I kept another copy on hand. You Seraphs ought to stop making up stories about having died far-away every single time you misplace your things.": "Don’t you fret. I thought this might happen, so I kept another copy on hand. You Seraphs ought to stop making up stories about having died far-away every single time you misplace your things.",
+
+
+    "game:location-forgottenvillage": "The Forgotten Village",
+    "item-locatormap-forgottenvillage": "Map to the Forgotten Village",
+    "betterruins:item-handbooktext-betterruins:locatormap-forgottenvillage": "<strong>Talk to</strong>\nAgriculture Trader",
+
+    "betterruins:[BR Quest] It looks like you’re nursing a bad injury, there…": "[BR Quest] It looks like you’re nursing a bad injury, there…",
+    "betterruins:Oh, it’s nothing life-threatening, so nothing worth worrying over. But thank you kindly for being concerned about little old me. Just… need to wait for it to get better, I suppose. If I were one of them treasure hunters, I’d have it easy. Their relics only get more valuable while they sit around doing nothing, but my vegetables are bound to spoil soon, and I’ve got farmsteads expecting me shortly. I don’t have the time to sit around until this heals!": "Oh, it’s nothing life-threatening, so nothing worth worrying over. But thank you kindly for being concerned about little old me. Just… need to wait for it to get better, I suppose. If I were one of them treasure hunters, I’d have it easy. Their relics only get more valuable while they sit around doing nothing, but my vegetables are bound to spoil soon, and I’ve got farmsteads expecting me shortly. I don’t have the time to sit around until this heals!",
+    "betterruins:What happened?": "What happened?",
+    "betterruins:I’ll leave you to recover.": "I’ll leave you to recover.",
+    "betterruins:That dearly beloved colleague of mine finally got under my skin. Kept insisting I had no right to complain about treasure hunting when I’d never given it a shot myself. They found this overgrown village, long since abandoned, and invited me to come along. Said they could use somebody there who knew their plants, and assured me it was safe. Safe! Safe!? I suppose compared to sticking my head inside one of them rifts, maybe!   I fell through some rotten flooring and got badly hurt. At least my colleague was kind enough to walk me back to my post, but they’ve since returned to poke around more of it by themselves.": "That dearly beloved colleague of mine finally got under my skin. Kept insisting I had no right to complain about treasure hunting when I’d never given it a shot myself. They found this overgrown village, long since abandoned, and invited me to come along. Said they could use somebody there who knew their plants, and assured me it was safe. Safe! Safe!? I suppose compared to sticking my head inside one of them rifts, maybe!   I fell through some rotten flooring and got badly hurt. At least my colleague was kind enough to walk me back to my post, but they’ve since returned to poke around more of it by themselves.",
+    "betterruins:Thank you kindly, Seraph. My shop is nevertheless open for you! Even stale carrots taste better than fistfuls of potentially toxic berries, so don’t be a stranger.": "Thank you kindly, Seraph. My shop is nevertheless open for you! Even stale carrots taste better than fistfuls of potentially toxic berries, so don’t be a stranger.",
+    "betterruins:Is there anything I could do to help?": "Is there anything I could do to help?",
+    "betterruins:Sounds like you ought to rest.": "Sounds like you ought to rest.",
+    "betterruins:There is one thing… I have horsetail and reeds on hand for basic treatment. But higher quality wound care would make a world of difference in getting me back on my feet. If you could bring me, say, a linen honey-sulfur poultice, I can heal much quicker, and I’ll make it worth your while.  I’ll get you a map to that village. Yes! My colleague should be camped out inside of it still. You tell that bastard for me that they were wrong and I was correct about leaving the adventures to you Seraphs! And you can help yourself to those treasures right out from under their nose, as a bit of payback. I'm sure they’re sitting on plenty of gears to buy them off of you afterwards.": "There is one thing… I have horsetail and reeds on hand for basic treatment. But higher quality wound care would make a world of difference in getting me back on my feet. If you could bring me, say, a linen honey-sulfur poultice, I can heal much quicker, and I’ll make it worth your while.  I’ll get you a map to that village. Yes! My colleague should be camped out inside of it still. You tell that bastard for me that they were wrong and I was correct about leaving the adventures to you Seraphs! And you can help yourself to those treasures right out from under their nose, as a bit of payback. I'm sure they’re sitting on plenty of gears to buy them off of you afterwards.",
+    "betterruins:Wouldn’t have it any other way. It’d be too soon if I ever had to go on an adventure again… but if you’re planning to go on any, you shouldn’t do so on an empty stomach, so stock up!": "Wouldn’t have it any other way. It’d be too soon if I ever had to go on an adventure again… but if you’re planning to go on any, you shouldn’t do so on an empty stomach, so stock up!",
+    "betterruins:Alright, sounds like a deal!": "Alright, sounds like a deal!",
+    "betterruins:Sorry, no.": "Sorry, no.",
+    "betterruins:Remember, a linen honey-sulfur poultice! So long as we’re putting in the effort, you might just as well go for the best of the best!": "Remember, a linen honey-sulfur poultice! So long as we’re putting in the effort, you might just as well go for the best of the best!",
+    "betterruins:A shame. I’ll stick it to them when they come here to stock up on rations… Speaking of, are you in need of any of my stock?": "A shame. I’ll stick it to them when they come here to stock up on rations… Speaking of, are you in need of any of my stock?",
+    "betterruins:[BR Quest] I've got your poultice.": "[BR Quest] I've got your poultice.",
+    "betterruins:Ah, there we are! Linen, honey and sulfur. This ought to do a whole lot more for me than those itchy reeds... Thank you kindly, Seraph. Give me a moment to get this tied down properly... I can already tell I'll be back on my feet much sooner thanks to you.": "Ah, there we are! Linen, honey and sulfur. This ought to do a whole lot more for me than those itchy reeds... Thank you kindly, Seraph. Give me a moment to get this tied down properly... I can already tell I'll be back on my feet much sooner thanks to you.",
+    "betterruins:And my map?": "And my map?",
+    "betterruins:Yes, yes! I didn't forget our deal. I marked the village down for you. Don't leave my colleague waiting too long, now. They must be getting lonely! I'm sure they wouldn't mind you taking whatever treasures catch your eye. Here you are. And do make sure they know exactly who sent you.": "Yes, yes! I didn't forget our deal. I marked the village down for you. Don't leave my colleague waiting too long, now. They must be getting lonely! I'm sure they wouldn't mind you taking whatever treasures catch your eye. Here you are. And do make sure they know exactly who sent you.",
+    "betterruins:I'll be sure to pay them a visit.": "I'll be sure to pay them a visit.",
+    "betterruins:Please do. I'd hate for them to think I wasn't grateful for the experience.": "Please do. I'd hate for them to think I wasn't grateful for the experience.",
+    "betterruins:[BR Quest] I lost the village map!": "[BR Quest] I lost the village map!",
+    "betterruins:You lost it!? So the rumours are true, you Seraphs really do have rifts inside your skulls.  Ah, nevermind. I remember the way well enough. Hard to forget that gruelling hike back here. Give me but a moment, I'll draw you up another.": "You lost it!? So the rumours are true, you Seraphs really do have rifts inside your skulls.  Ah, nevermind. I remember the way well enough. Hard to forget that gruelling hike back here. Give me but a moment, I'll draw you up another.",
+
+    "betterruins:megastructure_undergroundcastle": "Megastructure Underground Castle",
+    "betterruins:megastructure_mountaincastle": "Megastructure Mountain Castle"
 
 
 

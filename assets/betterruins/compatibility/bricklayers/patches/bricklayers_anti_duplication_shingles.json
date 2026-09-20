@@ -1,0 +1,4610 @@
+[
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/0/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/0/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/1/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/1/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/2/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/2/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/3/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/3/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/4/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/4/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/5/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/5/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/6/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/6/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/7/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/7/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/8/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/8/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/9/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/9/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/10/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/10/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/11/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/11/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/12/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/12/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/13/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/13/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/14/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/14/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/15/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/15/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/16/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/16/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/17/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/17/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/18/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/18/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/19/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/19/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/20/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/20/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/21/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/21/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/22/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/22/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/23/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/23/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/24/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/24/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/25/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/25/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/26/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/26/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/27/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/27/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/28/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/28/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/29/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/29/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/30/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/30/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/31/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/31/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/32/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/32/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/33/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/33/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/34/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/34/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/35/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/35/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/36/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/36/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/37/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/37/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/38/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/38/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/39/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/39/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/40/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/40/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/41/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/41/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/42/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/42/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/43/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/43/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/44/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/44/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/45/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/45/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/46/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/46/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/47/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/47/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/48/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/48/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/49/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/49/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/50/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/50/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/51/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/51/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/52/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/52/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/53/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/53/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/54/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/54/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/55/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/55/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/56/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/56/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/57/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/57/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/58/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/58/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/59/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/59/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/60/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/60/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/61/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/61/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/62/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/62/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/63/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/63/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/64/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/64/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/65/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/65/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/66/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/66/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/67/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/67/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/68/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/68/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/69/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/69/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/70/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/70/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/71/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/71/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/72/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/72/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/73/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/73/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/74/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/74/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/75/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/75/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/76/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/76/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/77/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/77/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/78/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/78/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/79/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/79/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/80/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/80/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/81/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/81/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/82/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/82/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/83/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/83/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/84/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/84/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/85/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/85/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/86/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/86/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/87/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/87/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/88/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/88/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/89/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/89/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/90/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/90/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/91/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/91/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/92/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/92/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/93/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/93/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/94/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/94/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/95/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/95/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/96/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/96/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/97/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/97/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/98/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/98/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/99/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/99/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/100/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/100/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/101/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/101/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/102/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/102/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/103/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/103/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/104/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/104/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/105/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/105/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/106/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/106/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/107/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/107/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/108/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/108/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/109/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/109/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/110/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/110/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/111/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/111/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/112/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/112/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/113/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/113/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/114/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/114/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/115/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/115/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/116/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/116/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/117/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/117/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/118/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/118/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/119/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/119/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/120/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/120/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/121/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/121/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/122/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/122/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/123/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/123/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/124/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/124/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/125/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/125/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/126/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/126/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/127/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/127/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/128/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/128/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/129/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/129/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/130/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/130/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/131/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/131/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/132/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/132/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/133/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/133/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/134/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/134/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/135/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/135/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/136/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/136/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/137/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/137/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/138/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/138/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/139/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/139/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/140/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/140/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/141/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/141/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/142/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/142/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/143/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/143/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/144/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/144/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/145/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/145/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/146/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/146/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/147/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/147/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/148/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/148/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/149/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/149/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/150/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/150/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/151/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/151/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/152/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/152/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/153/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/153/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/154/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/154/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/155/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/155/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/156/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/156/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/157/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/157/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/158/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/158/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/159/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/159/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/160/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/160/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/161/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/161/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/162/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/162/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/163/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/163/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/164/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/164/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/165/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/165/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/166/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/166/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/167/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/167/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/168/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/168/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/169/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/169/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/170/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/170/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/171/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/171/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/172/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/172/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/173/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/173/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/174/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/174/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/175/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/175/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/176/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/176/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/177/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/177/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/178/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/178/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/179/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/179/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/180/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/180/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/181/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/181/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/182/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/182/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/183/ingredients/B/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/183/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/184/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/184/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/185/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/185/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/186/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/186/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/187/ingredients/B/quantity",
+        "value": 16,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/187/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/188/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/188/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/189/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/189/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/190/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/190/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "add",
+        "path": "/191/ingredients/B/quantity",
+        "value": 8,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "bricklayers:recipes/grid/recycle/roofing_to_shingles.json",
+        "op": "replace",
+        "path": "/191/output/quantity",
+        "value": 3,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    }
+]

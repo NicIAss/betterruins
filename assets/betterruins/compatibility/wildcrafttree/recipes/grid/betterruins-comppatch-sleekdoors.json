@@ -16,7 +16,8 @@
       },
       "S": {
         "type": "Item",
-        "code": "betterruins:br-schematic-door"
+        "code": "betterruins:br-schematic-door",
+        "consume": false
       }
     },
     "width": 3,

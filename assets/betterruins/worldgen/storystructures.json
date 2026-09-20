@@ -12,7 +12,8 @@
 		"story/betterruins:brsunrift": 27,
 		"story/betterruins:brcalix": 26,
 		"story/betterruins:brshoppingcentre": 71,
-		"story/betterruins:brhalitequarry": 18
+		"story/betterruins:brhalitequarry": 18,
+		"story/betterruins:brforgottenvillage": 31
 	},
 	"structures": [
 		{
@@ -413,6 +414,55 @@
 				"rivulets": 100,
 				"caves": 120,
 				"patches": 30
+			}
+		},
+		{
+			"code": "forgottenvillage",
+			"group": "storystructure",
+			"name": "forgottenvillage",
+			"schematics": [
+				"story/brforgottenvillage"
+			],
+			"placement": "SurfaceRuin",
+			"dependsOnStructure": "spawn",
+			"minSpawnDistX": 0,
+			"maxSpawnDistX": 1000,
+			"minSpawnDistZ": 9000,
+			"maxSpawnDistZ": 10000,
+			"requireLandform": "veryflat",
+			"landformRadius": 200,
+			"rockTypeRemapGroup": "underground",
+			"buildProtected": true,
+			"buildProtectionName": "custommessage-treasurehunter",
+			"buildProtectionDesc": "Forgotten Village",
+			"CustomLandClaims": [
+				{
+					"x1": 68,
+					"y1": 18,
+					"z1": 69,
+					"x2": 74,
+					"y2": 20,
+					"z2": 74
+				},
+				{
+					"x1": 77,
+					"y1": 19,
+					"z1": 68,
+					"x2": 85,
+					"y2": 24,
+					"z2": 81
+				}
+			],
+			"ExcludeSchematicSizeProtect": true,
+			"skipGenerationCategories": {
+				"structures": 800,
+				"trees": 20,
+				"shrubs": 20,
+				"hotsprings": 200,
+				"pond": 50,
+				"rivulets": 200,
+				"caves": 200,
+				"patches": 0
 			}
 		}
 	],

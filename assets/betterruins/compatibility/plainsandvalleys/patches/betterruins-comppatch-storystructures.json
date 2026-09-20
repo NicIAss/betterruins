@@ -166,5 +166,17 @@
         "modid": "plainsandvalleys"
       }
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/14/requireLandform",
+    "value": "pvcoastal flatlands",
+    "file": "betterruins:worldgen/storystructures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "plainsandvalleys"
+      }
+    ]
   }
 ]

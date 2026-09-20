@@ -3,24 +3,6 @@
     "op": "add",
     "path": "/selling/list/-",
     "value": {
-      "code": "betterruins:locatormap-gates",
-      "type": "item",
-      "stacksize": 1,
-      "stock": {
-        "avg": 1.5,
-        "var": 0.75
-      },
-      "price": {
-        "avg": 8,
-        "var": 2
-      }
-    },
-    "file": "game:config/tradelists/trader-treasurehunter.json"
-  },
-  {
-    "op": "add",
-    "path": "/selling/list/-",
-    "value": {
       "code": "betterruins:locatormap-undergroundruins",
       "type": "item",
       "stacksize": 1,
