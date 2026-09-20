@@ -109,6 +109,7 @@
 			"*-forlornhopedungeon": {
 				"schematiccode": "forlornhopedungeon",
 				"waypointtext": "location-forlornhopedungeon",
+				"offset": { "x": -25, "y": 0, "z": 8 },
 				"waypointicon": "x",
 				"waypointcolor": [
 					0.2,
