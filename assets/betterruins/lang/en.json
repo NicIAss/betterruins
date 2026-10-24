@@ -1,4 +1,4 @@
-﻿{
+{
     "lore-wolfstone-title": "The Wolfstone Castle (BR)",
     "lore-wolfstone-piece1": "The partially ruined castle of Wolfstone had a rich history that began centuries ago when it was merely a single square tower, built to oversee the valuable mines in the surrounding area. The tower was constructed with great care, as the mines were vital to the region's economy and safety. Over time, the tower proved to be a sturdy structure, and it withstood the test of time and the elements.\r\n\r\nAs the years passed, the tower was gifted to a newly risen baron for his accomplishments in some war. The baron was grateful for the gift and worked hard to expand the tower into a fully-fledged castle, adding a moat and sturdy walls to protect the area. The castle continued to evolve and expand under the descendants of the original baron as the mines grew ever more prosperous.\r\n\r\nThe castle was named after a pack of wolves that lived in the surrounding area, which were revered by the local people for their fierce strength and resilience. Thus, the castle became known as Wolfstone, a name that would endure for centuries to come.\r\n\r\nThe last lord of Wolfstone was an avid reader and writer, who spent many hours pouring over the vast collection of books in the castle's library. He was a learned man, with a keen intellect and a deep understanding of the world around him. He often spent long hours reading by the fire, lost in thought as he pondered the mysteries of life.\r\n\r\nDespite his love of books, the last lord of Wolfstone was also a fierce warrior who led his people bravely in battle. He was a just and fair ruler who cared deeply for his people and worked tirelessly to ensure their safety and prosperity. However, despite his best efforts, the castle eventually fell into disrepair, as the mines began to dry up and the surrounding area became less prosperous.\r\n\r\nToday, the partially ruined castle of Wolfstone stands as a testament to a bygone era, a reminder of the rich history and traditions that have shaped the world around us.                     ",
     "game:ingamediscovery-lore-wolfstonecastle": "Discovered lore 'The Wolfstone Castle'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
@@ -510,6 +510,8 @@
     "betterruins:item-handbooktext-betterruins:br-schematic-carpenter": "<strong>Found in</strong>\nRare in any ruin",
     "item-br-schematic-alchemist": "Alchemist's Blueprint",
     "betterruins:item-handbooktext-betterruins:br-schematic-alchemist": "<strong>Found in</strong>\nRare in any ruin",
+    "item-br-schematic-glassmaker": "Glassmaker's Blueprint",
+    "betterruins:item-handbooktext-betterruins:br-schematic-glassmaker": "<strong>Found in</strong>\nRare in any ruin",
 
 
 
