@@ -1,0 +1,28 @@
+{
+  "ingredientPattern": "BK",
+  "ingredients": {
+    "B": {
+      "type": "item",
+      "code": "betterruins:br-schematic-*",
+      "name": "type",
+      "quantity": 1,
+      "consume": true
+    },
+    "K": {
+      "type": "item",
+      "tags": ["tool-knife"],
+      "isTool": true,
+      "toolDurabilityCost": 1
+    }
+  },
+  "shapeless": true,
+  "width": 2,
+  "height": 1,
+  "enabled": true,
+  "name": "brschematicrecycle",
+  "output": {
+    "type": "item",
+    "code": "game:flaxfibers",
+    "quantity": 6
+  }
+}
