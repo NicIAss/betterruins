@@ -600,23 +600,7 @@
         "height": 2,
         "output": {"type": "Block", "code": "game:storagevessel-talik", "attributes": { "type": "normal" } }
     },
-    {
-        "ingredientPattern": "XC,_V",
-        "ingredients": {
-            "C": { "type": "Block", "code": "game:bowl-*-fired" },
-            "V": {"type": "Block", "code": "game:storagevessel-black-fired", "attributes": { "type": "normal" } },
-            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
-        },
-        "attributes": {
-			"liquidContainerProps": {
-				"requiresContent": { "type": "item", "code": "game:dye-white" },
-				"requiresLitres": 1
-			}
-		},		
-        "width": 2,
-        "height": 2,
-        "output": {"type": "Block", "code": "game:storagevessel-talik", "attributes": { "type": "normal" } }
-    },
+
     {
         "ingredientPattern": "XC,_V",
         "ingredients": {
@@ -747,6 +731,159 @@
 
 
 
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:storagevessel-black-fired", "attributes": { "type": "normal" } },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-green" },
+				"requiresLitres": 1
+			}
+		},
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:storagevessel-abyss", "attributes": { "type": "normal" } }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:storagevessel-black-fired", "attributes": { "type": "normal" } },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-yellow" },
+				"requiresLitres": 1
+			}
+		},
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:storagevessel-chains", "attributes": { "type": "normal" } }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:storagevessel-brown-fired", "attributes": { "type": "normal" } },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-white" },
+				"requiresLitres": 1
+			}
+		},
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:storagevessel-entrenched", "attributes": { "type": "normal" } }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:storagevessel-cream-fired", "attributes": { "type": "normal" } },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-yellow" },
+				"requiresLitres": 1
+			}
+		},
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:storagevessel-golden", "attributes": { "type": "normal" } }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:storagevessel-tan-fired", "attributes": { "type": "normal" } },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-gray" },
+				"requiresLitres": 1
+			}
+		},
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:storagevessel-motheaten", "attributes": { "type": "normal" } }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:storagevessel-orange-fired", "attributes": { "type": "normal" } },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-green" },
+				"requiresLitres": 1
+			}
+		},
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:storagevessel-patina", "attributes": { "type": "normal" } }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:storagevessel-brown-fired", "attributes": { "type": "normal" } },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-green" },
+				"requiresLitres": 1
+			}
+		},
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:storagevessel-pine", "attributes": { "type": "normal" } }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:storagevessel-tan-fired", "attributes": { "type": "normal" } },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-green" },
+				"requiresLitres": 1
+			}
+		},
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:storagevessel-serpents", "attributes": { "type": "normal" } }
+    },
+    {
+        "ingredientPattern": "XC,_V",
+        "ingredients": {
+            "C": { "type": "Block", "code": "game:bowl-*-fired" },
+            "V": {"type": "Block", "code": "game:storagevessel-black-fired", "attributes": { "type": "normal" } },
+            "X": {"type": "Item", "code": "br-schematic-artisan", "consume": false }
+        },
+        "attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:dye-purple" },
+				"requiresLitres": 1
+			}
+		},
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "game:storagevessel-void", "attributes": { "type": "normal" } }
+    },
     {
         "ingredientPattern": "XC,_V",
         "ingredients": {
