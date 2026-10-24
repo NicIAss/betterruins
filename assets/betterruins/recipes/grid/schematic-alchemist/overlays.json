@@ -1,0 +1,132 @@
+[
+  {
+    "ingredientPattern": "XHL",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-alchemist",
+        "consume": false
+      },
+      "H": {
+        "type": "Item",
+        "code": "game:nugget-hematite"
+      },
+      "L": {
+        "type": "Item",
+        "code": "game:lime"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:oxidation-rust-normal",
+      "quantity": 8
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-alchemist",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:oxidation-rust-normal"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:oxidation-rust-dripping",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-alchemist",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:oxidation-rust-dripping"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:oxidation-rust-3tall-top",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-alchemist",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:oxidation-rust-3tall-top"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:oxidation-rust-3tall-mid",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-alchemist",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:oxidation-rust-3tall-mid"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:oxidation-rust-3tall-bot",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-alchemist",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:oxidation-rust-3tall-bot"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:oxidation-rust-normal",
+      "quantity": 1
+    }
+  }
+]

@@ -129,5 +129,71 @@
     "path": "/attributes/handbook/exclude",
     "value": false,
     "side": "Server"
+  },
+  {
+    "file": "game:blocktypes/overlay/attachingplant.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  },
+  {
+    "file": "game:blocktypes/overlay/banner.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  },
+  {
+    "file": "game:blocktypes/overlay/dirt.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  },
+  {
+    "file": "game:blocktypes/overlay/gravel.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  },
+  {
+    "file": "game:blocktypes/overlay/grime.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  },
+  {
+    "file": "game:blocktypes/overlay/mosslayertinted.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  },
+  {
+    "file": "game:blocktypes/overlay/oxidation.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  },
+  {
+    "file": "game:blocktypes/overlay/paint.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  },
+  {
+    "file": "game:blocktypes/overlay/precipitate.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  },
+  {
+    "file": "game:blocktypes/overlay/transition.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  },
+  {
+    "file": "game:blocktypes/overlay/wallscribbles.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
   }
 ]
