@@ -1,0 +1,28 @@
+{
+  "ingredientPattern": "X\tP\tL",
+  "recipeGroup": 333,
+  "ingredients": {
+    "X": {
+      "type": "Item",
+      "code": "betterruins:br-schematic-book",
+      "consume": false
+    },
+    "P": {
+      "type": "Item",
+      "code": "game:paper-parchment",
+      "quantity": 4
+    },
+    "L": {
+      "type": "Item",
+      "code": "game:leather-normal-plain",
+      "quantity": 1
+    }
+  },
+  "width": 1,
+  "height": 3,
+  "output": {
+    "type": "Item",
+    "code": "game:book-normal-brickred",
+    "quantity": 1
+  }
+}
