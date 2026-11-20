@@ -294,6 +294,48 @@
 		"*-agedsunrift":{
 			"map-treasures": { "base": "item/lore/map-{type}" }
 		},
+		"*-coalmine":{
+			"map-treasures": { "base": "item/lore/map-{type}" }
+		},
+		"*-forlornhopetower":{
+			"map-treasures": { "base": "item/lore/map-{type}" }
+		},
+		"*-forlornhopedungeon":{
+			"map-treasures": { "base": "item/lore/map-{type}" }
+		},
+		"*-university":{
+			"map-treasures": { "base": "item/lore/map-{type}" }
+		},
+		"*-mine1":{
+			"map-treasures": { "base": "item/lore/map-{type}" }
+		},
+		"*-mine2":{
+			"map-treasures": { "base": "item/lore/map-{type}" }
+		},
+		"*-crossroadsbelow":{
+			"map-treasures": { "base": "item/lore/map-{type}" }
+		},
+		"*-halitequarry":{
+			"map-treasures": { "base": "item/lore/map-{type}" }
+		},
+		"*-huaca":{
+			"map-treasures": { "base": "item/lore/map-{type}" }
+		},
+		"*-shoppingcentre":{
+			"map-treasures": { "base": "item/lore/map-{type}" }
+		},
+		"*-calix":{
+			"map-treasures": { "base": "item/lore/map-{type}" }
+		},
+		"*-thepanopticon":{
+			"map-treasures": { "base": "item/lore/map-{type}" }
+		},
+		"*-forgottenvillage":{
+			"map-treasures": { "base": "item/lore/map-{type}" }
+		},
+		"*-mansion":{
+			"map-treasures": { "base": "item/lore/map-{type}" }
+		},
 		"*" :{
 			"map-treasures": { "base": "game:item/lore/map-treasures" }
 		}
