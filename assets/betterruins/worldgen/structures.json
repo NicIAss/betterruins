@@ -2776,7 +2776,7 @@
 				"game:gravel-granite"
 			],
 			"MaxBelowSealevel": 2,
-			"MinForest": 60,
+			"MinForest": 0.6,
 			"MaxTemp": 24,
 			"MinSpawnDistance": 2500
 		},
