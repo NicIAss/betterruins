@@ -40,6 +40,9 @@
         "mechanical",
         "roofing",
         "textureflipper",
+        "decalcan-scribbles",
+        "decalcan-alchemy",
+        "decalcan-geometry",
         "palisade",
         "farmer",
         "shipwright",
@@ -49,6 +52,7 @@
         "gravedigger",
         "cartwright",
         "alchemist",
+        "glassmaker",
         "carpenter",
         "toymaker"
       ]

@@ -1,0 +1,62 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "stonequarry:plugandfeather-copper-0-down-north",
+      "chance": 5,
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      }
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "stonequarry:plugandfeather-tinbronze-0-down-north",
+      "chance": 1,
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      }
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "stonequarry:plugandfeather-bismuthbronze-0-down-north",
+      "chance": 1,
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      }
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ]
+  }
+]

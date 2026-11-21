@@ -1,0 +1,266 @@
+[
+  {
+    "ingredientPattern": "XDC",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-artisan",
+        "consume": false
+      },
+      "D": {
+        "type": "Block",
+        "code": "game:overlay-dirt-sparse-1"
+      },
+      "C": {
+        "type": "Item",
+        "code": "game:charcoal"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-grime-dirtlight-full",
+      "quantity": 32
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-artisan",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-grime-dirtlight-full"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-grime-dirtlight-bottom",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-artisan",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-grime-dirtlight-bottom"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-grime-dirtlight-top",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-artisan",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-grime-dirtlight-top"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-grime-dirtlight-full",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XLR",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-artisan",
+        "consume": false
+      },
+      "L": {
+        "type": "Item",
+        "code": "game:lime"
+      },
+      "R": {
+        "type": "Item",
+        "code": "game:resin"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:paint-scratched-white",
+      "quantity": 8
+    }
+  },
+  {
+    "ingredientPattern": "XCS",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-artisan",
+        "consume": false
+      },
+      "C": {
+        "type": "Item",
+        "code": "game:charcoal"
+      },
+      "S": {
+        "type": "Item",
+        "code": "game:stone-*"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:wallscribbles-scribbles",
+      "quantity": 32
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-artisan",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:wallscribbles-scribbles"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:wallscribbles-art",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-artisan",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:wallscribbles-art"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:wallscribbles-tally",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-artisan",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:wallscribbles-tally"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:wallscribbles-maze",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-artisan",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:wallscribbles-maze"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:wallscribbles-text",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-artisan",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:wallscribbles-text"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:wallscribbles-carving",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-artisan",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:wallscribbles-carving"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:wallscribbles-scribbles",
+      "quantity": 1
+    }
+  }
+]

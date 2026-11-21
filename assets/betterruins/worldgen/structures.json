@@ -321,6 +321,8 @@
 		"overground/main/mediumruins/mediumruins-sirayne-o5-tradershelter": -5,
 		"overground/main/mediumruins/mediumruins-0305-o3-ifoz": -3,
 		"overground/main/mediumruins/mediumruins-shikitochi-o3-oldseraphcamp": -3,
+		"overground/main/mediumruins/mediumruins-dwarventower-acegamepython-o6": -6,
+		"overground/main/mediumruins/mediumruins-grue-abandonedshelter-o3": -3,
 		"overground/main/village-paths/normal/road-niclass-o1-0101": -1,
 		"overground/main/village-paths/normal/road-niclass-o1-0102": -1,
 		"overground/main/village-paths/normal/road-niclass-o1-0103": -1,
@@ -2774,7 +2776,7 @@
 				"game:gravel-granite"
 			],
 			"MaxBelowSealevel": 2,
-			"MinForest": 60,
+			"MinForest": 0.6,
 			"MaxTemp": 24,
 			"MinSpawnDistance": 2500
 		},

@@ -1,0 +1,52 @@
+[
+  {
+    "ingredientPattern": "WXH,CKL,SP_",
+    "ingredients": {
+      "W": {
+        "code": "game:wrench-*",
+        "isTool": true,
+        "type": "Item"
+      },
+      "X": {
+        "code": "betterruins:br-schematic-decalcan-alchemy",
+        "type": "Item",
+        "consume": false
+      },
+      "H": {
+        "code": "game:hammer-*",
+        "isTool": true,
+        "type": "Item"
+      },
+      "C": {
+        "code": "game:jonasparts-valve01",
+        "type": "Item"
+      },
+      "K": {
+        "code": "game:returndeath-returndeath2",
+        "type": "Item"
+      },
+      "L": {
+        "type": "Block",
+        "code": "game:jonas-lamp",
+        "attributes": {
+          "type": "lightsource/on/lumi-floor10"
+        }
+      },
+      "S": {
+        "code": "game:scrapweaponkit",
+        "type": "Item"
+      },
+      "P": {
+        "code": "game:jonasframes-gearbox01",
+        "type": "Item"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "code": "game:decalcan-alchemy",
+      "type": "Item",
+      "quantity": 1
+    }
+  }
+]

@@ -1,0 +1,346 @@
+[
+  {
+    "ingredientPattern": "XCG",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-farmer",
+        "consume": false
+      },
+      "C": {
+        "type": "Item",
+        "code": "game:compost"
+      },
+      "G": {
+        "type": "Item",
+        "code": "game:drygrass"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:attachingplant-moss",
+      "quantity": 32
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-farmer",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:attachingplant-moss"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:attachingplant-spottymoss",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-farmer",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:attachingplant-spottymoss"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:attachingplant-lichen",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-farmer",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:attachingplant-lichen"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:attachingplant-moss",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XR",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-farmer",
+        "consume": false
+      },
+      "R": {
+        "type": "Item",
+        "code": "game:rot"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:attachingplant-mold",
+      "quantity": 8
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-farmer",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:attachingplant-mold"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:attachingplant-spottymold",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-farmer",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:attachingplant-spottymold"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:attachingplant-sparsemold",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-farmer",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:attachingplant-sparsemold"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:attachingplant-deadfungi",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-farmer",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:attachingplant-deadfungi"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:attachingplant-mold",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XS",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-farmer",
+        "consume": false
+      },
+      "S": {
+        "type": "Block",
+        "code": "game:seashell-*-*"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:attachingplant-barnacle",
+      "quantity": 8
+    }
+  },
+  {
+    "ingredientPattern": "XMG",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-farmer",
+        "consume": false
+      },
+      "M": {
+        "type": "Block",
+        "code": "game:attachingplant-moss"
+      },
+      "G": {
+        "type": "Item",
+        "code": "game:drygrass"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:mosslayertinted-full",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-farmer",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:mosslayertinted-full"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:mosslayertinted-patchy",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-farmer",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:mosslayertinted-patchy"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:mosslayertinted-shortside",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-farmer",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:mosslayertinted-shortside"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:mosslayertinted-longside",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-farmer",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:mosslayertinted-longside"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:mosslayertinted-transparent",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-farmer",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:mosslayertinted-transparent"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:mosslayertinted-full",
+      "quantity": 1
+    }
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "stonequarry:chisel-finishing-tinbronze",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "stonequarry:chisel-finishing-bismuthbronze",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "stonequarry:chisel-wedge-tinbronze",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "stonequarry:chisel-wedge-bismuthbronze",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "stonequarry:rubblehammer-tinbronze",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "stonequarry:rubblehammer-bismuthbronze",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "stonequarry:chisel-roughcut-tinbronze",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "stonequarry:chisel-roughcut-bismuthbronze",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ]
+  }
+]

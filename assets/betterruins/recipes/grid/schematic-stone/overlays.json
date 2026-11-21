@@ -1,0 +1,510 @@
+[
+  {
+    "ingredientPattern": "XS",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "S": {
+        "type": "Block",
+        "code": "game:soil-*-none"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-dirt-sparse-1",
+      "quantity": 16
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-dirt-sparse-1"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-dirt-sparse-2",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-dirt-sparse-2"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-dirt-sparse-3",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-dirt-sparse-3"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-dirt-sparse-4",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-dirt-sparse-4"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-dirt-sparse-5",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-dirt-sparse-5"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-dirt-sparse-6",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-dirt-sparse-6"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-dirt-sparse-1",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XG",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "G": {
+        "type": "Block",
+        "code": "game:gravel-*"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-gravel-dry1",
+      "quantity": 16
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-gravel-dry1"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-gravel-dry2",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-gravel-dry2"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-gravel-dry3",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-gravel-dry3"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-gravel-dry4",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-gravel-dry4"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-gravel-wet1",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-gravel-wet1"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-gravel-wet2",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-gravel-wet2"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-gravel-wet3",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-gravel-wet3"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-gravel-wet4",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:overlay-gravel-wet4"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:overlay-gravel-dry1",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XDG",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "D": {
+        "type": "Block",
+        "code": "game:overlay-dirt-sparse-1"
+      },
+      "G": {
+        "type": "Block",
+        "code": "game:overlay-gravel-dry1"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:transition-dirtygravel-dry",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:transition-dirtygravel-dry"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:transition-dirtygravel-wet",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:transition-dirtygravel-wet"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:transition-dirtygravel-darkwet",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:transition-dirtygravel-darkwet"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:transition-dirtygravel-dry",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XL",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "L": {
+        "type": "Item",
+        "code": "game:lime"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:precipitate-dust-heavy",
+      "quantity": 16
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:precipitate-dust-heavy"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:precipitate-dust-light",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:precipitate-dust-light"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:precipitate-dust-sparse",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "XB",
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-stone",
+        "consume": false
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:precipitate-dust-sparse"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:precipitate-dust-heavy",
+      "quantity": 1
+    }
+  }
+]

@@ -1,0 +1,245 @@
+[
+  {
+    "ingredientPattern": "BQC",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "betterruins:br-schematic-glassmaker",
+        "consume": false
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:crushed-quartz",
+        "quantity": 4
+      },
+      "C": {
+        "type": "item",
+        "code": "game:crushed-olivine",
+        "quantity": 6
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "game:glass-green",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "BQC",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "betterruins:br-schematic-glassmaker",
+        "consume": false
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:crushed-quartz",
+        "quantity": 4
+      },
+      "C": {
+        "type": "item",
+        "code": "game:crushed-lapislazuli",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "game:glass-blue",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "BQC",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "betterruins:br-schematic-glassmaker",
+        "consume": false
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:crushed-quartz",
+        "quantity": 4
+      },
+      "C": {
+        "type": "item",
+        "code": "game:amethyst",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "game:glass-violet",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "BQC",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "betterruins:br-schematic-glassmaker",
+        "consume": false
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:crushed-quartz",
+        "quantity": 4
+      },
+      "C": {
+        "type": "item",
+        "code": "game:crushed-cinnabar",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "game:glass-red",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "BQC",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "betterruins:br-schematic-glassmaker",
+        "consume": false
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:crushed-quartz",
+        "quantity": 4
+      },
+      "C": {
+        "type": "item",
+        "code": "game:powder-sulfur",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "game:glass-yellow",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "BQC",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "betterruins:br-schematic-glassmaker",
+        "consume": false
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:crushed-quartz",
+        "quantity": 4
+      },
+      "C": {
+        "type": "item",
+        "code": "game:crushed-iron",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "game:glass-brown",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "BQC",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "betterruins:br-schematic-glassmaker",
+        "consume": false
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:crushed-quartz",
+        "quantity": 4
+      },
+      "C": {
+        "type": "item",
+        "code": "game:lime",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "game:glass-vintage",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "BQC",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "betterruins:br-schematic-glassmaker",
+        "consume": false
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:crushed-quartz",
+        "quantity": 4
+      },
+      "C": {
+        "type": "item",
+        "code": "game:smokyquartz",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "game:glass-smoky",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "BQC",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "betterruins:br-schematic-glassmaker",
+        "consume": false
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:crushed-quartz",
+        "quantity": 4
+      },
+      "C": {
+        "type": "item",
+        "code": "game:rosequartz",
+        "quantity": 3
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "game:glass-pink",
+      "quantity": 2
+    }
+  }
+]

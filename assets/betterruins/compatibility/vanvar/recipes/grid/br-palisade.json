@@ -4,7 +4,7 @@
         "ingredientPattern": "X,L",
         "ingredients": {
             "X": {"type": "Item", "code": "betterruins:br-schematic-palisade"  , "consume": false },
-            "L": {"type": "Block", "code": "game:supportbeam-*" , "name": "wood", "skipVariants": ["tarnishedmetal-bismuthbronze", "tarnishedmetal-blackbronze", "tarnishedmetal-blistersteel", "tarnishedmetal-brass", "tarnishedmetal-copper", "tarnishedmetal-iron", "tarnishedmetal-lead", "tarnishedmetal-rust", "tarnishedmetal-rusty-iron", "tarnishedmetal-steel", "aged", "veryaged", "veryagedrotten"]}
+            "L": {"type": "Block", "code": "game:supportbeam-*" , "name": "wood", "skipVariants": ["tarnishedmetal-bismuthbronze", "tarnishedmetal-blackbronze", "tarnishedmetal-blistersteel", "tarnishedmetal-brass", "tarnishedmetal-copper", "tarnishedmetal-iron", "tarnishedmetal-lead", "tarnishedmetal-rust", "tarnishedmetal-rusty-iron", "tarnishedmetal-steel", "aged", "veryaged", "veryagedrotten", "rotten", "veryrotten"]}
         },
         "width": 1,
         "height": 2,
