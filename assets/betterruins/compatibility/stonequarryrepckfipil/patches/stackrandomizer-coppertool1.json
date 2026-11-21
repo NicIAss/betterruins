@@ -1,0 +1,66 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "stonequarry:chisel-finishing-copper",
+      "chance": 5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "stonequarry:chisel-roughcut-copper",
+      "chance": 5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "stonequarry:chisel-wedge-copper",
+      "chance": 5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "stonequarry:rubblehammer-copper",
+      "chance": 5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "stonequarryrepckfipil"
+      }
+    ]
+  }
+]
