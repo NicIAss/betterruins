@@ -4,8 +4,8 @@
     "path": "/attributesByType/*-copperweapon/stacks/-",
     "value": {
       "type": "item",
-      "code": "cleaver-silver",
-      "chance": 3
+      "code": "cleaver-copper",
+      "chance": 2
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -37,8 +37,52 @@
     "path": "/attributesByType/*-copperweapon/stacks/-",
     "value": {
       "type": "item",
+      "code": "axe-bearded-copper",
+      "chance": 2.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-copperweapon/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "blade-short-copper",
+      "chance": 1.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-copperweapon/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "club-studded-copper",
+      "chance": 1.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-copperweapon/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "club-warhammer-copper",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-copperweapon/stacks/-",
+    "value": {
+      "type": "item",
       "code": "knife-generic-tinbronze",
-      "chance": 2
+      "chance": 0.25
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -48,41 +92,8 @@
     "path": "/attributesByType/*-copperweapon/stacks/-",
     "value": {
       "type": "item",
-      "code": "blade-falx-tinbronze",
-      "chance": 2
-    },
-    "file": "game:itemtypes/meta/stackrandomizer.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-copperweapon/stacks/-",
-    "value": {
-      "type": "item",
-      "code": "spear-generic-ornategold",
-      "chance": 1
-    },
-    "file": "game:itemtypes/meta/stackrandomizer.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-copperweapon/stacks/-",
-    "value": {
-      "type": "item",
-      "code": "spear-generic-ornatesilver",
-      "chance": 1
-    },
-    "file": "game:itemtypes/meta/stackrandomizer.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-copperweapon/stacks/-",
-    "value": {
-      "type": "item",
-      "code": "spear-generic-hacking",
-      "chance": 1
+      "code": "blade-kopis-tinbronze",
+      "chance": 0.15
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"

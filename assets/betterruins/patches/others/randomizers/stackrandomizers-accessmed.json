@@ -284,5 +284,173 @@
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-arm-bonehead", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-arm-desert", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-arm-prospector", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-arm-spelunker", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-emblem-desert", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-emblem-prospector", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-emblem-spelunker", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-cartographer", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-desert", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-herbalist", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-hopeful", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-monocleleft", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-monocleright", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-prospector", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-scholar", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-scout", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-shady", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-spelunker", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-welltraveled", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-neck-bonehead", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-neck-coppergreen", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-neck-scout", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-neck-shady", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-mediumstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-waist-coppergreen", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
   }
 ]

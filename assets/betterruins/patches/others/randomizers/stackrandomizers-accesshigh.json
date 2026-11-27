@@ -405,5 +405,54 @@
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-chieftain", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-crone", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-head-crone", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-neck-goldpurple", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-neck-silverblue", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-waist-goldpurple", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-waist-silverblue", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
   }
 ]

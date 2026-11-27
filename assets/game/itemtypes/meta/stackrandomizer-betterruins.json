@@ -1937,47 +1937,47 @@
 				},
 				{
 				"type": "block",
-				"code": "toolmold-blue-fired-blade-falx",
+				"code": "toolmold-blue-fired-bladekopis",
 				"chance": 15
 				},
 				{
 				"type": "block",
-				"code": "toolmold-fire-fired-blade-falx",
+				"code": "toolmold-fire-fired-bladekopis",
 				"chance": 15
 				},
 				{
 				"type": "block",
-				"code": "toolmold-black-fired-blade-falx",
+				"code": "toolmold-black-fired-bladekopis",
 				"chance": 15
 				},
 				{
 				"type": "block",
-				"code": "toolmold-brown-fired-blade-falx",
+				"code": "toolmold-brown-fired-bladekopis",
 				"chance": 15
 				},
 				{
 				"type": "block",
-				"code": "toolmold-cream-fired-blade-falx",
+				"code": "toolmold-cream-fired-bladekopis",
 				"chance": 15
 				},
 				{
 				"type": "block",
-				"code": "toolmold-gray-fired-blade-falx",
+				"code": "toolmold-gray-fired-bladekopis",
 				"chance": 15
 				},
 				{
 				"type": "block",
-				"code": "toolmold-orange-fired-blade-falx",
+				"code": "toolmold-orange-fired-bladekopis",
 				"chance": 15
 				},
 				{
 				"type": "block",
-				"code": "toolmold-red-fired-blade-falx",
+				"code": "toolmold-red-fired-bladekopis",
 				"chance": 15
 				},
 				{
 				"type": "block",
-				"code": "toolmold-tan-fired-blade-falx",
+				"code": "toolmold-tan-fired-bladekopis",
 				"chance": 15
 				},
 				{
@@ -3108,7 +3108,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "largegear3",
+				  "code": "largegear3-u",
 				  "chance": 5
 				},
 				{

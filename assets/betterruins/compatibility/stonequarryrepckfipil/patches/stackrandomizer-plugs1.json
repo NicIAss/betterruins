@@ -25,7 +25,7 @@
     "value": {
       "type": "block",
       "code": "stonequarry:plugandfeather-tinbronze-0-down-north",
-      "chance": 1,
+      "chance": 0.1,
       "quantity": {
         "avg": 2,
         "var": 1
@@ -45,7 +45,7 @@
     "value": {
       "type": "block",
       "code": "stonequarry:plugandfeather-bismuthbronze-0-down-north",
-      "chance": 1,
+      "chance": 0.1,
       "quantity": {
         "avg": 2,
         "var": 1

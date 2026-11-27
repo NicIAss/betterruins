@@ -306,5 +306,89 @@
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-foot-chieftain", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-foot-crone", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-hand-chieftain", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-head-chieftain", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-lowerbody-chieftain", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-lowerbody-crone", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-shoulder-chieftain", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-shoulder-crone", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-upperbody-chieftain", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-upperbody-crone", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-upperbodyover-chieftain", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-waist-chieftain", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
   }
 ]

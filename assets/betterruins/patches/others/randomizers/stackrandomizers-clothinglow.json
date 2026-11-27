@@ -86,5 +86,257 @@
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-foot-forester", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-foot-laborer", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-foot-sailor", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-foot-trapper", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-hand-forester", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-hand-laborer", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-hand-trapper", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-head-chaperonbrown", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-head-chaperongray", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-head-chaperonplain", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-head-forester", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-head-laborer", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-head-sailor", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-head-sailorhat", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-head-sailorwrap", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-head-trapper", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-lowerbody-forester", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-lowerbody-laborer", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-lowerbody-sailor", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-lowerbody-trapper", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-shoulder-forester", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-shoulder-laborer", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-shoulder-sailor", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-shoulder-sashbrown", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-shoulder-sashgray", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-shoulder-sashplain", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-shoulder-scarfgreen", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-shoulder-scarfred", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-shoulder-trapper", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-upperbody-forester", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-upperbody-laborer", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-upperbody-sailor", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-upperbody-trapper", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-upperbodyover-laborer", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-waist-forester", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-waist-trapper", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
   }
 ]

@@ -273,5 +273,68 @@
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-arm-forester", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-arm-sailor", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-emblem-sailor", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-bonehead", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-forester", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-laborer", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-sailor", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-simpleheadband", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-lowstatus/stacks/-",
+    "value": {"type": "item", "code": "game:clothes-face-trapper", "chance": 0.1},
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
   }
 ]
