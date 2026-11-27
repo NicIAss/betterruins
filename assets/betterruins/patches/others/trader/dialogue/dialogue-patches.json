@@ -9,21 +9,21 @@
   {
     "op": "move",
     "file": "game:entities/humanoid/trader-male",
-    "frompath": "/client/behaviors/4/dialogueByType/*",
+    "frompath": "/client/behaviors/5/dialogueByType/*",
     "path": "/temp/clientfallback",
     "side": "Server"
   },
   {
     "op": "add",
     "file": "game:entities/humanoid/trader-male",
-    "path": "/client/behaviors/4/dialogueByType/*-luxuries-*",
+    "path": "/client/behaviors/5/dialogueByType/*-luxuries-*",
     "value": "betterruins:config/dialogue/luxuries",
     "side": "Server"
   },
   {
     "op": "add",
     "file": "game:entities/humanoid/trader-male",
-    "path": "/client/behaviors/4/dialogueByType/*-agriculture-*",
+    "path": "/client/behaviors/5/dialogueByType/*-agriculture-*",
     "value": "betterruins:config/dialogue/agriculture",
     "side": "Server"
   },
@@ -31,7 +31,7 @@
     "op": "move",
     "file": "game:entities/humanoid/trader-male",
     "frompath": "/temp/clientfallback",
-    "path": "/client/behaviors/4/dialogueByType/*",
+    "path": "/client/behaviors/5/dialogueByType/*",
     "side": "Server"
   },
 
@@ -74,21 +74,21 @@
   {
     "op": "move",
     "file": "game:entities/humanoid/trader-female",
-    "frompath": "/client/behaviors/4/dialogueByType/*",
+    "frompath": "/client/behaviors/5/dialogueByType/*",
     "path": "/temp/clientfallback",
     "side": "Server"
   },
   {
     "op": "add",
     "file": "game:entities/humanoid/trader-female",
-    "path": "/client/behaviors/4/dialogueByType/*-luxuries-*",
+    "path": "/client/behaviors/5/dialogueByType/*-luxuries-*",
     "value": "betterruins:config/dialogue/luxuries",
     "side": "Server"
   },
   {
     "op": "add",
     "file": "game:entities/humanoid/trader-female",
-    "path": "/client/behaviors/4/dialogueByType/*-agriculture-*",
+    "path": "/client/behaviors/5/dialogueByType/*-agriculture-*",
     "value": "betterruins:config/dialogue/agriculture",
     "side": "Server"
   },
@@ -96,7 +96,7 @@
     "op": "move",
     "file": "game:entities/humanoid/trader-female",
     "frompath": "/temp/clientfallback",
-    "path": "/client/behaviors/4/dialogueByType/*",
+    "path": "/client/behaviors/5/dialogueByType/*",
     "side": "Server"
   },
 
