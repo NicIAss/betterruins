@@ -48,7 +48,7 @@
 			"game:polishedrockslab-granite-east-free": "game:polishedrockslab-{rock}-east-free",
 			"game:polishedrockslab-granite-west-free": "game:polishedrockslab-{rock}-west-free",
 			"game:polishedrockold-full-granite": "game:polishedrockold-full-{rock}",
-			"game:polishedrockold-cobbled-granite": "game:polishedrockold-cobbled-{rock}",
+			"game:polishedrockold-tile-granite": "game:polishedrockold-tile-{rock}",
 			"game:drystone-granite": "game:drystone-{rock}",
 			"game:drystonefence-granite-empty-free": "game:drystonefence-{rock}-empty-free",
 			"game:drystonefence-granite-n-free": "game:drystonefence-{rock}-n-free",
@@ -152,7 +152,7 @@
 			"game:stonebrickslab-granite-east-free": "game:stonebrickslab-{rock}-east-free",
 			"game:drystone-granite": "game:drystone-{rock}",
 			"game:polishedrockold-full-granite": "game:polishedrockold-full-{rock}",
-			"game:polishedrockold-cobbled-granite": "game:polishedrockold-cobbled-{rock}",
+			"game:polishedrockold-tile-granite": "game:polishedrockold-tile-{rock}",
 			"game:looseboulders-granite-free": "game:looseboulders-{rock}-free"
 		}
 	},
