@@ -122,7 +122,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
-            "B": {type: "Block", code: "game:rockpolished-*", name: "rock", "allowedVariants": ["redmarble", "whitemarble", "greenmarble", "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"]}
+            "B": {type: "Block", code: "game:rockpolished-*", name: "rock", "allowedVariants": ["redmarble", "whitemarble", "greenmarble", "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "tuff"]}
         },
         "width": 1,
         "height": 3,
@@ -130,15 +130,15 @@
         
     },
     {
-        "ingredientPattern": "P,B,X",
+        "ingredientPattern": "YZ_,XXX",
         "ingredients": {
-            "X": {type: "Item", code: "br-schematic-stone", "consume": false },
-            "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
-            "B": {type: "Block", code: "game:polishedrockold-full-*", name: "rock", "allowedVariants": ["redmarble", "whitemarble", "greenmarble", "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"]}
+            "X": {type: "Item", code: "game:stone-*", name: "rock", quantity: 2, "allowedVariants": ["redmarble", "whitemarble", "greenmarble", "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "travertine", "tuff"]},
+            "Y": {type: "Item", code: "br-schematic-stone", "consume": false },
+            "Z": {type: "Item", code: "game:clay-*"}
         },
-        "width": 1,
-        "height": 3,
-        "output": {type: "Block", code: "game:polishedrockold-cobbled-{rock}"}
+        "width": 3,
+        "height": 2,
+        "output": {type: "Item", code: "game:tile-stone-aged-polished-{rock}", quantity: 8}
         
     },
     {
@@ -171,7 +171,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:mortar" },
-            "B": {type: "Block", code: "game:brickcourse-four-running-*" , name: "clay", allowedVariants: ["black", "brown", "cream", "fire", "gray", "orange", "red", "tan" ], quantity: 16}
+            "B": {type: "Block", code: "game:brickcourse-four-running-*" , name: "clay", allowedVariants: ["black", "brown", "cream", "fire", "gray", "orange", "red", "tan", "earthybrown", "earthyorange" ], quantity: 16}
         },
         "width": 3,
         "height": 1,
@@ -183,7 +183,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:mortar" },
-            "B": {type: "Block", code: "game:brickcourse-four-soldier-*" , name: "clay", allowedVariants: ["black", "brown", "cream", "fire", "gray", "orange", "red", "tan" ], quantity: 16}
+            "B": {type: "Block", code: "game:brickcourse-four-soldier-*" , name: "clay", allowedVariants: ["black", "brown", "cream", "fire", "gray", "orange", "red", "tan", "earthybrown", "earthyorange" ], quantity: 16}
         },
         "width": 3,
         "height": 1,
@@ -195,7 +195,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:mortar" },
-            "B": {type: "Block", code: "game:brickcourse-four-header-*" , name: "clay", allowedVariants: ["black", "brown", "cream", "fire", "gray", "orange", "red", "tan" ], quantity: 16}
+            "B": {type: "Block", code: "game:brickcourse-four-header-*" , name: "clay", allowedVariants: ["black", "brown", "cream", "fire", "gray", "orange", "red", "tan", "earthybrown", "earthyorange" ], quantity: 16}
         },
         "width": 3,
         "height": 1,
@@ -209,7 +209,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone", "consume": false },
             "P": {type: "Item", code: "game:hammer-*" , "isTool": true },
-            "B": {type: "Block", code: "game:claybricks-uneven-four-running-*" , name: "clay", allowedVariants: ["gray", "brown", "orange", "red", "tan" ], quantity: 1}
+            "B": {type: "Block", code: "game:claybricks-uneven-four-running-*" , name: "clay", allowedVariants: ["gray", "brown", "orange", "red", "tan", "earthybrown", "earthyorange" ], quantity: 1}
         },
         "width": 2,
         "height": 2,

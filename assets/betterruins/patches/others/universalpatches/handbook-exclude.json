@@ -28,13 +28,6 @@
     "side": "Server"
   },
   {
-    "file": "game:blocktypes/clay/brickruin.json",
-    "op": "replace",
-    "path": "/attributes/handbook/exclude",
-    "value": false,
-    "side": "Server"
-  },
-  {
     "file": "game:blocktypes/cloth/ropebeam.json",
     "op": "replace",
     "path": "/attributes/handbook/exclude",
