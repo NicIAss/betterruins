@@ -3,6 +3,7 @@
 	"rocktypeRemapGroups": {
 		"standard": {
 			"game:cobblestone-granite": "game:cobblestone-{rock}",
+			"game:cobblestonefan-*": "game:cobblestonefan-{rock}-*",
 			"game:cobblestoneslab-granite-down-free": "game:cobblestoneslab-{rock}-down-free",
 			"game:cobblestonestairs-granite-up-south-free": "game:cobblestonestairs-{rock}-up-south-free",
 			"game:cobblestonestairs-granite-up-north-free": "game:cobblestonestairs-{rock}-up-north-free",

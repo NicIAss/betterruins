@@ -469,6 +469,7 @@
 	"rocktypeRemapGroups": {
 				"underground": {
 					"game:cobblestone-granite": "game:cobblestone-{rock}",
+					"game:cobblestonefan-*": "game:cobblestonefan-{rock}-*",
 					"game:cobblestoneslab-granite-down-free": "game:cobblestoneslab-{rock}-down-free",
 					"game:cobblestoneslab-granite-up-free": "game:cobblestoneslab-{rock}-up-free",
 					"game:cobblestoneslab-granite-north-free": "game:cobblestoneslab-{rock}-north-free",
