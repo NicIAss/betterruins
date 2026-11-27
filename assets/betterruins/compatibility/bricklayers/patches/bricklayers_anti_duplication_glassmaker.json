@@ -1,0 +1,38 @@
+[
+    {
+        "file": "betterruins:recipes/grid/schematic-glassmaker/glass.json",
+        "op": "replace",
+        "path": "/2/ingredients/C/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "betterruins:recipes/grid/schematic-glassmaker/glass.json",
+        "op": "replace",
+        "path": "/7/ingredients/C/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    },
+    {
+        "file": "betterruins:recipes/grid/schematic-glassmaker/glass.json",
+        "op": "replace",
+        "path": "/8/ingredients/C/quantity",
+        "value": 4,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    }
+]

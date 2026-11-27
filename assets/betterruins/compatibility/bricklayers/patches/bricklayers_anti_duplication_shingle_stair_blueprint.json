@@ -1,0 +1,14 @@
+[
+    {
+        "file": "betterruins:recipes/grid/schematic-roofing/roofing1.json",
+        "op": "replace",
+        "path": "/12/output/quantity",
+        "value": 6,
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bricklayers"
+            }
+        ]
+    }
+]

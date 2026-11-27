@@ -98,8 +98,8 @@
     {
         "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
         "op": "replace",
-        "path": "/8/output/quantity",
-        "value": 15,
+        "path": "/8/ingredients/B/quantity",
+        "value": 2,
         "side": "Server",
         "dependsOn": [
             {
@@ -111,7 +111,7 @@
         "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
         "op": "replace",
         "path": "/9/output/quantity",
-        "value": 20,
+        "value": 15,
         "side": "Server",
         "dependsOn": [
             {
@@ -123,7 +123,7 @@
         "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
         "op": "replace",
         "path": "/10/output/quantity",
-        "value": 15,
+        "value": 20,
         "side": "Server",
         "dependsOn": [
             {
@@ -183,7 +183,7 @@
         "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
         "op": "replace",
         "path": "/15/output/quantity",
-        "value": 15,
+        "value": 7,
         "side": "Server",
         "dependsOn": [
             {
@@ -195,19 +195,7 @@
         "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
         "op": "replace",
         "path": "/16/output/quantity",
-        "value": 15,
-        "side": "Server",
-        "dependsOn": [
-            {
-                "modid": "bricklayers"
-            }
-        ]
-    },
-    {
-        "file": "bricklayers:recipes/grid/recycle/block_copperroofing.json",
-        "op": "replace",
-        "path": "/17/output/quantity",
-        "value": 15,
+        "value": 7,
         "side": "Server",
         "dependsOn": [
             {
