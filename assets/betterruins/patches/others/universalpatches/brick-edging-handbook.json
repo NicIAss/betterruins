@@ -1,0 +1,9 @@
+[
+  {
+    "file": "game:blocktypes/clay/brickbeam.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false,
+    "side": "Server"
+  }
+]

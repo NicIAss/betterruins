@@ -1,0 +1,24 @@
+[
+    {
+        "ingredientPattern": "XMB",
+        "ingredients": {
+            "X": { "type": "Item", "code": "betterruins:br-schematic-stone", "consume": false },
+            "M": { "type": "Item", "code": "game:mortar" },
+            "B": { "type": "Item", "code": "game:burnedbrick-*", "name": "color", "allowedVariants": ["fire", "black", "brown", "cream", "gray", "orange", "red", "tan", "clinker"], "quantity": 4 }
+        },
+        "width": 3,
+        "height": 1,
+        "output": { "type": "Block", "code": "game:brickbeam-four-{color}", "quantity": 32 }
+    },
+    {
+        "ingredientPattern": "XMB",
+        "ingredients": {
+            "X": { "type": "Item", "code": "betterruins:br-schematic-stone", "consume": false },
+            "M": { "type": "Item", "code": "game:mortar" },
+            "B": { "type": "Item", "code": "game:brick-aged-*", "name": "color", "allowedVariants": ["brown", "gray", "orange", "red", "tan"], "quantity": 4 }
+        },
+        "width": 3,
+        "height": 1,
+        "output": { "type": "Block", "code": "game:brickbeam-aged-{color}", "quantity": 32 }
+    }
+]
