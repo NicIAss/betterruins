@@ -1,6 +1,7 @@
 [
   {
     "ingredientPattern": "X_H,SRS,NGN",
+    "recipeGroup": 335,
     "ingredients": {
       "X": {
         "type": "Item",
@@ -44,6 +45,7 @@
   },
   {
     "ingredientPattern": "X_H,STS,NGN",
+    "recipeGroup": 336,
     "ingredients": {
       "X": {
         "type": "Item",
@@ -87,6 +89,7 @@
   },
   {
     "ingredientPattern": "X_H,STS,NGN",
+    "recipeGroup": 337,
     "ingredients": {
       "X": {
         "type": "Item",
@@ -125,6 +128,135 @@
       "attributes": {
         "type": "lightsource/on/lumi-floor10",
         "collected": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "X_H,SRS,NGN",
+    "recipeGroup": 335,
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-decalcan-scribbles",
+        "consume": false
+      },
+      "S": {
+        "type": "Block",
+        "code": "game:metal-scraps"
+      },
+      "N": {
+        "type": "Item",
+        "code": "game:metalnailsandstrips-*"
+      },
+      "R": {
+        "type": "Item",
+        "code": "game:gear-rusty"
+      },
+      "G": {
+        "type": "Block",
+        "code": "game:glassslab-*-down-free",
+        "quantity": 2
+      },
+      "H": {
+        "type": "Item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "Block",
+      "code": "game:jonas-lamp",
+      "attributes": {
+        "type": "lightsource/off/lumi-floor10"
+      }
+    }
+  },
+  {
+    "ingredientPattern": "X_H,STS,NGN",
+    "recipeGroup": 336,
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-decalcan-alchemy",
+        "consume": false
+      },
+      "T": {
+        "type": "Item",
+        "code": "game:gear-temporal"
+      },
+      "S": {
+        "type": "Block",
+        "code": "game:metal-scraps"
+      },
+      "N": {
+        "type": "Item",
+        "code": "game:metalnailsandstrips-*"
+      },
+      "G": {
+        "type": "Block",
+        "code": "game:glassslab-*-down-free",
+        "quantity": 2
+      },
+      "H": {
+        "type": "Item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "Block",
+      "code": "game:jonas-lamp",
+      "attributes": {
+        "type": "lightsource/on/lumi-floor10"
+      }
+    }
+  },
+  {
+    "ingredientPattern": "X_H,STS,NGN",
+    "recipeGroup": 337,
+    "ingredients": {
+      "X": {
+        "type": "Item",
+        "code": "betterruins:br-schematic-decalcan-geometry",
+        "consume": false
+      },
+      "T": {
+        "type": "Item",
+        "code": "game:gear-temporal"
+      },
+      "S": {
+        "type": "Block",
+        "code": "game:metal-scraps"
+      },
+      "N": {
+        "type": "Item",
+        "code": "game:metalnailsandstrips-*"
+      },
+      "G": {
+        "type": "Block",
+        "code": "game:glassslab-*-down-free",
+        "quantity": 2
+      },
+      "H": {
+        "type": "Item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "Block",
+      "code": "game:jonas-lamp",
+      "attributes": {
+        "type": "lightsource/on/lumi-floor10"
       }
     }
   }
