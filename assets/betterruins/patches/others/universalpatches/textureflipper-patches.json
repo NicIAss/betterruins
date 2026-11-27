@@ -1,5 +1,40 @@
 [
   {
+    "file": "game:itemtypes/meta/textureflipper.json",
+    "op": "add",
+    "path": "/attributes/displayable",
+    "value": {
+      "shelf": {
+        "size": { "width": 12, "height": 4.5, "length": 8 },
+        "transform": {
+          "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+          "translation": { "x": -0.0155, "y": 0.03, "z": -0.0027 },
+          "rotation": { "x": 0, "y": 0, "z": 8 },
+          "scale": 0.85
+        },
+        "randYRotAngle": 0
+      }
+    },
+    "side": "Server"
+  },
+  {
+    "file": "game:itemtypes/meta/textureflipper.json",
+    "op": "add",
+    "path": "/heldSounds",
+    "value": {
+      "invpickup": { "path": "game:held/ui-inventory/temporalgear/ui-temporalgear*", "pitch": { "avg": 1.0, "var": 0.25 }, "volume": { "avg": 1.0, "var": 0.0 } },
+      "invplace": { "path": "game:held/ui-inventory/temporalgear/ui-temporalgear*", "pitch": { "avg": 1.0, "var": 0.25 }, "volume": { "avg": 1.0, "var": 0.0 } }
+    },
+    "side": "Server"
+  },
+  {
+    "file": "game:itemtypes/meta/textureflipper.json",
+    "op": "add",
+    "path": "/behaviors/0/properties/placeRemoveSound",
+    "value": "game:sounds/block/ingot",
+    "side": "Server"
+  },
+  {
     "op": "add",
     "path": "/attributes/rackable",
     "value": true,

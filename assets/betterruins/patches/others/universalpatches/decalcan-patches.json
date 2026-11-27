@@ -1,6 +1,34 @@
 [
   {
     "file": "game:itemtypes/meta/decalcan.json",
+    "op": "add",
+    "path": "/attributes/displayable",
+    "value": {
+      "shelf": {
+        "size": { "width": 13, "height": 4.75, "length": 5 },
+        "transform": {
+          "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+          "translation": { "x": -0.0094, "y": 0.024, "z": 0.13 },
+          "rotation": { "x": -80, "y": 85, "z": 3 },
+          "scale": 0.6
+        },
+        "randYRotAngle": 0
+      }
+    },
+    "side": "Server"
+  },
+  {
+    "file": "game:itemtypes/meta/decalcan.json",
+    "op": "add",
+    "path": "/heldSounds",
+    "value": {
+      "invpickup": { "path": "game:held/ui-inventory/temporalgear/ui-temporalgear*", "pitch": { "avg": 1.0, "var": 0.25 }, "volume": { "avg": 1.0, "var": 0.0 } },
+      "invplace": { "path": "game:held/ui-inventory/temporalgear/ui-temporalgear*", "pitch": { "avg": 1.0, "var": 0.25 }, "volume": { "avg": 1.0, "var": 0.0 } }
+    },
+    "side": "Server"
+  },
+  {
+    "file": "game:itemtypes/meta/decalcan.json",
     "op": "replace",
     "path": "/shape/base",
     "value": "betterruins:item/tool/decalcan/{type}",
@@ -20,6 +48,7 @@
       "name": "GroundStorable",
       "properties": {
         "layout": "WallHalves",
+        "placeRemoveSound": "game:sounds/block/ingot",
         "wallOffY": 1,
         "ctrlKey": true,
         "selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
