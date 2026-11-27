@@ -2,8 +2,12 @@
 	"code": "locatormap",
 	"class": "ItemLocatorMap",
 	"maxstacksize": 1,
+	"heldSounds": {
+		"invpickup": { "path": "game:held/ui-inventory/paper/ui-paper*", "pitch": { "avg": 1.0, "var": 0.25 }, "volume": { "avg": 1.0, "var": 0.0 } },
+		"invplace": { "path": "game:held/ui-inventory/paper/ui-paper*", "pitch": { "avg": 1.0, "var": 0.25 }, "volume": { "avg": 1.0, "var": 0.0 } }
+	},
 	"behaviors": [
-		{ "name": "GroundStorable", "properties": {"layout": "Quadrants", "placeRemoveSound": "game:sounds/player/build", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.25, "z2": 1 }} }
+		{ "name": "GroundStorable", "properties": {"layout": "Quadrants", "placeRemoveSound": "game:sounds/held/ui-inventory/paper/ui-paper*", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.25, "z2": 1 }} }
 	],
 	"variantgroups": [
 		{
